@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>CodeWills</title>
+    <!-- SEO Meta Tags-->
+    <meta name="robots" content="noindex">
+    <!-- <meta name="description" content="CodeWills">
+    <meta name="keywords" content="CodeWills">
+    <meta name="author" content="CodeWills"> -->
+    <!-- Viewport-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Favicon and Touch Icons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" color="#5bbad5" href="safari-pinned-tab.svg">
+    <meta name="msapplication-TileColor" content="#766df4">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Page loading styles-->
+    <style>
+        .btn-gradient-home-slider{
+            background: linear-gradient(
+    to right,
+    #eb7639 0%,
+    #eb7639 30%,
+    #f7bf30 100%
+  );
+        }
+      .page-loading {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all .4s .2s ease-in-out;
+        transition: all .4s .2s ease-in-out;
+        background-color: #fff;
+        opacity: 0;
+        visibility: hidden;
+        z-index: 9999;
+      }
+      .page-loading.active {
+        opacity: 1;
+        visibility: visible;
+      }
+      .page-loading-inner {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out;
+        opacity: 0;
+      }
+      .page-loading.active > .page-loading-inner {
+        opacity: 1;
+      }
+      .page-loading-inner > span {
+        display: block;
+        font-family: 'Inter', sans-serif;
+        font-size: 1rem;
+        font-weight: normal;
+        color: #737491;
+      }
+      .page-spinner {
+        display: inline-block;
+        width: 2.75rem;
+        height: 2.75rem;
+        margin-bottom: .75rem;
+        vertical-align: text-bottom;
+        border: .15em solid #766df4;
+        border-right-color: transparent;
+        border-radius: 50%;
+        -webkit-animation: spinner .75s linear infinite;
+        animation: spinner .75s linear infinite;
+      }
+      @-webkit-keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      @keyframes spinner {
+        100% {
+          -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+        }
+      }
+      
+    </style>
+    <!-- Page loading scripts-->
+    <script>
+      (function () {
+        window.onload = function () {
+          var preloader = document.querySelector('.page-loading');
+          preloader.classList.remove('active');
+          setTimeout(function () {
+            preloader.remove();
+          }, 2000);
+        };
+      })();
+      
+    </script>
+    <!-- Vendor Styles-->
+    <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css"/>
+    <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css"/>
+    <link rel="stylesheet" media="screen" href="vendor/lightgallery.js/dist/css/lightgallery.min.css"/>
+    <link rel="stylesheet" media="screen" href="vendor/flatpickr/dist/flatpickr.min.css"/>
+    <!-- Main Theme Styles + Bootstrap-->
+    <link rel="stylesheet" media="screen" href="css/theme.min.css">
+  </head>
+  <!-- Body-->
+  <body>
+    <!-- Page loading spinner-->
+    <div class="page-loading active">
+      <div class="page-loading-inner">
+        <div class="page-spinner"></div><span>Loading...</span>
+      </div>
+    </div>
+    <main class="page-wrapper">
+      <!-- Sign In Modal-->
+      <div class="modal fade" id="modal-signin" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content border-0">
+            <div class="view show" id="modal-signin-view">
+              <div class="modal-header border-0 bg-dark px-4">
+                <h4 class="modal-title text-light">Sign in</h4>
+                <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="btn-close "></button>
+              </div>
+              <div class="modal-body px-4">
+                <p class="fs-ms text-muted">Sign in to your account using email and password provided during registration.</p>
+                <form class="needs-validation" novalidate>
+                  <div class="mb-3">
+                    <div class="input-group"><i class="ai-mail position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                      <input class="form-control rounded" type="email" placeholder="Email" required>
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <div class="input-group"><i class="ai-lock position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                      <div class="password-toggle w-100">
+                        <input class="form-control" type="password" placeholder="Password" required>
+                        <label class="password-toggle-btn" aria-label="Show/hide password">
+                          <input class="password-toggle-check" type="checkbox"><span class="password-toggle-indicator"></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center mb-3 mb-3">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="keep-signed">
+                      <label class="form-check-label fs-sm" for="keep-signed">Keep me signed in</label>
+                    </div><a class="nav-link-style fs-ms" href="password-recovery.html">Forgot password?</a>
+                  </div>
+                  <button class="btn btn-primary d-block w-100" type="submit">Sign in</button>
+                  <p class="fs-sm pt-3 mb-0">Don't have an account? <a href='#' class='fw-medium' data-view='#modal-signup-view'>Sign up</a></p>
+                </form>
+              </div>
+            </div>
+            <div class="view" id="modal-signup-view">
+              <div class="modal-header border-0 bg-dark px-4">
+                <h4 class="modal-title text-light">Sign up</h4>
+                <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="btn-close"></button>
+              </div>
+              <div class="modal-body px-4">
+                <p class="fs-ms text-muted">Registration takes less than a minute but gives you full control over your orders.</p>
+                <form class="needs-validation" novalidate>
+                  <div class="mb-3">
+                    <input class="form-control" type="text" placeholder="Full name" required>
+                  </div>
+                  <div class="mb-3">
+                    <input class="form-control" type="text" placeholder="Email" required>
+                  </div>
+                  <div class="mb-3 password-toggle">
+                    <input class="form-control" type="password" placeholder="Password" required>
+                    <label class="password-toggle-btn" aria-label="Show/hide password">
+                      <input class="password-toggle-check" type="checkbox"><span class="password-toggle-indicator"></span>
+                    </label>
+                  </div>
+                  <div class="mb-3 password-toggle">
+                    <input class="form-control" type="password" placeholder="Confirm password" required>
+                    <label class="password-toggle-btn" aria-label="Show/hide password">
+                      <input class="password-toggle-check" type="checkbox"><span class="password-toggle-indicator"></span>
+                    </label>
+                  </div>
+                  <button class="btn btn-primary d-block w-100" type="submit">Sign up</button>
+                  <p class="fs-sm pt-3 mb-0">Already have an account? <a href='#' class='fw-medium' data-view='#modal-signin-view'>Sign in</a></p>
+                </form>
+              </div>
+            </div>
+            <div class="modal-body text-center px-4 pt-2 pb-4">
+              <hr class="my-0">
+              <p class="fs-sm fw-medium text-heading pt-4">Or sign in with</p><a class="btn-social bs-facebook bs-lg mx-1 mb-2" href="#"><i class="ai-facebook"></i></a><a class="btn-social bs-twitter bs-lg mx-1 mb-2" href="#"><i class="ai-twitter"></i></a><a class="btn-social bs-instagram bs-lg mx-1 mb-2" href="#"><i class="ai-instagram"></i></a><a class="btn-social bs-google bs-lg mx-1 mb-2" href="#"><i class="ai-google"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Navbar (Solid background + shadow)-->
+      <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
+      <header class="header navbar navbar-expand-lg navbar-light bg-light navbar-sticky" data-scroll-header="" data-fixed-element="">
+        <div class="container px-0 px-xl-3">
+          <button class="navbar-toggler ms-n2 me-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#primaryMenu"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand flex-shrink-0 order-lg-1 mx-auto ms-lg-0 pe-lg-2 me-lg-4" href="index.html"><img class="d-none d-lg-block" src="../img/logo/logo-dark.png" alt="Around" width="153"><img class="d-lg-none" src="../img/logo/logo-icon.png" alt="Around" width="58"></a>
+          <div class="d-flex align-items-center order-lg-3 ms-lg-auto"><a class="nav-link-style fs-sm text-nowrap" href="#modal-signin" data-bs-toggle="modal" data-view="#modal-signin-view"><i class="ai-user fs-xl me-2 align-middle"></i>Sign in</a><a class="btn btn-primary ms-grid-gutter d-none d-lg-inline-block" href="#modal-signin" data-bs-toggle="modal" data-view="#modal-signup-view">Sign up</a></div>
+          <div class="offcanvas offcanvas-collapse order-lg-2" id="primaryMenu">
+            <div class="offcanvas-header navbar-shadow">
+              <h5 class="mt-1 mb-0">Menu</h5>
+              <button class="btn-close lead" type="button" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <!-- Menu-->
+              <ul class="navbar-nav">
+               
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Our Services</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+              
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Page content-->
+      <!-- Hero - Featured Products (tabs)-->
+      <section class="position-relative btn-gradient-home-slider pt-5 pt-lg-6 pb-4 pb-lg-5">
+        <div class="shape shape-bottom  bg-body">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 3000 185.4">
+            <path fill="currentColor" d="M3000,0v185.4H0V0c496.4,115.6,996.4,173.4,1500,173.4S2503.6,115.6,3000,0z"></path>
+          </svg>
+        </div>
+        <!-- Tabs-->
+        <div class="container">
+          <div class="row align-items-center pb-7">
+            <div class="col-lg-3">
+              <ul class="nav nav-tabs media-tabs media-tabs-light justify-content-center justify-content-lg-start pb-3 mb-4 pb-lg-0 mb-lg-0" role="tablist">
+                <li class="w-100 nav-item me-3 mb-3"><a class="nav-link active" href="#camera" data-bs-toggle="tab" role="tab">
+                    <div class="d-flex align-items-center"><img class="flex-shrink-0 rounded" src="../img/demo/shop-homepage/thumbnails/01.jpg" alt="Product" width="60">
+                      <div class="w-100 ps-2 ms-1">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="fs-sm pe-1">Design</div><i class="ai-chevron-right lead ms-2 me-1"></i>
+                        </div>
+                      </div>
+                    </div></a></li>
+                <li class="w-100 nav-item me-3 mb-3"><a class="nav-link" href="#sneakers" data-bs-toggle="tab" role="tab">
+                    <div class="d-flex align-items-center"><img class="flex-shrink-0 rounded" src="../img/demo/shop-homepage/thumbnails/02.jpg" alt="Product" width="60">
+                      <div class="w-100 ps-2 ms-1">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="fs-sm pe-1">Development</div><i class="ai-chevron-right lead ms-2 me-1"></i>
+                        </div>
+                      </div>
+                    </div></a></li>
+                <li class="w-100 nav-item me-3 mb-3"><a class="nav-link" href="#vr" data-bs-toggle="tab" role="tab">
+                    <div class="d-flex align-items-center"><img class="flex-shrink-0 rounded" src="../img/demo/shop-homepage/thumbnails/03.jpg" alt="Product" width="60">
+                      <div class="w-100 ps-2 ms-1">
+                        <div class="d-flex justify-content-between align-items-center">
+                          <div class="fs-sm pe-1">Marketing</div><i class="ai-chevron-right lead ms-2 me-1"></i>
+                        </div>
+                      </div>
+                    </div></a></li>
+              </ul>
+            </div>
+            <div class="col-lg-9">
+              <div class="tab-content">
+                <div class="tab-pane fade show active" id="camera">
+                  <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-2 pb-1 mb-4 pb-lg-0 mb-lg-0">
+                      <div class="mx-auto" style="max-width: 443px;"><img src="../img/demo/shop-homepage/hero/01.png" alt="Security Camera"></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1 text-center text-lg-start">
+                      <div class="ps-xl-5">
+                        <h2 class="h1 text-light">Creative UI/UX Design Services</h2>
+                        <p class="fs-lg text-light mb-lg-5">Stay connected 24/7. Free trial for 30 days</p><a class="btn btn-translucent-light" href="#">Enquire Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="sneakers">
+                  <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-2 pb-1 mb-4 pb-lg-0 mb-lg-0">
+                      <div class="mx-auto" style="max-width: 443px;"><img src="../img/demo/shop-homepage/hero/02.png" alt="Running Sneakers"></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1 text-center text-lg-start">
+                      <div class="ps-xl-5">
+                        <h2 class="h1 text-light">Custom Website Development Services</h2>
+                        <p class="fs-lg text-light mb-lg-5">Run like never before. Money back guarantee</p><a class="btn btn-translucent-light" href="#">Enquire Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="vr">
+                  <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-2 pb-1 mb-4 pb-lg-0 mb-lg-0">
+                      <div class="mx-auto" style="max-width: 443px;"><img src="../img/demo/shop-homepage/hero/03.png" alt="VR Headset"></div>
+                    </div>
+                    <div class="col-lg-6 order-lg-1 text-center text-lg-start">
+                      <div class="ps-xl-5">
+                        <h2 class="h1 text-light">Drive Sales and Boost Revenue</h2>
+                        <p class="fs-lg text-light mb-lg-5">Run like never before. Money back guarantee</p><a class="btn btn-translucent-light" href="#">Enquire Now</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- clients -->
+      <section class="bg-secondary py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/vodafonr-color.png" alt="Logo" width="180"><img class="swap-from" src="img/homepage/clients/vodafonr-gray.png" alt="Logo" width="180"></a></div>
+            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/verita-color.png" alt="Logo" width="180"><img class="swap-from" src="img/homepage/clients/verita-gray.png" alt="Logo" width="180"></a></div>
+            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/lb-color.png" alt="Logo" width="180"><img class="swap-from" src="img/homepage/clients/lb-gray.png" alt="Logo" width="180"></a></div>
+            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/stake-color.png" alt="Logo" width="180"><img class="swap-from" src="img/homepage/clients/stake-gray.png" alt="Logo" width="180"></a></div>
+            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/cat-color.png" alt="Logo" width="180"><img class="swap-from" src="img/homepage/clients/cat-gray.png" alt="Logo" width="180"></a></div>
+            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/06_color.png" alt="Logo" width="180"><img class="swap-from" src="img/homepage/clients/06_gray.png" alt="Logo" width="180"></a></div>
+          </div>
+        </div>
+      </section>
+          <!-- About around -->
+          <section class="container mt-4 pt-5 mt-md-2 pt-md-7 pb-6">
+            <h2 class="text-center mb-3">About CodeWills</h2>
+            <div class="row justify-content-center mb-5 pb-2">
+              <div class="col-xl-6 col-lg-7">
+                <p class="text-center mb-0">Find aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+            </div>
+            <div class="tns-carousel-wrapper">
+              <div class="tns-carousel-inner" data-carousel-options="{&quot;items&quot;: 5, &quot;controls&quot;: false, &quot;gutter&quot;: 15, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:2}, &quot;410&quot;:{&quot;items&quot;:3}, &quot;580&quot;:{&quot;items&quot;:4}, &quot;740&quot;:{&quot;items&quot;:5}}}">
+                <div class="text-center"> <h1 class="text-muted"><i class="ai-users"></i></h1>
+                  <div class="text-muted" style="font-size: 2.25rem;">1180</div>
+                  <h3 class="h5">Customers</h3>
+                </div>
+                <div class="text-center"><h1 class="text-muted"><i class="ai-settings"></i></h1>
+                  <div class="text-muted" style="font-size: 2.25rem;">200</div>
+                  <h3 class="h5">Engineers</h3>
+                </div>
+                <div class="text-center"><h1 class="text-muted"><i class="ai-award"></i></h1>
+                  <div class="text-muted" style="font-size: 2.25rem;">9</div>
+                  <h3 class="h5">Awards</h3>
+                </div>
+                <div class="text-center"><h1 class="text-muted"><i class="ai-calendar"></i></h1>
+                  <div class="text-muted" style="font-size: 2.25rem;">13+</div>
+                  <h3 class="h5">Years</h3>
+                </div>
+                <div class="text-center"><h1 class="text-muted"><i class="ai-globe"></i></h1>
+                  <div class="text-muted" style="font-size: 2.25rem;">80+</div>
+                  <h3 class="h5">Countries</h3>
+                </div>
+                
+              </div>
+            </div>
+          </section>
+               <!-- our services -->
+               <section class="bg-gradient py-5 py-md-6 py-lg-7">
+                <div class="container-fluid py-3 py-lg-4 overflow-hidden">
+                  <div class="row align-items-center">
+                    <div class="col-xl-6 col-lg-5 d-flex justify-content-end mb-5 mb-lg-0">
+                      <div class="mx-auto ms-lg-0 me-xl-7 text-center text-lg-start" style="max-width: 495px;">
+                        <h2 class="h1 text-light mb-4">Our <span class="bg-faded-light rounded px-3 py-2">Services</span></h2>
+                        <p class="text-light opacity-70 mb-5">The complete UI Kit with over 50 modular and highly customizable components: Bootstrap + Around unique elements.</p>
+                        <div class="row mb-2 mx-n2">
+                          <div class="col-6 px-2 mb-3"><a class="d-block border border-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none" href="#"><img class="d-inline-block opacity-60 mb-3" src="../img/demo/presentation/icons/carousel.svg" alt="Sliders &amp; Carousels" width="68">
+                              <h3 class="h6 text-light mb-0">Sliders &amp; Carousels</h3></a></div>
+                          <div class="col-6 px-2 mb-3"><a class="d-block border border-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none" href="#"><img class="d-inline-block opacity-60 mb-3" src="../img/demo/presentation/icons/gallery.svg" alt="Image / Video Gallery" width="45">
+                              <h3 class="h6 text-light mb-0">Image / Video Gallery</h3></a></div>
+                          <div class="col-6 px-2 mb-3"><a class="d-block border border-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none" href="#"><img class="d-inline-block opacity-60 mb-3" src="../img/demo/presentation/icons/chart.svg" alt="Line, Bar &amp; Pie Charts" width="39">
+                              <h3 class="h6 text-light mb-0">Line, Bar &amp; Pie Charts</h3></a></div>
+                          <div class="col-6 px-2 mb-3"><a class="d-block border border-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none" href="#"><img class="d-inline-block opacity-60 mb-3" src="../img/demo/presentation/icons/play.svg" alt="Video Popup &amp; Embed" width="44">
+                              <h3 class="h6 text-light mb-0">Video Popup &amp; Embed</h3></a></div>
+                          <div class="col-6 px-2 mb-3"><a class="d-block border border-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none" href=""><img class="d-inline-block opacity-60 mb-3" src="../img/demo/presentation/icons/forms.svg" alt="Form Controls" width="42">
+                              <h3 class="h6 text-light mb-0">Form Controls</h3></a></div>
+                          <div class="col-6 px-2 mb-3"><a class="d-block border border-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none" href="#"><img class="d-inline-block opacity-60 mb-3" src="../img/demo/presentation/icons/review.svg" alt="Testimonials &amp; Reviews" width="46">
+                              <h3 class="h6 text-light mb-0">Testimonials &amp; Reviews</h3></a></div>
+                        </div><a class="btn btn-success" href="components/typography.html">View All Components</a>
+                      </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-7 d-flex justify-content-end pe-0"><a class="d-block me-n3" href="components/hotspots.html"><img class="d-block" src="../img/demo/presentation/macbook.png" alt="Components"></a></div>
+                  </div>
+                </div>
+              </section>
+       <!-- Services-->
+       <section class="container pt-5 pt-lg-6">
+        <h2 class="text-center">What we offer</h2>
+        <p class="text-center text-muted mb-0">We provide wide range of services in web design and development</p>
+        <!-- RWD Service-->
+        <div class="row align-items-center border-bottom py-5">
+          <div class="col-md-6 py-3"><img class="d-block mx-auto" src="img/demo/web-studio/services/01.svg" alt="Responsive Web Design"></div>
+          <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
+            <h3 class="h4 mb-4">Responsive Web Design</h3>
+            <ul class="list-unstyled">
+              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Gathering user data, creating user flow chart, building wireframes</span></li>
+              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Website UI / UX design for desktop and handheld devices</span></li>
+              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Converting design mockups into responsive HTML based websites</span></li>
+            </ul>
+            <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
+            <p class="pb-1">Sketch, Figma, Photoshop, HTML, CSS, JS</p><a class="fw-medium" href="#">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
+          </div>
+        </div>
+        <!-- Web Dev Service-->
+        <div class="row align-items-center border-bottom py-5">
+          <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="img/demo/web-studio/services/02.svg" alt="Web Development"></div>
+          <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
+            <h3 class="h4 mb-4">Web Development (Software)</h3>
+            <ul class="list-unstyled">
+              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Building dynamic webstise and web applications with latest technologies</span></li>
+              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Front-end and Back-end development</span></li>
+              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Integration with popular CMS (WordPress, Drupal, Joomla)</span></li>
+            </ul>
+            <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
+            <p class="pb-1">PHP, Node.js, SQL, React.js, Vue.js, GraphQL</p><a class="fw-medium" href="#">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
+          </div>
+        </div>
+        <!-- Mobile Dev Service-->
+        <div class="row align-items-center border-bottom py-5">
+          <div class="col-md-6 py-3"><img class="d-block mx-auto" src="img/demo/web-studio/services/03.svg" alt="Mobile Apps Development"></div>
+          <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
+            <h3 class="h4 mb-4">Mobile Apps Development</h3>
+            <ul class="list-unstyled">
+              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Mobile apps UI design</span></li>
+              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Hybrid mobile apps development</span></li>
+              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Native mobile apps development</span></li>
+            </ul>
+            <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
+            <p class="pb-1">React native, Flutter, Java, Swift</p><a class="fw-medium" href="#">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
+          </div>
+        </div>
+      </section>
+      <!-- features -->
+      <section class="bg-gradient position-relative pt-6 pb-5 py-sm-6">
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-size-cover" style="background-image: url(img/demo/booking/bg-pattern01.png);"></div>
+        <div class="position-relative zindex-5 container py-2">
+          <div class="row align-items-center">
+            <div class="col-lg-5 offset-lg-1 order-lg-2 pb-5 pb-lg-0 text-center text-lg-start">
+              <h2 class="text-light">Features</h2>
+              <p class="text-light mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+              <div class="row">
+                <div class="col-sm-4 mb-2 pb-4 mb-sm-0 pb-sm-0">
+                  <div class="px-2 text-center"><img class="bg-light rounded-circle mb-2" src="img/demo/booking/icons/01.svg" alt="Tickets" width="105">
+                    <p class="fs-sm fw-medium text-light mb-0 pt-1">Make it easier to experience the world</p>
+                  </div>
+                </div>
+                <div class="col-sm-4 mb-2 pb-4 mb-sm-0 pb-sm-0">
+                  <div class="px-2 text-center"><img class="bg-light rounded-circle mb-2" src="img/demo/booking/icons/02.svg" alt="Search" width="105">
+                    <p class="fs-sm fw-medium text-light mb-0 pt-1">Advanced searching with filters</p>
+                  </div>
+                </div>
+                <div class="col-sm-4 mb-2 pb-4 mb-sm-0 pb-sm-0">
+                  <div class="px-2 text-center"><img class="bg-light rounded-circle mb-2" src="img/demo/booking/icons/03.svg" alt="Flight" width="105">
+                    <p class="fs-sm fw-medium text-light mb-0 pt-1">Find the cheapest regular flights</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+       
+      <!-- Pricing -->
+      <section class="py-lg-3">
+     
+        <div class="container py-3">
+          <div class="d-sm-flex align-items-center justify-content-center text-center text-sm-start">
+            <h3 class="mb-4 mb-sm-2 me-sm-4 pe-sm-2">Pricing Plans</h3>
+          </div>
+          <div class="row justify-content-center pt-5">
+            <div class="col-lg-10">
+              <div class="bg-light shadow-lg rounded-3 pt-3 px-4">
+                <div class="pricing-wrap pt-3 px-3">
+                  <div class="price-switch justify-content-end"><span class="price-label me-2">Monthly</span>
+                    <div class="form-check form-switch">
+                      <input class="form-check-input" type="checkbox" id="priceSwitch">
+                      <label class="form-check-label" for="priceSwitch"></label>
+                    </div><span class="price-label ms-1">Annual</span>
+                  </div>
+                  <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
+                    <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
+                      <h3 class="mb-2">Website Design</h3>
+                      <div class="fs-xs" style="max-width: 10rem;">Find aute irure dolor in reprehenderit in volatek</div>
+                    </div>
+                    <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4" style="max-width: 20rem;">
+                        <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
+                        <div class="d-flex flex-row w-100 align-items-end">
+                            <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
+                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="29990" data-new-price="25550">29,990</span>
+                            <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>month</span></div>
+                        </div>
+                       
+                    <ul class="list-unstyled py-2 mb-0">
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>Up to 3 projects for each member</span></li>
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>2 team members allowed</span></li>
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>24/7 support</span></li>
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>Up to 30GB storage space</span></li>
+                    </ul>
+                  </div>
+                  <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
+                    <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
+                      <h3 class="mb-2">E-Commerce Development</h3>
+                      <div class="fs-xs" style="max-width: 10rem;">Find aute irure dolor in reprehenderit in volatek</div>
+                    </div>
+                    <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4" style="max-width: 20rem;">
+                        <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
+                        <div class="d-flex flex-row w-100 align-items-end">
+                            <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
+                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="39990" data-new-price="35550">29,990</span>
+                            <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>month</span></div>
+                        </div>
+                       
+                    <ul class="list-unstyled py-2 mb-0">
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>Up to 3 projects for each member</span></li>
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>2 team members allowed</span></li>
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>24/7 support</span></li>
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>Up to 30GB storage space</span></li>
+                    </ul>
+                  </div>
+                  <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
+                    <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
+                      <h3 class="mb-2">Web Application</h3>
+                      <div class="fs-xs" style="max-width: 10rem;">Find aute irure dolor in reprehenderit in volatek</div>
+                    </div>
+                    <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4" style="max-width: 20rem;">
+                        <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
+                        <div class="d-flex flex-row w-100 align-items-end">
+                            <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
+                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="990" data-new-price="950">990</span>
+                            <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>hour</span></div>
+                        </div>
+                       
+                    <ul class="list-unstyled py-2 mb-0">
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>Up to 3 projects for each member</span></li>
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>2 team members allowed</span></li>
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>24/7 support</span></li>
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>Up to 30GB storage space</span></li>
+                    </ul>
+                  </div>
+                  <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
+                    <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
+                      <h3 class="mb-2">Mobile Application</h3>
+                      <div class="fs-xs" style="max-width: 10rem;">Find aute irure dolor in reprehenderit in volatek</div>
+                    </div>
+                    <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4" style="max-width: 20rem;">
+                        <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
+                        <div class="d-flex flex-row w-100 align-items-end">
+                            <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
+                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="990" data-new-price="950">990</span>
+                            <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>hour</span></div>
+                        </div>
+                       
+                    <ul class="list-unstyled py-2 mb-0">
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>Up to 3 projects for each member</span></li>
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>2 team members allowed</span></li>
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>24/7 support</span></li>
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>Up to 30GB storage space</span></li>
+                    </ul>
+                  </div>
+                  <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
+                    <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
+                      <h3 class="mb-2">Digital Marketing</h3>
+                      <div class="fs-xs" style="max-width: 10rem;">Find aute irure dolor in reprehenderit in volatek</div>
+                    </div>
+                    <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4" style="max-width: 20rem;">
+                        <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
+                        <div class="d-flex flex-row w-100 align-items-end">
+                            <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
+                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="19990" data-new-price="19550">990</span>
+                            <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>hour</span></div>
+                        </div>
+                       
+                    <ul class="list-unstyled py-2 mb-0">
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>Up to 3 projects for each member</span></li>
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>2 team members allowed</span></li>
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>24/7 support</span></li>
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>Up to 30GB storage space</span></li>
+                    </ul>
+                  </div>
+           
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+            <!-- Awards-->
+    <section class="container pb-5 pt-6 mb-md-2 py-md-7">
+        <div class="row align-items-center">
+          <div class="col-md-6"><img class="d-block mx-auto" src="img/demo/coworking/illustration01.svg" alt="Illustration"></div>
+          <div class="col-md-6 col-lg-5 offset-lg-1 pt-4 pt-md-0">
+            <h2 class="mt-4 mb-5 text-center text-md-start">Awards</h2>
+            <div class="row">
+              <div class="col-6 col-sm-4 text-center mb-grid-gutter"><img class="mb-2" src="img/demo/coworking/icons/tv.svg" alt="Free computer" width="46">
+                <h5 class="h6">Free computer</h5>
+              </div>
+              <div class="col-6 col-sm-4 text-center mb-grid-gutter"><img class="mb-2" src="img/demo/coworking/icons/sandwich.svg" alt="Coffee and snacks" width="46">
+                <h5 class="h6">Coffee and snacks</h5>
+              </div>
+              <div class="col-6 col-sm-4 text-center mb-grid-gutter"><img class="mb-2" src="img/demo/coworking/icons/table-tennis.svg" alt="Relax zone" width="46">
+                <h5 class="h6">Relax zone</h5>
+              </div>
+              <div class="col-6 col-sm-4 text-center mb-grid-gutter"><img class="mb-2" src="img/demo/coworking/icons/living-room.svg" alt="Private meeting room" width="46">
+                <h5 class="h6">Private meeting room</h5>
+              </div>
+              <div class="col-6 col-sm-4 text-center mb-grid-gutter"><img class="mb-2" src="img/demo/coworking/icons/router.svg" alt="High-speed internet" width="46">
+                <h5 class="h6">High-speed internet</h5>
+              </div>
+              <div class="col-6 col-sm-4 text-center mb-grid-gutter"><img class="mb-2" src="img/demo/coworking/icons/open-book.svg" alt="Educational programs" width="46">
+                <h5 class="h6">Educational programs</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+        <!-- mobileinterface -->
+        <section class="bg-secondary py-5 py-md-6 py-lg-7">
+    <div class="container py-3 py-lg-4">
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-5 mb-md-0">
+          <div class="mx-auto mx-md-0" style="max-width: 525px;"><img class="d-block" src="../img/demo/presentation/mobile-screens.jpg" alt="Mobile screens"></div>
+        </div>
+        <div class="col-md-6 text-center text-md-start">
+          <h2 class="h1 mb-4"><span class="bg-faded-primary rounded text-primary px-3 py-2">Mobile Friendly</span> Interface</h2>
+          <p class="text-muted mb-5">Around based on advanced fully responsive Bootstrap grid. It looks great at any screen resolution and optimized for small touch screens. Around features 2 types of navigation for handeld devices and off-canvas sidebars that are easily accessible. All sliders used in the template have swipe support.</p>
+          <div class="d-flex align-items-center justify-content-center justify-content-md-start"><img src="../img/demo/presentation/qrcode.png" alt="QR Code" width="120">
+            <div class="ps-3 ps-sm-4">
+              <div class="text-nav text-start" style="max-width: 175px;">Scan QR code to test on your device</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+        </section>
+      
+      <!-- Portfolio-->
+      <section class="container overflow-hidden py-5 py-md-6 py-lg-7 ">
+        <h2 class="text-center pt-4 pt-md-0">Portfolio</h2>
+        <p class="text-center text-muted pb-4">Most recent projects we have completed</p>
+        <div class="masonry-filterable mb-3">
+          <!-- Portfolio nav (Filters)-->
+          <ul class="masonry-filters nav nav-tabs justify-content-center pb-4">
+            <li class="nav-item"><a class="nav-link active" href="#" data-group="all">All</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-group="web">Web</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-group="mobile">Mobile</a></li>
+            <li class="nav-item"><a class="nav-link" href="#" data-group="identity">Identity</a></li>
+          </ul>
+          <!-- Portfolio grid-->
+          <div class="masonry-grid" data-columns="3">
+            <div class="masonry-grid-item" data-groups="[&quot;web&quot;]"><a class="card card-hover border-0 shadow" href="portfolio-single-carousel.html"><img class="card-img-top" src="img/portfolio/01.jpg" alt="Portfolio thumb">
+                <div class="card-body text-center">
+                  <h3 class="h5 nav-heading mb-2">Landing Page Design</h3>
+                  <p class="fs-sm text-muted mb-2">UI / UX Design, Web Development</p>
+                </div></a></div>
+            <div class="masonry-grid-item" data-groups="[&quot;web&quot;]"><a class="card card-hover border-0 shadow" href="portfolio-single-carousel.html"><img class="card-img-top" src="img/portfolio/02.jpg" alt="Portfolio thumb">
+                <div class="card-body text-center">
+                  <h3 class="h5 nav-heading mb-2">Corporate Website Design</h3>
+                  <p class="fs-sm text-muted mb-2">Web Design</p>
+                </div></a></div>
+            <div class="masonry-grid-item" data-groups="[&quot;identity&quot;]"><a class="card card-hover border-0 shadow" href="portfolio-single-carousel.html"><img class="card-img-top" src="img/portfolio/03.jpg" alt="Portfolio thumb">
+                <div class="card-body text-center">
+                  <h3 class="h5 nav-heading mb-2">Surfing Portal Logo Design</h3>
+                  <p class="fs-sm text-muted mb-2">Identity Design</p>
+                </div></a></div>
+            <div class="masonry-grid-item" data-groups="[&quot;web&quot;]"><a class="card card-hover border-0 shadow" href="portfolio-single-carousel.html"><img class="card-img-top" src="img/portfolio/04.jpg" alt="Portfolio thumb">
+                <div class="card-body text-center">
+                  <h3 class="h5 nav-heading mb-2">Cartzilla - Fashion Store</h3>
+                  <p class="fs-sm text-muted mb-2">E-commerce Development</p>
+                </div></a></div>
+            <div class="masonry-grid-item" data-groups="[&quot;mobile&quot;]"><a class="card card-hover border-0 shadow" href="portfolio-single-carousel.html"><img class="card-img-top" src="img/portfolio/05.jpg" alt="Portfolio thumb">
+                <div class="card-body text-center">
+                  <h3 class="h5 nav-heading mb-2">Mobile App Icon Design</h3>
+                  <p class="fs-sm text-muted mb-2">Mobile App Design</p>
+                </div></a></div>
+            <div class="masonry-grid-item" data-groups="[&quot;web&quot;]"><a class="card card-hover border-0 shadow" href="portfolio-single-carousel.html"><img class="card-img-top" src="img/portfolio/06.jpg" alt="Portfolio thumb">
+                <div class="card-body text-center">
+                  <h3 class="h5 nav-heading mb-2">Auto Reseller Website</h3>
+                  <p class="fs-sm text-muted mb-2">UI / UX Design, Web Development</p>
+                </div></a></div>
+          </div>
+        </div>
+        <div class="text-center"><a class="btn btn-primary" href="#">See More Projects</a></div>
+      </section>   
+            <!-- ctasection -->
+            <section class="container py-5 py-md-6 py-lg-7">
+                <div class="row g-0 py-3 py-md-0">
+                  <div class="col-md-6 mb-4 mb-md-0">
+                    <div class="d-flex flex-column position-relative h-100 rounded-start bg-position-start-center bg-repeat-0 py-6" style="background-image: url(img/demo/business-consulting/careers-bg.jpg); background-color: #f4f4f6;"><span class="d-sm-none d-md-block d-lg-none position-absolute top-0 start-0 w-100 h-100 rounded-start bg-secondary" style="opacity: 1;"></span>
+                      <div class="text-center mx-auto me-sm-5 me-md-0 me-md-auto me-lg-5 pe-lg-3 position-relative zindex-5" style="max-width: 240px;">
+                        <h2 class="mb-4 pb-2">Our job offers</h2><a class="btn btn-primary" href="#">Join Us</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="d-flex flex-column h-100 rounded-end bg-dark px-4 py-5">
+                      <div class="py-2 mx-auto text-center" style="max-width: 450px;">
+                        <h2 class="text-light">Request a Call Back</h2>
+                        <p class="text-light mb-4">Our monthly critical issues</p>
+                        <form class="input-group pt-2" data-dashlane-rid="0a8912a8c814ff93" data-form-type="newsletter">
+                          <input class="form-control" type="tel" placeholder="Your Phone Number" required="">
+                          <button class="btn btn-success" type="submit"><i class="ai-send fs-xl me-1"></i></button>
+                        <span data-dashlanecreated="true" style="color: initial; font: initial; font-feature-settings: initial; font-kerning: initial; font-optical-sizing: initial; font-variation-settings: initial; forced-color-adjust: initial; text-orientation: initial; text-rendering: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial; accent-color: initial; place-content: initial; place-items: initial; place-self: initial; alignment-baseline: initial; animation: initial; appearance: initial; aspect-ratio: initial; backdrop-filter: initial; backface-visibility: initial; background: url(&quot;chrome-extension://fdjamakpfbbddfjaooikfcpapjohcfmg/content/injected/logo-autofill-known.svg&quot;) center center / contain no-repeat; background-blend-mode: initial; baseline-shift: initial; block-size: initial; border-block: initial; border: none; border-radius: initial; border-collapse: initial; border-end-end-radius: initial; border-end-start-radius: initial; border-inline: initial; border-start-end-radius: initial; border-start-start-radius: initial; bottom: initial; box-shadow: initial; box-sizing: initial; break-after: initial; break-before: initial; break-inside: initial; buffered-rendering: initial; caption-side: initial; caret-color: initial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; color-scheme: initial; columns: initial; column-fill: initial; gap: initial; column-rule: initial; column-span: initial; contain: initial; contain-intrinsic-size: initial; content: initial; content-visibility: initial; counter-increment: initial; counter-reset: initial; counter-set: initial; cursor: initial; cx: initial; cy: initial; d: initial; display: inline; dominant-baseline: initial; empty-cells: initial; fill: initial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: initial; flex-flow: initial; float: initial; flood-color: initial; flood-opacity: initial; grid: initial; grid-area: initial; height: 16px; hyphens: initial; image-orientation: initial; image-rendering: initial; inline-size: initial; inset-block: initial; inset-inline: initial; isolation: initial; left: 282px; letter-spacing: initial; lighting-color: initial; line-break: initial; list-style: initial; margin-block: initial; margin: initial; margin-inline: initial; marker: initial; mask: initial; mask-type: initial; max-block-size: initial; max-height: initial; max-inline-size: initial; max-width: initial; min-block-size: initial; min-height: initial; min-inline-size: initial; min-width: 16px; mix-blend-mode: initial; object-fit: initial; object-position: initial; offset: initial; opacity: 1; order: initial; origin-trial-test-property: initial; orphans: initial; outline: initial; outline-offset: initial; overflow-anchor: initial; overflow-clip-margin: initial; overflow-wrap: initial; overflow: initial; overscroll-behavior-block: initial; overscroll-behavior-inline: initial; overscroll-behavior: initial; padding-block: initial; padding: initial; padding-inline: initial; page: initial; page-orientation: initial; paint-order: initial; perspective: initial; perspective-origin: initial; pointer-events: initial; position: absolute; quotes: initial; r: initial; resize: initial; right: initial; ruby-position: initial; rx: initial; ry: initial; scroll-behavior: initial; scroll-margin-block: initial; scroll-margin: initial; scroll-margin-inline: initial; scroll-padding-block: initial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-align: initial; scroll-snap-stop: initial; scroll-snap-type: initial; shape-image-threshold: initial; shape-margin: initial; shape-outside: initial; shape-rendering: initial; size: initial; speak: initial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; table-layout: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-combine-upright: initial; text-decoration: initial; text-decoration-skip-ink: initial; text-indent: initial; text-overflow: initial; text-shadow: initial; text-size-adjust: initial; text-transform: initial; text-underline-offset: initial; text-underline-position: initial; top: 22px; touch-action: initial; transform: initial; transform-box: initial; transform-origin: initial; transform-style: initial; transition: initial; user-select: initial; vector-effect: initial; vertical-align: initial; visibility: visible; -webkit-app-region: initial; border-spacing: initial; -webkit-border-image: initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial; -webkit-box-reflect: initial; -webkit-highlight: initial; -webkit-hyphenate-character: initial; -webkit-line-break: initial; -webkit-line-clamp: initial; -webkit-mask-box-image: initial; -webkit-mask: initial; -webkit-mask-composite: initial; -webkit-perspective-origin-x: initial; -webkit-perspective-origin-y: initial; -webkit-print-color-adjust: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-emphasis: initial; -webkit-text-emphasis-position: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke: initial; -webkit-transform-origin-x: initial; -webkit-transform-origin-y: initial; -webkit-transform-origin-z: initial; -webkit-user-drag: initial; -webkit-user-modify: initial; white-space: initial; widows: initial; width: 16px; will-change: initial; word-break: initial; word-spacing: initial; x: initial; y: initial; z-index: auto;"></span></form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+        <!-- splitter -->
+        <section class="bg-secondary py-6 py-sm-7 mt-5 mt-xl-3">
+            <div class="container">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-lg-5 col-md-7 col-sm-9 pb-3 mb-4 pb-lg-0 mb-lg-0">
+                  <div class="d-flex align-items-center justify-content-between">
+                    <div class="me-4"><img src="img/demo/mobile-app/icons/01.svg" alt="Device"></div>
+                    <div class="me-4"><img src="img/demo/mobile-app/icons/02.svg" alt="Device"></div>
+                    <div class="me-4"><img src="img/demo/mobile-app/icons/03.svg" alt="Device"></div>
+                    <div><img src="img/demo/mobile-app/icons/04.svg" alt="Device"></div>
+                  </div>
+                </div>
+                <div class="col-xl-5 col-lg-6 offset-lg-1 text-center text-lg-start">
+                  <h2>We build for all your devices</h2>
+                  <p class="mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+ 
+   
+      <!-- Brands-->
+      <section class="container pt-5 mt-3 mt-md-0 pt-md-6 pt-lg-7 pb-md-4">
+        <h2 class="mb-5 text-center">Shop by brand</h2>
+        <div class="row">
+          <div class="col-md-3 col-sm-4 col-6 mb-grid-gutter"><a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+              <div class="card-body px-1 py-0 text-center">
+                <div class="swap-image"><img class="swap-to" src="../img/shop/brands/01_color.png" alt="Brand logo" width="150"><img class="swap-from" src="../img/shop/brands/01_gray.png" alt="Brand logo" width="150"></div>
+              </div></a></div>
+          <div class="col-md-3 col-sm-4 col-6 mb-grid-gutter"><a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+              <div class="card-body px-1 py-0 text-center">
+                <div class="swap-image"><img class="swap-to" src="../img/shop/brands/02_color.png" alt="Brand logo" width="150"><img class="swap-from" src="../img/shop/brands/02_gray.png" alt="Brand logo" width="150"></div>
+              </div></a></div>
+          <div class="col-md-3 col-sm-4 col-6 mb-grid-gutter"><a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+              <div class="card-body px-1 py-0 text-center">
+                <div class="swap-image"><img class="swap-to" src="../img/shop/brands/03_color.png" alt="Brand logo" width="150"><img class="swap-from" src="../img/shop/brands/03_gray.png" alt="Brand logo" width="150"></div>
+              </div></a></div>
+          <div class="col-md-3 col-sm-4 col-6 mb-grid-gutter"><a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+              <div class="card-body px-1 py-0 text-center">
+                <div class="swap-image"><img class="swap-to" src="../img/shop/brands/04_color.png" alt="Brand logo" width="150"><img class="swap-from" src="../img/shop/brands/04_gray.png" alt="Brand logo" width="150"></div>
+              </div></a></div>
+          <div class="col-md-3 col-sm-4 col-6 mb-grid-gutter"><a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+              <div class="card-body px-1 py-0 text-center">
+                <div class="swap-image"><img class="swap-to" src="../img/shop/brands/05_color.png" alt="Brand logo" width="150"><img class="swap-from" src="../img/shop/brands/05_gray.png" alt="Brand logo" width="150"></div>
+              </div></a></div>
+          <div class="col-md-3 col-sm-4 col-6 mb-grid-gutter"><a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+              <div class="card-body px-1 py-0 text-center">
+                <div class="swap-image"><img class="swap-to" src="../img/shop/brands/06_color.png" alt="Brand logo" width="150"><img class="swap-from" src="../img/shop/brands/06_gray.png" alt="Brand logo" width="150"></div>
+              </div></a></div>
+          <div class="col-md-3 col-sm-4 col-6 mb-grid-gutter"><a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+              <div class="card-body px-1 py-0 text-center">
+                <div class="swap-image"><img class="swap-to" src="../img/shop/brands/07_color.png" alt="Brand logo" width="150"><img class="swap-from" src="../img/shop/brands/07_gray.png" alt="Brand logo" width="150"></div>
+              </div></a></div>
+          <div class="col-md-3 col-sm-4 col-6 mb-grid-gutter"><a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+              <div class="card-body px-1 py-0 text-center">
+                <div class="swap-image"><img class="swap-to" src="../img/shop/brands/08_color.png" alt="Brand logo" width="150"><img class="swap-from" src="../img/shop/brands/08_gray.png" alt="Brand logo" width="150"></div>
+              </div></a></div>
+          <div class="col-md-3 col-sm-4 col-6 mb-grid-gutter"><a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+              <div class="card-body px-1 py-0 text-center">
+                <div class="swap-image"><img class="swap-to" src="../img/shop/brands/09_color.png" alt="Brand logo" width="150"><img class="swap-from" src="../img/shop/brands/09_gray.png" alt="Brand logo" width="150"></div>
+              </div></a></div>
+          <div class="col-md-3 col-sm-4 col-6 mb-grid-gutter"><a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+              <div class="card-body px-1 py-0 text-center">
+                <div class="swap-image"><img class="swap-to" src="../img/shop/brands/10_color.png" alt="Brand logo" width="150"><img class="swap-from" src="../img/shop/brands/10_gray.png" alt="Brand logo" width="150"></div>
+              </div></a></div>
+          <div class="col-md-3 col-sm-4 col-6 mb-grid-gutter"><a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+              <div class="card-body px-1 py-0 text-center">
+                <div class="swap-image"><img class="swap-to" src="../img/shop/brands/11_color.png" alt="Brand logo" width="150"><img class="swap-from" src="../img/shop/brands/11_gray.png" alt="Brand logo" width="150"></div>
+              </div></a></div>
+          <div class="col-md-3 col-sm-4 col-6 mb-grid-gutter"><a class="card border-0 shadow card-hover py-3 py-sm-4" href="#">
+              <div class="card-body px-1 py-0 text-center">
+                <div class="swap-image"><img class="swap-to" src="../img/shop/brands/12_color.png" alt="Brand logo" width="150"><img class="swap-from" src="../img/shop/brands/12_gray.png" alt="Brand logo" width="150"></div>
+              </div></a></div>
+        </div>
+      </section>
+      <!-- faq -->
+      <section class="container py-5 my-4 my-sm-0 py-sm-6 py-md-7">
+        <h2 class="text-center pb-2 mb-5">FAQ</h2>
+        <div class="row pb-2">
+          <div class="col-lg-6">
+            <div class="accordion" id="faq">
+              <div class="accordion-item shadow">
+                <h2 class="accordion-header" id="faq-heading-1">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-1" aria-expanded="false" aria-controls="faq-content-1">How can I create a list of frequent destinations?</button>
+                </h2>
+                <div class="accordion-collapse collapse" id="faq-content-1" aria-labelledby="faq-heading-1" data-bs-parent="#faq" style="">
+                  <div class="accordion-body">
+                    <div class="fs-sm">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item shadow">
+                <h2 class="accordion-header" id="faq-heading-2">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-2" aria-expanded="false" aria-controls="faq-content-2">What will happen after I sign up?</button>
+                </h2>
+                <div class="accordion-collapse collapse" id="faq-content-2" aria-labelledby="faq-heading-2" data-bs-parent="#faq" style="">
+                  <div class="accordion-body">
+                    <div class="fs-sm">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item shadow">
+                <h2 class="accordion-header" id="faq-heading-3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-3" aria-expanded="false" aria-controls="faq-content-3">Do I have to confirm all bookings?</button>
+                </h2>
+                <div class="accordion-collapse collapse show" id="faq-content-3" aria-labelledby="faq-heading-3" data-bs-parent="#faq" style="">
+                  <div class="accordion-body">
+                    <div class="fs-sm">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item shadow">
+                <h2 class="accordion-header" id="faq-heading-4">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-content-4" aria-expanded="false" aria-controls="faq-content-4">What do I get for the commission I pay?</button>
+                </h2>
+                <div class="accordion-collapse collapse" id="faq-content-4" aria-labelledby="faq-heading-4" data-bs-parent="#faq">
+                  <div class="accordion-body">
+                    <div class="fs-sm">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-none d-lg-block col-lg-5 offset-lg-1"><img src="img/demo/booking/illustration.svg" alt="Illustration"></div>
+        </div>
+      </section>
+<!-- form -->
+<section class=" bg-secondary pt-5 pt-md-6 pt-lg-7">
+    <div class="container py-3 pt-md-0">
+      <div class="row pb-2 pb-md-5">
+        <form class="col-xl-6 col-lg-7 col-md-7 needs-validation mb-5" novalidate="">
+          <h2 class="pb-4">What project are you looking for?</h2>
+          <h3 class="h6 pb-2">Services</h3>
+          <div class="btn-group-toggle pb-3 mb-3" data-bs-toggle="buttons">
+            <label class="btn btn-outline-primary me-2 mb-2 active">
+              <input class="visually-hidden" type="radio" name="services" id="branding" checked="">Web Design
+            </label>
+            <label class="btn btn-outline-primary me-2 mb-2">
+              <input class="visually-hidden" type="radio" name="services" id="ux">Web Application
+            </label>
+            <label class="btn btn-outline-primary me-2 mb-2">
+              <input class="visually-hidden" type="radio" name="services" id="illustration">eCommerce Development
+            </label>
+            <label class="btn btn-outline-primary mb-2">
+              <input class="visually-hidden" type="radio" name="services" id="motion">Mobile Application
+            </label>
+            <label class="btn btn-outline-primary mb-2">
+                <input class="visually-hidden" type="radio" name="services" id="motion">Digital Marketing
+              </label>
+          </div>
+          <div class="input-group mb-3"><i class="ai-user position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+            <input class="form-control rounded" type="text" placeholder="Name" required="">
+          </div>
+          <div class="input-group mb-3"><i class="ai-mail position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+            <input class="form-control rounded" type="email" placeholder="Email" required="">
+          </div>
+          <div class="mb-3 pb-1">
+            <textarea class="form-control" rows="4" placeholder="Project description" required=""></textarea>
+          </div>
+          <div class="row pt-2">
+            <div class="col-lg-6 col-md-8">
+              <button class="btn btn-primary btn-block" type="submit">Send Request</button>
+            </div>
+          </div>
+        </form>
+        <div class="col-xl-3 col-lg-4 offset-xl-3 offset-lg-1 col-md-5 mb-5">
+          <h2 class="pb-2">Contacts</h2>
+          <ul class="list-unstyled fs-sm mb-4 pb-2">
+            <li><a class="nav-link-style" href="mailto:contact@example.com">contact@example.com</a></li>
+            <li><a class="nav-link-style" href="tel:+15262200459">+ 1 526 220 0459</a></li>
+          </ul>
+          <h3 class="h6 pb-2">Or connect with us on:</h3><a class="btn-social bs-outline bs-facebook bs-lg me-2 mb-2" href="#"><i class="ai-facebook"></i></a><a class="btn-social bs-outline bs-twitter bs-lg me-2 mb-2" href="#"><i class="ai-twitter"></i></a><a class="btn-social bs-outline bs-instagram bs-lg me-2 mb-2" href="#"><i class="ai-instagram"></i></a><a class="btn-social bs-outline bs-dribbble bs-lg me-2 mb-2" href="#"><i class="ai-dribbble"></i></a><a class="btn-social bs-outline bs-behance bs-lg me-2 mb-2" href="#"><i class="ai-behance"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+      <!-- ctasection -->
+      <section class="bg-secondary bg-size-cover py-5 py-md-6" style="background-image: url(img/demo/business-consulting/cta-bg.png);">
+        <div class="container py-3 py-md-0">
+          <div class="row align-items-center">
+            <div class="col-lg-5 col-md-6 text-center text-md-start">
+              <h2 class="mb-4 pb-3 pb-md-0 mb-md-0">Request a Call Back</h2>
+            </div>
+            <div class="col-lg-7 col-md-6">
+              <form class="row needs-validation" novalidate="">
+                <div class="col-sm-7 col-md-12 col-lg-7 mb-3 mb-lg-0">
+                  <input class="form-control" type="tel" placeholder="Your email" required="">
+                  <div class="invalid-feedback">Please provide a valid Mobile Number!</div>
+                </div>
+                <div class="col-sm-5 col-md-12 col-lg-5">
+                  <button class="btn btn-primary d-block w-100" type="submit">Book a Consultation</button>
+                </div>
+              </form>
+              <div class="d-flex align-items-center justify-content-center justify-content-sm-start pt-4 pt-sm-2 pt-md-4"><i class="ai-phone fs-xl me-2"></i><span class="me-2">Or call us</span><a class="nav-link-style" href="tel:+15262200459">+ 1 526 220 0459</a></div>
+            </div>
+          </div>
+        </div>
+      </section>
+   
+    </main>
+    <!-- Footer-->
+    <footer class="footer bg-dark ">
+   
+      <div class="bg-darker pt-2">
+        <div class="container py-sm-3">
+          <div class="row pb-4 mb-2 pt-5 py-md-5">
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="d-flex align-items-center"><i class="ai-truck text-primary" style="font-size: 2.125rem;"></i>
+                <div class="ps-3">
+                  <h6 class="fs-base text-light mb-1">Fast and free delivery</h6>
+                  <p class="mb-0 fs-xs text-light opacity-50">Free delivery for all orders over $200</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="d-flex align-items-center"><i class="ai-refresh-cw text-primary" style="font-size: 2.125rem;"></i>
+                <div class="ps-3">
+                  <h6 class="fs-base text-light mb-1">Money back guarantee</h6>
+                  <p class="mb-0 fs-xs text-light opacity-50">We return money within 30 days</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="d-flex align-items-center"><i class="ai-life-buoy text-primary" style="font-size: 2.125rem;"></i>
+                <div class="ps-3">
+                  <h6 class="fs-base text-light mb-1">24/7 customer support</h6>
+                  <p class="mb-0 fs-xs text-light opacity-50">Friendly 24/7 customer support</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6 mb-4">
+              <div class="d-flex align-items-center"><i class="ai-credit-card text-primary" style="font-size: 2.125rem;"></i>
+                <div class="ps-3">
+                  <h6 class="fs-base text-light mb-1">Secure online payment</h6>
+                  <p class="mb-0 fs-xs text-light opacity-50">We possess SSL / Secure сertificate</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <hr class="hr-light my-0 mb-5">
+          <div class="d-sm-flex align-items-center mb-4 pb-3">
+            <div class="d-flex flex-wrap align-items-center me-3"><a class="d-block me-grid-gutter mt-n1 mb-3" href="index.html" style="width: 108px;"><img src="../img/logo/logo-footer.png" alt="Around"></a>
+              <ul class="list-inline fs-sm pt-2 mb-3">
+                <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="#">About</a></li>
+                <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="#">Our Services</a></li>
+                <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="#">Pricing</a></li>
+                <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="#">Hire Talents</a></li>
+                <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="#">Terms of use</a></li>
+              </ul>
+            </div>
+            <div class="d-flex pt-2 pt-sm-0 ms-auto"><a class="btn-social bs-twitter bs-light me-2 mb-2" href="#"><i class="ai-twitter"></i></a><a class="btn-social bs-facebook bs-light me-2 mb-2" href="#"><i class="ai-facebook"></i></a><a class="btn-social bs-instagram bs-light me-2 mb-2" href="#"><i class="ai-instagram"></i></a><a class="btn-social bs-pinterest bs-light me-2 mb-2" href="#"><i class="ai-pinterest"></i></a><a class="btn-social bs-youtube bs-light mb-2" href="#"><i class="ai-youtube"></i></a></div>
+          </div>
+          <div class="d-sm-flex justify-content-between align-items-center pb-4 pb-sm-2">
+            <div class="order-sm-2 mb-4 mb-sm-3"><img src="../img/footer/cards.png" alt="Payment methods" width="181"></div>
+            <div class="order-sm-1 mb-3">
+              <p class="fs-ms mb-0"><span class="text-light opacity-50 me-1">© All rights reserved. Made by</span><a class="nav-link-style nav-link-light" href="#" target="_blank" rel="noopener">CodeWills</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll data-fixed-element><span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon ai-arrow-up">   </i></a>
+   <!-- Vendor scrits: js libraries and plugins-->
+   <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="vendor/simplebar/dist/simplebar.min.js"></script>
+   <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+   <script src="vendor/jarallax/dist/jarallax.min.js"></script>
+   <script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+   <script src="vendor/lightgallery.js/dist/js/lightgallery.min.js"></script>
+   <script src="vendor/lg-fullscreen.js/dist/lg-fullscreen.min.js"></script>
+   <script src="vendor/lg-zoom.js/dist/lg-zoom.min.js"></script>
+   <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+   <script src="vendor/shufflejs/dist/shuffle.min.js"></script>
+   <script src="vendor/flatpickr/dist/flatpickr.min.js"></script>
+   <!-- Main theme script-->
+   <script src="js/theme.min.js"></script>
+  </body>
+</html>
