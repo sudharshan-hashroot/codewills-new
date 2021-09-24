@@ -1,3 +1,5 @@
+
+@import url('http://fonts.cdnfonts.com/css/proxima-nova-2');                
 @import "https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700&display=swap";
 @font-face {
   font-family: "around-icons";
@@ -963,9 +965,11 @@
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-rgb: 115, 116, 145;
-  --bs-font-sans-serif: "Inter", sans-serif;
-  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
+  /* --bs-font-sans-serif: "Inter", sans-serif; */
+  --bs-font-sans-serif:  'Proxima Nova', sans-serif;                                                
+  /* --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+    "Liberation Mono", "Courier New", monospace; */
+    --bs-font-monospace:  'Proxima Nova', sans-serif;
   --bs-gradient: linear-gradient(
     to right,
     #766df4 0%,
