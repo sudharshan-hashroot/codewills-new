@@ -49,6 +49,9 @@
         opacity: 1;
         visibility: visible;
       }
+      .grayfilter{
+        filter: grayscale(1);
+      }
       .page-loading-inner {
         position: absolute;
         top: 50%;
@@ -225,7 +228,7 @@
         <div class="navbar navbar-expand-lg navbar-light bg-light navbar-shadow navbar-sticky" data-scroll-header="" data-fixed-element="">
          
           <div class="container px-0 px-xl-3">
-            <button class="navbar-toggler ms-n2 me-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#primaryMenu"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand flex-shrink-0 order-lg-1 mx-auto ms-lg-0 pe-lg-2 me-lg-4" href="index.html"><img class="d-none d-lg-block" src="img/logo/logo-dark.png" alt="Around" width="153"><img class="d-lg-none" src="img/logo/logo-icon.png" alt="Around" width="58"></a>
+            <button class="navbar-toggler ms-n2 me-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#primaryMenu"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand flex-shrink-0 order-lg-1 mx-auto ms-lg-0 pe-lg-2 me-lg-4" href="index.html"><img class="d-none d-lg-block" src="img/logo/logo-dark.svg" alt="Around" width="153"><img class="d-lg-none" src="img/logo/logo-icon.svg" alt="Around" width="58"></a>
             <div class="d-flex align-items-center order-lg-3 ms-lg-auto"><a class="nav-link-style fs-sm text-nowrap" href="#modal-signin" data-bs-toggle="modal" data-view="#modal-signin-view"><i class="ai-user fs-xl me-2 align-middle"></i>Sign in</a><a class="btn btn-primary ms-grid-gutter d-none d-lg-inline-block" href="#modal-signin" data-bs-toggle="modal" data-view="#modal-signup-view">Sign up</a></div>
             <div class="offcanvas offcanvas-collapse order-lg-2" id="primaryMenu">
               <div class="offcanvas-header navbar-shadow">
@@ -262,7 +265,7 @@
             <div class="col-lg-3">
               <ul class="nav nav-tabs media-tabs media-tabs-light justify-content-center justify-content-lg-start pb-3 mb-4 pb-lg-0 mb-lg-0" role="tablist">
                 <li class="w-100 nav-item me-3 mb-3"><a class="nav-link active" href="#uides" data-bs-toggle="tab" role="tab">
-                    <div class="d-flex align-items-center"><img class="flex-shrink-0 rounded" src="img/homepage/slider/Designing-120x120.png" alt="Product" width="60">
+                    <div class="d-flex align-items-center"><img class="flex-shrink-0 rounded" src="img/homepage/slider/Designing-120x120.webp" alt="Product" width="60">
                       <div class="w-100 ps-2 ms-1">
                         <div class="d-flex justify-content-between align-items-center">
                           <div class="fs-sm pe-1">Design</div><i class="ai-chevron-right lead ms-2 me-1"></i>
@@ -270,7 +273,7 @@
                       </div>
                     </div></a></li>
                 <li class="w-100 nav-item me-3 mb-3"><a class="nav-link" href="#webdev" data-bs-toggle="tab" role="tab">
-                    <div class="d-flex align-items-center"><img class="flex-shrink-0 rounded" src="img/homepage/slider/Development-120x120.png" alt="Product" width="60">
+                    <div class="d-flex align-items-center"><img class="flex-shrink-0 rounded" src="img/homepage/slider/Development-120x120.webp" alt="Product" width="60">
                       <div class="w-100 ps-2 ms-1">
                         <div class="d-flex justify-content-between align-items-center">
                           <div class="fs-sm pe-1"> Development</div><i class="ai-chevron-right lead ms-2 me-1"></i>
@@ -278,7 +281,7 @@
                       </div>
                     </div></a></li>
                     <li class="w-100 nav-item me-3 mb-3"><a class="nav-link" href="#digimar" data-bs-toggle="tab" role="tab">
-                      <div class="d-flex align-items-center"><img class="flex-shrink-0 rounded" src="img/homepage/slider/Digital marketing-120x120.png" alt="Product" width="60">
+                      <div class="d-flex align-items-center"><img class="flex-shrink-0 rounded" src="img/homepage/slider/Digital marketing-120x120.webp" alt="Product" width="60">
                         <div class="w-100 ps-2 ms-1">
                           <div class="d-flex justify-content-between align-items-center">
                             <div class="fs-sm pe-1">Marketing</div><i class="ai-chevron-right lead ms-2 me-1"></i>
@@ -309,7 +312,7 @@
                 <div class="tab-pane fade show active" id="uides">
                   <div class="row align-items-center">
                     <div class="col-lg-6 order-lg-2 pb-1 mb-4 pb-lg-0 mb-lg-0">
-                      <div class="mx-auto" style="max-width: 443px;"><img src="img/homepage/slider/Design.png" alt="Security Camera"></div>
+                      <div class="mx-auto" style="max-width: 443px;"><img src="img/homepage/slider/Design.webp" alt="Security Camera"></div>
                     </div>
                     <div class="col-lg-6 order-lg-1 text-center text-lg-start">
                       <div class="ps-xl-5">
@@ -322,7 +325,7 @@
                 <div class="tab-pane fade" id="webdev">
                   <div class="row align-items-center">
                     <div class="col-lg-6 order-lg-2 pb-1 mb-4 pb-lg-0 mb-lg-0">
-                      <div class="mx-auto" style="max-width: 443px;"><img src="img/homepage/slider/Development.png" alt="Running Sneakers"></div>
+                      <div class="mx-auto" style="max-width: 443px;"><img src="img/homepage/slider/Development.webp" alt="Running Sneakers"></div>
                     </div>
                     <div class="col-lg-6 order-lg-1 text-center text-lg-start">
                       <div class="ps-xl-5">
@@ -361,7 +364,7 @@
                 <div class="tab-pane fade" id="digimar">
                   <div class="row align-items-center">
                     <div class="col-lg-6 order-lg-2 pb-1 mb-4 pb-lg-0 mb-lg-0">
-                      <div class="mx-auto" style="max-width: 443px;"><img src="img/homepage/slider/Marketing.png" alt="VR Headset"></div>
+                      <div class="mx-auto" style="max-width: 443px;"><img src="img/homepage/slider/Marketing.webp" alt="VR Headset"></div>
                     </div>
                     <div class="col-lg-6 order-lg-1 text-center text-lg-start">
                       <div class="ps-xl-5">
@@ -381,12 +384,12 @@
       <section class="bg-secondary py-5">
         <div class="container">
           <div class="row">
-            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/vodafone-color.svg" alt="Logo" width="180"><img class="swap-from" src="img/homepage/clients/vodafone-gray.svg" alt="Logo" width="180"></a></div>
-            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/verita-color.png" alt="Logo" width="180"><img class="swap-from" src="img/homepage/clients/verita-gray.png" alt="Logo" width="180"></a></div>
-            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/lb-color.png" alt="Logo" width="180"><img class="swap-from" src="img/homepage/clients/lb-gray.png" alt="Logo" width="180"></a></div>
-            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/stake-color.png" alt="Logo" width="180"><img class="swap-from" src="img/homepage/clients/stake-gray.png" alt="Logo" width="180"></a></div>
-            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/cat-color.png" alt="Logo" width="180"><img class="swap-from" src="img/homepage/clients/cat-gray.png" alt="Logo" width="180"></a></div>
-            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/mom-color.png" alt="Logo" width="180"><img class="swap-from" src="img/homepage/clients/mom-gray.png" alt="Logo" width="180"></a></div>
+            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/vodafonr-color.webp" alt="Logo" width="180"><img class="swap-from grayfilter" src="img/homepage/clients/vodafonr-color.webp"  alt="Logo" width="180"></a></div>
+            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/verita-color.webp"   alt="Logo" width="180"><img class="swap-from grayfilter" src="img/homepage/clients/verita-color.webp"    alt="Logo" width="180"></a></div>
+            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/lb-color.webp"       alt="Logo" width="180"><img class="swap-from grayfilter" src="img/homepage/clients/lb-color.webp"        alt="Logo" width="180"></a></div>
+            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/stake-color.webp"    alt="Logo" width="180"><img class="swap-from grayfilter" src="img/homepage/clients/stake-color.webp"     alt="Logo" width="180"></a></div>
+            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/cat-color.webp"      alt="Logo" width="180"><img class="swap-from grayfilter" src="img/homepage/clients/cat-color.webp"       alt="Logo" width="180"></a></div>
+            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/mom-color.webp"      alt="Logo" width="180"><img class="swap-from grayfilter" src="img/homepage/clients/mom-color.webp"       alt="Logo" width="180"></a></div>
           </div>
         </div>
       </section>
@@ -1124,7 +1127,7 @@
  
       <div class="container pt-5 pt-md-0">
         <div class="row pb-3">
-          <div class="col-md-4 mt-n2 pb-3 pb-md-0 mb-4"><a class="d-block mb-3" href="index.html" style="width: 153px;"><img src="img/logo/logo-footer-alt.png" alt="Around"></a>
+          <div class="col-md-4 mt-n2 pb-3 pb-md-0 mb-4"><a class="d-block mb-3" href="index.html" style="width: 153px;"><img src="img/logo/logo-footer-alt.svg" alt="Around"></a>
             <p class="fs-sm text-light opacity-60 pb-2 pb-sm-3">Highly customizable and modular official multipurpose Bootstrap template and UI kit.</p><a class="btn-social bs-outline bs-facebook bs-light bs-lg me-2 mb-2" href="#"><i class="ai-facebook"></i></a><a class="btn-social bs-outline bs-twitter bs-light bs-lg me-2 mb-2" href="#"><i class="ai-twitter"></i></a><a class="btn-social bs-outline bs-instagram bs-light bs-lg me-2 mb-2" href="#"><i class="ai-instagram"></i></a><a class="btn-social bs-outline bs-google bs-light bs-lg me-2 mb-2" href="#"><i class="ai-google"></i></a>
           </div>
           <div class="col-md-2 col-sm-4 ms-auto pb-1 mb-4">
