@@ -137,7 +137,50 @@
       </div>
     </div>
     <main class="page-wrapper">
-   <div id="header"></div>
+   <header id="header" class="header"></header>
+   <!-- Enquirenow Modal -->
+     <div class="modal fade" id="modal-enquirenow" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content border-0">
+          <div class="view show" id="modal-enquirenow-view">
+            <div class="modal-header border-0 bg-dark px-4">
+              <h4 class="modal-title text-light">Enquire Now</h4>
+              <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="btn-close "></button>
+            </div>
+            <div class="modal-body px-4">
+              <p class="fs-ms text-muted">Please Provide following details</p>
+              <form class="needs-validation" novalidate>
+                <div class="mb-3">
+                  <div class="input-group"><i class="ai-user position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                    <input class="form-control rounded" type="text" placeholder="Your Name" required>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <div class="input-group"><i class="ai-mail position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                    <input class="form-control rounded" type="email" placeholder="Your E-mail" required>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <div class="input-group"><i class="ai-phone position-absolute top-50 start-0 translate-middle-y ms-3"></i>
+                    <input class="form-control rounded" type="tel" placeholder="Your Mobile Number" required>
+                  </div>
+                </div>
+                <div class="mb-3">
+                  <div class="input-group">
+                    <i class="ai-message-square position-absolute start-0 translate-middle-y ms-3" style="top: 15%!important;"></i>
+                    <textarea rows='5' class="form-control rounded" type="text" placeholder="Your Message" required></textarea>
+                  </div>
+                </div>
+                
+                <button class="btn btn-primary d-block w-100" type="submit">Enquire Now</button>
+               
+              </form>
+            </div>
+          </div>
+   
+        </div>
+      </div>
+    </div>
       <!-- Page content-->
       <!-- Hero - Featured Products (tabs)-->
       <section class="position-relative bg-gradient-home-slider pt-5 pt-lg-6 pb-4 pb-lg-5">
@@ -205,7 +248,7 @@
                       <div class="ps-xl-5">
                         <h3 class="h1 font text-light">Creative UI/UX Designing Services                         </h3>
                         <p class="fs-lg text-light mb-lg-5">We utilize the latest technology to design aesthetically pleasing web and mobile applications that offers a great user experience.
-                        </p><a class="btn btn-translucent-light" href="#">Enquire Now</a>
+                        </p><a class="btn btn-translucent-light"  href="#modal-enquirenow" data-bs-toggle="modal" data-view="#modal-enquirenow-view">Enquire Now</a>
                       </div>
                     </div>
                   </div>
@@ -220,7 +263,7 @@
                         <h3 class="h1 font text-light">Custom Software Development Services
                         </h3>
                         <p class="fs-lg text-light mb-lg-5">We help you build mobile-friendly, responsive website and applications tailored to meet your business requirements.
-                        </p><a class="btn btn-translucent-light" href="#">Enquire Now</a>
+                        </p><a class="btn btn-translucent-light"  href="#modal-enquirenow" data-bs-toggle="modal" data-view="#modal-enquirenow-view">Enquire Now</a>
                       </div>
                     </div>
                   </div>
@@ -233,7 +276,7 @@
                     <div class="col-lg-6 order-lg-1 text-center text-lg-start">
                       <div class="ps-xl-5">
                         <h3 class="h1 font text-light">Affordable & Top-Notch Mobile App Development Services</h3>
-                        <p class="fs-lg text-light mb-lg-5">We design and develop highly innovative and user-friendly mobile applications for Android and iOS platforms.</p><a class="btn btn-translucent-light" href="#">Enquire Now</a>
+                        <p class="fs-lg text-light mb-lg-5">We design and develop highly innovative and user-friendly mobile applications for Android and iOS platforms.</p><a class="btn btn-translucent-light"  href="#modal-enquirenow" data-bs-toggle="modal" data-view="#modal-enquirenow-view">Enquire Now</a>
                       </div>
                     </div>
                   </div>
@@ -246,7 +289,7 @@
                     <div class="col-lg-6 order-lg-1 text-center text-lg-start">
                       <div class="ps-xl-5">
                         <h3 class="h1 font text-light">Top-Rated Custom Web App Development Services</h3>
-                        <p class="fs-lg text-light mb-lg-5">Leading software development company with expertise across various technologies.</p><a class="btn btn-translucent-light" href="#">Enquire Now</a>
+                        <p class="fs-lg text-light mb-lg-5">Leading software development company with expertise across various technologies.</p><a class="btn btn-translucent-light"  href="#modal-enquirenow" data-bs-toggle="modal" data-view="#modal-enquirenow-view">Enquire Now</a>
                       </div>
                     </div>
                   </div>
@@ -262,7 +305,7 @@
                         </h3>
                         <p class="fs-lg text-light mb-lg-5">CodeWills help you in developing online marketing strategies that helps improve your online presence and revenue.
 
-                        </p><a class="btn btn-translucent-light" href="#">Enquire Now</a>
+                        </p><a class="btn btn-translucent-light"  href="#modal-enquirenow" data-bs-toggle="modal" data-view="#modal-enquirenow-view">Enquire Now</a>
                       </div>
                     </div>
                   </div>
@@ -280,7 +323,7 @@
             <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/vodafonr-color.webp" alt="Logo" width="180"><img class="swap-from grayfilter" src="img/homepage/clients/vodafonr-color.webp"  alt="Logo" width="180"></a></div>
             <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/verita-color.webp"   alt="Logo" width="180"><img class="swap-from grayfilter" src="img/homepage/clients/verita-color.webp"    alt="Logo" width="180"></a></div>
             <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/lb-color.webp"       alt="Logo" width="180"><img class="swap-from grayfilter" src="img/homepage/clients/lb-color.webp"        alt="Logo" width="180"></a></div>
-            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/stake-color.webp"    alt="Logo" width="180"><img class="swap-from grayfilter" src="img/homepage/clients/stake-color.webp"     alt="Logo" width="180"></a></div>
+            <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/lti-color.webp"    alt="Logo" width="180"><img class="swap-from grayfilter" src="img/homepage/clients/lti-color.webp"     alt="Logo" width="180"></a></div>
             <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/cat-color.webp"      alt="Logo" width="180"><img class="swap-from grayfilter" src="img/homepage/clients/cat-color.webp"       alt="Logo" width="180"></a></div>
             <div class="col-lg-2 col-md-4 col-6"><a class="swap-image" href="#"><img class="swap-to" src="img/homepage/clients/mom-color.webp"      alt="Logo" width="180"><img class="swap-from grayfilter" src="img/homepage/clients/mom-color.webp"       alt="Logo" width="180"></a></div>
           </div>
@@ -298,15 +341,15 @@
             <div class="tns-carousel-wrapper">
               <div class="tns-carousel-inner" data-carousel-options="{&quot;items&quot;: 5, &quot;controls&quot;: false, &quot;gutter&quot;: 15, &quot;responsive&quot;: {&quot;0&quot;:{&quot;items&quot;:2}, &quot;410&quot;:{&quot;items&quot;:3}, &quot;580&quot;:{&quot;items&quot;:4}, &quot;740&quot;:{&quot;items&quot;:5}}}">
                 <div class="text-center"> <h1 class="text-muted"><i class="ai-users"></i></h1>
-                  <div class="text-muted" style="font-size: 2.25rem;">1180</div>
+                  <div class="text-muted" style="font-size: 2.25rem;">1180+</div>
                   <h3 class="h5">Customers</h3>
                 </div>
                 <div class="text-center"><h1 class="text-muted"><i class="ai-settings"></i></h1>
-                  <div class="text-muted" style="font-size: 2.25rem;">200</div>
+                  <div class="text-muted" style="font-size: 2.25rem;">200+</div>
                   <h3 class="h5">Engineers</h3>
                 </div>
                 <div class="text-center"><h1 class="text-muted"><i class="ai-award"></i></h1>
-                  <div class="text-muted" style="font-size: 2.25rem;">9</div>
+                  <div class="text-muted" style="font-size: 2.25rem;">10</div>
                   <h3 class="h5">Awards</h3>
                 </div>
                 <div class="text-center"><h1 class="text-muted"><i class="ai-calendar"></i></h1>
@@ -330,8 +373,8 @@
                         <h2 class="h1 text-light mb-4">Our Software Development <span class="bg-faded-light rounded px-3 py-2">  Services</span></h2>
                         <p class="text-light opacity-70 mb-5">We provide a full range of software development services for businesses of all scales.</p>
                         <div class="row mb-2 mx-n2">
-                          <div class="col-6 px-2 mb-3"><a class="d-block border border-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none" href="#"><img class="d-inline-block opacity-60 mb-3" src="../img/demo/presentation/icons/carousel.svg" alt="Sliders &amp; Carousels" width="68">
-                              <h3 class="h6 text-light mb-0">UI/UX Designing</h3></a></div>
+                          <!-- <div class="col-6 px-2 mb-3"><a class="d-block border border-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none" href="#"><img class="d-inline-block opacity-60 mb-3" src="../img/demo/presentation/icons/carousel.svg" alt="Sliders &amp; Carousels" width="68">
+                              <h3 class="h6 text-light mb-0">UI/UX Designing</h3></a></div> -->
                           <div class="col-6 px-2 mb-3"><a class="d-block border border-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none" href="#"><img class="d-inline-block opacity-60 mb-3" src="../img/demo/presentation/icons/gallery.svg" alt="Image / Video Gallery" width="45">
                               <h3 class="h6 text-light mb-0">Website Development</h3></a></div>
                           <div class="col-6 px-2 mb-3"><a class="d-block border border-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none" href="#"><img class="d-inline-block opacity-60 mb-3" src="../img/demo/presentation/icons/play.svg" alt="Line, Bar &amp; Pie Charts" width="45">
@@ -353,7 +396,7 @@
         <h2 class="text-center">Our Service Offering</h2>
         <p class="text-center text-muted mb-0">We offer a wide range of web custom software development services</p>
         <!-- RWD Service-->
-        <div class="row align-items-center border-bottom py-5">
+        <!-- <div class="row align-items-center border-bottom py-5">
           <div class="col-md-6 py-3"><img class="d-block mx-auto" src="img/homepage/features/ui.svg" alt="Responsive Web Design"></div>
           <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
             <h3 class="h4 mb-4">UI/UX Design</h3>
@@ -367,7 +410,7 @@
             <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
             <p class="pb-1">Sketch, Figma, Photoshop, HTML, CSS, JS</p><a class="fw-medium" href="#">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
           </div>
-        </div>
+        </div> -->
         <!-- Web Dev Service-->
         <div class="row align-items-center border-bottom py-5">
           <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="img/homepage/features/website.svg" alt="Web Development"></div>
@@ -382,8 +425,37 @@
             <p class="pb-1">HTML, CSS, JS</p><a class="fw-medium" href="#">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
           </div>
         </div>
+      </section>
+              <!-- mobileinterface -->
+              <section class="bg-secondary py-5 py-md-6 py-lg-7">
+                <div class="container py-3 py-lg-4">
+                  <div class="row align-items-center">
+                    <div class="col-md-6 mb-5 mb-md-0">
+                      <div class="mx-auto mx-md-0" style="max-width: 525px;"><img class="d-block" src="../img/demo/presentation/mobile-screens.jpg" alt="Mobile screens"></div>
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                      <h2 class="h1 mb-4">Our Technology <span class="bg-faded-primary rounded text-primary px-3 py-2">Expertise</span> </h2>
+                      <p class="text-muted mb-5">Being a leading software development services company, we have a team of software
+                        engineers who have an expert understanding of the latest mobile technologies such as React
+                        Native, Swift Flutter, Objective-C and much more. We bring in our expertise to develop
+                        innovative and quality software products for clients all over the world. </p>
+                      <!-- <div class="d-flex align-items-center justify-content-center justify-content-md-start"><img src="../img/demo/presentation/qrcode.png" alt="QR Code" width="120">
+                        <div class="ps-3 ps-sm-4">
+                          <div class="text-nav text-start" style="max-width: 175px;">Scan QR code to test on your device</div>
+                        </div>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+                    </section>
+                       <!-- Services-->
+       <section class="container pt-2 pt-lg-3">
+  
+      
+     
+      
         <!-- Mobile Dev Service-->
-        <div class="row align-items-center border-bottom py-5">
+        <!-- <div class="row align-items-center border-bottom py-5">
           <div class="col-md-6 py-3"><img class="d-block mx-auto" src="img/homepage/features/mobile.svg" alt="Mobile Apps Development"></div>
           <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
             <h3 class="h4 mb-4">Mobile App Development            </h3>
@@ -395,7 +467,7 @@
             <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
             <p class="pb-1">React native, Flutter, Java, Swift</p><a class="fw-medium" href="#">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
           </div>
-        </div>
+        </div> -->
             <!-- Web APP Service-->
             <div class="row align-items-center border-bottom py-5">
               <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="img/homepage/features/webapp.svg" alt="Web Development"></div>
@@ -439,18 +511,24 @@
               <div class="row">
                 <div class="col-sm-4 mb-2 pb-4 mb-sm-0 pb-sm-0">
                   <div class="px-2 text-center">
-                    <img class="bg-light rounded-circle mb-2" src="img/demo/booking/icons/01.svg" alt="Tickets" width="105">
+                    <!-- <img class="bg-light rounded-circle mb-2" src="img/demo/booking/icons/01.svg" alt="Tickets" width="105"> -->
+
+                  <h3><i class="bg-light text-primary  ai-code rounded-circle mb-2" style="padding: 2rem;"></i></h3>  
                  
                     <p class="fs-sm fw-medium text-light mb-0 pt-1">Experienced Developers </p>
                   </div>
                 </div>
                 <div class="col-sm-4 mb-2 pb-4 mb-sm-0 pb-sm-0">
-                  <div class="px-2 text-center"><img class="bg-light rounded-circle mb-2" src="img/demo/booking/icons/02.svg" alt="Search" width="105">
+                  <div class="px-2 text-center">
+                    <!-- <img class="bg-light rounded-circle mb-2" src="img/demo/booking/icons/02.svg" alt="Search" width="105"> -->
+                    <h3><i class="bg-light text-primary  ai-dollar-sign rounded-circle mb-2" style="padding: 2rem;"></i></h3>  
                     <p class="fs-sm fw-medium text-light mb-0 pt-1">Budget-Friendly Services </p>
                   </div>
                 </div>
                 <div class="col-sm-4 mb-2 pb-4 mb-sm-0 pb-sm-0">
-                  <div class="px-2 text-center"><img class="bg-light rounded-circle mb-2" src="img/demo/booking/icons/03.svg" alt="Flight" width="105">
+                  <div class="px-2 text-center">
+                    <!-- <img class="bg-light rounded-circle mb-2" src="img/demo/booking/icons/03.svg" alt="Flight" width="105"> -->
+                    <h3><i class="bg-light text-primary  ai-search rounded-circle mb-2" style="padding: 2rem;"></i></h3>  
                     <p class="fs-sm fw-medium text-light mb-0 pt-1">100% Transparency</p>
                   </div>
                 </div>
@@ -472,12 +550,12 @@
             <div class="col-lg-10">
               <div class="bg-light shadow-lg rounded-3 pt-3 px-4">
                 <div class="pricing-wrap pt-3 px-3">
-                  <div class="price-switch justify-content-end"><span class="price-label me-2">Monthly</span>
+                  <!-- <div class="price-switch justify-content-end"><span class="price-label me-2">Monthly</span>
                     <div class="form-check form-switch">
                       <input class="form-check-input" type="checkbox" id="priceSwitch">
                       <label class="form-check-label" for="priceSwitch"></label>
                     </div><span class="price-label ms-1">Annual</span>
-                  </div>
+                  </div> -->
                   <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
                     <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
                       <h3 class="mb-2">Website Design</h3>
@@ -488,7 +566,7 @@
                         <div class="d-flex flex-row w-100 align-items-end">
                             <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
                             <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="29990" data-new-price="25550">29,990</span>
-                            <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>month</span></div>
+                            <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>project</span></div>
                         </div>
                        
                     <ul class="list-unstyled py-2 mb-0">
@@ -508,7 +586,7 @@
                         <div class="d-flex flex-row w-100 align-items-end">
                             <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
                             <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="39990" data-new-price="35550">29,990</span>
-                            <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>month</span></div>
+                            <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>project</span></div>
                         </div>
                        
                     <ul class="list-unstyled py-2 mb-0">
@@ -568,7 +646,7 @@
                         <div class="d-flex flex-row w-100 align-items-end">
                             <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
                             <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="19990" data-new-price="19550">990</span>
-                            <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>hour</span></div>
+                            <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>month</span></div>
                         </div>
                        
                     <ul class="list-unstyled py-2 mb-0">
@@ -729,28 +807,7 @@
         </div>
       </section>
          
-        <!-- mobileinterface -->
-        <section class="bg-secondary py-5 py-md-6 py-lg-7">
-    <div class="container py-3 py-lg-4">
-      <div class="row align-items-center">
-        <div class="col-md-6 mb-5 mb-md-0">
-          <div class="mx-auto mx-md-0" style="max-width: 525px;"><img class="d-block" src="../img/demo/presentation/mobile-screens.jpg" alt="Mobile screens"></div>
-        </div>
-        <div class="col-md-6 text-center text-md-start">
-          <h2 class="h1 mb-4">Our Technology <span class="bg-faded-primary rounded text-primary px-3 py-2">Expertise</span> </h2>
-          <p class="text-muted mb-5">Being a leading software development services company, we have a team of software
-            engineers who have an expert understanding of the latest mobile technologies such as React
-            Native, Swift Flutter, Objective-C and much more. We bring in our expertise to develop
-            innovative and quality software products for clients all over the world. </p>
-          <!-- <div class="d-flex align-items-center justify-content-center justify-content-md-start"><img src="../img/demo/presentation/qrcode.png" alt="QR Code" width="120">
-            <div class="ps-3 ps-sm-4">
-              <div class="text-nav text-start" style="max-width: 175px;">Scan QR code to test on your device</div>
-            </div>
-          </div> -->
-        </div>
-      </div>
-    </div>
-        </section>
+
       
       <!-- Portfolio-->
       <section class="container overflow-hidden py-5 py-md-6 py-lg-7 ">
@@ -938,8 +995,8 @@
       <div class="col-md-6 mb-4 mb-md-0">
         <div class="d-flex flex-column position-relative h-100 rounded-start bg-position-start-center bg-repeat-0 py-6" style="background-image: url(img/demo/business-consulting/careers-bg.jpg); background-color: #f4f4f6;"><span class="d-sm-none d-md-block d-lg-none position-absolute top-0 start-0 w-100 h-100 rounded-start bg-secondary" style="opacity: 1;"></span>
           <div class="text-center mx-auto me-sm-5 me-md-0 me-md-auto me-lg-5 pe-lg-3 position-relative zindex-5" style="max-width: 240px;">
-            <h2 class="mb-4 pb-2">Join our team of talents
-            </h2><a class="btn btn-primary" href="#">Join Us</a>
+            <h2 class="mb-4 pb-2">Call Now
+            </h2><a class="btn btn-primary" href="tel:+919778426320">+91 9778426320</a>
           </div>
         </div>
       </div>
@@ -948,7 +1005,7 @@
           <div class="py-2 mx-auto text-center" style="max-width: 450px;">
             <h2 class="text-light">Want to get your product developed?
             </h2>
-            <p class="text-light mb-4">Get in touch with us!
+            <p class="text-light mb-4">Request a Call Back
             </p>
             <form class="input-group pt-2" data-dashlane-rid="0a8912a8c814ff93" data-form-type="newsletter">
               <input class="form-control" type="tel" placeholder="Your Phone Number" required="">
