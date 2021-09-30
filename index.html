@@ -3,11 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>CodeWills</title>
-    <!-- SEO Meta Tags-->
     <meta name="robots" content="noindex">
-    <!-- <meta name="description" content="CodeWills">
+    <!-- SEO Meta Tags-->
+    <meta name="description" content="CodeWills">
     <meta name="keywords" content="CodeWills">
-    <meta name="author" content="CodeWills"> -->
     <!-- Viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon and Touch Icons-->
@@ -121,6 +120,7 @@
    
         $(function() {
             $("#header").load("header.html");
+            $("#signinmodal").load("signinmodal.html");
             $("#footer").load("footer.html");
         });
 
@@ -143,6 +143,7 @@
       </div>
     </div>
     <main class="page-wrapper">
+      <div id="signinmodal"></div>
    <header id="header" class="header"></header>
    <!-- Enquirenow Modal -->
      <div class="modal fade" id="modal-enquirenow" tabindex="-1">
