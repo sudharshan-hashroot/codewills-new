@@ -3,7 +3,14 @@
 
   <!-- Navbar (Solid background + shadow)-->
   <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
-
+<style>
+   .bg-gradient-home-slider {
+      background: linear-gradient(to right,
+          #5654ff 0%,
+          #924cef 30%,
+          #ff7777 100%);
+    }
+</style>
   
     <div class="topbar topbar-dark bg-dark">
       <div class="container d-md-flex align-items-center px-0 px-xl-3">
@@ -22,7 +29,7 @@
     <div class="navbar navbar-expand-lg navbar-light bg-light navbar-shadow navbar-sticky" data-scroll-header="" data-fixed-element="" style="z-index:999999">
      
       <div class="container px-0 px-xl-3">
-        <button class="navbar-toggler ms-n2 me-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#primaryMenu"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand flex-shrink-0 order-lg-1 mx-auto ms-lg-0 pe-lg-2 me-lg-4" href="/index.php"><img class="d-none d-lg-block" src="img/logo/logo-dark.svg" alt="Around" width="153"><img class="d-lg-none" src="img/logo/logo-icon.svg" alt="Around" width="58"></a>
+        <button class="navbar-toggler ms-n2 me-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#primaryMenu"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand flex-shrink-0 order-lg-1 mx-auto ms-lg-0 pe-lg-2 me-lg-4" href="/website-development-company"><img class="d-none d-lg-block" src="img/logo/logo-dark.svg" alt="Around" width="153"><img class="d-lg-none" src="img/logo/logo-icon.svg" alt="Around" width="58"></a>
         <div class="d-flex align-items-center order-lg-3 ms-lg-auto"><a class="nav-link-style fs-sm text-nowrap" href="#modal-signin" data-bs-toggle="modal" data-view="#modal-signin-view"><i class="ai-user fs-xl me-2 align-middle"></i>Sign in</a><a class="btn btn-primary ms-grid-gutter d-none d-lg-inline-block" href="#modal-signin" data-bs-toggle="modal" data-view="#modal-signup-view">Sign up</a></div>
         <div class="offcanvas offcanvas-collapse order-lg-2" id="primaryMenu">
           <div class="offcanvas-header navbar-shadow">
@@ -33,7 +40,7 @@
             <!-- Menu-->
             <ul class="navbar-nav">
            
-              <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="/website-development-company">Home</a></li>
               <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Our Services</a>
                 <ul class="dropdown-menu">

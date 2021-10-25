@@ -3,14 +3,14 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Custom Website Development Company kochi | Codewills by HashRoot</title>
+  <title>Custom Website Development Company | Codewills by HashRoot</title>
 
   <!-- SEO Meta Tags-->
-  <meta name="title" content="Custom Website Development Company kochi | Codewills by HashRoot">
+  <meta name="title" content="Custom Website Development Company | Codewills by HashRoot">
   <meta name="description"
     content="Codewills is the leading custom website development company that provides the best services for web designing, development and digital marketing. Contact us">
   <meta name="keywords"
-    content="Website Development Company, Custom Website Development Dompany, Website Development Company kochi">
+    content="Website Development Company, Custom Website Development Dompany">
   <!-- Viewport-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Favicon and Touch Icons-->
@@ -500,30 +500,36 @@
 
 
     <!-- Services-->
-    <section class="container pt-5 pt-lg-6">
-      <h2 class="text-center">Our Service Offering</h2>
-      <p class="text-center text-muted mb-0">We offer a wide range of web custom software development services</p>
+    <div class="w-lg-80 mx-auto py-5">
 
-      <!-- Web Dev Service-->
-      <div class="row align-items-center border-bottom py-5">
-        <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto"
-            src="img/homepage/features/website.svg" alt="Web Development"></div>
-        <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
-          <h3 class="h4 mb-4">Website Development</h3>
-          <ul class="list-unstyled">
-            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Dynamic
-                website development using latest technologies </span></li>
-            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>End-to-end
-                business website development</span></li>
-            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Fast & secure
-                eCommerce website development (Magento, WordPress, WooCommerce)</span></li>
-          </ul>
-          <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
-          <p class="pb-1">HTML, CSS, JS</p><a class="fw-medium" href="#">Get a quote<i
-              class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
-        </div>
-      </div>
-    </section>
+      <h2 class="text-center pt-5">Our Service Offering</h2>
+      <p class="text-center text-muted mb-0">We offer wide range of software development services</p>
+    </div>
+
+        <!-- webdev -->
+        <section class="bg-white py-5 py-md-6 py-lg-7">
+          <div class="container py-3 py-lg-4">
+            <div class="row align-items-center">
+              <div class="col-md-6 text-center text-md-start">
+                <h2 class="h1 mb-4">Website Development</h2>
+                <p class="text-muted mb-5">Being a leading software development services company, we have a team of software
+                  engineers who have an expert understanding of the latest mobile technologies such as React
+                  Native, Swift Flutter, Objective-C and much more. We bring in our expertise to develop
+                  innovative and quality software products for clients all over the world. </p>
+                <!-- <div class="d-flex align-items-center justify-content-center justify-content-md-start"><img src="../img/demo/presentation/qrcode.png" alt="QR Code" width="120">
+                            <div class="ps-3 ps-sm-4">
+                              <div class="text-nav text-start" style="max-width: 175px;">Scan QR code to test on your device</div>
+                            </div>
+                          </div> -->
+              </div>
+              <div class="col-md-6 mb-5 mb-md-0">
+                <div class="mx-auto mx-md-0" style="max-width: 525px;"><img class="d-block"
+                    src="./img/homepage/Services/SVG/webdev.svg" alt="Mobile screens"></div>
+              </div>
+            
+            </div>
+          </div>
+        </section>
     <!-- mobileinterface -->
     <section class="bg-secondary py-5 py-md-6 py-lg-7">
       <div class="container py-3 py-lg-4">
@@ -533,8 +539,7 @@
                 src="img/demo/presentation/mobile-screens.jpg" alt="Mobile screens"></div>
           </div>
           <div class="col-md-6 text-center text-md-start">
-            <h2 class="h1 mb-4">Our Technology <span
-                class="bg-faded-primary rounded text-primary px-3 py-2">Expertise</span> </h2>
+            <h2 class="h1 mb-4">Mobile App Development</h2>
             <p class="text-muted mb-5">Being a leading software development services company, we have a team of software
               engineers who have an expert understanding of the latest mobile technologies such as React
               Native, Swift Flutter, Objective-C and much more. We bring in our expertise to develop
@@ -548,65 +553,55 @@
         </div>
       </div>
     </section>
-    <!-- Services-->
-    <section class="container pt-2 pt-lg-3">
-
-
-
-
-      <!-- Mobile Dev Service-->
-      <!-- <div class="row align-items-center border-bottom py-5">
-          <div class="col-md-6 py-3"><img class="d-block mx-auto" src="img/homepage/features/mobile.svg" alt="Mobile Apps Development"></div>
-          <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
-            <h3 class="h4 mb-4">Mobile App Development            </h3>
-            <ul class="list-unstyled">
-              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Native and cross-platform app development </span></li>
-              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Consulting and prototyping services</span></li>
-              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Post-development maintenance and support</span></li>
-            </ul>
-            <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
-            <p class="pb-1">React native, Flutter, Java, Swift</p><a class="fw-medium" href="#">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
+     <!-- webdev -->
+     <section class="bg-white py-5 py-md-6 py-lg-7">
+      <div class="container py-3 py-lg-4">
+        <div class="row align-items-center">
+          <div class="col-md-6 text-center text-md-start">
+            <h2 class="h1 mb-4">Web Application Development</h2>
+            <p class="text-muted mb-5">Being a leading software development services company, we have a team of software
+              engineers who have an expert understanding of the latest mobile technologies such as React
+              Native, Swift Flutter, Objective-C and much more. We bring in our expertise to develop
+              innovative and quality software products for clients all over the world. </p>
+            <!-- <div class="d-flex align-items-center justify-content-center justify-content-md-start"><img src="../img/demo/presentation/qrcode.png" alt="QR Code" width="120">
+                        <div class="ps-3 ps-sm-4">
+                          <div class="text-nav text-start" style="max-width: 175px;">Scan QR code to test on your device</div>
+                        </div>
+                      </div> -->
           </div>
-        </div> -->
-      <!-- Web APP Service-->
-      <div class="row align-items-center border-bottom py-5">
-        <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto"
-            src="img/homepage/features/webapp.svg" alt="Web Development"></div>
-        <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
-          <h3 class="h4 mb-4">Web App Development</h3>
-          <ul class="list-unstyled">
-            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Responsive
-                and multi-page web app development </span></li>
-            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Web interface
-                prototyping and wireframing</span></li>
-            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>. Automated
-                Quality Assurance (QA) proces</span></li>
-          </ul>
-          <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
-          <p class="pb-1">React, Vue, Angular, Node.js</p><a class="fw-medium" href="#">Get a quote<i
-              class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
-        </div>
-      </div>
-      <!-- Digital Marketing-->
-      <div class="row align-items-center border-bottom py-5">
-        <div class="col-md-6 py-3"><img class="d-block mx-auto" src="img/homepage/features/digi.svg"
-            alt="Mobile Apps Development"></div>
-        <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
-          <h3 class="h4 mb-4">Digital Marketing </h3>
-          <ul class="list-unstyled">
-            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Pay-per-click
-                (PPC) management service</span></li>
-            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Content
-                creation and marketing services</span></li>
-            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Search engine
-                optimization and management</span></li>
-          </ul>
-          <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
-          <p class="pb-1">SEO Analysis, SEO Optimization</p><a class="fw-medium" href="#">Get a quote<i
-              class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
+          <div class="col-md-6 mb-5 mb-md-0">
+            <div class="mx-auto mx-md-0" style="max-width: 525px;"><img class="d-block"
+                src="./img/homepage/Services/SVG/webappdev.svg" alt="Mobile screens"></div>
+          </div>
+        
         </div>
       </div>
     </section>
+    <!-- Services-->
+      <!-- mobileinterface -->
+      <section class="bg-secondary py-5 py-md-6 py-lg-7">
+        <div class="container py-3 py-lg-4">
+          <div class="row align-items-center">
+            <div class="col-md-6 mb-5 mb-md-0">
+              <div class="mx-auto mx-md-0" style="max-width: 525px;"><img class="d-block"
+                  src="./img/homepage/Services/SVG/digimar.svg" alt="Mobile screens"></div>
+            </div>
+            <div class="col-md-6 text-center text-md-start">
+              <h2 class="h1 mb-4">Digital Marketing</h2>
+              <p class="text-muted mb-5">Being a leading software development services company, we have a team of software
+                engineers who have an expert understanding of the latest mobile technologies such as React
+                Native, Swift Flutter, Objective-C and much more. We bring in our expertise to develop
+                innovative and quality software products for clients all over the world. </p>
+              <!-- <div class="d-flex align-items-center justify-content-center justify-content-md-start"><img src="../img/demo/presentation/qrcode.png" alt="QR Code" width="120">
+                          <div class="ps-3 ps-sm-4">
+                            <div class="text-nav text-start" style="max-width: 175px;">Scan QR code to test on your device</div>
+                          </div>
+                        </div> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
 
 
 
@@ -660,10 +655,11 @@
     <!-- Pricing -->
     <section class="py-lg-3">
 
-      <div class="container py-3">
-        <div class="d-sm-flex align-items-center justify-content-center text-center text-sm-start">
-          <h3 class="mb-4 mb-sm-2 me-sm-4 pe-sm-2">Pricing Plans</h3>
-        </div>
+      <div class="container py-5">
+   
+        <h2 class="text-center pt-5">Pricing Plans</h2>
+      <p class="text-center text-muted mb-0">Take a look at our cost-effective website development & design plans</p>
+ 
         <div class="row justify-content-center pt-5">
           <div class="col-lg-10">
             <div class="bg-light shadow-lg rounded-3 pt-3 px-4">
@@ -676,7 +672,7 @@
                   </div> -->
                 <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
                   <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
-                    <h3 class="mb-2">Website Design</h3>
+                    <h3 class="mb-2">Website Development </h3>
                     <div class="fs-xs" style="max-width: 10rem;">Find aute irure dolor in reprehenderit in volatek</div>
                   </div>
                   <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4"
@@ -685,7 +681,7 @@
                     <div class="d-flex flex-row w-100 align-items-end">
                       <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
                       <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="29990"
-                        data-new-price="25550">29,990</span>
+                        data-new-price="25550">24,990</span>
                       <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>project</span>
                     </div>
                   </div>
@@ -793,7 +789,7 @@
                     <div class="d-flex flex-row w-100 align-items-end">
                       <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
                       <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="19990"
-                        data-new-price="19550">990</span>
+                        data-new-price="19550">19,990</span>
                       <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>month</span>
                     </div>
                   </div>
@@ -824,15 +820,17 @@
             <h2 class="pb-2 mb-4 text-center text-md-start">Awards</h2>
             <div class="tns-carousel-inner" data-carousel-options="{&quot;nav&quot;: false, &quot;gutter&quot;: 20}">
               <blockquote class="mt-3 mb-0">
-                <img src="./img/awards/svg/IQC-01.svg" alt="" width="200">
-                <h4>INTERNATIONAL QUALITY CROWN AWARD
+              <img src="./img/awards/svg/clutch-01.svg" alt="" width="200">
+                <h4>Clutch Award 2021
                 </h4>
                 <p>
-                  The President of the selection committee for the 27th International IQC Convention informed HashRoot
-                  that it has been awarded the 'International Quality Crown Award (IQC)' on GOLD category at IQC
-                  International Quality Convention, London on November 21-22, 2015. The International Quality Crown
-                  (IQC) London 2015 is organised by BID Group One and Business Initiative Directions (BID).
+                  HashRoot was named to Clutch's annual list of the top 100 IT firms in India for 2021 in a press
+                  release on 23 March 2021 at Washington DC. Clutch is the leading ratings and reviews platform for IT,
+                  Marketing, and Business service providers. Clutch has been recognized by Inc Magazine as one of the
+                  500 fastest-growing companies in the United States and has been listed as a top 50 startup by
+                  LinkedIn.
                 </p>
+                
               </blockquote>
               <blockquote class="mt-3 mb-0">
                 <img src="./img/awards/svg/ccss-01.svg" alt="" width="200">
@@ -844,60 +842,8 @@
                   solutions.
                 </p>
               </blockquote>
-              <blockquote class="mt-3 mb-0">
-                <img src="./img/awards/svg/cool startup-01.svg" alt="" width="200">
-                <h4> 50 Cool Startups
-                </h4>
-                <p>
-                  Silicon India Magazine, a leading business enterprises and industries magazine recognised and featured
-                  HashRoot as the 50 Cool Startups, an annual listing of 500 cool straps of the year represents not only
-                  the glory of 50 startups but also recognises companies impacting the marketplace.
-                </p>
-              </blockquote>
-              <blockquote class="mt-3 mb-0">
-                <img src="./img/awards/svg/CIP-01.svg" alt="" width="200">
-                <h4>International Gold Star Millennium Award
-                </h4>
-                <p>
-                  International Gold Star Millennium Award is presented to HashRoot for Excellence in Promoting Global
-                  Integration and Economic Development by His Excellency Mr. Korn Dabbaransi, Former Dy. Prime Minister
-                  of Thailand, at the International Conference on "Indo-Thai Friendship and Economic Co-operation" on
-                  18th January 2015, Bangkok, Thailand.
+              <blockquote class="mt-3 mb-0">       
 
-                </p>
-              </blockquote>
-              <blockquote class="mt-3 mb-0">
-                <img src="./img/awards/svg/consultants-01.svg" alt="" width="200">
-                <h4>Consultant of the year 2015</h4>
-                <p>HashRoot has been awarded as the Consultant of the Year 2015 by Consultant's Review Magazine in the
-                  domain Infrastructure Management Service for reducing IT Complexities with cutting-edge IT advisory
-                  solutions. Consultant's Review is a platform, which connects both consultants and organizations to
-                  work together for a better output.
-
-                </p>
-              </blockquote>
-              <blockquote class="mt-3 mb-0">
-                <img src="./img/awards/svg/IEDRA-01-01.svg" alt="" width="200">
-                <h4>Fastest growing Indian Company Excellence Award</h4>
-                <p>Indian Economic Development and Research Association (IEDRA) awarded HashRoot as the 'Fastest growing
-                  Indian Company Excellence Award' on the occasion of National Seminar on "Outstanding contribution to
-                  National Development" on Friday 29th August 2014 at New Delhi. IEDRA is a national level organization
-                  which is promoting national economy and social development and holding Award functions for the past 25
-                  years in India and Abroad
-                </p>
-              </blockquote>
-              <blockquote class="mt-3 mb-0">
-                <img src="./img/awards/svg/vmware-01.svg" alt="" width="200">
-                <h4>Most promising VMware Solution Provider
-                </h4>
-                <p>
-                  HashRoot has been listed in the 25 most promising VMware service providers of the year 2016 by CIO
-                  Outlook Magazine, published from Silicon Valley, USA. APAC CIO Outlook magazine stands out with its
-                  learn-from peers approach offering professionals the most comprehensive collection of technology
-                  trends.
-                </p>
-              </blockquote>
-              <blockquote class="mt-3 mb-0">
                 <img src="./img/awards/svg/IAC-01.svg" alt="" width="200">
                 <h4>Global Achievers Award for Business Excellence
                 </h4>
@@ -909,6 +855,31 @@
                 </p>
               </blockquote>
               <blockquote class="mt-3 mb-0">
+              <img src="./img/awards/svg/IEDRA-01-01.svg" alt="" width="200">
+                <h4>Fastest growing Indian Company Excellence Award</h4>
+                <p>Indian Economic Development and Research Association (IEDRA) awarded HashRoot as the 'Fastest growing
+                  Indian Company Excellence Award' on the occasion of National Seminar on "Outstanding contribution to
+                  National Development" on Friday 29th August 2014 at New Delhi. IEDRA is a national level organization
+                  which is promoting national economy and social development and holding Award functions for the past 25
+                  years in India and Abroad
+                </p> 
+              
+              </blockquote>
+              <blockquote class="mt-3 mb-0">
+          
+              <img src="./img/awards/svg/CIP-01.svg" alt="" width="200">
+                <h4>International Gold Star Millennium Award
+                </h4>
+                <p>
+                  International Gold Star Millennium Award is presented to HashRoot for Excellence in Promoting Global
+                  Integration and Economic Development by His Excellency Mr. Korn Dabbaransi, Former Dy. Prime Minister
+                  of Thailand, at the International Conference on "Indo-Thai Friendship and Economic Co-operation" on
+                  18th January 2015, Bangkok, Thailand.
+
+                </p> 
+
+              </blockquote>
+              <blockquote class="mt-3 mb-0">            
                 <img src="./img/awards/svg/bizz.svg" alt="" width="200">
                 <h4>The BIZZ Awards 2019
                 </h4>
@@ -921,15 +892,49 @@
                 </p>
               </blockquote>
               <blockquote class="mt-3 mb-0">
-                <img src="./img/awards/svg/clutch-01.svg" alt="" width="200">
-                <h4>Clutch Award 2021
+                <img src="./img/awards/svg/IQC-01.svg" alt="" width="200">
+                <h4>INTERNATIONAL QUALITY CROWN AWARD
                 </h4>
                 <p>
-                  HashRoot was named to Clutch's annual list of the top 100 IT firms in India for 2021 in a press
-                  release on 23 March 2021 at Washington DC. Clutch is the leading ratings and reviews platform for IT,
-                  Marketing, and Business service providers. Clutch has been recognized by Inc Magazine as one of the
-                  500 fastest-growing companies in the United States and has been listed as a top 50 startup by
-                  LinkedIn.
+                  The President of the selection committee for the 27th International IQC Convention informed HashRoot
+                  that it has been awarded the 'International Quality Crown Award (IQC)' on GOLD category at IQC
+                  International Quality Convention, London on November 21-22, 2015. The International Quality Crown
+                  (IQC) London 2015 is organised by BID Group One and Business Initiative Directions (BID).
+                </p>
+              </blockquote>
+              <blockquote class="mt-3 mb-0">          
+
+
+                <img src="./img/awards/svg/consultants-01.svg" alt="" width="200">
+                <h4>Consultant of the year 2015</h4>
+                <p>HashRoot has been awarded as the Consultant of the Year 2015 by Consultant's Review Magazine in the
+                  domain Infrastructure Management Service for reducing IT Complexities with cutting-edge IT advisory
+                  solutions. Consultant's Review is a platform, which connects both consultants and organizations to
+                  work together for a better output.
+
+                </p>
+              </blockquote>
+              <blockquote class="mt-3 mb-0">
+                
+                <img src="./img/awards/svg/vmware-01.svg" alt="" width="200">
+                <h4>Most promising VMware Solution Provider
+                </h4>
+                <p>
+                  HashRoot has been listed in the 25 most promising VMware service providers of the year 2016 by CIO
+                  Outlook Magazine, published from Silicon Valley, USA. APAC CIO Outlook magazine stands out with its
+                  learn-from peers approach offering professionals the most comprehensive collection of technology
+                  trends.
+                </p>
+              </blockquote>
+              <blockquote class="mt-3 mb-0">              
+
+                <img src="./img/awards/svg/cool startup-01.svg" alt="" width="200">
+                <h4> 50 Cool Startups
+                </h4>
+                <p>
+                  Silicon India Magazine, a leading business enterprises and industries magazine recognised and featured
+                  HashRoot as the 50 Cool Startups, an annual listing of 500 cool straps of the year represents not only
+                  the glory of 50 startups but also recognises companies impacting the marketplace.
                 </p>
               </blockquote>
             </div>
@@ -1186,9 +1191,9 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="d-flex flex-column h-100 rounded-end bg-dark px-4 py-5">
+          <div class="d-flex flex-column h-100 rounded-end bg-gradient-home-slider  px-4 py-5">
             <div class="py-2 mx-auto text-center" style="max-width: 450px;">
-              <h2 class="text-light">Want to get your product developed?
+              <h2 class="text-light">Let's discuss your project
               </h2>
               <p class="text-light mb-4">Request a Call Back
               </p>

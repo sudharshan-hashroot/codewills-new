@@ -506,9 +506,9 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="d-flex flex-column h-100 rounded-end bg-dark px-4 py-5">
+                    <div class="d-flex flex-column h-100 rounded-end bg-gradient-home-slider  px-4 py-5">
                         <div class="py-2 mx-auto text-center" style="max-width: 450px;">
-                            <h2 class="text-light">Want to get your product developed?
+                            <h2 class="text-light">Let's discuss your project
                             </h2>
                             <p class="text-light mb-4">Request a Call Back
                             </p>

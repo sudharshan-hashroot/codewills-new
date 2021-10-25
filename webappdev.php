@@ -7,7 +7,7 @@
   <!-- SEO Meta Tags-->
   <meta name="title" content="Custom Web Application Development Services India | Codewills">
   <meta name="description" content="Codewills, delivers custom web application development services that assist you to design and implement web-based software by adopting new technologies. Call us ">
-  <meta name="keywords" content="Web Application Development Services,  Web Application Development Services India,  Custom Web Application Development Services">
+  <meta name="keywords" content="Web Application Development Services,  Custom Web Application Development Services">
   <!-- Viewport-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Favicon and Touch Icons-->
@@ -484,9 +484,9 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class="d-flex flex-column h-100 rounded-end bg-dark px-4 py-5">
+          <div class="d-flex flex-column h-100 rounded-end bg-gradient-home-slider  px-4 py-5">
             <div class="py-2 mx-auto text-center" style="max-width: 450px;">
-              <h2 class="text-light">Want to get your product developed?
+              <h2 class="text-light">Let's discuss your project
               </h2>
               <p class="text-light mb-4">Request a Call Back
               </p>

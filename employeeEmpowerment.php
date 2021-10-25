@@ -260,7 +260,7 @@
                 <div class="row pt-5">
                     <div class="col-lg-12 col-sm-6 mx-auto mb-grid-gutter">
                         <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
+                            <div class="card-body ps-grid-gutter pe-grid-gutter text-left">
                                 <ul class="list-unstyled">
                                     <li class="d-flex mb-2 pb-1"><i
                                             class="ai-check-circle text-success fs-xl mt-1 me-3"></i>
@@ -480,9 +480,9 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="d-flex flex-column h-100 rounded-end bg-dark px-4 py-5">
+                    <div class="d-flex flex-column h-100 rounded-end bg-gradient-home-slider  px-4 py-5">
                         <div class="py-2 mx-auto text-center" style="max-width: 450px;">
-                            <h2 class="text-light">Want to get your product developed?
+                            <h2 class="text-light">Let's discuss your project
                             </h2>
                             <p class="text-light mb-4">Request a Call Back
                             </p>
