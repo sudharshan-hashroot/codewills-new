@@ -3,11 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <title>CodeWills</title>
+  <title>Custom Website Design Services India | Codewills</title>
   <!-- SEO Meta Tags-->
-  <meta name="robots" content="noindex">
-  <meta name="description" content="CodeWills">
-  <meta name="keywords" content="CodeWills">
+  <meta name="title" content="Custom Website Design Services India | Codewills">
+  <meta name="description" content="Codewills, offers custom design website services for global clients. We design user-friendly and responsive websites that suit your business needs. Reach us  ">
+  <meta name="keywords" content="Website Design Services,Website Design Services India,Custom Website Design Services">
   <!-- Viewport-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Favicon and Touch Icons-->
@@ -26,7 +26,13 @@
           #924cef 30%,
           #ff7777 100%);
     }
-
+.invalid-feedback1 {
+       display: none;
+       width: 100%;
+       margin-top: 0.375rem;
+       font-size: 0.75rem;
+       color: #f74f78;
+      }
     .grayfilter {
       filter: grayscale(1) opacity(.6);
     }
@@ -130,11 +136,7 @@
       };
     })();
 
-    $(function () {
-      $("#header").load("header.html");
-      $("#signinmodal").load("signinmodal.html");
-      $("#footer").load("footer.html");
-    });
+    
 
 
   </script>
@@ -155,8 +157,8 @@
     </div>
   </div>
   <main class="page-wrapper">
-    <div id="signinmodal"></div>
-    <header id="header" class="header"></header>
+    <?php include("signinmodal.php"); ?>
+    <?php include("header.php"); ?>
     <!-- Page content-->
     <!-- Hero with parallax effect-->
     <section class="position-relative">
@@ -166,8 +168,8 @@
           <div class="col-lg-7 col-md-7 order-md-2 overflow-hidden">
             <div class="parallax me-n7 me-md-0" style="max-width: 1030px;"><img class="d-block"
                 src="img/demo/marketing-seo/hero/lines.png" alt="Lines">
-              <div class="parallax-layer" style="z-index: 2;" data-depth="0.13"><img
-                  src="img/services/webapp development.webp" alt="Image"></div>
+              <div class="parallax-layer" style="z-index: 2;" data-depth="0.13"><img src="img/services/Web design.webp"
+                  alt="Image"></div>
               <div class="parallax-layer" style="z-index: 3;" data-depth="0.25"><img
                   src="img/demo/marketing-seo/hero/shape-1.png" alt="Badge"></div>
               <div class="parallax-layer" data-depth="0.2"><img src="img/demo/marketing-seo/hero/shape-1.png"
@@ -180,8 +182,8 @@
           </div>
           <div class="col-lg-5 col-md-5 pt-4 pb-5 py-md-5">
             <div class="mx-auto me-lg-4 ps-xl-3 order-md-1 text-center text-md-start" style="max-width: 420px;">
-              <h1 class="text-light mb-3">Custom Web Application Development Services</h1>
-              <p class="text-light fs-lg">Get your web application designed and developed by experts at CodeWills</p>
+              <h1 class="text-light mb-3">Top Website Design Services</h1>
+              <p class="text-light fs-lg">Craft a visually appealing website design for your business</p>
               <div class="d-flex align-items-center justify-content-center justify-content-md-start pb-3 pb-xl-5 mb-5">
                 <a class="btn btn-light me-4" href="#">Explore Features</a>
                 <!-- <div class="d-flex align-items-center">
@@ -229,9 +231,9 @@
     <section class="container py-5 py-md-6 py-lg-7">
       <div class="row align-items-center mt-3 mt-md-0">
         <div class="col-lg-4 col-md-5 order-md-2 text-center text-md-start mb-5 mb-md-0">
-          <h2 class="mb-3">Our Web Application Development Services</h2>
-          <p class="text-muted mb-4 pb-2">We design and develop custom, robust, and scalable web applications based on
-            the unique needs and requirements of our customers.</p>
+          <h2 class="mb-3">Our Website Design Services Offerings</h2>
+          <p class="text-muted mb-4 pb-2">Our world-class designers, with their in-depth understanding of UI and UX,
+            craft designs that offers a delightful and unique user experience all throughout the user journey.</p>
           <a class="btn btn-primary" href="#">Get Started</a>
         </div>
         <div class="col-lg-8 col-md-7 order-md-1 bg-position-start-bottom bg-repeat-0"
@@ -242,34 +244,22 @@
                 <div class="bg-light shadow-lg rounded-3 p-4 mb-grid-gutter text-center text-sm-start"><img
                     class="d-inline-block mb-4 mt-2" src="img/demo/business-consulting/services/01.svg" alt="Icon"
                     width="100">
-                  <h3 class="h5 mb-2">Single-Page Applications</h3>
-                  <p class="fs-sm">Make use of our web application development services to easily build a private
-                    dashboard or a form-intensive application.</p>
+                  <h3 class="h5 mb-2">Web Interface Design</h3>
+                  <p class="fs-sm">Our team of UI UX designers have got all the capabilities to structure and design a
+                    website that not only looks visually appealing, but also offers a great overall user experience.</p>
                 </div>
-                <div class="bg-light shadow-lg rounded-3 p-4 mb-grid-gutter text-center text-sm-start"><img
-                    class="d-inline-block mb-4 mt-2" src="img/demo/business-consulting/services/02.svg" alt="Icon"
-                    width="100">
-                  <h3 class="h5 mb-2">Progressive Web Apps (PWA) </h3>
-                  <p class="fs-sm">We make use of the progressive enhancement principle to design and develop web
-                    applications that are fully responsive and ensure seamless performance. </p>
-                </div>
+
 
               </div>
               <div class="col-sm-6">
                 <div class="bg-light shadow-lg rounded-3 p-4 mb-grid-gutter text-center text-sm-start"><img
-                    class="d-inline-block mb-4 mt-2" src="img/demo/business-consulting/services/04.svg" alt="Icon"
+                    class="d-inline-block mb-4 mt-2" src="img/demo/business-consulting/services/02.svg" alt="Icon"
                     width="100">
-                  <h3 class="h5 mb-2">Web Portal Apps</h3>
-                  <p class="fs-sm">Being a leading custom web application development company, we offer B2B and B2C web
-                    portal development services to customers.</p>
+                  <h3 class="h5 mb-2">UX Optimization </h3>
+                  <p class="fs-sm">Our team of experts can ensure your website is completely optimized to offer amazing
+                    user experience irrespective of the platform or device. </p>
                 </div>
-                <div class="bg-light shadow-lg rounded-3 p-4 mb-grid-gutter text-center text-sm-start"><img
-                    class="d-inline-block mb-4 mt-2" src="img/demo/business-consulting/services/03.svg" alt="Icon"
-                    width="100">
-                  <h3 class="h5 mb-2">eCommerce Web Apps</h3>
-                  <p class="fs-sm">We design and develop fully functional and customized eCommerce web applications in a
-                    minimum time span.</p>
-                </div>
+
               </div>
             </div>
           </div>
@@ -281,22 +271,20 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-5 mt-3 mt-md-0 py-5 py-md-0">
-            <h2 class="pb-2 text-center text-md-start">Develop Custom Web Applications from Scratch</h2>
-            <p class="pb-2 text-center text-md-start">We convert your ideas and requirements into a fully functional,
-              feature-rich web application that runs across all devices.</p>
+            <h2 class="pb-2 text-center text-md-start">Top-Notch Website Design Services at a Competitive Price</h2>
+            <p class="pb-2 text-center text-md-start">Design an aesthetically pleasing and engaging web and mobile app
+              interface for your business. </p>
             <ul class="list-unstyled fs-sm pb-1 d-table mx-auto mx-md-0">
-              <li class="d-flex mb-2"><i class="ai-check-circle text-success fs-lg me-3"></i><span>Cross-platform
-                  Compatible </span></li>
-              <li class="d-flex mb-2"><i class="ai-check-circle text-success fs-lg me-3"></i><span>Smooth
-                  Integration</span></li>
-              <li class="d-flex mb-2"><i class="ai-check-circle text-success fs-lg me-3"></i><span>Attractive
-                  User-Interface</span></li>
-              <li class="d-flex mb-2"><i class="ai-check-circle text-success fs-lg me-3"></i><span>Search Engine
-                  Optimization</span></li>
-              <li class="d-flex mb-2"><i class="ai-check-circle text-success fs-lg me-3"></i><span>Push
-                  Notifications</span></li>
-              <li class="d-flex mb-2"><i class="ai-check-circle text-success fs-lg me-3"></i><span>Database
-                  Integration</span></li>
+              <li class="d-flex mb-2"><i class="ai-check-circle text-success fs-lg me-3"></i><span>Sitemaps</span></li>
+              <li class="d-flex mb-2"><i class="ai-check-circle text-success fs-lg me-3"></i><span>Wire-frames</span>
+              </li>
+              <li class="d-flex mb-2"><i class="ai-check-circle text-success fs-lg me-3"></i><span>Branding</span></li>
+              <li class="d-flex mb-2"><i class="ai-check-circle text-success fs-lg me-3"></i><span>Graphic
+                  Designing</span></li>
+              <li class="d-flex mb-2"><i class="ai-check-circle text-success fs-lg me-3"></i><span>User Testing</span>
+              </li>
+
+
             </ul>
             <!-- <div class="text-center text-md-start"><a class="fw-medium" href="#">
                 Learn more
@@ -322,38 +310,40 @@
       <div class="position-absolute top-0 start-0 w-100 h-100 bg-size-cover"
         style="background-image: url(img/demo/booking/bg-pattern01.png);"></div>
       <div class="position-relative zindex-5 container py-2">
-        <h2 class="mb-5 text-center text-light">Web Application Development Process Flow</h2>
+        <h2 class="mb-5 text-center text-light">Our Approach to UI UX Designing</h2>
         <div class="row align-items-center">
 
           <div class="col-lg-12 order-lg-1">
             <div class="d-flex flex-wrap justify-content-around">
               <div class="px-2 text-center flexboxy">
                 <h3><i class="bg-light text-primary  ai-search rounded-circle mb-2" style="padding: 2rem;"></i></h3>
-                <h5 class=" text-light pt-1"> Requirement Analysis </h5>
-                <small>Identify and gather all the information related to the project and business, based on which the
-                  application is designed and developed.</small>
+                <h5 class=" text-light pt-1"> Research </h5>
+                <small>Research forms the most valuable and crucial part of the designing phase where the Designers
+                  carry out a detailed study to understand the market trends and industry standards.</small>
+              </div>
+              <div class="px-2 text-center flexboxy">
+                <h3><i class="bg-light text-primary  ai-pie-chart rounded-circle mb-2" style="padding: 2rem;"></i></h3>
+                <h5 class=" text-light pt-1">Analysis </h5>
+                <small>All the collected data will be analyzed to create user personas, journey maps, and storyboards
+                  which will be useful for designers while designing the interface. </small>
               </div>
               <div class="px-2 text-center flexboxy">
                 <h3><i class="bg-light text-primary  ai-pen-tool rounded-circle mb-2" style="padding: 2rem;"></i></h3>
-                <h5 class=" text-light pt-1">Planning and Design </h5>
-                <small>Design the structure of the web app by creating wireframes, sitemap and app layouts.</small>
+                <h5 class=" text-light pt-1"> Design </h5>
+                <small>Designers create design specifications that can later be used by developers during the
+                  development phase. Creating sitemaps, wire frames, prototypes, etc. comes under this phase. </small>
               </div>
               <div class="px-2 text-center flexboxy">
-                <h3><i class="bg-light text-primary  ai-code rounded-circle mb-2" style="padding: 2rem;"></i></h3>
-                <h5 class=" text-light pt-1"> Development </h5>
-                <small>Back-end and front-end developers converts the design ideas in to a fully functional and
-                  responsive web application.</small>
-              </div>
-              <div class="px-2 text-center flexboxy">
-                <h3><i class="bg-light text-primary  ai-monitor rounded-circle mb-2" style="padding: 2rem;"></i></h3>
-                <h5 class=" text-light pt-1"> Testing </h5>
-                <small>A well structure QA strategy helps to ensure the quality of application before the
-                  launch.</small>
+                <h3><i class="bg-light text-primary  ai-lock rounded-circle mb-2" style="padding: 2rem;"></i></h3>
+                <h5 class=" text-light pt-1"> Validation </h5>
+                <small>The overall quality of the design is ensured. With a series of testing procedures, the QA team
+                  will ensure the quality of the design. </small>
               </div>
               <div class="px-2 text-center flexboxy">
                 <h3><i class="bg-light text-primary  ai-zap rounded-circle mb-2" style="padding: 2rem;"></i></h3>
-                <h5 class=" text-light pt-1"> Deployment </h5>
-                <small>Launching the application and making it run and operate in its real environment.</small>
+                <h5 class=" text-light pt-1"> Implement </h5>
+                <small>Design is passed onto the development team to create fully functional and responsive applications
+                  or websites.</small>
               </div>
 
 
@@ -369,68 +359,49 @@
 
     <!-- features -->
     <section class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
-      <h2 class="mb-5 text-center">Why Choose Our Website Development Services?</h2>
+      <h2 class="mb-5 text-center">Why Choose Our Website Design Services?</h2>
       <div class="row">
-        <div class="col-lg-4 col-sm-6 mb-grid-gutter">
-          <div class="card h-100 border-0 shadow card-hover">
-            <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
-                class="ai-user-check h2 text-primary mt-2 mb-4"></i>
-              <h3 class="h5">Talented Web Application Developers</h3>
-              <p class="fs-sm text-body">Our team of web app developers are highly talented in creating fast, responsive
-                and cross-platform compatible web applications.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+        <div class="col-lg-6 col-sm-6 mb-grid-gutter">
           <div class="card h-100 border-0 shadow card-hover">
             <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                 class="ai-dollar-sign h2 text-primary mt-2 mb-4"></i>
-              <h3 class="h5">Cost-Effective Service</h3>
-              <p class="fs-sm text-body">We offer web application development services to our customers at a really
-                competitive and affordable price.</p>
+              <h3 class="h5">Competitive Pricing</h3>
+              <p class="fs-sm text-body">We offer user-friendly, interactive, and visually appealing website design
+                services at a competitive price.</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+        <div class="col-lg-6 col-sm-6 mb-grid-gutter">
           <div class="card h-100 border-0 shadow card-hover">
             <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
-                class="ai-lock h2 text-primary mt-2 mb-4"></i>
-              <h3 class="h5">Highly Secure</h3>
-              <p class="fs-sm text-body">We develop web applications that are secure and keep your data protected from
-                outside attackers.</p>
+                class="ai-layers h2 text-primary mt-2 mb-4"></i>
+              <h3 class="h5">Creative and Innovative </h3>
+              <p class="fs-sm text-body">Our designers create highly innovative website and app layouts that enhance
+                user experiences and improves customer retention.</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+        <div class="col-lg-6 col-sm-6 mb-grid-gutter">
           <div class="card h-100 border-0 shadow card-hover">
             <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
-                class="ai-zap h2 text-primary mt-2 mb-4"></i>
-              <h3 class="h5">Quick Response</h3>
-              <p class="fs-sm text-body">Our professionals will be available 24/7 to provide quick support in case of
-                any emergencies, queries or concerns. </p>
+                class="ai-calendar h2 text-primary mt-2 mb-4"></i>
+              <h3 class="h5">Time-bound Projects</h3>
+              <p class="fs-sm text-body">We offer time-bound app and website designing services in which our designers
+                get the work done within the specified time.</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+        <div class="col-lg-6 col-sm-6 mb-grid-gutter">
           <div class="card h-100 border-0 shadow card-hover">
             <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
-                class="ai-code h2 text-primary mt-2 mb-4"></i>
-              <h3 class="h5">Clean Coding Practice</h3>
-              <p class="fs-sm text-body">We follow clean coding practices by which we make sure to writes codes that are
-                easy to understand, change, and are bug-free.</p>
+                class="ai-user-check h2 text-primary mt-2 mb-4"></i>
+              <h3 class="h5">Experienced Professionals</h3>
+              <p class="fs-sm text-body">Our highly experienced team of designers’ craft beautiful and engaging UI
+                designs that are bound to attract the right audience. </p>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-sm-6 mb-grid-gutter">
-          <div class="card h-100 border-0 shadow card-hover">
-            <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
-                class="ai-settings h2 text-primary mt-2 mb-4"></i>
-              <h3 class="h5">Efficient Methodologies</h3>
-              <p class="fs-sm text-body">We follow the latest development methodologies to develop web applications that
-                are highly secure and bug-free.</p>
-            </div>
-          </div>
-        </div>
+
 
 
 
@@ -449,65 +420,20 @@
             </div>
           </div>
           <div class="col-xl-5 col-lg-6 offset-lg-1 text-center text-lg-start">
-            <h2>Building applications that offer phenomenal user experiences </h2>
-            <p class="mb-0">At Codewills we offer full-stack web application development services to businesses of all
-              scales. Using latest technology our web app developers design and develop custom, robust, and scalable web
-              applications based on the unique needs and requirements of our customers. From single-page web
-              applications to progressive web apps, we provide you with the best solutions that add value to your
-              customers and drive your business growth.
+            <h2>Website design Services of the highest quality </h2>
+            <p class="mb-0">Being a full-service web and mobile app design company, we make use of a wide range of
+              designing tools such as Adobe XD, Figma, Zeplin and much more to create a visually stunning website and
+              app designs for businesses of all verticals. We ensure to keep you satisfied by providing the highest
+              quality of designing services that help improve your brand presence online.
             </p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Other Services -->
-    <section class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
-      <h2 class="mb-5 text-center">Other Services</h2>
-      <div class="row">
-        <div class="col-lg-6 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover"
-            href="help-single-topic.html">
-            <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
-                class="ai-tv h2 text-primary mt-2 mb-4"></i>
-              <h3 class="h5">Website Development</h3>
-              <p class="fs-sm text-body">We provide full-cycle website development services for your company using the
-                most cutting-edge technology while remaining cost-effective.</p>
-              <div class="btn btn-translucent-primary btn-sm mb-2">Read more</div>
-            </div>
-          </a></div>
-        <div class="col-lg-6 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover"
-            href="help-single-topic.html">
-            <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
-                class="ai-smartphone  h2 text-primary mt-2 mb-4"></i>
-              <h3 class="h5">Mobile App Development</h3>
-              <p class="fs-sm text-body">Build Mobile Apps with us. We ensure your mobile app functions flawlessly
-                across all platforms and operating systems: smartphone, tablet, laptop, iOS or Android e.t.c</p>
-              <div class="btn btn-translucent-primary btn-sm mb-2">Read more</div>
-            </div>
-          </a></div>
-        <div class="col-lg-6 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover"
-            href="help-single-topic.html">
-            <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
-                class="ai-cast h2 text-primary mt-2 mb-4"></i>
-              <h3 class="h5">Website Designing</h3>
-              <p class="fs-sm text-body">Get access to our dedicated team of web designing services to assist you in
-                developing a responsive and user-friendly website.</p>
-              <div class="btn btn-translucent-primary btn-sm mb-2">Read more</div>
-            </div>
-          </a></div>
-        <div class="col-lg-6 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover"
-            href="help-single-topic.html">
-            <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
-                class="ai-globe h2 text-primary mt-2 mb-4"></i>
-              <h3 class="h5">Digital Marketing</h3>
-              <p class="fs-sm text-body">Enhance your business reach by marketing your brand every minute of every day
-                at a low price with the assistance of our Digital Marketing Services.</p>
-              <div class="btn btn-translucent-primary btn-sm mb-2">Read more</div>
-            </div>
-          </a></div>
 
-      </div>
-    </section>
+    <!-- Other Services -->
+    <?php include("otherservices.php"); ?>
 
     <!-- ctasection -->
     <section class="container py-5 py-md-6 py-lg-7">
@@ -545,68 +471,14 @@
       </div>
     </section>
     <!-- form -->
-    <section class=" bg-secondary pt-5 pt-md-6 pt-lg-7">
-      <div class="container py-3 pt-md-0">
-        <div class="row pb-2 pb-md-5">
-          <form class="col-xl-6 col-lg-7 col-md-7 needs-validation mb-5" novalidate="">
-            <h2 class="pb-4">What project are you looking for?</h2>
-            <h3 class="h6 pb-2">Services</h3>
-            <div class="btn-group-toggle pb-3 mb-3" data-bs-toggle="buttons">
-              <label class="btn btn-outline-primary me-2 mb-2 active">
-                <input class="visually-hidden" type="radio" name="services" id="branding" checked="">Web Design
-              </label>
-              <label class="btn btn-outline-primary me-2 mb-2">
-                <input class="visually-hidden" type="radio" name="services" id="ux">Web Application
-              </label>
-              <label class="btn btn-outline-primary me-2 mb-2">
-                <input class="visually-hidden" type="radio" name="services" id="illustration">eCommerce Development
-              </label>
-              <label class="btn btn-outline-primary mb-2">
-                <input class="visually-hidden" type="radio" name="services" id="motion">Mobile Application
-              </label>
-              <label class="btn btn-outline-primary mb-2">
-                <input class="visually-hidden" type="radio" name="services" id="motion">Digital Marketing
-              </label>
-            </div>
-            <div class="input-group mb-3"><i
-                class="ai-user position-absolute top-50 start-0 translate-middle-y ms-3"></i>
-              <input class="form-control rounded" type="text" placeholder="Name" required="">
-            </div>
-            <div class="input-group mb-3"><i
-                class="ai-mail position-absolute top-50 start-0 translate-middle-y ms-3"></i>
-              <input class="form-control rounded" type="email" placeholder="Email" required="">
-            </div>
-            <div class="mb-3 pb-1">
-              <textarea class="form-control" rows="4" placeholder="Project description" required=""></textarea>
-            </div>
-            <div class="row pt-2">
-              <div class="col-lg-6 col-md-8">
-                <button class="btn btn-primary btn-block" type="submit">Send Request</button>
-              </div>
-            </div>
-          </form>
-          <div class="col-xl-3 col-lg-4 offset-xl-3 offset-lg-1 col-md-5 mb-5">
-            <h2 class="pb-2">Contacts</h2>
-            <ul class="list-unstyled fs-sm mb-4 pb-2">
-              <li><a class="nav-link-style" href="mailto:contact@example.com">contact@example.com</a></li>
-              <li><a class="nav-link-style" href="tel:+15262200459">+91 9778426320</a></li>
-            </ul>
-            <h3 class="h6 pb-2">Or connect with us on:</h3><a class="btn-social bs-outline bs-facebook bs-lg me-2 mb-2"
-              href="#"><i class="ai-facebook"></i></a><a class="btn-social bs-outline bs-twitter bs-lg me-2 mb-2"
-              href="#"><i class="ai-twitter"></i></a><a class="btn-social bs-outline bs-instagram bs-lg me-2 mb-2"
-              href="#"><i class="ai-instagram"></i></a><a class="btn-social bs-outline bs-dribbble bs-lg me-2 mb-2"
-              href="#"><i class="ai-dribbble"></i></a><a class="btn-social bs-outline bs-behance bs-lg me-2 mb-2"
-              href="#"><i class="ai-behance"></i></a>
-          </div>
-        </div>
-      </div>
-    </section>
+    <?php  include("./enquiry.php"); ?>
+
 
 
 
   </main>
   <!-- Footer-->
-  <div id="footer"></div>
+  <?php include("footer.php"); ?>
   <!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll data-fixed-element><span
       class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon ai-arrow-up">
     </i></a>

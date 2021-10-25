@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CodeWills</title>
-    <meta name="robots" content="noindex">
+    <title>Message From CEO | Codewills </title>
     <!-- SEO Meta Tags-->
-    <meta name="description" content="CodeWills">
+    <meta name="title" content="Message From CEO | Codewills">
+    <meta name="description" content="Enhance your business with our expanded and cost-effective facilities that brings digital transformations to take your business to the next level">
     <meta name="keywords" content="CodeWills">
     <!-- Viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -128,9 +128,9 @@
         })();
 
         $(function () {
-            $("#header").load("header.html");
-            $("#signinmodal").load("signinmodal.html");
-            $("#footer").load("footer.html");
+            $("#header").load("header.php");
+            $("#signinmodal").load("signinmodal.php");
+            $("#footer").load("footer.php");
         });
 
 
@@ -153,8 +153,8 @@
         </div>
     </div>
     <main class="page-wrapper">
-        <div id="signinmodal"></div>
-        <header id="header" class="header"></header>
+        <?php include("signinmodal.php"); ?>
+        <?php include("header.php"); ?>
         <!-- Enquirenow Modal -->
         <div class="modal fade" id="modal-enquirenow" tabindex="-1">
             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -361,7 +361,7 @@
 
 
     </main>
-    <div id="footer"></div>
+    <?php include("footer.php"); ?>
     <!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll data-fixed-element><span
             class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon ai-arrow-up">
         </i></a>

@@ -19,10 +19,10 @@
         </div>
       </div>
     </div>
-    <div class="navbar navbar-expand-lg navbar-light bg-light navbar-shadow navbar-sticky" data-scroll-header="" data-fixed-element="">
+    <div class="navbar navbar-expand-lg navbar-light bg-light navbar-shadow navbar-sticky" data-scroll-header="" data-fixed-element="" style="z-index:999999">
      
       <div class="container px-0 px-xl-3">
-        <button class="navbar-toggler ms-n2 me-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#primaryMenu"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand flex-shrink-0 order-lg-1 mx-auto ms-lg-0 pe-lg-2 me-lg-4" href="index.html"><img class="d-none d-lg-block" src="img/logo/logo-dark.svg" alt="Around" width="153"><img class="d-lg-none" src="img/logo/logo-icon.svg" alt="Around" width="58"></a>
+        <button class="navbar-toggler ms-n2 me-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#primaryMenu"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand flex-shrink-0 order-lg-1 mx-auto ms-lg-0 pe-lg-2 me-lg-4" href="/index.php"><img class="d-none d-lg-block" src="img/logo/logo-dark.svg" alt="Around" width="153"><img class="d-lg-none" src="img/logo/logo-icon.svg" alt="Around" width="58"></a>
         <div class="d-flex align-items-center order-lg-3 ms-lg-auto"><a class="nav-link-style fs-sm text-nowrap" href="#modal-signin" data-bs-toggle="modal" data-view="#modal-signin-view"><i class="ai-user fs-xl me-2 align-middle"></i>Sign in</a><a class="btn btn-primary ms-grid-gutter d-none d-lg-inline-block" href="#modal-signin" data-bs-toggle="modal" data-view="#modal-signup-view">Sign up</a></div>
         <div class="offcanvas offcanvas-collapse order-lg-2" id="primaryMenu">
           <div class="offcanvas-header navbar-shadow">
@@ -33,35 +33,35 @@
             <!-- Menu-->
             <ul class="navbar-nav">
            
-              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Our Services</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="webdesign.html">
+                  <li><a class="dropdown-item" href="webdesign.php">
                     <div class="d-flex align-items-center">
                       <div class="fs-xl text-muted"><i class="ai-pen-tool"></i></div>
                       <div class="ps-3"><span class="d-block text-heading">Website Designing</span><small class="d-block text-muted">Kick-start customization</small></div>
                     </div></a></li>
                     <li class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="webdev.html">
+                  <li><a class="dropdown-item" href="webdev.php">
                       <div class="d-flex align-items-center">
                         <div class="fs-xl text-muted"><i class="ai-monitor"></i></div>
                         <div class="ps-3"><span class="d-block text-heading">Website Development</span><small class="d-block text-muted">Kick-start customization</small></div>
                       </div></a></li>
                   <li class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="mobileappdev.html">
+                  <li><a class="dropdown-item" href="mobileappdev.php">
                       <div class="d-flex align-items-center">
                         <div class="fs-xl text-muted"><i class="ai-layers"></i></div>
                         <div class="ps-3"><span class="d-block text-heading">Mobile App Development</span><small class="d-block text-muted">Flexible components</small></div>
                       </div></a></li>
                   <li class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="webappdev.html">
+                  <li><a class="dropdown-item" href="webappdev.php">
                       <div class="d-flex align-items-center">
                         <div class="fs-xl text-muted"><i class="ai-grid"></i></div>
                         <div class="ps-3"><span class="d-block text-heading">Web App Development</span><small class="d-block text-muted">Regular updates</small></div>
                       </div></a></li>
                   <li class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="digitalmarketing.html">
+                  <li><a class="dropdown-item" href="digitalmarketing.php">
                       <div class="d-flex align-items-center">
                         <div class="fs-xl text-muted"><i class="ai-pie-chart"></i></div>
                         <div class="ps-3"><span class="d-block text-heading">Digital Marketing</span><small class="d-block text-muted">Flexible component</small></div>
@@ -70,7 +70,7 @@
               </li>
               <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
               <!-- <li class="nav-item"><a class="nav-link" href="careers.html">Careers</a></li> -->
-              <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
             </ul>
           </div>
           <div class="offcanvas-footer border-top"><a class="btn btn-translucent-primary d-block w-100" href="#modal-signin" data-bs-toggle="modal" data-view="#modal-signin-view"><i class="ai-user fs-lg me-2"></i>Sign in</a></div>

@@ -101,9 +101,9 @@
         })();
      
           $(function() {
-              $("#header").load("header.html");
-              $("#signinmodal").load("signinmodal.html");
-              $("#footer").load("footer.html");
+              $("#header").load("header.php");
+              $("#signinmodal").load("signinmodal.php");
+              $("#footer").load("footer.php");
           });
   
         
@@ -125,8 +125,8 @@
     </div>
     <main class="page-wrapper">
       <!-- Sign In Modal-->
-      <div id="signinmodal"></div>
-      <header id="header" class="header"></header>
+      <?php include("signinmodal.php"); ?>
+      <?php include("header.php"); ?>
       <!-- Page content-->
       <!-- Hero-->
       <section class="position-relative bg-faded-primary pt-7 pb-5 pb-md-6 pb-lg-7 overflow-hidden">
@@ -292,7 +292,7 @@
 </section>
     </main>
     <!-- Footer-->
-<div id="footer"></div>
+<?php include("footer.php"); ?>
     <!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll data-fixed-element><span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon ai-arrow-up">   </i></a>
     <!-- Vendor scrits: js libraries and plugins-->
     <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

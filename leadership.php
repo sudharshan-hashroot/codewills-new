@@ -79,11 +79,6 @@
             color: #737491;
         }
 
-        a.disabled {
-            pointer-events: none;
-            cursor: default;
-        }
-
         .page-spinner {
             display: inline-block;
             width: 2.75rem;
@@ -133,9 +128,9 @@
         })();
 
         $(function () {
-            $("#header").load("header.html");
-            $("#signinmodal").load("signinmodal.html");
-            $("#footer").load("footer.html");
+            $("#header").load("header.php");
+            $("#signinmodal").load("signinmodal.php");
+            $("#footer").load("footer.php");
         });
 
 
@@ -158,8 +153,8 @@
         </div>
     </div>
     <main class="page-wrapper">
-        <div id="signinmodal"></div>
-        <header id="header" class="header"></header>
+        <?php include("signinmodal.php"); ?>
+        <?php include("header.php"); ?>
         <!-- Enquirenow Modal -->
         <div class="modal fade" id="modal-enquirenow" tabindex="-1">
             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -216,17 +211,14 @@
 
         <section class="jarallax bg-gradient pt-5 pb-7 pt-md-7" data-jarallax data-speed="0.25"><span
                 class="position-absolute top-0 start-0 w-100 h-100 bg-gradient opacity-80"></span>
-            <div class="jarallax-img" style="background-image: url(img/company_banner/empowerment\ of\ employees.jpg);">
-            </div>
+            <div class="jarallax-img" style="background-image: url(img/company_banner/Leadership.jpg);"></div>
             <div class="container position-relative zindex-5 pt-3 pb-3 pt-md-0">
                 <div class="text-center py-md-5">
                     <div class="text-center pt-2 mb-n3">
-                        <h1 class="text-light">Empowerment of Employees</h1>
+                        <h1 class="text-light">Meet the Leaders of CodeWills</h1>
                         <p class="text-light">
-                            Hire for attitude and train for skills!
-                            Our belief is that if you get the culture right, most of the other stuff, like great
-                            customer service, or building a great long-term brand or empowering passionate employees and
-                            customers, will happen on its own.
+                            An innovative and collective group of like-minded folks making useful and enduring
+                            technology products.
                         </p>
                     </div>
                 </div>
@@ -235,230 +227,191 @@
 
         <!-- clients -->
 
-        <!-- corevalues -->
-        <section class="bg-secondary">
-            <div class="container  mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
-                <p class="text-center">
-                    CodeWills makes people feel valued by involving them in decision-making, asking them to participate
-                    in the planning process, praising them, and continually providing adequate training and support.
-                    This gives our employees the opportunity to contribute towards company's overall success. When we
-                    allow our employees to think independently and assist the company, they will respond with increased
-                    work effort and greater efficiency. Our team is our Strength also our Reflection. We have attained
-                    an edge over corporate competitiveness through various functional, technological and integrated
-                    skills of our human talent. Every member in our team is well educated about their core
-                    responsibilities, possess high intellectual disciplines, are updated on latest technology, have good
-                    product knowledge and are service oriented individuals who work together towards a common business
-                    goal.
-                </p>
+        <section class="bg-secondary py-5 py-md-6 py-lg-7">
+            <div class="container py-3 py-lg-4">
+                <div class="row align-items-center">
+                    <div class="col-md-6 mb-5 mb-md-0">
+                        <div class="mx-auto mx-md-0" style="max-width: 350px;"><img class="d-block"
+                                src="https://www.hashroot.com/assets/img/hashroot-ceo/anees-hashroot-ceo.jpg"
+                                alt="Mobile screens"></div>
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        <h2 class="h3 mb-4">Anees T</h2>
+                        <h2 class="h5 mb-4 text-body">Founder & CEO</h2>
+                        <p class="text-muted mb-5">
+                            Anees T is focused on strengthening strategic partnerships with clients, exploring new
+                            verticals, making high-quality investing decisions to advance business, increasing client
+                            relevance, and evolving the company's business model towards achieving CodeWill's
+                            aspirations of becoming the next generation technology partner. Anees have more than 12
+                            years of experience and hold a bachelor's degree in computer science and engineering from
+                            Government Engineering College, Palakkad. He is also the co-founder of Hugues London Ltd
+                            (UK), Noanz Enterprises (India), Founder & CEO of HashRoot, President of ServerAdminz Ltd,
+                            and Founder of The HUBE (IN).
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section>
-            <div class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
-                <h1 class="h2 text-center">CodeWills Team</h1>
-                <div class="row pt-5">
-                    <div class="col-lg-12 col-sm-6 mx-auto mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
-                                <ul class="list-unstyled">
-                                    <li class="d-flex mb-2 pb-1"><i
-                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>
-                                        A team that continuously strives to improve team efficiency, which reduces the
-                                        clinical errors.
-                                    </li>
-                                    <li class="d-flex mb-2 pb-1"><i
-                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>
-                                        A team that rises together and delivers the best in performance, knowledge and
-                                        attitude.
-                                    </li>
-                                    <li class="d-flex mb-2 pb-1"><i
-                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>
-                                        A team that motivates each other and makes team members join hands to work
-                                        together and gain collaborative results, this in turn improves quality of the
-                                        product and services.
-                                    </li>
-                                    <li class="d-flex mb-2 pb-1"><i
-                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>
-                                        A team, which resolves issues by common understanding on diverging interests
-                                        which reduces employee retention.
-                                    </li>
-                                    <li class="d-flex mb-2 pb-1"><i
-                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>
-                                        A team that maintains a synergy within various departments and alliances across
-                                        the organization that leads to higher employment satisfaction.
-                                    </li>
-                                    <li class="d-flex mb-2 pb-1"><i
-                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>
-                                        A team that measures and monitors team performance and facilitates continuous
-                                        quality improvement strategies.
-                                    </li>
 
-                                </ul>
-                            </div>
+        <!-- Leadership Team -->
+        <section class="container mb-5 pb-3 pb-lg-0 mb-lg-7 pt-5">
+            <h2 class="pb-4 mb-4 text-center">Advisory Board</h2>
+            <div class="row mb-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
+                        <div class="card-img-top card-img-gradient"><img src="img/leadership/john.jpeg"
+                                alt="Sarah Cole"></div>
+                        <div class="card-body text-center">
+                            <h3 class="h6 card-title mb-2">John M. Peairs
+                            </h3>
                         </div>
-
                     </div>
-
                 </div>
-                <!-- <p>All of these teams work independently and are responsible to perform different task and
-                    arrive at a common platform to deliver their best. Coordinating Team is supposed to work
-                    parallel with the core team and is responsible for managing the operational tasks for the
-                    Core Team. Contingency Team comes in play under crisis conditions and constitute of members
-                    from various team to withstand and up-come the emergency situation. Ancillary Service Team
-                    directly receives all instructions, information and communications from client end and its
-                    task is specific and limited with immediate attention. Support Service team is wholly
-                    responsible in up-keeping the customers interest and keep them delighted by all means.
-                    Finally the Administration Team has the most important role to play. As it is responsible to
-                    establish and communicate company policies, vision and objective bearing in mind the
-                    employee welfare respective to the workplace. Hence holds up the team accountability.</p> -->
-        </section>
-
-
-
-        <section class="bg-secondary">
-            <div class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
-                <p>Team CodeWills is a set of collective practices that gives way to unmatched success and quality in
-                    everything it delivers. We have different kind of teams performing different task and perform
-                    together in coordination to achieve a common goal.</p>
-                <div class="row pt-5">
-                    <div class="col-lg-4 col-sm-6 mx-auto mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
-                                <ul class="list-unstyled">
-                                    <li class="d-flex mb-2 pb-1"><i
-                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>
-                                        Executive Team
-                                    </li>
-                                    <li class="d-flex mb-2 pb-1"><i
-                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>
-                                        Coordinating Team
-                                    </li>
-                                    <li class="d-flex mb-2 pb-1"><i
-                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>
-                                        Management Team
-                                    </li>
-                                    <li class="d-flex mb-2 pb-1"><i
-                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>
-                                        Contingency Team
-                                    </li>
-                                    <li class="d-flex mb-2 pb-1"><i
-                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>
-                                        Administration Team
-                                    </li>
-                                    <li class="d-flex mb-2 pb-1"><i
-                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>
-                                        Ancillary Service Team
-                                    </li>
-                                    <li class="d-flex mb-2 pb-1"><i
-                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>
-                                        Core Team
-                                    </li>
-                                    <li class="d-flex mb-2 pb-1"><i
-                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>
-                                        Support Service Team
-                                    </li>
-                                </ul>
-                            </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
+                        <div class="card-img-top card-img-gradient"><img src="img/leadership/Bill.jpeg"
+                                alt="Sarah Cole"></div>
+                        <div class="card-body text-center">
+                            <h3 class="h6 card-title mb-2">Bill Daniher</h3>
                         </div>
-
                     </div>
-
                 </div>
-                <p>All of these teams work independently and are responsible to perform different task and
-                    arrive at a common platform to deliver their best. Coordinating Team is supposed to work
-                    parallel with the core team and is responsible for managing the operational tasks for the
-                    Core Team. Contingency Team comes in play under crisis conditions and constitute of members
-                    from various team to withstand and up-come the emergency situation. Ancillary Service Team
-                    directly receives all instructions, information and communications from client end and its
-                    task is specific and limited with immediate attention. Support Service team is wholly
-                    responsible in up-keeping the customers interest and keep them delighted by all means.
-                    Finally the Administration Team has the most important role to play. As it is responsible to
-                    establish and communicate company policies, vision and objective bearing in mind the
-                    employee welfare respective to the workplace. Hence holds up the team accountability.</p>
-        </section>
-
-
-
-        <section class="jarallax bg-gradient pt-5 pb-7 pt-md-7" data-jarallax data-speed="0.25"><span
-                class="position-absolute top-0 start-0 w-100 h-100 bg-gradient opacity-80"></span>
-            <div class="jarallax-img" style="background-image: url(img/company_banner/employees\ in\ the\ planning\ process.jpg);"></div>
-            <div class="container position-relative zindex-5 pt-3 pb-3 pt-md-0">
-                <div class="row">
-                    <div class="col-md-6 mt-5">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
-                                <h3 class="h5">
-                                    Involving employees in the planning process</h3>
-                                <p class="fs-sm text-body">
-                                    Self directed work teams meet regularly to brainstorm ways to save money and work
-                                    more efﬁciently. They take an active role in the goal setting and planning process
-                                    for the company as well as themselves. Whenever possible, we allow our employees to
-                                    take an active role in planning the company's future. Instead of simply declaring a
-                                    new sales goal, we ask them to come up with their own realistic monthly goal and a
-                                    plan to reach that number. Additionally, they'll be more apt to strive to meet the
-                                    goal if they know they set it themselves and laid a plan to reach it.
-
-                                </p>
-                            </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
+                        <div class="card-img-top card-img-gradient"><img src="img/leadership/raj.jpeg" alt="Sarah Cole">
                         </div>
-                    </div>
-                    <div class="col-md-6 mt-5">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
-                                <h3 class="h5">
-                                    Providing continual training and support</h3>
-                                <p class="fs-sm text-body">
-                                    When we empower our employees, we create an environment where people are encouraged
-                                    to explore, discover, take risks and develop trust. CodeWills enable our employees
-                                    to succeed by providing them with the means, opportunity and capacity they need to
-                                    excel. The result is growth, innovation and satisfaction. Our employees will feel
-                                    important; they'll convey those feelings to our customers through quality and
-                                    professional service. Empowered employees will always rise to the occasion, do the
-                                    best job possible, and help to compete in the global marketplace.
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mt-5">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
-                                <h3 class="h5">
-                                    Employee's involvement in the decision-making process</h3>
-                                <p class="fs-sm text-body">
-                                    In general important decisions regarding the business come from senior-level
-                                    management. While this is a prudent approach to ensure the company's overall
-                                    success, many times these decisions directly affect the lower-level employees. If
-                                    the final outcome of the decision is a less than positive one for the employees,
-                                    often they feel mistreated and unappreciated. At CodeWills ​we involve our employees
-                                    in the decision-making process and therein provide opportunities for all the
-                                    employees to explore their ideas.
-
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 mt-5">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
-                                <h3 class="h5">
-                                    Offer Praise Freely</h3>
-                                <p class="fs-sm text-body">
-                                    In order to empower our employees and develop a sense of competence and confidence,
-                                    we praise them for their performance, encourage them to take risks, and acknowledge
-                                    their accomplishments, no matter how small. By allowing our employees to be an
-                                    active part of the planning process, they know their input matters to the company's
-                                    bottom line. This is particularly important when employees are beginning to work on
-                                    new tasks or when an employee moves into a new job description.
-
-                                </p>
-                            </div>
+                        <div class="card-body text-center">
+                            <h3 class="h6 card-title mb-2">Raj Kapany</h3>
                         </div>
                     </div>
                 </div>
 
             </div>
         </section>
+
+
+        <!-- Leadership Team -->
+        <section class="container mb-5 pb-3 pb-lg-0 mb-lg-7 pt-5">
+            <h2 class="pb-4 mb-4 text-center">Leadership Team</h2>
+            <div class="row mb-3">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
+                        <div class="card-img-top card-img-gradient"><img src="img/leadership/anees-ceo.jpg"
+                                alt="Sarah Cole"></div>
+                        <div class="card-body text-center">
+                            <h3 class="h6 card-title mb-2">Anees T</h3>
+                            <p class="fs-xs text-body mb-0">Founder & CEO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
+                        <div class="card-img-top card-img-gradient"><img src="img/leadership/rassal.jpg"
+                                alt="Sarah Cole"></div>
+                        <div class="card-body text-center">
+                            <h3 class="h6 card-title mb-2">Rassal M</h3>
+                            <p class="fs-xs text-body mb-0">Director of Solutions & CBO</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
+                        <div class="card-img-top card-img-gradient"><img src="img/leadership/sandeep.jpg"
+                                alt="Richard Davis">
+                        </div>
+                        <div class="card-body text-center">
+                            <h3 class="h6 card-title mb-2">
+                                Sandeep Anand</h3>
+                            <p class="fs-xs text-body mb-0">Chief Administrative Officer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
+                        <div class="card-img-top card-img-gradient"><img src="img/leadership/sachin.jpg"
+                                alt="Richard Davis">
+                        </div>
+                        <div class="card-body text-center">
+                            <h3 class="h6 card-title mb-2">Sachin Raveendran</h3>
+                            <p class="fs-xs text-body mb-0">Chief Operating Officer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
+                        <div class="card-img-top card-img-gradient"><img src="img/leadership/febina.jpg"
+                                alt="Emma Brown"></div>
+                        <div class="card-body text-center">
+                            <h3 class="h6 card-title mb-2">Febina K V</h3>
+                            <p class="fs-xs text-body mb-0">Chief Product Officer</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
+                        <div class="card-img-top card-img-gradient"><img src="img/leadership/krishnaprasad.jpg"
+                                alt="Rosalie Lyons">
+                        </div>
+                        <div class="card-body text-center">
+                            <h3 class="h6 card-title mb-2">Krishna Prasad K</h3>
+                            <p class="fs-xs text-body mb-0">Head of Technical Department</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
+                        <div class="card-img-top card-img-gradient"><img src="img/leadership/noyal.jpg"
+                                alt="Jane Tanaka"></div>
+                        <div class="card-body text-center">
+                            <h3 class="h6 card-title mb-2">Noyal T. Hari</h3>
+                            <p class="fs-xs text-body mb-0">Vice President of Legal Affairs</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
+                        <div class="card-img-top card-img-gradient"><img src="img/leadership/rantel.jpg"
+                                alt="Sanomi Smith"></div>
+                        <div class="card-body text-center">
+                            <h3 class="h6 card-title mb-2">Rantel P</h3>
+                            <p class="fs-xs text-body mb-0">Director of Software Services</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
+                        <div class="card-img-top card-img-gradient"><img src="img/leadership/azim.jpg"
+                                alt="Charlie Welch">
+                        </div>
+                        <div class="card-body text-center">
+                            <h3 class="h6 card-title mb-2">Azim Kadersha</h3>
+                            <p class="fs-xs text-body mb-0">Director of Operations - Australia</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
+                        <div class="card-img-top card-img-gradient"><img src="img/leadership/Simal.jpeg"
+                                alt="Richard Davis">
+                        </div>
+                        <div class="card-body text-center">
+                            <h3 class="h6 card-title mb-2">Simal Soin</h3>
+                            <p class="fs-xs text-body mb-0">Sales Operations - United States</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
 
 
         <!-- ctasection -->
@@ -567,7 +520,7 @@
 
 
     </main>
-    <div id="footer"></div>
+    <?php include("footer.php"); ?>
     <!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll data-fixed-element><span
             class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon ai-arrow-up">
         </i></a>

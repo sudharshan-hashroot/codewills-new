@@ -127,11 +127,7 @@
       };
     })();
 
-    $(function () {
-      $("#header").load("header.html");
-      $("#signinmodal").load("signinmodal.html");
-      $("#footer").load("footer.html");
-    });
+    
 
 
   </script>
@@ -153,8 +149,8 @@
     </div>
   </div>
   <main class="page-wrapper">
-    <div id="signinmodal"></div>
-    <header id="header" class="header"></header>
+    <?php include("signinmodal.php"); ?>
+    <?php include("header.php"); ?>
     <!-- Enquirenow Modal -->
     <div class="modal fade" id="modal-enquirenow" tabindex="-1">
       <div class="modal-dialog modal-dialog-centered" role="document">
@@ -530,7 +526,7 @@
 
 
   </main>
-  <div id="footer"></div>
+  <?php include("footer.php"); ?>
   <!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll data-fixed-element><span
       class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon ai-arrow-up">
     </i></a>

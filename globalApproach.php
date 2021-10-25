@@ -79,6 +79,11 @@
             color: #737491;
         }
 
+        a.disabled {
+            pointer-events: none;
+            cursor: default;
+        }
+
         .page-spinner {
             display: inline-block;
             width: 2.75rem;
@@ -128,9 +133,9 @@
         })();
 
         $(function () {
-            $("#header").load("header.html");
-            $("#signinmodal").load("signinmodal.html");
-            $("#footer").load("footer.html");
+            $("#header").load("header.php");
+            $("#signinmodal").load("signinmodal.php");
+            $("#footer").load("footer.php");
         });
 
 
@@ -153,8 +158,8 @@
         </div>
     </div>
     <main class="page-wrapper">
-        <div id="signinmodal"></div>
-        <header id="header" class="header"></header>
+        <?php include("signinmodal.php"); ?>
+        <?php include("header.php"); ?>
         <!-- Enquirenow Modal -->
         <div class="modal fade" id="modal-enquirenow" tabindex="-1">
             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -211,14 +216,13 @@
 
         <section class="jarallax bg-gradient pt-5 pb-7 pt-md-7" data-jarallax data-speed="0.25"><span
                 class="position-absolute top-0 start-0 w-100 h-100 bg-gradient opacity-80"></span>
-            <div class="jarallax-img" style="background-image: url(img/company_banner/Leadership.jpg);"></div>
+            <div class="jarallax-img" style="background-image: url(img/company_banner/Global\ approach.jpg);"></div>
             <div class="container position-relative zindex-5 pt-3 pb-3 pt-md-0">
                 <div class="text-center py-md-5">
                     <div class="text-center pt-2 mb-n3">
-                        <h1 class="text-light">Meet the Leaders of CodeWills</h1>
+                        <h1 class="text-light">Global Approach</h1>
                         <p class="text-light">
-                            An innovative and collective group of like-minded folks making useful and enduring
-                            technology products.
+                            We value trust, much more than anything else and we believe, Trust is Business!
                         </p>
                     </div>
                 </div>
@@ -227,192 +231,149 @@
 
         <!-- clients -->
 
-        <section class="bg-secondary py-5 py-md-6 py-lg-7">
-            <div class="container py-3 py-lg-4">
-                <div class="row align-items-center">
-                    <div class="col-md-6 mb-5 mb-md-0">
-                        <div class="mx-auto mx-md-0" style="max-width: 350px;"><img class="d-block"
-                                src="https://www.hashroot.com/assets/img/hashroot-ceo/anees-hashroot-ceo.jpg"
-                                alt="Mobile screens"></div>
+        <!-- corevalues -->
+        <section class="bg-secondary">
+            <div class="container  mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
+                <p class="text-center">
+                    A little, yet powerful emotion with which we served our clients, for we have learnt that customer
+                    delight and satisfaction is the best business strategy. It's so heart whelming and encouraging to
+                    see their goals being achieved through us, their myriad colors of achievement coming true through
+                    us, and the warmth of the client's hearts adding strength to our brand. We are patient enough to
+                    listen to every smallest requirement client has which enables us to provide the best, which spreads
+                    the ray of, smile across every individual associated with it. What we got back was trust from our
+                    clients much more powerful than words which speak of glory only.
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="container pb-5 ">
+                <h2 class="mb-5 pt-5 text-center">Global Footprint</h2>
+                <div class="row align-items-center pb-3 ">
+                    <div class="col-md-6 col-lg-7 pb-5 ">
+                        <div class="mx-auto mx-md-0" style="max-width: 495px;"><img
+                                src="https://www.hashroot.com/assets/img/commitments/global-footprint.jpg"
+                                alt="Buy on Amazon"></div>
                     </div>
-                    <div class="col-md-6 text-center text-md-start">
-                        <h2 class="h3 mb-4">Anees T</h2>
-                        <h2 class="h5 mb-4 text-body">Founder & CEO</h2>
-                        <p class="text-muted mb-5">
-                            Anees T is focused on strengthening strategic partnerships with clients, exploring new
-                            verticals, making high-quality investing decisions to advance business, increasing client
-                            relevance, and evolving the company's business model towards achieving CodeWill's
-                            aspirations of becoming the next generation technology partner. Anees have more than 12
-                            years of experience and hold a bachelor's degree in computer science and engineering from
-                            Government Engineering College, Palakkad. He is also the co-founder of Hugues London Ltd
-                            (UK), Noanz Enterprises (India), Founder & CEO of HashRoot, President of ServerAdminz Ltd,
-                            and Founder of The HUBE (IN).
+                    <div class="col-md-6 col-lg-4 text-center">
+                        <p>
+                            We have developed a global sales network to reach out to customers across the world. As of
+                            June 2021, CodeWills is incorporated in the United Kingdom, United States, India, and
+                            Australia with sales offices in Singapore and the United Arab Emirates catering to customers
+                            from 85 countries.
+                        </p>
+                        <p>
+                            We are focusing on a strategic market expansion towards the future and looking forward to
+                            expanding our global presence in Canada, Germany, and Japan.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
 
-
-        <!-- Leadership Team -->
-        <section class="container mb-5 pb-3 pb-lg-0 mb-lg-7 pt-5">
-            <h2 class="pb-4 mb-4 text-center">Advisory Board</h2>
-            <div class="row mb-3">
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
-                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
-                        <div class="card-img-top card-img-gradient"><img src="img/leadership/john.jpeg"
-                                alt="Sarah Cole"></div>
-                        <div class="card-body text-center">
-                            <h3 class="h6 card-title mb-2">John M. Peairs
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
-                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
-                        <div class="card-img-top card-img-gradient"><img src="img/leadership/Bill.jpeg"
-                                alt="Sarah Cole"></div>
-                        <div class="card-body text-center">
-                            <h3 class="h6 card-title mb-2">Bill Daniher</h3>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
-                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
-                        <div class="card-img-top card-img-gradient"><img src="img/leadership/raj.jpeg" alt="Sarah Cole">
-                        </div>
-                        <div class="card-body text-center">
-                            <h3 class="h6 card-title mb-2">Raj Kapany</h3>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-
-
-        <!-- Leadership Team -->
-        <section class="container mb-5 pb-3 pb-lg-0 mb-lg-7 pt-5">
-            <h2 class="pb-4 mb-4 text-center">Leadership Team</h2>
-            <div class="row mb-3">
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
-                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
-                        <div class="card-img-top card-img-gradient"><img src="img/leadership/anees-ceo.jpg"
-                                alt="Sarah Cole"></div>
-                        <div class="card-body text-center">
-                            <h3 class="h6 card-title mb-2">Anees T</h3>
-                            <p class="fs-xs text-body mb-0">Founder & CEO</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
-                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
-                        <div class="card-img-top card-img-gradient"><img src="img/leadership/rassal.jpg"
-                                alt="Sarah Cole"></div>
-                        <div class="card-body text-center">
-                            <h3 class="h6 card-title mb-2">Rassal M</h3>
-                            <p class="fs-xs text-body mb-0">Director of Solutions & CBO</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
-                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
-                        <div class="card-img-top card-img-gradient"><img src="img/leadership/sandeep.jpg"
-                                alt="Richard Davis">
-                        </div>
-                        <div class="card-body text-center">
-                            <h3 class="h6 card-title mb-2">
-                                Sandeep Anand</h3>
-                            <p class="fs-xs text-body mb-0">Chief Administrative Officer</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
-                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
-                        <div class="card-img-top card-img-gradient"><img src="img/leadership/sachin.jpg"
-                                alt="Richard Davis">
-                        </div>
-                        <div class="card-body text-center">
-                            <h3 class="h6 card-title mb-2">Sachin Raveendran</h3>
-                            <p class="fs-xs text-body mb-0">Chief Operating Officer</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
-                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
-                        <div class="card-img-top card-img-gradient"><img src="img/leadership/febina.jpg"
-                                alt="Emma Brown"></div>
-                        <div class="card-body text-center">
-                            <h3 class="h6 card-title mb-2">Febina K V</h3>
-                            <p class="fs-xs text-body mb-0">Chief Product Officer</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
-                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
-                        <div class="card-img-top card-img-gradient"><img src="img/leadership/krishnaprasad.jpg"
-                                alt="Rosalie Lyons">
-                        </div>
-                        <div class="card-body text-center">
-                            <h3 class="h6 card-title mb-2">Krishna Prasad K</h3>
-                            <p class="fs-xs text-body mb-0">Head of Technical Department</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
-                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
-                        <div class="card-img-top card-img-gradient"><img src="img/leadership/noyal.jpg"
-                                alt="Jane Tanaka"></div>
-                        <div class="card-body text-center">
-                            <h3 class="h6 card-title mb-2">Noyal T. Hari</h3>
-                            <p class="fs-xs text-body mb-0">Vice President of Legal Affairs</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
-                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
-                        <div class="card-img-top card-img-gradient"><img src="img/leadership/rantel.jpg"
-                                alt="Sanomi Smith"></div>
-                        <div class="card-body text-center">
-                            <h3 class="h6 card-title mb-2">Rantel P</h3>
-                            <p class="fs-xs text-body mb-0">Director of Software Services</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
-                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
-                        <div class="card-img-top card-img-gradient"><img src="img/leadership/azim.jpg"
-                                alt="Charlie Welch">
-                        </div>
-                        <div class="card-body text-center">
-                            <h3 class="h6 card-title mb-2">Azim Kadersha</h3>
-                            <p class="fs-xs text-body mb-0">Director of Operations - Australia</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
-                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
-                        <div class="card-img-top card-img-gradient"><img src="img/leadership/Simal.jpeg"
-                                alt="Richard Davis">
-                        </div>
-                        <div class="card-body text-center">
-                            <h3 class="h6 card-title mb-2">Simal Soin</h3>
-                            <p class="fs-xs text-body mb-0">Sales Operations - United States</p>
-                        </div>
-                    </div>
+        <!-- Awards And Achievements -->
+        <section class="bg-secondary">
+            <div class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
+                <h2 class="mb-5 text-center">Our Global Approach</h2>
+                <div class="row pt-5">
+                    <div class="col-lg-12 col-sm-6 mb-grid-gutter"><a
+                            class="card h-100 border-0 shadow card-hover disabled" href="#">
+                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
+                                <h3 class="h5">We listen to you</h3>
+                                <p class="fs-sm text-body">
+                                    Irrespective of the client demography, we ask questions to our clients and we will gather and analyze the most relevant information. The next step on our part will be to develop innovative strategies that create value for the client. We understand the challenges and opportunities our clients face in the real world because we have honed our own skills in the real world. Customer satisfaction is a direct indicator of consumer purchase intentions and customer loyalty. Within organizations, the collection, analysis, and dissemination of these data send a message about the importance of tending to customers and ensuring that they have a positive experience with the company's goods and services. We pride ourselves in our customer care and responsiveness to our existing and new customers, which in turn results in a positive word of mouth, hence resulting in new prospects. 
+                                </p>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-6 col-sm-6 mb-grid-gutter"><a
+                            class="card h-100 border-0 shadow card-hover disabled" href="#">
+                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
+                                <h3 class="h5">We showcase the best talents to you</h3>
+                                <p class="fs-sm text-body">
+                                    Fulfillment of customer’s expectations is the motto of our employees. CodeWills has a strong team of internationally renowned consultants who have access to the latest in global technology. We are proud to leverage their vast expertise with you. Our strategy says to pay equal weightage to technology enhancement ensuring reliable and representative measures of satisfaction. 
+                                </p>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-6 col-sm-6 mb-grid-gutter"><a
+                            class="card h-100 border-0 shadow card-hover disabled" href="#">
+                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
+                                <h3 class="h5">In tune with your business strategy</h3>
+                                <p class="fs-sm text-body">
+                                    CodeWills makes sure that the services we recommend would always be in tune with your business goals. We are also confident of our recommendations about the current market as we use the latest in modern technology to provide unmatched services to our clients. 
+                                </p>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-6 col-sm-6 mb-grid-gutter"><a
+                            class="card h-100 border-0 shadow card-hover disabled" href="#">
+                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
+                                <h3 class="h5">Ensuring reduction of costs</h3>
+                                <p class="fs-sm text-body">CodeWills will ensure that the solutions that we recommend
+                                    would help you to reduce the business costs and will help you to become more
+                                    competitive in the global market.</p>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-6 col-sm-6 mb-grid-gutter"><a
+                            class="card h-100 border-0 shadow card-hover disabled" href="#">
+                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
+                                <h3 class="h5">Optimizes the skills and capabilities of the organization
+                                </h3>
+                                <p class="fs-sm text-body">Help companies to realise their potential and reach desired
+                                    goals. Our solutions always help companies to maximise the potential of workers to
+                                    meet the desired objectives.</p>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-6 col-sm-6 mb-grid-gutter"><a
+                            class="card h-100 border-0 shadow card-hover disabled" href="#">
+                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
+                                <h3 class="h5">Improves productivity</h3>
+                                <p class="fs-sm text-body">Our solutions will be aimed at improving the work
+                                    productivity of your company so that you would be able to work.</p>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-6 col-sm-6 mb-grid-gutter"><a
+                            class="card h-100 border-0 shadow card-hover disabled" href="#">
+                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
+                                <h3 class="h5">Enables better decision making</h3>
+                                <p class="fs-sm text-body">Our technological solutions will always help to improve
+                                    decision making, as we would be using more technologies.</p>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-6 col-sm-6 mb-grid-gutter"><a
+                            class="card h-100 border-0 shadow card-hover disabled" href="#">
+                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
+                                <h3 class="h5">Leverages/exploits existing/emerging technologies</h3>
+                                <p class="fs-sm text-body">Always make sure that solutions follows the latest
+                                    technological advancements and will be keeping in tune with the global practices.
+                                </p>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-6 col-sm-6 mb-grid-gutter"><a
+                            class="card h-100 border-0 shadow card-hover disabled" href="#">
+                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
+                                <h3 class="h5">Ensures acceptable levels of control and risk management</h3>
+                                <p class="fs-sm text-body">Ensure that our technological solutions will follow proper
+                                    risk management and will always ensure proper backup.</p>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-6 col-sm-6 mb-grid-gutter"><a
+                            class="card h-100 border-0 shadow card-hover disabled" href="#">
+                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
+                                <h3 class="h5">Promotes timely execution</h3>
+                                <p class="fs-sm text-body">Always keep to deadlines and ensure that the solution that we
+                                    give will help you to improve cost efficiency, as it would reduce the operating
+                                    time.</p>
+                            </div>
+                        </a></div>
+                    <div class="col-lg-6 col-sm-6 mb-grid-gutter"><a
+                            class="card h-100 border-0 shadow card-hover disabled" href="">
+                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
+                                <h3 class="h5">Promotes collaboration across the extended enterprise</h3>
+                                <p class="fs-sm text-body">Our solutions will help the company to make a mark among the
+                                    parent group and will also help the parent group to reach their desired goals.</p>
+                            </div>
+                        </a></div>
                 </div>
             </div>
         </section>
-
-
 
         <!-- ctasection -->
         <section class="container py-5 py-md-6 py-lg-7">
@@ -520,7 +481,7 @@
 
 
     </main>
-    <div id="footer"></div>
+    <?php include("footer.php"); ?>
     <!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll data-fixed-element><span
             class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon ai-arrow-up">
         </i></a>

@@ -4,7 +4,7 @@
 
     <div class="container pt-5 pt-md-0">
       <div class="row pb-3">
-        <div class="col-md-4 mt-n2 pb-3 pb-md-0 mb-4"><a class="d-block mb-3" href="index.html" style="width: 153px;"><img src="img/logo/logo-footer-alt.svg" alt="Around"></a>
+        <div class="col-md-4 mt-n2 pb-3 pb-md-0 mb-4"><a class="d-block mb-3" href="index.php" style="width: 153px;"><img src="img/logo/logo-footer-alt.svg" alt="Around"></a>
           <p class="fs-sm text-light opacity-60 pb-2 pb-sm-3">Highly customizable and modular official multipurpose Bootstrap template and UI kit.</p><a class="btn-social bs-outline bs-facebook bs-light bs-lg me-2 mb-2" href="#"><i class="ai-facebook"></i></a><a class="btn-social bs-outline bs-twitter bs-light bs-lg me-2 mb-2" href="#"><i class="ai-twitter"></i></a><a class="btn-social bs-outline bs-instagram bs-light bs-lg me-2 mb-2" href="#"><i class="ai-instagram"></i></a><a class="btn-social bs-outline bs-google bs-light bs-lg me-2 mb-2" href="#"><i class="ai-google"></i></a>
         </div>
         <div class="col-md-2 col-sm-4 ms-auto pb-1 mb-4">
@@ -21,11 +21,11 @@
           <div class="widget widget-light">
             <h4 class="widget-title">Our Services</h4>
             <ul>
-              <li><a class="widget-link" href="webdesign.html">Website Desiging</a></li>  
-              <li><a class="widget-link" href="webappdev.html">Website Development</a></li>           
-              <li><a class="widget-link" href="#">Mobile App Development</a></li>
-              <li><a class="widget-link" href="#">Web App Development</a></li>      
-              <li><a class="widget-link" href="#">Digital Marketing</a></li>
+              <li><a class="widget-link" href="webdesign.php">Website Desiging</a></li>  
+              <li><a class="widget-link" href="webappdev.php">Website Development</a></li>           
+              <li><a class="widget-link" href="mobileappdev.php">Mobile App Development</a></li>
+              <li><a class="widget-link" href="webappdev.php">Web App Development</a></li>      
+              <li><a class="widget-link" href="digitalmarketing.php">Digital Marketing</a></li>
             </ul>
           </div>
         </div>
@@ -36,7 +36,7 @@
         <div class="col-md-6 order-md-2 text-md-end mb-3">
           <ul class="list-inline fs-sm mb-0">
             <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="#">Support</a></li>
-            <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="#">Contacts</a></li>
+            <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="contact.php">Contacts</a></li>
             <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="#">Terms &amp; Conditions</a></li>
           </ul>
         </div>

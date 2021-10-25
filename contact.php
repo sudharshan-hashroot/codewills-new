@@ -39,6 +39,13 @@
         opacity: 1;
         visibility: visible;
       }
+        .invalid-feedback1 {
+       display: none;
+       width: 100%;
+       margin-top: 0.375rem;
+       font-size: 0.75rem;
+       color: #f74f78;
+      }
       .page-loading-inner {
         position: absolute;
         top: 50%;
@@ -100,11 +107,7 @@
         };
       })();
    
-        $(function() {
-            $("#header").load("header.html");
-            $("#signinmodal").load("signinmodal.html");
-            $("#footer").load("footer.html");
-        });
+        
 
       
     </script>
@@ -124,8 +127,8 @@
     </div>
     <main class="page-wrapper">
       <!-- Sign In Modal-->
-      <div id="signinmodal"></div>
-      <header id="header" class="header"></header>
+      <?php include("signinmodal.php"); ?>
+      <?php include("header.php"); ?>
       <!-- Navbar (Solid background)-->
 
       <!-- Page content-->
@@ -255,33 +258,36 @@
           <div class="col-lg-6 px-3 px-lg-5">
             <div class="pt-5 pb-6 pt-md-6 mx-auto" style="max-width: 720px;">
               <h2 class="h3 pb-4">Drop us a line</h2>
-              <form class="needs-validation row" novalidate>
+              <form class="needs-validation row"  method="post" id="contact_form"
+                        novalidate="novalidate" action="#" enctype="multipart/form-data">
                 <div class="col-sm-6 mb-3 pb-1">
                   <label class="form-label" for="cont-fn">Full name<sup class="text-danger ms-1">*</sup></label>
-                  <input class="form-control" type="text" id="cont-fn" placeholder="John Doe" required>
-                  <div class="invalid-feedback">Please enter your full name!</div>
+                  <input class="form-control" type="text" id="cont_fn" name="cont-fn" placeholder="John Doe" required>
+                  <div class="invalid-feedback"></div>
                 </div>
                 <div class="col-sm-6 mb-3 pb-1">
                   <label class="form-label" for="cont-email">Email address<sup class="text-danger ms-1">*</sup></label>
-                  <input class="form-control" type="email" id="cont-email" placeholder="j.doe@example.com" required>
-                  <div class="invalid-feedback">Please enter a valid email address!</div>
+                  <input class="form-control" type="email" id="cont_email" name="cont_email" placeholder="j.doe@example.com" required>
+                  <div class="invalid-feedback"></div>
                 </div>
                 <div class="col-sm-6 mb-3 pb-1">
-                  <label class="form-label" for="cont-phone">Phone number</label>
-                  <input class="form-control bg-image-0" type="text" id="cont-phone" data-format="custom" data-delimiter="-" data-blocks="2 4 2 2" placeholder="00-0000-00-00">
+                  <label class="form-label" for="cont_phone">Phone number</label>
+                  <input class="form-control" type="text" id="cont_phone" name="cont_phone"  data-format="custom" data-delimiter="-" data-blocks="2 4 2 2" placeholder="00-0000-00-00"  oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" >
                 </div>
                 <div class="col-sm-6 mb-3 pb-1">
                   <label class="form-label" for="cont-subject">Subject</label>
-                  <input class="form-control bg-image-0" type="text" id="cont-subject" placeholder="Title of your message">
+                  <input class="form-control" type="text" name="cont_subject" id="cont_subject" placeholder="Title of your message">
                 </div>
                 <div class="col-12 mb-3 pb-1">
                   <label class="form-label" for="cont-message">Message<sup class="text-danger ms-1">*</sup></label>
-                  <textarea class="form-control" id="cont-message" rows="4" placeholder="Write your message here" required></textarea>
-                  <div class="invalid-feedback">Please write a message!</div>
+                  <textarea class="form-control" id="cont_message"  name="cont_message" rows="4" placeholder="Write your message here" required></textarea>
+                  <div class="invalid-feedback"></div>
                 </div>
                 <div class="col-12 pt-2">
-                  <button class="btn btn-primary" type="submit">Send Message</button>
+                  <button class="btn btn-primary" type="submit" id="cnt_sub">Send Message</button>
                 </div>
+                <p id="error_message"> </p>
+
               </form>
             </div>
           </div>
@@ -289,16 +295,26 @@
       </section>
     </main>
     <!-- Footer-->
-    <div id="footer"></div>
+    <?php include("footer.php"); ?>
     <!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll data-fixed-element><span class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon ai-arrow-up">   </i></a>
     <!-- Vendor scrits: js libraries and plugins-->
-    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="vendors/jquery/jquery-2.1.4.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://www.google.com/recaptcha/api.js?render=6LfsmegcAAAAAOfQiUcaEbtgDkUPax5ecu40zrUP"></script>    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/simplebar/dist/simplebar.min.js"></script>
     <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="vendor/lightgallery.js/dist/js/lightgallery.min.js"></script>
     <script src="vendor/jarallax/dist/jarallax.min.js"></script>
     <script src="vendor/cleave.js/dist/cleave.min.js"></script>
+    <script src="js/jquery.validate.js"></script>
+    <script src="js/mailchimp.js"></script>
+    <script src="js/contact-form.js"></script>
     <!-- Main theme script-->
     <script src="js/theme.min.js"></script>
+    <script >
+    $("#cnt_sub").click(function() {
+      $myDiv = $('#cont_phone'); $myDiv. css('background-image', 'none');
+      $myDiv1 =$('#cont_subject');$myDiv1. css('background-image', 'none');
+}); </script>
   </body>
 </html>

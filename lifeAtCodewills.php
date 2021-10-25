@@ -79,11 +79,6 @@
             color: #737491;
         }
 
-        a.disabled {
-            pointer-events: none;
-            cursor: default;
-        }
-
         .page-spinner {
             display: inline-block;
             width: 2.75rem;
@@ -133,9 +128,9 @@
         })();
 
         $(function () {
-            $("#header").load("header.html");
-            $("#signinmodal").load("signinmodal.html");
-            $("#footer").load("footer.html");
+            $("#header").load("header.php");
+            $("#signinmodal").load("signinmodal.php");
+            $("#footer").load("footer.php");
         });
 
 
@@ -158,8 +153,8 @@
         </div>
     </div>
     <main class="page-wrapper">
-        <div id="signinmodal"></div>
-        <header id="header" class="header"></header>
+        <?php include("signinmodal.php"); ?>
+        <?php include("header.php"); ?>
         <!-- Enquirenow Modal -->
         <div class="modal fade" id="modal-enquirenow" tabindex="-1">
             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -216,63 +211,48 @@
 
         <section class="jarallax bg-gradient pt-5 pb-7 pt-md-7" data-jarallax data-speed="0.25"><span
                 class="position-absolute top-0 start-0 w-100 h-100 bg-gradient opacity-80"></span>
-            <div class="jarallax-img"
-                style="background-image: url(img/company_banner/corporate\ social\ responsibility.jpg);"></div>
+            <div class="jarallax-img" style="background-image: url(img/company_banner/Life\ at\ hashroot.jpg);"></div>
             <div class="container position-relative zindex-5 pt-3 pb-3 pt-md-0">
                 <div class="text-center py-md-5">
                     <div class="text-center pt-2 mb-n3">
-                        <h1 class="text-light">Corporate Social Responsibility</h1>
+                        <h1 class="text-light">Life at CodeWills </h1>
                         <p class="text-light">
-                            In addition to offering quality software development services, we as an ethical corporate
-                            citizen consider ourselves responsible for offering something to the community we serve. We
-                            make sure that our actions bring balance between the social, economic, and environmental
-                            aspects of our organization.
+                            Employees are our strength and we do things that make them feel happy and appreciated at
+                            CodeWills.
                         </p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- clients -->
-
         <!-- corevalues -->
-        <section class="bg-secondary">
-            <div class="container  mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
-                <p class="text-center">
-                    CodeWills is conscious and concerned for its CSR policies. We value the basic concept of social
-                    responsibility and strive hard to implement all our CSR goals. Technology is responsible for the
-                    increase of global connectivity and has contributed a lot in spreading awareness for the social
-                    responsibility towards the society and the prevalent situations that were once ignored. Now a days
-                    technology is not only responsible to connect but it also ensures that it gives back some percentage
-                    of it to the society. Our CSR activities contribute an important part of cooperate strategy where we
-                    give a predominant importance to reputation and goodwill. Indeed we have directly involved in may
-                    social and environmental issues. We at CodeWills are aware on our corporate social responsibilities.
-                    We have obligations that are environmental, philanthropical and we follow an ethical labor
-                    practices. We don’t mind going an extra mile to contribute to our environment and doing donations to
-                    national and local authorities/ organizations.
-                </p>
-                <p class="text-center">
-                    The directors of CodeWills give great predominance to the concept of corporate social responsibility
-                    and corporate governance. CodeWills believes that the success of an organization is not just limited
-                    to wealth maximization rather accountable to the society environmentally and should also posse’s
-                    social commitment. We work with various non profit organization for the empowerment of weaker
-                    section of the society by providing better education and better standard of living for a sustainable
-                    livelihood by prioritizing the requisites for the journey towards a better way to life and there by
-                    help the country to rise its human development index. CodeWills believe and preaches Green Computing
-                    or green IT, which refers to environmentally sustainable computing or IT whose goals are to reduce
-                    the use of hazardous materials, maximize energy efficiency during the product's lifetime, and
-                    promote the recyclable or biodegradability of defunct products and factory waste. As per this
-                    concept we generally concentrate on energy efficiency, reducing resource consumption and disposing
-                    of electronic waste in a responsible manner.
-                </p>
+        <!-- <section class="bg-secondary">
+            <div class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
+                <p class="text-center">With the advent of digital technologies, businesses are forced to develop
+                    cutting-edge products across the entire product engineering spectrum. CodeWills’s expertise in
+                    product engineering has successfully increased the pace of product innovation across industries. Our
+                    focused product engineering solutions aims to have a positive influence in our client’s business
+                    values.</p>
+                <p class="text-center">Whether you are looking for an expertise team to build new products or to
+                    maintain your existing products? CodeWills can help you with powerful product engineering solutions
+                    that transforms your vision into successful real-world products. We are at the forefront of adopting
+                    next-gen technologies to deliver feature-rich, innovative products to end-users. Our product
+                    engineering services meet the evolving market demand by improving the performance, scalability and
+                    security of your product.</p>
             </div>
-        </section>
-
+        </section> -->
 
 
         <section>
             <div class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
-                <h2 class="h3 text-center">CSR activities of Codewills (2009 – 2019)</h2>
+                <h3 class="h3 text-center">Establishing your career path</h3>
+                <p class="text-center">
+                    Try making your next career growth with CodeWills and you will leap towards achieving your
+                    potential. CodeWills career development will provide you with the skills, knowledge, and confidence
+                    you need to take your career forwards. Essentially there are various challenges that will help you
+                    progress your career in the direction that interests you the most. You'll be given a good deal of
+                    opportunity to get diverse experience and probe the divergent levels of our business.
+                </p>
 
                 <div class="row pt-5">
                     <div class="col-lg-6 col-sm-6 mb-grid-gutter">
@@ -280,13 +260,11 @@
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <ul class="list-unstyled">
                                     <li class="d-flex mb-2 pb-1"><i
-                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>
-                                        Worked closely in hands with non profit organizations for providing better
-                                        education and health facilitates.</li>
+                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>Your development is
+                                        of core importance to us</li>
                                     <li class="d-flex mb-2 pb-1"><i
-                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>
-                                        Safe drinking water projects and better sanitation facilities.</li>
-
+                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>It will pitch in to
+                                        an engaging and positive workplace for all</li>
                                 </ul>
                             </div>
                         </div>
@@ -296,104 +274,258 @@
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <ul class="list-unstyled">
                                     <li class="d-flex mb-2 pb-1"><i
-                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>
-                                        Conducting campaign for channelizing resources and thereby achieving better
-                                        standards of life</li>
+                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>Provides
+                                        opportunities to identify and reward</li>
                                     <li class="d-flex mb-2 pb-1"><i
-                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>
-                                        Providing critical aid to victims affected by natural calamities</li>
+                                            class="ai-check-circle text-success fs-xl mt-1 me-3"></i>It is the
+                                        foundation for continued success - yours and ours</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-
         </section>
+
+
+        <article class="bg-secondary">
+            <div class="container ">
+                <div class="pt-6 pb-5 py-sm-6">
+                    <h2 class="h3">Continuous learning</h2>
+                    <p>The Learning that take place in the workplace will regularly replenish and strengthen your
+                        technical skills such that it will act as a guide leading to enhanced services and better client
+                        relationships. Our Growth, Prosperity, Success and our clients depends on our people hence
+                        considering their development seriously.</p>
+                </div>
+
+            </div>
+        </article>
+        <article class="container">
+            <div class="pt-6 pb-5 py-sm-6">
+                <h2 class="h3">The guidance you require the most when needed</h2>
+                <p>
+                    Training and development enable you to enrich your skills and expertise in your field with the help
+                    of a guide. This ranges from daily informal on-the-job coaching to periodic performance reviews. So
+                    at one end of the scale, you will be provided with a trainer who will be in charge of training you
+                    about particular skills or issues, and at the other, you'll have a manager who will be constantly
+                    keeping a record of your performance.
+                </p>
+            </div>
+        </article>
+        <article class="bg-secondary">
+            <div class="container">
+                <div class="pt-6 pb-5 py-sm-6 ">
+                    <h2 class="h3">Work culture</h2>
+                    <p>CodeWills emphases is primarily on corporate governance, this leads to an effective decision
+                        making processes wherein we make most our employees participate in decision making processes,
+                        nerveless forget that what we are today is the thrive of our employees. It is persistent to
+                        uphold high standards of conduct based on clarity and accountability. We understand the
+                        importance of transparency in corporate governance to capture confidence of stakeholders in
+                        management and what witnesses is improved productivity. CodeWills impart a great predominance to
+                        Employee empowerment, this is an essential function of our organization. As for the empowerment
+                        we provide special training programs and events to cultivate knowledge to act wisely. It's
+                        inevitable for our employees to take right decisions at crucial situations.</p>
+                    <p>We provide 3 month training program for most of our employees to make them learn new skills and
+                        make them suitable enough to handle situation amicably. Our highly skilled trainers persistently
+                        constant training to modulate employees to our desired concept. This makes us attain our core
+                        competence Our culture is expressed by way of values we uphold and those ethic we follow.
+                        CodeWills aims to build a strong business relation with all our clients by providing proper
+                        quality service at specified time, through these time span we had succeeded in building up a
+                        relatively strong and sustainable client base. In CodeWills we give a great priority towards
+                        health and safety of all our employees. Our employee welfare programs help our employees
+                        economically to cope up with various situation of life. Its through employees satisfaction and
+                        loyalty we found our road map to conquer success.</p>
+                </div>
+            </div>
+        </article>
+
+
+        <section class="jarallax bg-gradient pt-5 pb-7 pt-md-7" data-jarallax data-speed="0.25"><span
+                class="position-absolute top-0 start-0 w-100 h-100 bg-gradient opacity-80"></span>
+            <div class="jarallax-img" style="background-image: url(img/company_banner/employees\ in\ the\ planning\ process.jpg);"></div>
+            <div class="container position-relative zindex-5 pt-3 pb-3 pt-md-0">
+                <div class="text-center py-md-5">
+                    <div class="text-center pt-2 mb-n3">
+                        <h1 class="text-light">Why Join CodeWills?</h1>
+                        <p class="text-light">
+                            We always create an ambience of positivity in the most adverse of circumstances. The vibes
+                            are great. The spirit is high. The optimism blinding. The sense of achievement rock solid.
+                            It is impossible not to get caught up in all the new style that is happening here at
+                            CodeWills.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="bg-secondary pt-5 pb-7 pt-md-7">
+            <div class="container">
+                <div>
+                    <div>
+                        <h2 class="h3">Leadership Style</h2>
+                        <p>Our leader understands the need of emotional intelligence and fierce company pride to guide a
+                            team as varied as in CodeWills. You work and improve your skills here. We give our employee
+                            the
+                            liberty in formulating business, using the cutting edge technologies and of course the big
+                            data
+                            for managing some of the most difficult and sophisticated projects. Our team's biggest asset
+                            is
+                            the sheer lack of insecurity that would allow them to experiment and work creatively. Our
+                            leader
+                            will not stay back as knowing everything but will create harmony and trust within a team.
+                            Our
+                            leadership style is that we allow team members to hog the attention and leader will
+                            understand
+                            the unique working style of each of his member and will abstain always from imposing
+                            generic,
+                            restricting diktats.</p>
+                        <p>We always create an ambience of positivity in the most adverse of circumstances. Our
+                            leadership
+                            style will instil a value called "consistency of purpose". Our leadership style is that we
+                            encourage our leaders to take courageous decisions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-5 pb-7 pt-md-7">
+            <div class="container">
+                <div>
+                    <div>
+                        <h2 class="h3">Appreciation style</h2>
+                        <p>We always encourage and appreciate our employee to walk up to us and share their new ideas
+                            and we in-turn assist in shaping a innovative product using their ideas and intelligence.
+                            The company is proud to announce that the life at CodeWills has helped to minimize the job
+                            attrition which has been affecting many solution providers and that has also helped to
+                            improve our capacity to serve clients on a long-term basis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-secondary pt-5 pb-7 pt-md-7">
+            <div class="container">
+                <div>
+                    <div>
+                        <h2 class="h3">Training style</h2>
+                        <p>We endeavours to surpass international standards when it comes to working with clients. Our
+                            organization has been always giving importance to best practices in the business and we
+                            would help the clients to grow. Our people ultimately determine CodeWills effectiveness and
+                            we place great value on training and development. Our effective HR team develops and
+                            delivers programs to improve the skills and knowledge of our people in key areas such as
+                            business strategy, technology, business best practices, cost optimization, global business
+                            services, and project management. We give importance to training, as our team members can
+                            stay current on the latest software releases from leading vendors. Total customer
+                            satisfaction has been the prime focus of our training rooted in its 3 P approach which,
+                            people, product and process.</p>
+                        <p>With these guidelines acting as pillars, the CodeWills has not only grown by leaps and
+                            bounds,
+                            but also won recognition and respect from its clients, and industry.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
 
 
         <!-- <section class="jarallax bg-gradient pt-5 pb-7 pt-md-7" data-jarallax data-speed="0.25"><span
                 class="position-absolute top-0 start-0 w-100 h-100 bg-gradient opacity-80"></span>
             <div class="jarallax-img" style="background-image: url(img/pages/contacts/page-title-bg.jpg);"></div>
             <div class="container position-relative zindex-5 pt-3 pb-3 pt-md-0">
-                <p class="text-white pb-5">
-                    CodeWills follow three key factors that have enabled the Cloud computing to lower energy usage and
-                    carbon emissions from ICT. Due to these Cloud features, organizations can reduce carbon emissions by
-                    at least 30% per user by moving their applications to the Cloud. These savings are driven by the
-                    high efficiency of large scale Cloud data centers.</p>
-                <div class="row">
-                    <div class="com-md-12">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
-                                <h3 class="h5">Dynamic provisioning</h3>
-                                <p class="fs-sm text-body">
-                                    At CodeWills we generally concentrate on energy efficiency, reducing resource
-                                    consumption and disposing of electronic waste in a responsible manner. Technology is
-                                    responsible for bringing increase of global connectivity and has controlled a lot in
-                                    spreading awareness on social aspects that were once ignored. Now a day’s technology
-                                    not only connects but also ensures that it gives back some percentage of its social
-                                    responsibility. Green computing is the environmentally responsible use of computers
-                                    and related resources. Such practices include the implementation of energy efficient
-                                    central processing units (CPUs), servers and peripherals as well as reduced resource
-                                    consumption and proper disposal of electronic waste. Computers today have become a
-                                    necessity not only in offices but also at homes. No doubt, computers have made doing
-                                    various tasks very easy and efficient; they pose a great problem, which is affecting
-                                    the environment adversely. As the number of computers is increasing day by day, so
-                                    do they consume the amount of electricity, which in turn is increasing the carbon
-                                    content in atmosphere. People have realized this problem and measures are being
-                                    taken which help in minimizing the power usage of computers. Superficially, this can
-                                    be called as Green Computing. In a deeper sense, Green Computing is the study, which
-                                    lays stress on the operation of computers and related peripherals in order to
-                                    minimize the carbon footprint.
-                                </p>
-                                <p class="fs-sm text-body">
-                                    We at CodeWills are aware on our corporate responsibility. We owe it to our
-                                    environmental philanthropic and ethical labor practices. We are happy to go an extra
-                                    mile to contribute to our environment and doing donations to national & local
-                                    authorities. We treat our employees fairly & ethically to ensure their safety &
-                                    prosperity. Recent study says that electronics make up approximately 1% of the
-                                    municipal solid waste stream. Electronic waste is growing at the rate of 3 times the
-                                    rate of the municipal waste. Donate the old computers to needful like schools,
-                                    non-profitable organizations & lower income family are our ideal targets. We support
-                                    the recycling of the computers by electronic recycling organizations. We encourage
-                                    use of power safety surge protections and Back up ES.
-                                </p>
-                            </div>
-                        </div>
+                <div class="text-center py-md-5">
+                    <div class="text-center pt-2 mb-n3">
+                        <h1 class="text-light">Team@ CodeWills</h1>
+                        <p class="text-light">
+                            Our team believes in consensus decision making and accountability, mutual encouraging
+                            mentality, collectively resolving conflicts, acknowledgement, setting high standards,
+                            clarity and appreciation.
+                        </p>
                     </div>
                 </div>
-                <div class="row mt-5">
-                    <div class="col-md-6 mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
-                                <h3 class="h5">Smarter & Solar powered building</h3>
-                                <p class="fs-sm text-body">
-                                    It has been estimated that building uses about 30% of electricity. Within a span of
-                                    2030 building would be the largest emitter of green house gas. CodeWills located at
-                                    Infopark, Cochin has the best building structure that could manage all type of
-                                    energy to maintain has a Green House Office and roof of all buildings at Infopark
-                                    are installed with Solar Panels. This would benefit the company to reduce energy
-                                    consumption and reduces operating cost, which we could provide for accounting
-                                    standards that would help other business firms.
-                                </p>
-                            </div>
-                        </div>
+            </div>
+        </section> -->
+
+        <!-- 
+        <section class="pt-5 pb-7 pt-md-7">
+            <div class="container">
+                <div>
+                    <div>
+                        <p>Our team is our strength and also our reflection. We have attained an edge over corporate
+                            competitiveness through various functional, technological and integrated skills of our human
+                            talent. Every member in our team is well educated about their core responsibilities, possess
+                            high intellectual disciplines, are updated on latest technology, have good product knowledge
+                            and are service oriented individuals who work together towards a common business goal.</p>
+                        <p>Team composition constitutes a right combination of team individuals based on their
+                            attributes corresponding to the business/ corporate task assigned to them. Team with high
+                            performance has members who are mutually accountable for each others performance.Our team
+                            believes in consensus decision making and accountability, mutual encouraging mentality,
+                            collectively resolving conflicts, acknowledgement, setting high standards, clarity and
+                            appreciation.</p>
                     </div>
-                    <div class="col-md-6 mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
-                                <h3 class="h5">Green Data Center
-                                </h3>
-                                <p class="fs-sm text-body">
-                                    We could find tremendous growth in IT for the past few years. At the same time there
-                                    has been lot of challenges in regulations, rising energy costs, expanding
-                                    datacenters. We build on a green infrastructure and focus on clear infrastructure
-                                    and we manage data centers, facilities and building management systems to reduce
-                                    costs, reduce operational problems and prepare rapidly emerging regulatory
-                                    environment. We have advanced approach to manage and control energy beyond the data
-                                    center which solves most of the today’s energy issues.
-                                </p>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- <section class="bg-secondary pt-5 pb-7 pt-md-7">
+            <div class="container">
+                <div>
+                    <div>
+                        <h2 class="h3 text-center mb-5">Factors that identifies a performer in a team</h2>
+                        <div class="row">
+                            <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+                                <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                                    <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
+                                            class="ai-plus h2 text-primary mt-2 mb-4"></i>
+                                        <h3 class="h5">Engagement</h3>
+                                        <p class="fs-sm text-body">
+                                            Is the enthusiasm, efforts and initiative an employee cultivates to
+                                            accomplish his task.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+                                <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                                    <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
+                                            class="ai-crosshair h2 text-primary mt-2 mb-4"></i>
+                                        <h3 class="h5">Satisfaction</h3>
+                                        <p class="fs-sm text-body">Is the measurement of the extend to which they feel
+                                            that the company has successfully met their expectations at work..</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+                                <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                                    <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
+                                            class="ai-user-minus h2 text-primary mt-2 mb-4"></i>
+                                        <h3 class="h5">Intention to quit</h3>
+                                        <p class="fs-sm text-body">
+                                            It's the period of time span an employee decides to remain associated with
+                                            the company.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-sm-6 mb-grid-gutter mx-auto">
+                                <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                                    <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
+                                            class="ai-user-plus h2 text-primary mt-2 mb-4"></i>
+                                        <h3 class="h5">Leadership</h3>
+                                        <p class="fs-sm text-body">People who can lead and motivate others by directing
+                                            and
+                                            encouraging them in times of both prosperity and challenge.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+                        <p>Engaged employee spreads positiveness across every sphere and its this enthusiasm which is
+                            passed on to the customers. Employees who share a healthy and positive relation with their
+                            managers are tend to be engaged mostly generating better results. Personal and collective
+                            appraisals is yet another strong way to pamper and encourage. Such practices keeps their
+                            spirits high and meets their expectations. We ensure that we acknowledge, appreciate and
+                            recognise their efforts which are helpful and important. Every year employees get nominated
+                            and voted to be chosen in the following criteria:</p>
                     </div>
                 </div>
             </div>
@@ -401,85 +533,109 @@
 
 
 
+        <section class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
+            <h2 class="mb-5 text-center">Culture @ CodeWills</h2>
+            <p class="text-center"> Our culture is our brand. We ensure that we acknowledge, appreciate and recognise
+                our
+                employee efforts which are helpful and important.
+            </p>
+            <div class="row pt-5">
+                <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+                    <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
+                                class="ai-check h2 text-primary mt-2 mb-4"></i>
+                            <h3 class="h5">Involvement</h3>
+                            <p class="fs-sm text-body">
+                                This means that everyone's involvement is mandatory in any work that has to be done, may
+                                it be an important decision that has to be taken to the various celebrations conducted
+                                in the workplace. Diversity of thought and ideas enables us to provide better services
+                                to our clients.
 
-        <section class="jarallax bg-gradient pt-5 pb-7 pt-md-7" data-jarallax data-speed="0.25"><span
-                class="position-absolute top-0 start-0 w-100 h-100 bg-gradient opacity-80"></span>
-            <div class="jarallax-img" style="background-image: url(img/company_banner/Corporate\ governance.jpg);">
-            </div>
-            <div class="container position-relative zindex-5 pt-3 pb-3 pt-md-0">
-                <div class="text-center py-md-5">
-                    <div class="text-center pt-2 mb-n3">
-                        <h1 class="text-light">Corporate Governance</h1>
-                        <p class="text-light">
-                            The time is always right to do what is right!
-                        </p>
+                            </p>
+                        </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+                    <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
+                                class="ai-check-square h2 text-primary mt-2 mb-4"></i>
+                            <h3 class="h5">Support and rewards
+                            </h3>
+                            <p class="fs-sm text-body">
+                                We're committed to giving you the experiences you need to progress and develop that will
+                                help you to excel and achieve your potential. Reward and recognition are important
+                                features of life here too.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+                    <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
+                                class="ai-user-plus h2 text-primary mt-2 mb-4"></i>
+                            <h3 class="h5">Employee engagement</h3>
+                            <p class="fs-sm text-body">
+                                Being a family member of CodeWills, there are various ways by which we engage each and
+                                every one. Starting right from birthday celebrations to being a part of the various
+                                festive seasons are some of the occasions our people do not miss at any point in time.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
-
-        <!-- corevalues -->
-        <section>
-            <div class="container  mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
-                <p class="text-center">
-                    Codewills corporate governance ensures proper management with the directors. We ensure an agile,
-                    proper performance is necessary to ensure the highest standards of corporate governance.
-                </p>
-                <p class="text-center">
-                    Our company is built with reputation, which is delivered not just through business or market
-                    performance. It comes from the core values practiced by our company. Inherently these values are
-                    defined by Integrity. Integrity lays down the guidelines for how we all behave and work. What
-                    follows is a ready reckoner for Codewills employees to consult whenever they come to a crossroad.
-                </p>
-                <p class="text-center">
-                    Codewills vehemently agree to the concept of corporate governance and corporate social
-                    responsibility. In pursuing the company's corporate aspiration to be a leader in software
-                    development service, the board is steadfast in maintaining high standards of corporate governance
-                    with a view to enhancing stakeholder value, increasing confidence, establishing customer trust and
-                    building a competitive organization.
-                </p>
-                <p class="text-center">
-                    The Board meets are held every quarter with additional meetings convened as and when urgent issues
-                    and important decisions are required to be taken between the scheduled meetings. At the end of
-                    financial period 31st March 2019, the board met 10 times to deliberate and consider a variety of
-                    significant matters that required its guidance and approval. All Directors have complied with the
-                    requirement that directors must attend at least 75% of Board meetings held in the financial period,
-                    and attended at least 50% of Board meetings held in financial year 31 March 2019 pursuant to the
-                    listing requirements. The current practice is to appoint Board members to appear on subsidiary
-                    boards, in particular the key overseas subsidiaries, to maintain oversight and ensure the operations
-                    of the respective subsidiaries are aligned with the strategies and objectives.
-                </p>
-            </div>
-        </section>
-
         <section class="bg-secondary">
             <div class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
+                <h2 class="mb-5 text-center">Becoming A Member Of CodeWills</h2>
+                <p class="text-center"> There are a series of criteria that we look up to and expect you to meet. If the
+                    expectations are met, you can relax knowing the fact that you will feel comfortable within our
+                    working
+                    environment Few qualities we look forward to in an individual are as follows:
+                </p>
                 <div class="row pt-5">
-                    <div class="col-lg-6 col-sm-6 mb-grid-gutter">
+                    <div class="col-lg-4 col-sm-6 mb-grid-gutter">
                         <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
-                                    class="ai-book-open h2 text-primary mt-2 mb-4"></i>
-                                <h3 class="h5">Corporate Governance policies</h3>
-                                <p class="fs-sm text-body">
-                                    CodeWills corporate governance ensures proper management with the directors. We
-                                    ensure an agile, proper performance is necessary to ensure the highest standards of
-                                    corporate governance. At CodeWills, the board of directors is at the core of our
-                                    corporate governance practice and oversees how the management serves and protects
-                                    the long-term interests.
+                                    class="ai-eye h2 text-primary mt-2 mb-4"></i>
+                                <h3 class="h5">Excel</h3>
+                                <p class="fs-sm text-body">In search of high performers, who consistently deliver
+                                    quality
+                                    work while continually looking for ways to improve.
+
                                 </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-sm-6 mb-grid-gutter">
+                    <div class="col-lg-4 col-sm-6 mb-grid-gutter">
                         <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
-                                    class="ai-bookmark h2 text-primary mt-2 mb-4"></i>
-                                <h3 class="h5">Corporate Governance report</h3>
-                                <p class="fs-sm text-body">
-                                    As a part of our commitment to follow global best practices, we comply with the BODs
-                                    Corporate Governance Guidelines 2007, and the recommendations of the management
-                                    members.
-                                </p>
+                                    class="ai-crosshair h2 text-primary mt-2 mb-4"></i>
+                                <h3 class="h5">Integrity</h3>
+                                <p class="fs-sm text-body">People who know how to build relationships by doing the right
+                                    thing.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-grid-gutter">
+                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
+                                    class="ai-user-plus h2 text-primary mt-2 mb-4"></i>
+                                <h3 class="h5">Leadership</h3>
+                                <p class="fs-sm text-body">People who can lead and motivate others by directing and
+                                    encouraging them in times of both prosperity and challenge.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-grid-gutter mx-auto">
+                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                            <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
+                                    class="ai-arrow-up h2 text-primary mt-2 mb-4"></i>
+                                <h3 class="h5">
+                                    Energy and enthusiasm</h3>
+                                <p class="fs-sm text-body">People who are determined and are passionate about helping
+                                    our
+                                    clients achieve their potential.</p>
                             </div>
                         </div>
                     </div>
@@ -594,7 +750,7 @@
 
 
     </main>
-    <div id="footer"></div>
+    <?php include("footer.php"); ?>
     <!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll data-fixed-element><span
             class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon ai-arrow-up">
         </i></a>
