@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CodeWills</title>
-    <meta name="robots" content="noindex">
+    <title>Our Empowerment of Employees | Codewills</title>
+
     <!-- SEO Meta Tags-->
-    <meta name="description" content="CodeWills">
+    <meta name="title" content="Our Empowerment of Employees | Codewills">
+    <meta name="description" content="We encourage our staff to try new things and allow them more freedom to make their own decisions at Codewills while constantly appreciating their priceless efforts">
     <meta name="keywords" content="CodeWills">
     <!-- Viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">

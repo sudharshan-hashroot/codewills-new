@@ -3,9 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CodeWills</title>
-    <meta name="robots" content="noindex">
+    <title>Global Approach | Codewills</title>
     <!-- SEO Meta Tags-->
+    <meta name="title" content="Global Approach | Codewills">
     <meta name="description" content="CodeWills">
     <meta name="keywords" content="CodeWills">
     <!-- Viewport-->

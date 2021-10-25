@@ -3,10 +3,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CodeWills</title>
-    <meta name="robots" content="noindex">
+    <title>Sustainable Strategy For Development | Codewills</title>
+
     <!-- SEO Meta Tags-->
-    <meta name="description" content="CodeWills">
+    <meta name="title" content="Sustainable Strategy For Development | Codewills">
+    <meta name="description" content="Codewills adopted sustainability strategy to foster the company's longevity by the efficient software development process and other services that satifies the client">
     <meta name="keywords" content="CodeWills">
     <!-- Viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">

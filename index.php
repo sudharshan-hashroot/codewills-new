@@ -3,11 +3,12 @@
 
 <head>
   <meta charset="utf-8">
-  <title>CodeWills</title>
-  <meta name="robots" content="noindex">
+  <title>Custom Website Development Company kochi | Codewills by HashRoot</title>
+ 
   <!-- SEO Meta Tags-->
-  <meta name="description" content="CodeWills">
-  <meta name="keywords" content="CodeWills">
+  <meta name="title" content="Custom Website Development Company kochi | Codewills by HashRoot">
+  <meta name="description" content="Codewills is the leading custom website development company that provides the best services for web designing, development and digital marketing. Contact us">
+  <meta name="keywords" content="Website Development Company, Custom Website Development Dompany, Website Development Company kochi">
   <!-- Viewport-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Favicon and Touch Icons-->

@@ -3,10 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CodeWills</title>
-    <meta name="robots" content="noindex">
+    <title>Our Executive Leadership Team | Codewills</title>
+
     <!-- SEO Meta Tags-->
-    <meta name="description" content="CodeWills">
+
+    <meta name="title" content="Our Executive Leadership Team | Codewills">
+    <meta name="description" content="Meet our executive leadership team, who drives our firm to new heights by helping us deliver effective services and a consistently engaging client experience">
     <meta name="keywords" content="CodeWills">
     <!-- Viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">

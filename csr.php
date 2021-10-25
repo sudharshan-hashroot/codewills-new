@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CodeWills</title>
-    <meta name="robots" content="noindex">
+    <title>Our Corporate Social Responsibility Policy | Codewills </title>
     <!-- SEO Meta Tags-->
-    <meta name="description" content="CodeWills">
+    <meta name="title" content="Our Corporate Social Responsibility Policy | Codewills">
+    <meta name="description" content="At Codewills, we believe that accepting CSR drives us to a better business and it is our obligation to deliver the best possible services to our general public">
     <meta name="keywords" content="CodeWills">
     <!-- Viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">

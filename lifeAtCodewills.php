@@ -3,9 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>CodeWills</title>
-    <meta name="robots" content="noindex">
+    <title>Life At Codewills | Codewills</title>
+
     <!-- SEO Meta Tags-->
+    <meta name="title" content="Life At Codewills | Codewills">
     <meta name="description" content="CodeWills">
     <meta name="keywords" content="CodeWills">
     <!-- Viewport-->
