@@ -460,62 +460,7 @@
       </div>
     </section>
     <!-- form -->
-    <section class=" bg-secondary pt-5 pt-md-6 pt-lg-7">
-      <div class="container py-3 pt-md-0">
-        <div class="row pb-2 pb-md-5">
-          <form class="col-xl-6 col-lg-7 col-md-7 needs-validation mb-5" novalidate="">
-            <h2 class="pb-4">What project are you looking for?</h2>
-            <h3 class="h6 pb-2">Services</h3>
-            <div class="btn-group-toggle pb-3 mb-3" data-bs-toggle="buttons">
-              <label class="btn btn-outline-primary me-2 mb-2 active">
-                <input class="visually-hidden" type="radio" name="services" id="branding" checked="">Web Design
-              </label>
-              <label class="btn btn-outline-primary me-2 mb-2">
-                <input class="visually-hidden" type="radio" name="services" id="ux">Web Application
-              </label>
-              <label class="btn btn-outline-primary me-2 mb-2">
-                <input class="visually-hidden" type="radio" name="services" id="illustration">eCommerce Development
-              </label>
-              <label class="btn btn-outline-primary mb-2">
-                <input class="visually-hidden" type="radio" name="services" id="motion">Mobile Application
-              </label>
-              <label class="btn btn-outline-primary mb-2">
-                <input class="visually-hidden" type="radio" name="services" id="motion">Digital Marketing
-              </label>
-            </div>
-            <div class="input-group mb-3"><i
-                class="ai-user position-absolute top-50 start-0 translate-middle-y ms-3"></i>
-              <input class="form-control rounded" type="text" placeholder="Name" required="">
-            </div>
-            <div class="input-group mb-3"><i
-                class="ai-mail position-absolute top-50 start-0 translate-middle-y ms-3"></i>
-              <input class="form-control rounded" type="email" placeholder="Email" required="">
-            </div>
-            <div class="mb-3 pb-1">
-              <textarea class="form-control" rows="4" placeholder="Project description" required=""></textarea>
-            </div>
-            <div class="row pt-2">
-              <div class="col-lg-6 col-md-8">
-                <button class="btn btn-primary btn-block" type="submit">Send Request</button>
-              </div>
-            </div>
-          </form>
-          <div class="col-xl-3 col-lg-4 offset-xl-3 offset-lg-1 col-md-5 mb-5">
-            <h2 class="pb-2">Contacts</h2>
-            <ul class="list-unstyled fs-sm mb-4 pb-2">
-              <li><a class="nav-link-style" href="mailto:contact@example.com">contact@example.com</a></li>
-              <li><a class="nav-link-style" href="tel:+15262200459">+91 9778426320</a></li>
-            </ul>
-            <h3 class="h6 pb-2">Or connect with us on:</h3><a class="btn-social bs-outline bs-facebook bs-lg me-2 mb-2"
-              href="#"><i class="ai-facebook"></i></a><a class="btn-social bs-outline bs-twitter bs-lg me-2 mb-2"
-              href="#"><i class="ai-twitter"></i></a><a class="btn-social bs-outline bs-instagram bs-lg me-2 mb-2"
-              href="#"><i class="ai-instagram"></i></a><a class="btn-social bs-outline bs-dribbble bs-lg me-2 mb-2"
-              href="#"><i class="ai-dribbble"></i></a><a class="btn-social bs-outline bs-behance bs-lg me-2 mb-2"
-              href="#"><i class="ai-behance"></i></a>
-          </div>
-        </div>
-      </div>
-    </section>
+    <?php  include("./enquiry.php"); ?>
 
 
 
