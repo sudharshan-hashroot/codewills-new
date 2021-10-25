@@ -5,4 +5,24 @@ RewriteCond %{HTTP:X-Forwarded-SSL} !on
 RewriteCond %{HTTP_HOST} ^codewills\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.codewills\.com$
 RewriteRule ^/?$ "https\:\/\/www\.codewills\.com\/" [R=301,L]
+RewriteRule ^/?website-development-services$ /webdev.php
+RewriteRule ^/?mobile-app-development-services$ /mobileappdev.php
+RewriteRule ^/?website-design-services$ /webdesign.php
+RewriteRule ^/?web-application-development-services$ /webappdev.php
+RewriteRule ^/?digital-marketing-services$ /digitalmarketing.php
+RewriteRule ^/?ceo-message$ /ceoMessage.php
+RewriteRule ^/?corporate-social-responsibility$ /csr.php
+RewriteRule ^/?empowerment-of-employees$ /employeeEmpowerment.php
+RewriteRule ^/?global-approach$ /globalApproach.php
+RewriteRule ^/?leadership$ /leadership.php
+RewriteRule ^/?life-at-codewills$ /lifeAtCodewills.php
+RewriteRule ^/?sustainability-strategy$ /sustainabilitystrategy.php
+
+
+
+
+
+
+
+
 

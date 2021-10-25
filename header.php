@@ -37,31 +37,31 @@
               <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Our Services</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="webdesign.php">
+                  <li><a class="dropdown-item" href="/website-design-services">
                     <div class="d-flex align-items-center">
                       <div class="fs-xl text-muted"><i class="ai-pen-tool"></i></div>
                       <div class="ps-3"><span class="d-block text-heading">Website Designing</span><small class="d-block text-muted">Kick-start customization</small></div>
                     </div></a></li>
                     <li class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="webdev.php">
+                  <li><a class="dropdown-item" href="/website-development-services">
                       <div class="d-flex align-items-center">
                         <div class="fs-xl text-muted"><i class="ai-monitor"></i></div>
                         <div class="ps-3"><span class="d-block text-heading">Website Development</span><small class="d-block text-muted">Kick-start customization</small></div>
                       </div></a></li>
                   <li class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="mobileappdev.php">
+                  <li><a class="dropdown-item" href="/mobile-app-development-services">
                       <div class="d-flex align-items-center">
                         <div class="fs-xl text-muted"><i class="ai-layers"></i></div>
                         <div class="ps-3"><span class="d-block text-heading">Mobile App Development</span><small class="d-block text-muted">Flexible components</small></div>
                       </div></a></li>
                   <li class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="webappdev.php">
+                  <li><a class="dropdown-item" href="/web-application-development-services">
                       <div class="d-flex align-items-center">
                         <div class="fs-xl text-muted"><i class="ai-grid"></i></div>
                         <div class="ps-3"><span class="d-block text-heading">Web App Development</span><small class="d-block text-muted">Regular updates</small></div>
                       </div></a></li>
                   <li class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="digitalmarketing.php">
+                  <li><a class="dropdown-item" href="/digital-marketing-services">
                       <div class="d-flex align-items-center">
                         <div class="fs-xl text-muted"><i class="ai-pie-chart"></i></div>
                         <div class="ps-3"><span class="d-block text-heading">Digital Marketing</span><small class="d-block text-muted">Flexible component</small></div>

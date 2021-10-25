@@ -4,11 +4,13 @@
 <head>
   <meta charset="utf-8">
   <title>Custom Website Development Company kochi | Codewills by HashRoot</title>
- 
+
   <!-- SEO Meta Tags-->
   <meta name="title" content="Custom Website Development Company kochi | Codewills by HashRoot">
-  <meta name="description" content="Codewills is the leading custom website development company that provides the best services for web designing, development and digital marketing. Contact us">
-  <meta name="keywords" content="Website Development Company, Custom Website Development Dompany, Website Development Company kochi">
+  <meta name="description"
+    content="Codewills is the leading custom website development company that provides the best services for web designing, development and digital marketing. Contact us">
+  <meta name="keywords"
+    content="Website Development Company, Custom Website Development Dompany, Website Development Company kochi">
   <!-- Viewport-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Favicon and Touch Icons-->
@@ -45,13 +47,14 @@
       visibility: hidden;
       z-index: 9999;
     }
-        .invalid-feedback1 {
-       display: none;
-       width: 100%;
-       margin-top: 0.375rem;
-       font-size: 0.75rem;
-       color: #f74f78;
-      }
+
+    .invalid-feedback1 {
+      display: none;
+      width: 100%;
+      margin-top: 0.375rem;
+      font-size: 0.75rem;
+      color: #f74f78;
+    }
 
     .page-loading.active {
       opacity: 1;
@@ -135,7 +138,7 @@
       };
     })();
 
-    
+
 
 
   </script>
@@ -446,7 +449,7 @@
                 <div class="col-6 px-2 mb-3 hovercards" data-hover="1">
                   <a
                     class="d-block border border-light btn btn-outline-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none"><img
-                      class="d-inline-block opacity-60 mb-3" src="../img/demo/presentation/icons/gallery.svg"
+                      class="d-inline-block opacity-60 mb-3" src="img/demo/presentation/icons/gallery.svg"
                       alt="Image / Video Gallery" width="45">
                     <h3 class="h6 text-light mb-0" style="white-space: pre-wrap;">Website Development</h3>
                   </a>
@@ -454,7 +457,7 @@
                 <div class="col-6 px-2 mb-3 hovercards" data-hover="2">
                   <a
                     class="d-block border border-light btn btn-outline-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none">
-                    <img class="d-inline-block opacity-60 mb-3" src="../img/demo/presentation/icons/play.svg"
+                    <img class="d-inline-block opacity-60 mb-3" src="img/demo/presentation/icons/play.svg"
                       alt="Line, Bar &amp; Pie Charts" width="45">
                     <h3 class="h6 text-light mb-0" style="white-space: pre-wrap;">Mobile App Development</h3>
                   </a>
@@ -462,7 +465,7 @@
                 <div class="col-6 px-2 mb-3 hovercards" data-hover="3">
                   <a
                     class="d-block border border-light btn btn-outline-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none">
-                    <img class="d-inline-block opacity-60 mb-3" src="../img/demo/presentation/icons/forms.svg"
+                    <img class="d-inline-block opacity-60 mb-3" src="img/demo/presentation/icons/forms.svg"
                       alt="Video Popup &amp; Embed" width="44">
                     <h3 class="h6 text-light mb-0" style="white-space: pre-wrap;">Web App Development</h3>
                   </a>
@@ -470,7 +473,7 @@
                 <div class="col-6 px-2 mb-3 hovercards" data-hover="4">
                   <a
                     class="d-block border border-light btn btn-outline-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none">
-                    <img class="d-inline-block opacity-60 mb-3" src="../img/demo/presentation/icons/chart.svg"
+                    <img class="d-inline-block opacity-60 mb-3" src="img/demo/presentation/icons/chart.svg"
                       alt="Form Controls" width="42">
                     <h3 class="h6 text-light mb-0" style="white-space: pre-wrap;">Digital Marketing</h3>
                   </a>
@@ -527,7 +530,7 @@
         <div class="row align-items-center">
           <div class="col-md-6 mb-5 mb-md-0">
             <div class="mx-auto mx-md-0" style="max-width: 525px;"><img class="d-block"
-                src="../img/demo/presentation/mobile-screens.jpg" alt="Mobile screens"></div>
+                src="img/demo/presentation/mobile-screens.jpg" alt="Mobile screens"></div>
           </div>
           <div class="col-md-6 text-center text-md-start">
             <h2 class="h1 mb-4">Our Technology <span
@@ -821,90 +824,112 @@
             <h2 class="pb-2 mb-4 text-center text-md-start">Awards</h2>
             <div class="tns-carousel-inner" data-carousel-options="{&quot;nav&quot;: false, &quot;gutter&quot;: 20}">
               <blockquote class="mt-3 mb-0">
-                <img src="./img/homepage/awards/webp/internationalcrown.webp" alt="" width="200">
+                <img src="./img/awards/svg/IQC-01.svg" alt="" width="200">
                 <h4>INTERNATIONAL QUALITY CROWN AWARD
                 </h4>
-                <p>HashRoot has been awarded the "International Quality Crown Award (IQC)" in category GOLD by 27th
-                  International IQC Convention at London, United Kingdom
-
+                <p>
+                  The President of the selection committee for the 27th International IQC Convention informed HashRoot
+                  that it has been awarded the 'International Quality Crown Award (IQC)' on GOLD category at IQC
+                  International Quality Convention, London on November 21-22, 2015. The International Quality Crown
+                  (IQC) London 2015 is organised by BID Group One and Business Initiative Directions (BID).
                 </p>
               </blockquote>
               <blockquote class="mt-3 mb-0">
-                <img src="./img/homepage/awards/webp/50cool startups.webp" alt="" width="200">
-                <h4>50 COOL STARTUPS</h4>
-                <p>HashRoot has been identified in the "50 cool startups of the year" by Siliconindia. Better work-life
-                  balance, pay scale & benefits, development opportunities are some of the factors that were considered
-                  while preparing the list.
+                <img src="./img/awards/svg/ccss-01.svg" alt="" width="200">
+                <h4>Crown Commercial Service (CCS), UK</h4>
+                <p>
+                  HashRoot is the part of the UK Government’s G-Cloud 12 Framework. By achieving G-Cloud accreditation,
+                  HashRoot is an approved G-Cloud 12 supplier by the Crown Commercial Service (CCS) and is considered as
+                  one of the best choice for delivering world-class cloud computing services and high-quality cloud
+                  solutions.
                 </p>
               </blockquote>
               <blockquote class="mt-3 mb-0">
-                <img src="./img/homepage/awards/webp/consultants.webp" alt="" width="200">
-                <h4>CONSULTANT OF THE YEAR 2015
+                <img src="./img/awards/svg/cool startup-01.svg" alt="" width="200">
+                <h4> 50 Cool Startups
                 </h4>
-                <p>Awarded as the Consultant of the Year 2015 by Consultant Review Magazine in the domain Infrastructure
-                  Management Service.
+                <p>
+                  Silicon India Magazine, a leading business enterprises and industries magazine recognised and featured
+                  HashRoot as the 50 Cool Startups, an annual listing of 500 cool straps of the year represents not only
+                  the glory of 50 startups but also recognises companies impacting the marketplace.
                 </p>
               </blockquote>
               <blockquote class="mt-3 mb-0">
-                <img src="./img/homepage/awards/webp/vmware.webp" alt="" width="200">
-                <h4>MOST PROMISING VMWARE SOLUTION PROVIDER
+                <img src="./img/awards/svg/CIP-01.svg" alt="" width="200">
+                <h4>International Gold Star Millennium Award
                 </h4>
-                <p>Listed in the 25 Most promising VMware Service Providers by APAC CIO Outlook Magazine, published from
-                  Silicon Valley, USA
+                <p>
+                  International Gold Star Millennium Award is presented to HashRoot for Excellence in Promoting Global
+                  Integration and Economic Development by His Excellency Mr. Korn Dabbaransi, Former Dy. Prime Minister
+                  of Thailand, at the International Conference on "Indo-Thai Friendship and Economic Co-operation" on
+                  18th January 2015, Bangkok, Thailand.
 
                 </p>
               </blockquote>
               <blockquote class="mt-3 mb-0">
-                <img src="./img/homepage/awards/webp/bizzaward.webp" alt="" width="200">
-                <h4>THE BIZZ AWARDS 2019</h4>
-                <p>HashRoot joined the elite group of companies that have consistently demonstrated business excellence.
-                </p>
-              </blockquote>
-              <blockquote class="mt-3 mb-0">
-                <img src="./img/homepage/awards/webp/crown commercial.webp" alt="" width="200">
-                <h4>CROWN COMMERCIAL SERVICE SUPPLIER </h4>
-                <p>HashRoot is now an approved G-Cloud 12 supplier by the Crown Commercial Service (CCS)
-                </p>
-              </blockquote>
-              <blockquote class="mt-3 mb-0">
-                <img src="./img/homepage/awards/webp/citizen integration peace.webp" alt="" width="200">
-                <h4>INTERNATIONAL GOLD STAR MILLENNIUM AWARD </h4>
-                <p>For Excellence in Promoting Global Integration and Economic Development by Mr. Korn Dabbaransi,
-                  Former Dy. PM of Thailand, at the International Conference on "Indo-Thai Friendship and Economic
-                  Co-operation" on 18th January 2015, Bangkok, Thailand.
-
+                <img src="./img/awards/svg/consultants-01.svg" alt="" width="200">
+                <h4>Consultant of the year 2015</h4>
+                <p>HashRoot has been awarded as the Consultant of the Year 2015 by Consultant's Review Magazine in the
+                  domain Infrastructure Management Service for reducing IT Complexities with cutting-edge IT advisory
+                  solutions. Consultant's Review is a platform, which connects both consultants and organizations to
+                  work together for a better output.
 
                 </p>
               </blockquote>
               <blockquote class="mt-3 mb-0">
-                <img src="./img/homepage/awards/webp/indianeconomic.webp" alt="" width="200">
-                <h4>FASTEST GROWING INDIAN COMPANY EXCELLENCE AWARD
+                <img src="./img/awards/svg/IEDRA-01-01.svg" alt="" width="200">
+                <h4>Fastest growing Indian Company Excellence Award</h4>
+                <p>Indian Economic Development and Research Association (IEDRA) awarded HashRoot as the 'Fastest growing
+                  Indian Company Excellence Award' on the occasion of National Seminar on "Outstanding contribution to
+                  National Development" on Friday 29th August 2014 at New Delhi. IEDRA is a national level organization
+                  which is promoting national economy and social development and holding Award functions for the past 25
+                  years in India and Abroad
+                </p>
+              </blockquote>
+              <blockquote class="mt-3 mb-0">
+                <img src="./img/awards/svg/vmware-01.svg" alt="" width="200">
+                <h4>Most promising VMware Solution Provider
                 </h4>
-                <p>Awarded By Indian Economic Development and Research Association (IEDRA) on the occasion of National
-                  Seminar on "Outstanding contribution to National Development" on Friday 29th August 2014 at New Delhi.
-
+                <p>
+                  HashRoot has been listed in the 25 most promising VMware service providers of the year 2016 by CIO
+                  Outlook Magazine, published from Silicon Valley, USA. APAC CIO Outlook magazine stands out with its
+                  learn-from peers approach offering professionals the most comprehensive collection of technology
+                  trends.
                 </p>
               </blockquote>
               <blockquote class="mt-3 mb-0">
-                <img src="./img/homepage/awards/webp/international achiever conference.webp" alt="" width="200">
-                <h4>GLOBAL ACHIEVERS AWARD FOR BUSINESS EXCELLENCE
-
+                <img src="./img/awards/svg/IAC-01.svg" alt="" width="200">
+                <h4>Global Achievers Award for Business Excellence
                 </h4>
-                <p>Global achievers award for business excellence by International Achievers Summit for outstanding
-                  achievements at the 6th International Achievers summit on Global Corporate Achievements and social
-                  responsibilities at Bangkok, Thailand
-
+                <p>
+                  International Achievers Conference 'Global Achievers Award for Business Excellence' is presented to
+                  HashRoot by International Achievers Summit for outstanding achievements at the 6th International
+                  Achievers summit on 'Global Corporate Achievements and Social Responsibilities' on Monday, 17th
+                  November 2014 at Bangkok, Thailand
                 </p>
               </blockquote>
               <blockquote class="mt-3 mb-0">
-                <img src="./img/homepage/awards/webp/clutch.webp" alt="" width="200">
+                <img src="./img/awards/svg/bizz.svg" alt="" width="200">
+                <h4>The BIZZ Awards 2019
+                </h4>
+                <p>
+                  HashRoot has been selected as a winner fo the prestigious Business Excellence Award, The BIZZ Awards
+                  by WORLDCOB (The World Confederation of Businesses). The BIZZ is a member of the United Nations Global
+                  Compact, US Chamber of commerce, and Gold community WORLDCOB. THE BIZZ was initiated by World
+                  Confederation of Businesses (WORLDCOB), on the idea to offer the global business community benefits
+                  that further their progress.
+                </p>
+              </blockquote>
+              <blockquote class="mt-3 mb-0">
+                <img src="./img/awards/svg/clutch-01.svg" alt="" width="200">
                 <h4>Clutch Award 2021
-
                 </h4>
-                <p>Clutch is the leading ratings and reviews platform for IT, Marketing, and Business service providers.
-                  Clutch has been recognized by Inc Magazine as one of the 500 fastest-growing companies in the United
-                  States and has been listed as a top 50 startup by LinkedIn
-
+                <p>
+                  HashRoot was named to Clutch's annual list of the top 100 IT firms in India for 2021 in a press
+                  release on 23 March 2021 at Washington DC. Clutch is the leading ratings and reviews platform for IT,
+                  Marketing, and Business service providers. Clutch has been recognized by Inc Magazine as one of the
+                  500 fastest-growing companies in the United States and has been listed as a top 50 startup by
+                  LinkedIn.
                 </p>
               </blockquote>
             </div>
@@ -915,61 +940,58 @@
               <div class="flex-column d-flex">
 
                 <a class="swap-image active m-1" href="#" data-goto="1">
-                  <img class="swap-to" src="img/homepage/awards/webp/internationalcrown.webp" alt="Logo" width="136">
-                  <img class="swap-from" src="img/homepage/awards/webp/internationalcrown.webp" alt="Logo" width="136"
+                  <img class="swap-to" src="img/awards/svg/clutch-01.svg" alt="Logo" width="136">
+                  <img class="swap-from" src="img/awards/svg/clutch-01.svg" alt="Logo" width="136"
                     style="filter:grayscale(1)">
                 </a>
                 <a class="swap-image  m-1" href="#" data-goto="2">
-                  <img class="swap-to" src="img/homepage/awards/webp/50cool startups.webp" alt="Logo" width="136">
-                  <img class="swap-from" src="img/homepage/awards/webp/50cool startups.webp" alt="Logo" width="136"
-                    style="filter:grayscale(1)">
-                </a>
-                <a class="swap-image  m-1" href="#" data-goto="3">
-                  <img class="swap-to" src="img/homepage/awards/webp/consultants.webp" alt="Logo" width="136">
-                  <img class="swap-from" src="img/homepage/awards/webp/consultants.webp" alt="Logo" width="136"
+                  <img class="swap-to" src="img/awards/svg/ccss-01.svg" alt="Logo" width="136">
+                  <img class="swap-from" src="img/awards/svg/ccss-01.svg" alt="Logo" width="136"
                     style="filter:grayscale(1)">
                 </a>
                 <a class="swap-image  m-1" href="#" data-goto="4">
-                  <img class="swap-to" src="img/homepage/awards/webp/vmware.webp" alt="Logo" width="136">
-                  <img class="swap-from" src="img/homepage/awards/webp/vmware.webp" alt="Logo" width="136"
+                  <img class="swap-to" src="img/awards/svg/IEDRA-01-01.svg" alt="Logo" width="136">
+                  <img class="swap-from" src="img/awards/svg/IEDRA-01-01.svg" alt="Logo" width="136"
                     style="filter:grayscale(1)">
                 </a>
+                <a class="swap-image  m-1" href="#" data-goto="3">
+                  <img class="swap-to" src="img/awards/svg/IAC-01.svg" alt="Logo" width="136">
+                  <img class="swap-from" src="img/awards/svg/IAC-01.svg" alt="Logo" width="136"
+                    style="filter:grayscale(1)">
+                </a>
+
 
                 <a class="swap-image  m-1" href="#" data-goto="5">
-                  <img class="swap-to" src="img/homepage/awards/webp/bizzaward.webp" alt="Logo" width="136">
-                  <img class="swap-from" src="img/homepage/awards/webp/bizzaward.webp" alt="Logo" width="136"
+                  <img class="swap-to" src="img/awards/svg/CIP-01.svg" alt="Logo" width="136">
+                  <img class="swap-from" src="img/awards/svg/CIP-01.svg" alt="Logo" width="136"
                     style="filter:grayscale(1)">
                 </a>
-
-
 
               </div>
               <div class="flex-column d-flex">
                 <a class="swap-image  m-1" href="#" data-goto="6">
-                  <img class="swap-to" src="img/homepage/awards/webp/crown commercial.webp" alt="Logo" width="136">
-                  <img class="swap-from" src="img/homepage/awards/webp/crown commercial.webp" alt="Logo" width="136"
+                  <img class="swap-to" src="img/awards/svg/bizz.svg" alt="Logo" width="136">
+                  <img class="swap-from" src="img/awards/svg/bizz.svg" alt="Logo" width="136"
                     style="filter:grayscale(1)">
                 </a>
                 <a class="swap-image  m-1" href="#" data-goto="7">
-                  <img class="swap-to" src="img/homepage/awards/webp/citizen integration peace.webp" alt="Logo"
-                    width="136">
-                  <img class="swap-from" src="img/homepage/awards/webp/citizen integration peace.webp" alt="Logo"
-                    width="136" style="filter:grayscale(1)">
+                  <img class="swap-to" src="img/awards/svg/IQC-01.svg" alt="Logo" width="136">
+                  <img class="swap-from" src="img/awards/svg/IQC-01.svg" alt="Logo" width="136"
+                    style="filter:grayscale(1)">
                 </a>
                 <a class="swap-image  m-1" href="#" data-goto="8">
-                  <img class="swap-to" src="img/homepage/awards/webp/indianeconomic.webp" alt="Logo" width="136">
-                  <img class="swap-from" src="img/homepage/awards/webp/indianeconomic.webp" alt="Logo" width="136"
+                  <img class="swap-to" src="img/awards/svg/consultants-01.svg" alt="Logo" width="136">
+                  <img class="swap-from" src="img/awards/svg/consultants-01.svg" alt="Logo" width="136"
                     style="filter:grayscale(1)">
                 </a>
                 <a class="swap-image  m-1" href="#" data-goto="9">
-                  <img class="swap-to" src="img/homepage/awards/webp/international achiever conference.webp" alt="Logo"
-                    width="136">
-                  <img class="swap-from" src="img/homepage/awards/webp/international achiever conference.webp"
-                    alt="Logo" width="136" style="filter:grayscale(1)">
+                  <img class="swap-to" src="img/awards/svg/vmware-01.svg" alt="Logo" width="136">
+                  <img class="swap-from" src="img/awards/svg/vmware-01.svg" alt="Logo" width="136"
+                    style="filter:grayscale(1)">
                 </a>
                 <a class="swap-image  m-1" href="#" data-goto="10">
-                  <img class="swap-to" src="img/homepage/awards/webp/clutch.webp" alt="Logo" width="136">
-                  <img class="swap-from" src="img/homepage/awards/webp/clutch.webp" alt="Logo" width="136"
+                  <img class="swap-to" src="img/awards/svg/cool startup-01.svg" alt="Logo" width="136">
+                  <img class="swap-from" src="img/awards/svg/cool startup-01.svg" alt="Logo" width="136"
                     style="filter:grayscale(1)">
                 </a>
 
@@ -1204,13 +1226,14 @@
   <script src="vendor/shufflejs/dist/shuffle.min.js"></script>
   <script src="vendor/flatpickr/dist/flatpickr.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://www.google.com/recaptcha/api.js?render=6LfsmegcAAAAAOfQiUcaEbtgDkUPax5ecu40zrUP"></script>    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-  
+  <script src="https://www.google.com/recaptcha/api.js?render=6LfsmegcAAAAAOfQiUcaEbtgDkUPax5ecu40zrUP"></script>
+  <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
   <!-- Main theme script-->
   <script src="js/theme.min.js"></script>
   <script src="js/jquery.validate.js"></script>
-    <script src="js/mailchimp.js"></script>
-    <script src="js/enquiry-form.js"></script>
+  <script src="js/mailchimp.js"></script>
+  <script src="js/enquiry-form.js"></script>
   <script>
     $(".hovercards").hover(function () {
       $(".hovercardschild").children().css("display", "none")
@@ -1220,77 +1243,77 @@
 
     })
   </script>
-    <script>
-   $('#ux').click(function() {
-    var checked = $(this).attr('checked');
-    $('#ux2').addClass('active');
-
-   // alert(checked);
-    if (checked) {
-      $('#ux2').removeClass('active');
-        $(this).attr('checked', false);
-
-    }
-    else {
+  <script>
+    $('#ux').click(function () {
+      var checked = $(this).attr('checked');
       $('#ux2').addClass('active');
-        $(this).attr('checked', true);
-    }
-});
-$('#illustration').click(function() {
-    var checked = $(this).attr('checked');
-    $('#ux3').addClass('active');
-   // alert(checked);
-    if (checked) {
-      $('#ux3').removeClass('active');
+
+      // alert(checked);
+      if (checked) {
+        $('#ux2').removeClass('active');
         $(this).attr('checked', false);
 
-    }
-    else {
+      }
+      else {
+        $('#ux2').addClass('active');
+        $(this).attr('checked', true);
+      }
+    });
+    $('#illustration').click(function () {
+      var checked = $(this).attr('checked');
       $('#ux3').addClass('active');
-        $(this).attr('checked', true);
-    }
-});
-$('#motion').click(function() {
-    var checked = $(this).attr('checked');
-    $('#ux4').addClass('active');
-   // alert(checked);
-    if (checked) {
-      $('#ux4').addClass('active');
+      // alert(checked);
+      if (checked) {
+        $('#ux3').removeClass('active');
         $(this).attr('checked', false);
 
-    }
-    else {
-      $('#ux4').addClass('active');
+      }
+      else {
+        $('#ux3').addClass('active');
         $(this).attr('checked', true);
-    }
-});
-$('#dig').click(function() {
-    var checked = $(this).attr('checked');
-    $('#ux5').addClass('active');
-   // alert(checked);
-    if (checked) {
-      $('#ux5').removeClass('active');
+      }
+    });
+    $('#motion').click(function () {
+      var checked = $(this).attr('checked');
+      $('#ux4').addClass('active');
+      // alert(checked);
+      if (checked) {
+        $('#ux4').addClass('active');
         $(this).attr('checked', false);
 
-    }
-    else {
+      }
+      else {
+        $('#ux4').addClass('active');
+        $(this).attr('checked', true);
+      }
+    });
+    $('#dig').click(function () {
+      var checked = $(this).attr('checked');
       $('#ux5').addClass('active');
-        $(this).attr('checked', true);
-    }
-});
-$('#branding').click(function() {
-    var checked = $(this).attr('checked');
-   // alert(checked);
-    if (checked) {
-      $('#ux1').removeClass('active');
+      // alert(checked);
+      if (checked) {
+        $('#ux5').removeClass('active');
         $(this).attr('checked', false);
 
-    }
-    else {
-      $('#ux1').addClass('active');
+      }
+      else {
+        $('#ux5').addClass('active');
         $(this).attr('checked', true);
-    }
-});
+      }
+    });
+    $('#branding').click(function () {
+      var checked = $(this).attr('checked');
+      // alert(checked);
+      if (checked) {
+        $('#ux1').removeClass('active');
+        $(this).attr('checked', false);
+
+      }
+      else {
+        $('#ux1').addClass('active');
+        $(this).attr('checked', true);
+      }
+    });
   </script>
 </body>
 

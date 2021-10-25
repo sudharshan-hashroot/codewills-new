@@ -11,8 +11,8 @@
           <div class="widget widget-light">
             <h4 class="widget-title">Company</h4>
             <ul>
-              <li><a class="widget-link" href="#">About</a></li>
-              <li><a class="widget-link" href="#">Careers</a></li>
+              <li><a class="widget-link" href="about.php">About</a></li>
+              <!-- <li><a class="widget-link" href="#">Careers</a></li> -->
               <li><a class="widget-link" href="#">Pricing</a></li>
             </ul>
           </div>
@@ -21,11 +21,11 @@
           <div class="widget widget-light">
             <h4 class="widget-title">Our Services</h4>
             <ul>
-              <li><a class="widget-link" href="webdesign.php">Website Desiging</a></li>  
-              <li><a class="widget-link" href="webappdev.php">Website Development</a></li>           
-              <li><a class="widget-link" href="mobileappdev.php">Mobile App Development</a></li>
-              <li><a class="widget-link" href="webappdev.php">Web App Development</a></li>      
-              <li><a class="widget-link" href="digitalmarketing.php">Digital Marketing</a></li>
+              <li><a class="widget-link" href="/website-design-services">Website Desiging</a></li>  
+              <li><a class="widget-link" href="/website-development-services">Website Development</a></li>           
+              <li><a class="widget-link" href="/mobile-app-development-services">Mobile App Development</a></li>
+              <li><a class="widget-link" href="/web-application-development-services">Web App Development</a></li>      
+              <li><a class="widget-link" href="/digital-marketing-services">Digital Marketing</a></li>
             </ul>
           </div>
         </div>
