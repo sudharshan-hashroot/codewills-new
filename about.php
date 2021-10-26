@@ -5,9 +5,8 @@
     <title>CodeWills | About</title>
     <!-- SEO Meta Tags-->
     <meta name="robots" content="noindex">
-    <!-- <meta name="description" content="Around - Multipurpose Bootstrap Template">
-    <meta name="keywords" content="bootstrap, business, consulting, coworking space, services, creative agency, dashboard, e-commerce, mobile app showcase, multipurpose, product landing, shop, software, ui kit, web studio, landing, html5, css3, javascript, gallery, slider, touch, creative">
-    <meta name="author" content="Createx Studio"> -->
+    <meta name="title" content="About CodeWills- Leading Software Development Company">
+    <meta name="description" content="We are a leading software development company providing top-notch web and mobile application development services to businesses all over the world.">
     <!-- Viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon and Touch Icons-->

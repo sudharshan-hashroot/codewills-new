@@ -11,7 +11,7 @@
           <div class="widget widget-light">
             <h4 class="widget-title">Company</h4>
             <ul>
-              <li><a class="widget-link" href="about.php">About</a></li>
+              <li><a class="widget-link" href="/about-us">About</a></li>
               <!-- <li><a class="widget-link" href="#">Careers</a></li> -->
               <li><a class="widget-link" href="#pricing">Pricing</a></li>
             </ul>
@@ -36,7 +36,7 @@
         <div class="col-md-6 order-md-2 text-md-end mb-3">
           <ul class="list-inline fs-sm mb-0">
             <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="#">Support</a></li>
-            <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="contact.php">Contacts</a></li>
+            <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="/contact-us">Contacts</a></li>
             <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="#">Terms &amp; Conditions</a></li>
           </ul>
         </div>

@@ -41,7 +41,7 @@
             <ul class="navbar-nav">
            
               <li class="nav-item"><a class="nav-link" href="/website-development-company">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="about.php">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="/about-us">About Us</a></li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Our Services</a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="/website-design-services">
@@ -77,7 +77,7 @@
               </li>
               <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
               <!-- <li class="nav-item"><a class="nav-link" href="careers.html">Careers</a></li> -->
-              <li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="/contact-us">Contact Us</a></li>
             </ul>
           </div>
           <div class="offcanvas-footer border-top"><a class="btn btn-translucent-primary d-block w-100" href="#modal-signin" data-bs-toggle="modal" data-view="#modal-signin-view"><i class="ai-user fs-lg me-2"></i>Sign in</a></div>

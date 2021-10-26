@@ -6,7 +6,8 @@
   <title>CodeWills</title>
   <meta name="robots" content="noindex">
   <!-- SEO Meta Tags-->
-  <meta name="description" content="CodeWills">
+  <meta name="title" content="About HashRoot | CodeWills by HashRoot">
+  <meta name="description" content="HashRoot is a global company that has reputation for its ability to help customers achieve their business objective by providing quality IT managed services.">
   <meta name="keywords" content="CodeWills">
   <!-- Viewport-->
   <meta name="viewport" content="width=device-width, initial-scale=1">

@@ -18,6 +18,14 @@ RewriteRule ^/?global-approach$ /globalApproach.php
 RewriteRule ^/?leadership$ /leadership.php
 RewriteRule ^/?life-at-codewills$ /lifeAtCodewills.php
 RewriteRule ^/?sustainability-strategy$ /sustainabilitystrategy.php
+RewriteRule ^/?about-us$ /about.php
+RewriteRule ^/?about-hashroot$ /aboutHashroot.php
+RewriteRule ^/?contact-us$ /contact.php
+
+
+
+
+
 
 
 

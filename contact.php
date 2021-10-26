@@ -5,9 +5,8 @@
     <title>CodeWills | Contact Us</title>
     <meta name="robots" content="noindex">
     <!-- SEO Meta Tags-->
-    <!-- <meta name="description" content="Around - Multipurpose Bootstrap Template">
-    <meta name="keywords" content="bootstrap, business, consulting, coworking space, services, creative agency, dashboard, e-commerce, mobile app showcase, multipurpose, product landing, shop, software, ui kit, web studio, landing, html5, css3, javascript, gallery, slider, touch, creative">
-    <meta name="author" content="Createx Studio"> -->
+    <meta name="title" content="Get in Touch With Us | CodeWills by HashRoot">
+    <meta name="description" content="Need any assistance with our service? We would like to hear from you. Drop us a line or reach out to us for any enquiries.">
     <!-- Viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon and Touch Icons-->

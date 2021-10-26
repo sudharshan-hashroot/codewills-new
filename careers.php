@@ -4,10 +4,9 @@
     <meta charset="utf-8">
     <title>CodeWills - Careers</title>
     <!-- SEO Meta Tags-->
-        <meta name="robots" content="noindex">
-    <!-- <meta name="description" content="Around - Multipurpose Bootstrap Template">
-    <meta name="keywords" content="bootstrap, business, consulting, coworking space, services, creative agency, dashboard, e-commerce, mobile app showcase, multipurpose, product landing, shop, software, ui kit, web studio, landing, html5, css3, javascript, gallery, slider, touch, creative">
-    <meta name="author" content="Createx Studio"> -->
+    <meta name="robots" content="noindex">
+    <meta name="title" content="Careers - Join Our Team of Professionals | CodeWills">
+    <meta name="description" content="Are you passionate about software development? Then, Join our team of professionals who use the latest technologies to create software solutions that stand out.">
     <!-- Viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon and Touch Icons-->
