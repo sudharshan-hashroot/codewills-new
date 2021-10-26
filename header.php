@@ -12,7 +12,7 @@
     }
 </style>
   
-    <div class="topbar topbar-dark bg-dark">
+    <div class="topbar topbar-dark bg-dark" style="z-index:100">
       <div class="container d-md-flex align-items-center px-0 px-xl-3">
         <div class="d-none d-md-block text-nowrap me-3"><i class="ai-phone fs-base text-muted me-1 align-middle"></i><span class="text-muted me-2">Support</span><a class="topbar-link me-1" href="tel:+919778426320">+91 9778426320</a></div>
         <div class="d-flex text-md-end ms-md-auto">
@@ -26,7 +26,7 @@
         </div>
       </div>
     </div>
-    <div class="navbar navbar-expand-lg navbar-light bg-light navbar-shadow navbar-sticky" data-scroll-header="" data-fixed-element="" style="z-index:999999">
+    <div class="navbar navbar-expand-lg navbar-light bg-light navbar-shadow navbar-sticky" data-scroll-header="" data-fixed-element="" style="z-index:99">
      
       <div class="container px-0 px-xl-3">
         <button class="navbar-toggler ms-n2 me-4" type="button" data-bs-toggle="offcanvas" data-bs-target="#primaryMenu"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand flex-shrink-0 order-lg-1 mx-auto ms-lg-0 pe-lg-2 me-lg-4" href="/website-development-company"><img class="d-none d-lg-block" src="img/logo/logo-dark.svg" alt="Around" width="153"><img class="d-lg-none" src="img/logo/logo-icon.svg" alt="Around" width="58"></a>
