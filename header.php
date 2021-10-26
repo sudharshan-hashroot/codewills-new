@@ -10,6 +10,9 @@
           #924cef 30%,
           #ff7777 100%);
     }
+    .grecaptcha-badge { 
+    visibility: hidden;
+}
 </style>
   
     <div class="topbar topbar-dark bg-dark" style="z-index:100">
