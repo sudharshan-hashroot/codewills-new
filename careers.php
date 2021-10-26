@@ -2,9 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>CodeWills - Careers</title>
+    <title>Careers - Join Our Team of Professionals | CodeWills</title>
     <!-- SEO Meta Tags-->
-    <meta name="robots" content="noindex">
+    
     <meta name="title" content="Careers - Join Our Team of Professionals | CodeWills">
     <meta name="description" content="Are you passionate about software development? Then, Join our team of professionals who use the latest technologies to create software solutions that stand out.">
     <!-- Viewport-->

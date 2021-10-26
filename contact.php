@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>CodeWills | Contact Us</title>
-    <meta name="robots" content="noindex">
+    <title>Get in Touch With Us | CodeWills by HashRoot</title>
+    
     <!-- SEO Meta Tags-->
     <meta name="title" content="Get in Touch With Us | CodeWills by HashRoot">
     <meta name="description" content="Need any assistance with our service? We would like to hear from you. Drop us a line or reach out to us for any enquiries.">

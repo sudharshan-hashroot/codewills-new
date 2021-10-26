@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>CodeWills</title>
-  <meta name="robots" content="noindex">
+  
   <!-- SEO Meta Tags-->
   <meta name="description" content="CodeWills">
   <meta name="keywords" content="CodeWills">

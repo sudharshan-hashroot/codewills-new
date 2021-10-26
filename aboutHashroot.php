@@ -3,8 +3,8 @@
 
 <head>
   <meta charset="utf-8">
-  <title>CodeWills</title>
-  <meta name="robots" content="noindex">
+  <title>About HashRoot | CodeWills by HashRoot</title>
+  
   <!-- SEO Meta Tags-->
   <meta name="title" content="About HashRoot | CodeWills by HashRoot">
   <meta name="description" content="HashRoot is a global company that has reputation for its ability to help customers achieve their business objective by providing quality IT managed services.">
