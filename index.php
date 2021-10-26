@@ -1013,7 +1013,7 @@
 
 
     <!-- Portfolio-->
-    <section class="container overflow-hidden py-5 py-md-6 py-lg-7 ">
+    <section class="container overflow-hidden py-5 py-md-6 py-lg-7 d-none">
       <h2 class="text-center pt-4 pt-md-0">Our Portfolio </h2>
       <p class="text-center text-muted pb-4">Have a look at some of the leading companies with whom we have associated
         over the years</p>
@@ -1150,7 +1150,7 @@
       </div>
     </section>
     <!-- splitter -->
-    <section class="bg-secondary py-6 py-sm-7 mt-5 mt-xl-3">
+    <section class="bg-secondary py-6 py-sm-7 mt-0 mt-xl-3">
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-lg-5 col-md-7 col-sm-9 pb-3 mb-4 pb-lg-0 mb-lg-0">
