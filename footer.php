@@ -13,7 +13,7 @@
             <ul>
               <li><a class="widget-link" href="about.php">About</a></li>
               <!-- <li><a class="widget-link" href="#">Careers</a></li> -->
-              <li><a class="widget-link" href="#">Pricing</a></li>
+              <li><a class="widget-link" href="#pricing">Pricing</a></li>
             </ul>
           </div>
         </div>

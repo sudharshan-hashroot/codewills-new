@@ -524,7 +524,7 @@
               </div>
               <div class="col-md-6 mb-5 mb-md-0">
                 <div class="mx-auto mx-md-0" style="max-width: 525px;"><img class="d-block"
-                    src="./img/homepage/Services/SVG/webdev.svg" alt="Mobile screens"></div>
+                    src="img/our-service-offering/website development-01.png" alt="Mobile screens"></div>
               </div>
             
             </div>
@@ -536,7 +536,7 @@
         <div class="row align-items-center">
           <div class="col-md-6 mb-5 mb-md-0">
             <div class="mx-auto mx-md-0" style="max-width: 525px;"><img class="d-block"
-                src="img/demo/presentation/mobile-screens.jpg" alt="Mobile screens"></div>
+                src="img/our-service-offering/mobile.png" alt="Mobile screens"></div>
           </div>
           <div class="col-md-6 text-center text-md-start">
             <h2 class="h1 mb-4">Mobile App Development</h2>
@@ -571,7 +571,7 @@
           </div>
           <div class="col-md-6 mb-5 mb-md-0">
             <div class="mx-auto mx-md-0" style="max-width: 525px;"><img class="d-block"
-                src="./img/homepage/Services/SVG/webappdev.svg" alt="Mobile screens"></div>
+                src="img/our-service-offering/website-white bg-01.png" alt="Mobile screens"></div>
           </div>
         
         </div>
@@ -584,7 +584,7 @@
           <div class="row align-items-center">
             <div class="col-md-6 mb-5 mb-md-0">
               <div class="mx-auto mx-md-0" style="max-width: 525px;"><img class="d-block"
-                  src="./img/homepage/Services/SVG/digimar.svg" alt="Mobile screens"></div>
+                  src="img/our-service-offering/digital marketing-01-01-01.png" alt="Mobile screens"></div>
             </div>
             <div class="col-md-6 text-center text-md-start">
               <h2 class="h1 mb-4">Digital Marketing</h2>
@@ -625,7 +625,10 @@
                 <div class="px-2 text-center">
                   <!-- <img class="bg-light rounded-circle mb-2" src="img/demo/booking/icons/01.svg" alt="Tickets" width="105"> -->
 
-                  <h3><i class="bg-light text-primary  ai-code rounded-circle mb-2" style="padding: 2rem;"></i></h3>
+                  <h3>
+                    <!-- <i class="bg-light text-primary  ai-code rounded-circle mb-2" style="padding: 2rem;"></i> -->
+                    <img src="img/why-codewills/1-01.png" alt="Tickets" width="105">
+                  </h3>
 
                   <p class="fs-sm fw-medium text-light mb-0 pt-1">Experienced Developers </p>
                 </div>
@@ -633,7 +636,9 @@
               <div class="col-sm-4 mb-2 pb-4 mb-sm-0 pb-sm-0">
                 <div class="px-2 text-center">
                   <!-- <img class="bg-light rounded-circle mb-2" src="img/demo/booking/icons/02.svg" alt="Search" width="105"> -->
-                  <h3><i class="bg-light text-primary  ai-dollar-sign rounded-circle mb-2" style="padding: 2rem;"></i>
+                  <h3>
+                    <!-- <i class="bg-light text-primary  ai-dollar-sign rounded-circle mb-2" style="padding: 2rem;"></i> -->
+                    <img src="img/why-codewills/2-01.png" alt="Tickets" width="105">
                   </h3>
                   <p class="fs-sm fw-medium text-light mb-0 pt-1">Budget-Friendly Services </p>
                 </div>
@@ -641,7 +646,10 @@
               <div class="col-sm-4 mb-2 pb-4 mb-sm-0 pb-sm-0">
                 <div class="px-2 text-center">
                   <!-- <img class="bg-light rounded-circle mb-2" src="img/demo/booking/icons/03.svg" alt="Flight" width="105"> -->
-                  <h3><i class="bg-light text-primary  ai-search rounded-circle mb-2" style="padding: 2rem;"></i></h3>
+                  <h3>
+                    <!-- <i class="bg-light text-primary  ai-search rounded-circle mb-2" style="padding: 2rem;"></i> -->
+                    <img src="img/why-codewills/3-01.png" alt="Tickets" width="105">
+                  </h3>
                   <p class="fs-sm fw-medium text-light mb-0 pt-1">100% Transparency</p>
                 </div>
               </div>
@@ -653,7 +661,7 @@
 
 
     <!-- Pricing -->
-    <section class="py-lg-3">
+    <section class="py-lg-3" id="pricing">
 
       <div class="container py-5">
    
