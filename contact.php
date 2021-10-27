@@ -285,7 +285,7 @@
                 <div class="col-12 pt-2">
                   <button class="btn btn-primary" type="submit" id="cnt_sub">Send Message</button>
                 </div>
-                <p id="error_message"> </p>
+                <p class="text-danger pt-5" id="error_message"> </p>
 
               </form>
             </div>

@@ -5,7 +5,7 @@ RewriteCond %{HTTP:X-Forwarded-SSL} !on
 RewriteCond %{HTTP_HOST} ^codewills\.com$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.codewills\.com$
 RewriteRule ^/?$ "https\:\/\/www\.codewills\.com\/" [R=301,L]
-RewriteRule ^/?website-development-company$ /index.php
+RewriteRule ^/?$ /index.php
 RewriteRule ^/?website-development-services$ /webdev.php
 RewriteRule ^/?mobile-app-development-services$ /mobileappdev.php
 RewriteRule ^/?website-design-services$ /webdesign.php
