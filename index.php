@@ -439,7 +439,7 @@
         <div class="row align-items-center">
           <div class="col-xl-6 col-lg-5 d-flex justify-content-end mb-5 mb-lg-0">
             <div class="mx-auto ms-lg-0 me-xl-7 text-center text-lg-start" style="max-width: 495px;">
-              <h2 class="h1 text-light mb-4">Our Software Development <span class="bg-faded-light rounded px-3 py-2">
+              <h2 class="h1 text-light mb-4">Our <span class="bg-faded-light rounded px-3 py-2">
                   Services</span></h2>
               <p class="text-light opacity-70 mb-5">We provide a full range of software development services for
                 businesses of all scales.</p>
@@ -500,172 +500,80 @@
 
 
     <!-- Services-->
-    <div class="w-lg-80 mx-auto py-5">
 
-      <h2 class="text-center pt-5">Our Service Offering</h2>
-      <p class="text-center text-muted mb-0">We offer wide range of software development services</p>
-    </div>
+    <section class="container pt-5 pt-lg-6">
+      <h2 class="text-center">Our Service Offering</h2>
+      <p class="text-center text-muted mb-0">We provide wide range of services in web design and development</p>
+      <!-- Web design Service-->
+      <div class="row align-items-center border-bottom py-5">
+        <div class="col-md-6 py-3"><img class="d-block mx-auto" src="img/our-service-offering/website development-01.png" alt="Responsive Web Design"></div>
+        <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
+          <h3 class="h4 mb-4">Website Development</h3>
+          <ul class="list-unstyled">
+            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>We continue to provide WordPress, eCommerce, Enterprise, Drupal, Core PHP, and other website development services by collaborating with any dimensional enterprises. </span></li>
+            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our expert developers use the latest technologies to build innovative websites flexible to user experiences and improve customer retention.</span></li>
 
-        <!-- webdev -->
-        <section class="bg-white py-5 py-md-6 py-lg-7">
-          <div class="container py-3 py-lg-4">
-            <div class="row align-items-center">
-              <div class="col-md-6 text-center text-md-start">
-                <h2 class="h1 mb-4">Website Development</h2>
-                <p class="text-muted mb-5">Being a leading software development services company, we have a team of software
-                  engineers who have an expert understanding of the latest mobile technologies such as React
-                  Native, Swift Flutter, Objective-C and much more. We bring in our expertise to develop
-                  innovative and quality software products for clients all over the world. </p>
-                <!-- <div class="d-flex align-items-center justify-content-center justify-content-md-start"><img src="../img/demo/presentation/qrcode.png" alt="QR Code" width="120">
-                            <div class="ps-3 ps-sm-4">
-                              <div class="text-nav text-start" style="max-width: 175px;">Scan QR code to test on your device</div>
-                            </div>
-                          </div> -->
-              </div>
-              <div class="col-md-6 mb-5 mb-md-0">
-                <div class="mx-auto mx-md-0" style="max-width: 525px;"><img class="d-block"
-                    src="img/our-service-offering/website development-01.png" alt="Mobile screens"></div>
-              </div>
-            
-            </div>
-          </div>
-        </section>
-    <!-- mobileinterface -->
-    <section class="bg-secondary py-5 py-md-6 py-lg-7">
-      <div class="container py-3 py-lg-4">
-        <div class="row align-items-center">
-          <div class="col-md-6 mb-5 mb-md-0">
-            <div class="mx-auto mx-md-0" style="max-width: 525px;"><img class="d-block"
-                src="img/our-service-offering/mobile.png" alt="Mobile screens"></div>
-          </div>
-          <div class="col-md-6 text-center text-md-start">
-            <h2 class="h1 mb-4">Mobile App Development</h2>
-            <p class="text-muted mb-5">Being a leading software development services company, we have a team of software
-              engineers who have an expert understanding of the latest mobile technologies such as React
-              Native, Swift Flutter, Objective-C and much more. We bring in our expertise to develop
-              innovative and quality software products for clients all over the world. </p>
-            <!-- <div class="d-flex align-items-center justify-content-center justify-content-md-start"><img src="../img/demo/presentation/qrcode.png" alt="QR Code" width="120">
-                        <div class="ps-3 ps-sm-4">
-                          <div class="text-nav text-start" style="max-width: 175px;">Scan QR code to test on your device</div>
-                        </div>
-                      </div> -->
-          </div>
+          </ul>
+          <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
+          <p class="pb-1"> HTML, CSS, JS, PHP</p><a class="fw-medium" href="#">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
         </div>
       </div>
-    </section>
-     <!-- webdev -->
-     <section class="bg-white py-5 py-md-6 py-lg-7">
-      <div class="container py-3 py-lg-4">
-        <div class="row align-items-center">
-          <div class="col-md-6 text-center text-md-start">
-            <h2 class="h1 mb-4">Web Application Development</h2>
-            <p class="text-muted mb-5">Being a leading software development services company, we have a team of software
-              engineers who have an expert understanding of the latest mobile technologies such as React
-              Native, Swift Flutter, Objective-C and much more. We bring in our expertise to develop
-              innovative and quality software products for clients all over the world. </p>
-            <!-- <div class="d-flex align-items-center justify-content-center justify-content-md-start"><img src="../img/demo/presentation/qrcode.png" alt="QR Code" width="120">
-                        <div class="ps-3 ps-sm-4">
-                          <div class="text-nav text-start" style="max-width: 175px;">Scan QR code to test on your device</div>
-                        </div>
-                      </div> -->
-          </div>
-          <div class="col-md-6 mb-5 mb-md-0">
-            <div class="mx-auto mx-md-0" style="max-width: 525px;"><img class="d-block"
-                src="img/our-service-offering/website-white bg-01.png" alt="Mobile screens"></div>
-          </div>
-        
+      <!-- Mobile Dev Service-->
+      <div class="row align-items-center border-bottom py-5">
+        <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="img/our-service-offering/mobile.png" alt="Web Development"></div>
+        <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
+          <h3 class="h4 mb-4">Mobile App Development</h3>
+          <ul class="list-unstyled">
+            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our highly responsive team of mobile app developers, with ample experience in developing end to end mobile applications</span></li>
+            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span> Enabled customized Android, IOS, Cross-platform app services for our clients across the globe. </span></li>
+            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Also, we provide quick fine-tuning assistance for your mobile apps to expand their functionality further.</span></li>
+          </ul>
+          <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
+          <p class="pb-1">Android , IOS, Flutter, Kotlin, Swift, React Native</p><a class="fw-medium" href="#">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
         </div>
       </div>
-    </section>
-    <!-- Services-->
-      <!-- mobileinterface -->
-      <section class="bg-secondary py-5 py-md-6 py-lg-7">
-        <div class="container py-3 py-lg-4">
-          <div class="row align-items-center">
-            <div class="col-md-6 mb-5 mb-md-0">
-              <div class="mx-auto mx-md-0" style="max-width: 525px;"><img class="d-block"
-                  src="img/our-service-offering/digital marketing-01-01-01.png" alt="Mobile screens"></div>
-            </div>
-            <div class="col-md-6 text-center text-md-start">
-              <h2 class="h1 mb-4">Digital Marketing</h2>
-              <p class="text-muted mb-5">Being a leading software development services company, we have a team of software
-                engineers who have an expert understanding of the latest mobile technologies such as React
-                Native, Swift Flutter, Objective-C and much more. We bring in our expertise to develop
-                innovative and quality software products for clients all over the world. </p>
-              <!-- <div class="d-flex align-items-center justify-content-center justify-content-md-start"><img src="../img/demo/presentation/qrcode.png" alt="QR Code" width="120">
-                          <div class="ps-3 ps-sm-4">
-                            <div class="text-nav text-start" style="max-width: 175px;">Scan QR code to test on your device</div>
-                          </div>
-                        </div> -->
-            </div>
-          </div>
-        </div>
-      </section>
+      <!-- web Dev Service-->
+      <div class="row align-items-center border-bottom py-5">
+        <div class="col-md-6 py-3"><img class="d-block mx-auto" src="img/our-service-offering/website development-01.png" alt="Mobile Apps Development"></div>
+        <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
+          <h3 class="h4 mb-4">Web Application Development</h3>
+          <ul class="list-unstyled">
+            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our team of experts develop responsive and cross-platform compatible web applications using robust coding practices that are highly secured and bug-free. </span></li>
+            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our custom-made B2B & B2C web portals are designed to achieve maximum output while also handling large-scale operations.  </span></li>
 
-
-
-
-
-
-    <!-- features -->
-    <section class="bg-gradient-home-slider position-relative pt-6 pb-5 py-sm-6">
-      <div class="position-absolute top-0 start-0 w-100 h-100 bg-size-cover"
-        style="background-image: url(img/demo/booking/bg-pattern01.png);"></div>
-      <div class="position-relative zindex-5 container py-2">
-        <div class="row align-items-center">
-          <div class="col-lg-5 offset-lg-1 order-lg-2 pb-5 pb-lg-0 text-center text-lg-start">
-            <h2 class="text-light">Why CodeWills? </h2>
-            <p class="text-light mb-0">Our team of software engineers have a great understanding of the latest
-              technologies and
-              knows what it takes to build software products that meets your requirements.</p>
-          </div>
-          <div class="col-lg-6 order-lg-1">
-            <div class="row">
-              <div class="col-sm-4 mb-2 pb-4 mb-sm-0 pb-sm-0">
-                <div class="px-2 text-center">
-                  <!-- <img class="bg-light rounded-circle mb-2" src="img/demo/booking/icons/01.svg" alt="Tickets" width="105"> -->
-
-                  <h3>
-                    <!-- <i class="bg-light text-primary  ai-code rounded-circle mb-2" style="padding: 2rem;"></i> -->
-                    <img src="img/why-codewills/1-01.png" alt="Tickets" width="105">
-                  </h3>
-
-                  <p class="fs-sm fw-medium text-light mb-0 pt-1">Experienced Developers </p>
-                </div>
-              </div>
-              <div class="col-sm-4 mb-2 pb-4 mb-sm-0 pb-sm-0">
-                <div class="px-2 text-center">
-                  <!-- <img class="bg-light rounded-circle mb-2" src="img/demo/booking/icons/02.svg" alt="Search" width="105"> -->
-                  <h3>
-                    <!-- <i class="bg-light text-primary  ai-dollar-sign rounded-circle mb-2" style="padding: 2rem;"></i> -->
-                    <img src="img/why-codewills/2-01.png" alt="Tickets" width="105">
-                  </h3>
-                  <p class="fs-sm fw-medium text-light mb-0 pt-1">Budget-Friendly Services </p>
-                </div>
-              </div>
-              <div class="col-sm-4 mb-2 pb-4 mb-sm-0 pb-sm-0">
-                <div class="px-2 text-center">
-                  <!-- <img class="bg-light rounded-circle mb-2" src="img/demo/booking/icons/03.svg" alt="Flight" width="105"> -->
-                  <h3>
-                    <!-- <i class="bg-light text-primary  ai-search rounded-circle mb-2" style="padding: 2rem;"></i> -->
-                    <img src="img/why-codewills/3-01.png" alt="Tickets" width="105">
-                  </h3>
-                  <p class="fs-sm fw-medium text-light mb-0 pt-1">100% Transparency</p>
-                </div>
-              </div>
-            </div>
-          </div>
+          </ul>
+          <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
+          <p class="pb-1">React JS, Node JS, Vue JS, Angular JS</p><a class="fw-medium" href="#">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
         </div>
       </div>
+            <!-- Digital marketing Service-->
+            <div class="row align-items-center py-5">
+              <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="img/our-service-offering/digital marketing-01-01-01.png" alt="Web Development"></div>
+              <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
+                <h3 class="h4 mb-4">Digital Marketing Services</h3>
+                <ul class="list-unstyled">
+                  <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our wide range of digital marketing & advertising services includes Local Search Engine Optimization (SEO), Pay Per Click (PPC), Social Media Marketing (SMM), Content Marketing and much more.</span></li>
+                  <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>We implement these services to gratify our client's target audiences while increasing their online visibility. </span></li>
+
+                </ul>
+                <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
+                <p class="pb-1">Local Search Engine Optimization (SEO), Pay Per Click (PPC), Social Media Marketing (SMM)</p><a class="fw-medium" href="#">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
+              </div>
+            </div>
     </section>
+
+
+
+
+
 
 
     <!-- Pricing -->
     <section class="py-lg-3" id="pricing">
-
+      <h2 class="d-block bg-gradient text-light text-center py-5 px-3">Pricing plans</h2>
       <div class="container py-5">
    
-        <h2 class="text-center pt-5">Pricing Plans</h2>
+       
       <p class="text-center text-muted mb-0">Take a look at our cost-effective website development & design plans</p>
  
         <div class="row justify-content-center pt-5">
@@ -678,6 +586,33 @@
                       <label class="form-check-label" for="priceSwitch"></label>
                     </div><span class="price-label ms-1">Annual</span>
                   </div> -->
+                  <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
+                    <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
+                      <h3 class="mb-2">Website Design Service </h3>
+                      <div class="fs-xs" style="max-width: 10rem;">Find aute irure dolor in reprehenderit in volatek</div>
+                    </div>
+                    <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4"
+                      style="max-width: 20rem;">
+                      <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
+                      <div class="d-flex flex-row w-100 align-items-end">
+                        <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
+                        <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="29990"
+                          data-new-price="25550">24,990</span>
+                        <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>project</span>
+                      </div>
+                    </div>
+  
+                    <ul class="list-unstyled py-2 mb-0">
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i
+                          class="ai-check fs-xl text-primary me-2"></i><span>"Content Management System 
+                             </span></li>
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i
+                          class="ai-check fs-xl text-primary me-2"></i><span>   Mobile Responsive Layout</span></li>
+                      <li class="d-flex align-items-center text-nowrap mb-3"><i
+                          class="ai-check fs-xl text-primary me-2"></i><span> SEO Friendly</span></li>
+  
+                    </ul>
+                  </div>
                 <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
                   <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
                     <h3 class="mb-2">Website Development </h3>
@@ -696,13 +631,37 @@
 
                   <ul class="list-unstyled py-2 mb-0">
                     <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>Up to 3 projects for each member</span></li>
+                        class="ai-check fs-xl text-primary me-2"></i><span>Web pages Layout Design and development           </span></li>
                     <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>2 team members allowed</span></li>
+                        class="ai-check fs-xl text-primary me-2"></i><span> Performance Optimization</span></li>
                     <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>24/7 support</span></li>
+                        class="ai-check fs-xl text-primary me-2"></i><span>Basic SEO</span></li>
+
+                  </ul>
+                </div>
+                <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
+                  <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
+                    <h3 class="mb-2">Web Application Development</h3>
+                    <div class="fs-xs" style="max-width: 10rem;">Find aute irure dolor in reprehenderit in volatek</div>
+                  </div>
+                  <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4"
+                    style="max-width: 20rem;">
+                    <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
+                    <div class="d-flex flex-row w-100 align-items-end">
+                      <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
+                      <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="990"
+                        data-new-price="950">990</span>
+                      <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>hour</span>
+                    </div>
+                  </div>
+
+                  <ul class="list-unstyled py-2 mb-0">
                     <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>Up to 30GB storage space</span></li>
+                        class="ai-check fs-xl text-primary me-2"></i><span>App Layout design   </span></li>
+                    <li class="d-flex align-items-center text-nowrap mb-3"><i
+                        class="ai-check fs-xl text-primary me-2"></i><span> Cloud/API Integration </span></li>
+                    <li class="d-flex align-items-center text-nowrap mb-3"><i
+                        class="ai-check fs-xl text-primary me-2"></i><span>Responsive UI</span></li>
                   </ul>
                 </div>
                 <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
@@ -723,42 +682,14 @@
 
                   <ul class="list-unstyled py-2 mb-0">
                     <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>Up to 3 projects for each member</span></li>
+                        class="ai-check fs-xl text-primary me-2"></i><span>100% customized eCommerce site</span></li>
                     <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>2 team members allowed</span></li>
+                        class="ai-check fs-xl text-primary me-2"></i><span> Dedicated project managers</span></li>
                     <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>24/7 support</span></li>
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>Up to 30GB storage space</span></li>
+                        class="ai-check fs-xl text-primary me-2"></i><span>Multiple Device Testing</span></li>
                   </ul>
                 </div>
-                <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
-                  <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
-                    <h3 class="mb-2">Web Application</h3>
-                    <div class="fs-xs" style="max-width: 10rem;">Find aute irure dolor in reprehenderit in volatek</div>
-                  </div>
-                  <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4"
-                    style="max-width: 20rem;">
-                    <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
-                    <div class="d-flex flex-row w-100 align-items-end">
-                      <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
-                      <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="990"
-                        data-new-price="950">990</span>
-                      <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>hour</span>
-                    </div>
-                  </div>
-
-                  <ul class="list-unstyled py-2 mb-0">
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>Up to 3 projects for each member</span></li>
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>2 team members allowed</span></li>
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>24/7 support</span></li>
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>Up to 30GB storage space</span></li>
-                  </ul>
-                </div>
+         
                 <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
                   <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
                     <h3 class="mb-2">Mobile Application</h3>
@@ -777,13 +708,12 @@
 
                   <ul class="list-unstyled py-2 mb-0">
                     <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>Up to 3 projects for each member</span></li>
+                        class="ai-check fs-xl text-primary me-2"></i><span>Custom iOS and Android apps development</span></li>
                     <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>2 team members allowed</span></li>
+                        class="ai-check fs-xl text-primary me-2"></i><span>
+                          Automated QA & Testing</span></li>
                     <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>24/7 support</span></li>
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>Up to 30GB storage space</span></li>
+                        class="ai-check fs-xl text-primary me-2"></i><span>  Maintenance and Support</span></li>
                   </ul>
                 </div>
                 <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
@@ -804,13 +734,12 @@
 
                   <ul class="list-unstyled py-2 mb-0">
                     <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>Up to 3 projects for each member</span></li>
+                        class="ai-check fs-xl text-primary me-2"></i><span>Content & Blogging </span></li>
                     <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>2 team members allowed</span></li>
+                        class="ai-check fs-xl text-primary me-2"></i><span> Trackable & Measurable results/span></li>
                     <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>24/7 support</span></li>
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>Up to 30GB storage space</span></li>
+                        class="ai-check fs-xl text-primary me-2"></i><span> Online Visibility & Brand Development</span></li>
+
                   </ul>
                 </div>
 
@@ -1020,67 +949,58 @@
 
 
 
-    <!-- Portfolio-->
-    <section class="container overflow-hidden py-5 py-md-6 py-lg-7 d-none">
-      <h2 class="text-center pt-4 pt-md-0">Our Portfolio </h2>
-      <p class="text-center text-muted pb-4">Have a look at some of the leading companies with whom we have associated
-        over the years</p>
-      <div class="masonry-filterable mb-3">
-        <!-- Portfolio nav (Filters)-->
-        <ul class="masonry-filters nav nav-tabs justify-content-center pb-4">
-          <li class="nav-item"><a class="nav-link active" href="#" data-group="all">All</a></li>
-          <li class="nav-item"><a class="nav-link" href="#" data-group="web">Web</a></li>
-          <li class="nav-item"><a class="nav-link" href="#" data-group="mobile">Mobile</a></li>
-          <li class="nav-item"><a class="nav-link" href="#" data-group="identity">Identity</a></li>
-        </ul>
-        <!-- Portfolio grid-->
-        <div class="masonry-grid" data-columns="3">
-          <div class="masonry-grid-item" data-groups="[&quot;web&quot;]"><a class="card card-hover border-0 shadow"
-              href="#"><img class="card-img-top" src="img/portfolio/01.jpg" alt="Portfolio thumb">
-              <div class="card-body text-center">
-                <h3 class="h5 nav-heading mb-2">Landing Page Design</h3>
-                <p class="fs-sm text-muted mb-2">UI / UX Design, Web Development</p>
+    <!-- features -->
+    <section class="bg-gradient-home-slider position-relative pt-6 pb-5 py-sm-6">
+      <div class="position-absolute top-0 start-0 w-100 h-100 bg-size-cover"
+        style="background-image: url(img/demo/booking/bg-pattern01.png);"></div>
+      <div class="position-relative zindex-5 container py-2">
+        <div class="row align-items-center">
+          <div class="col-lg-5 offset-lg-1 order-lg-2 pb-5 pb-lg-0 text-center text-lg-start">
+            <h2 class="text-light">Why CodeWills? </h2>
+            <p class="text-light mb-0">Our team of software engineers have a great understanding of the latest
+              technologies and
+              knows what it takes to build software products that meets your requirements.</p>
+          </div>
+          <div class="col-lg-6 order-lg-1">
+            <div class="row">
+              <div class="col-sm-4 mb-2 pb-4 mb-sm-0 pb-sm-0">
+                <div class="px-2 text-center">
+                  <!-- <img class="bg-light rounded-circle mb-2" src="img/demo/booking/icons/01.svg" alt="Tickets" width="105"> -->
+
+                  <h3>
+                    <!-- <i class="bg-light text-primary  ai-code rounded-circle mb-2" style="padding: 2rem;"></i> -->
+                    <img src="img/why-codewills/1-01.png" alt="Tickets" width="105">
+                  </h3>
+
+                  <p class="fs-sm fw-medium text-light mb-0 pt-1">Experienced Developers </p>
+                </div>
               </div>
-            </a></div>
-          <div class="masonry-grid-item" data-groups="[&quot;web&quot;]"><a class="card card-hover border-0 shadow"
-              href="#"><img class="card-img-top" src="img/portfolio/02.jpg" alt="Portfolio thumb">
-              <div class="card-body text-center">
-                <h3 class="h5 nav-heading mb-2">Corporate Website Design</h3>
-                <p class="fs-sm text-muted mb-2">Web Design</p>
+              <div class="col-sm-4 mb-2 pb-4 mb-sm-0 pb-sm-0">
+                <div class="px-2 text-center">
+                  <!-- <img class="bg-light rounded-circle mb-2" src="img/demo/booking/icons/02.svg" alt="Search" width="105"> -->
+                  <h3>
+                    <!-- <i class="bg-light text-primary  ai-dollar-sign rounded-circle mb-2" style="padding: 2rem;"></i> -->
+                    <img src="img/why-codewills/2-01.png" alt="Tickets" width="105">
+                  </h3>
+                  <p class="fs-sm fw-medium text-light mb-0 pt-1">Budget-Friendly Services </p>
+                </div>
               </div>
-            </a></div>
-          <div class="masonry-grid-item" data-groups="[&quot;identity&quot;]"><a class="card card-hover border-0 shadow"
-              href="#"><img class="card-img-top" src="img/portfolio/03.jpg" alt="Portfolio thumb">
-              <div class="card-body text-center">
-                <h3 class="h5 nav-heading mb-2">Surfing Portal Logo Design</h3>
-                <p class="fs-sm text-muted mb-2">Identity Design</p>
+              <div class="col-sm-4 mb-2 pb-4 mb-sm-0 pb-sm-0">
+                <div class="px-2 text-center">
+                  <!-- <img class="bg-light rounded-circle mb-2" src="img/demo/booking/icons/03.svg" alt="Flight" width="105"> -->
+                  <h3>
+                    <!-- <i class="bg-light text-primary  ai-search rounded-circle mb-2" style="padding: 2rem;"></i> -->
+                    <img src="img/why-codewills/3-01.png" alt="Tickets" width="105">
+                  </h3>
+                  <p class="fs-sm fw-medium text-light mb-0 pt-1">100% Transparency</p>
+                </div>
               </div>
-            </a></div>
-          <div class="masonry-grid-item" data-groups="[&quot;web&quot;]"><a class="card card-hover border-0 shadow"
-              href="#"><img class="card-img-top" src="img/portfolio/04.jpg" alt="Portfolio thumb">
-              <div class="card-body text-center">
-                <h3 class="h5 nav-heading mb-2">Cartzilla - Fashion Store</h3>
-                <p class="fs-sm text-muted mb-2">E-commerce Development</p>
-              </div>
-            </a></div>
-          <div class="masonry-grid-item" data-groups="[&quot;mobile&quot;]"><a class="card card-hover border-0 shadow"
-              href="#"><img class="card-img-top" src="img/portfolio/05.jpg" alt="Portfolio thumb">
-              <div class="card-body text-center">
-                <h3 class="h5 nav-heading mb-2">Mobile App Icon Design</h3>
-                <p class="fs-sm text-muted mb-2">Mobile App Design</p>
-              </div>
-            </a></div>
-          <div class="masonry-grid-item" data-groups="[&quot;web&quot;]"><a class="card card-hover border-0 shadow"
-              href="#"><img class="card-img-top" src="img/portfolio/06.jpg" alt="Portfolio thumb">
-              <div class="card-body text-center">
-                <h3 class="h5 nav-heading mb-2">Auto Reseller Website</h3>
-                <p class="fs-sm text-muted mb-2">UI / UX Design, Web Development</p>
-              </div>
-            </a></div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="text-center"><a class="btn btn-primary" href="#">See More Projects</a></div>
     </section>
+  
     <!-- faq -->
     <section class="container py-5 my-4 my-sm-0 py-sm-6 py-md-7 d-none">
       <h2 class="text-center pb-2 mb-5">FAQ</h2>
