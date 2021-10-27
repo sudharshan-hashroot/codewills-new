@@ -299,7 +299,7 @@
     <!-- Vendor scrits: js libraries and plugins-->
     <!-- <script src="vendors/jquery/jquery-2.1.4.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="https://www.google.com/recaptcha/api.js?render=6LfsmegcAAAAAOfQiUcaEbtgDkUPax5ecu40zrUP"></script>    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://www.google.com/recaptcha/api.js?render=6Ldb7PAcAAAAALKN6oPEOLjDjOBnMKhDCJ3Bn6KL"></script>    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="vendor/simplebar/dist/simplebar.min.js"></script>
     <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <script src="vendor/lightgallery.js/dist/js/lightgallery.min.js"></script>

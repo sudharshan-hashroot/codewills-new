@@ -1239,7 +1239,7 @@
   <script src="vendor/shufflejs/dist/shuffle.min.js"></script>
   <script src="vendor/flatpickr/dist/flatpickr.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://www.google.com/recaptcha/api.js?render=6LfsmegcAAAAAOfQiUcaEbtgDkUPax5ecu40zrUP"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6Ldb7PAcAAAAALKN6oPEOLjDjOBnMKhDCJ3Bn6KL"></script>
   <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- Main theme script-->
@@ -1255,78 +1255,6 @@
       valuechild.css("display", "block")
 
     })
-  </script>
-  <script>
-    $('#ux').click(function () {
-      var checked = $(this).attr('checked');
-      $('#ux2').addClass('active');
-
-      // alert(checked);
-      if (checked) {
-        $('#ux2').removeClass('active');
-        $(this).attr('checked', false);
-
-      }
-      else {
-        $('#ux2').addClass('active');
-        $(this).attr('checked', true);
-      }
-    });
-    $('#illustration').click(function () {
-      var checked = $(this).attr('checked');
-      $('#ux3').addClass('active');
-      // alert(checked);
-      if (checked) {
-        $('#ux3').removeClass('active');
-        $(this).attr('checked', false);
-
-      }
-      else {
-        $('#ux3').addClass('active');
-        $(this).attr('checked', true);
-      }
-    });
-    $('#motion').click(function () {
-      var checked = $(this).attr('checked');
-      $('#ux4').addClass('active');
-      // alert(checked);
-      if (checked) {
-        $('#ux4').addClass('active');
-        $(this).attr('checked', false);
-
-      }
-      else {
-        $('#ux4').addClass('active');
-        $(this).attr('checked', true);
-      }
-    });
-    $('#dig').click(function () {
-      var checked = $(this).attr('checked');
-      $('#ux5').addClass('active');
-      // alert(checked);
-      if (checked) {
-        $('#ux5').removeClass('active');
-        $(this).attr('checked', false);
-
-      }
-      else {
-        $('#ux5').addClass('active');
-        $(this).attr('checked', true);
-      }
-    });
-    $('#branding').click(function () {
-      var checked = $(this).attr('checked');
-      // alert(checked);
-      if (checked) {
-        $('#ux1').removeClass('active');
-        $(this).attr('checked', false);
-
-      }
-      else {
-        $('#ux1').addClass('active');
-        $(this).attr('checked', true);
-      }
-    });
   </script>
 </body>
 

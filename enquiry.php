@@ -66,7 +66,7 @@
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://www.google.com/recaptcha/api.js?render=6LfsmegcAAAAAOfQiUcaEbtgDkUPax5ecu40zrUP"></script>    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6Ldb7PAcAAAAALKN6oPEOLjDjOBnMKhDCJ3Bn6KL"></script>    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
   <script src="js/jquery.validate.js"></script>
     <script src="js/mailchimp.js"></script>
@@ -115,7 +115,7 @@ $('#motion').click(function() {
     $('#ux4').addClass('active');
    // alert(checked);
     if (checked) {
-      $('#ux4').addClass('active');
+      $('#ux4').removeClass('active');
         $(this).attr('checked', false);
 
     }

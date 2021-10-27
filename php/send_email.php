@@ -6,7 +6,7 @@
 if(isset($_REQUEST['recaptcha_response'])){
     
     $google_recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-   $recaptcha_secret_key = '6LfsmegcAAAAAB7HLh98T4b2_9VhJQWXQWyIarBN'; // Add your generated Secret key
+   $recaptcha_secret_key = '6Ldb7PAcAAAAANBB0Kq5nAlAMPbkgqVj9i-tBqbA'; // Add your generated Secret key
   $set_recaptcha_response = $_REQUEST['recaptcha_response'];
    // Make the request and capture the response by making below request.
    $get_recaptcha_response = file_get_contents($google_recaptcha_url . '?secret=' . $recaptcha_secret_key . '&response=' . $set_recaptcha_response);
@@ -19,7 +19,7 @@ if(isset($_REQUEST['recaptcha_response'])){
         if(isset($_REQUEST['type']) && $_REQUEST['type'] == 'CONTACT_US'){
         // 	$to = 'safarubaid@gmail.com';
      //   print($_REQUEST['type']);
-        	$to = 'safar.u@hashroot.com';
+        	$to = 'info@codewills.com';
         	$subject = 'Codewills Contact Us Request';
         	$send_arr = array();	
         	
@@ -73,7 +73,7 @@ if(isset($_REQUEST['recaptcha_response'])){
         }
 
         // 	$to = 'safarubaid@gmail.com';
-            $to = 'safar.u@hashroot.com';
+            $to = 'info@codewills.com';
             $subject = 'Codewills Enquiry Form';
         	$send_arr = array();
         	$headers = "MIME-Version: 1.0" . "\r\n";
