@@ -62,6 +62,13 @@
                 var  mob_app =$('input[name="service4"]:checked').val();
                
                 var  dig_mark = $('input[name="service5"]:checked').val();
+                if(typeof(web_design) ==='undefined' && typeof(web_app) ==='undefined' && typeof(ecommerce_design) ==='undefined' && typeof(mob_app) ==='undefined' && typeof(dig_mark) ==='undefined' ){
+                    $("#error_service").show();
+                    return false;
+
+                  }
+                  
+                   $("#error_service").hide();
 
                   
                 var xurl = 'php/send_email.php?type=Enquiry_Form&r_name='+ r_name + '&r_email=' + r_email + '&r_message=' + r_message + '&web_design=' + web_design +'&web_app=' + web_app +'&ecommerce_design=' + ecommerce_design + '&mob_app=' + mob_app +'&dig_mark=' + dig_mark ;

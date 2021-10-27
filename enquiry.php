@@ -22,6 +22,8 @@
               <label class="btn btn-outline-primary mb-2" id="ux5">
                 <input class="visually-hidden" type="radio" name="service5" value="Digital Marketing" id="dig">Digital Marketing
               </label>
+              <div class="text-danger pt-5" id=error_service style="display:none;">Please select a service</div>
+
             </div>
             <div class="input-group mb-3"><i
                 class="ai-user position-absolute top-50 start-0 translate-middle-y ms-3"></i>
@@ -40,7 +42,7 @@
             </div>
             <div class="row pt-2">
               <div class="col-lg-6 col-md-8">
-                <button class="btn btn-primary btn-block" type="submit">Send Request</button>
+                <button class="btn btn-primary btn-block" id="request"  type="submit">Send Request</button>
               </div>
               
             </div>          
@@ -89,11 +91,13 @@
     if (checked) {
       $('#ux2').removeClass('active');
         $(this).attr('checked', false);
+        $(this).prop('checked', false);
 
     }
     else {
       $('#ux2').addClass('active');
         $(this).attr('checked', true);
+        
     }
 });
 $('#illustration').click(function() {
@@ -103,11 +107,13 @@ $('#illustration').click(function() {
     if (checked) {
       $('#ux3').removeClass('active');
         $(this).attr('checked', false);
+        $(this).prop('checked', false);
 
     }
     else {
       $('#ux3').addClass('active');
         $(this).attr('checked', true);
+        $("#error_service").hide();
     }
 });
 $('#motion').click(function() {
@@ -117,11 +123,13 @@ $('#motion').click(function() {
     if (checked) {
       $('#ux4').removeClass('active');
         $(this).attr('checked', false);
+        $(this).prop('checked', false);
 
     }
     else {
       $('#ux4').addClass('active');
         $(this).attr('checked', true);
+        $("#error_service").hide();
     }
 });
 $('#dig').click(function() {
@@ -131,11 +139,13 @@ $('#dig').click(function() {
     if (checked) {
       $('#ux5').removeClass('active');
         $(this).attr('checked', false);
+        $(this).prop('checked', false);
 
     }
     else {
       $('#ux5').addClass('active');
         $(this).attr('checked', true);
+        $("#error_service").hide();
     }
 });
 $('#branding').click(function() {
@@ -144,11 +154,31 @@ $('#branding').click(function() {
     if (checked) {
       $('#ux1').removeClass('active');
         $(this).attr('checked', false);
+        $(this).prop('checked', false);
 
     }
     else {
       $('#ux1').addClass('active');
         $(this).attr('checked', true);
+        $("#error_service").hide();
     }
+});
+
+$('#request').click(function() {
+                var web_design =$('input[type="radio"][name="service1"]:checked').val();
+                var web_app =$('input[name="service2"]:checked', '#enquiry_form').val();
+              
+                var ecommerce_design = $('input[name="service3"]:checked', '#enquiry_form').val();
+           
+                var  mob_app =$('input[name="service4"]:checked', '#enquiry_form').val();
+               
+                var  dig_mark = $('input[name="service5"]:checked').val();
+                  if(typeof(web_design) ==='undefined' && typeof(web_app) ==='undefined' && typeof(ecommerce_design) ==='undefined' && typeof(mob_app) ==='undefined' && typeof(dig_mark) ==='undefined' ){
+
+                    $("#error_service").show();
+                  }else{
+                    $("#error_service").hide();
+
+                   }
 });
   </script>
