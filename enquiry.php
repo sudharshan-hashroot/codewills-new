@@ -1,5 +1,7 @@
 <!-- form -->
-<section class=" bg-secondary pt-5 pt-md-6 pt-lg-7">
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<section class=" bg-secondary pt-5 pt-md-6 pt-lg-7" id="enquiryform">
       <div class="container py-3 pt-md-0">
         <div class="row pb-2 pb-md-5">
           <form class="col-xl-6 col-lg-7 col-md-7 needs-validation mb-5"  method="post" id="enquiry_form"

@@ -446,6 +446,14 @@
               <div class="row mb-2 mx-n2">
                 <!-- <div class="col-6 px-2 mb-3"><a class="d-block border border-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none" href="#"><img class="d-inline-block opacity-60 mb-3" src="../img/demo/presentation/icons/carousel.svg" alt="Sliders &amp; Carousels" width="68">
                               <h3 class="h6 text-light mb-0">UI/UX Designing</h3></a></div> -->
+                <div class="col-6 px-2 mb-3 hovercards" data-hover="5">
+                  <a
+                    class="d-block border border-light btn btn-outline-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none"><img
+                      class="d-inline-block opacity-60 mb-3" src="img/demo/presentation/icons/forms.svg"
+                      alt="Image / Video Gallery" width="45">
+                    <h3 class="h6 text-light mb-0" style="white-space: pre-wrap;">Website Designing</h3>
+                  </a>
+                </div>
                 <div class="col-6 px-2 mb-3 hovercards" data-hover="1">
                   <a
                     class="d-block border border-light btn btn-outline-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none"><img
@@ -491,6 +499,8 @@
                 src="img/homepage/Services/Website design.png" alt="Components"></a>
             <a style="display: none;" class=" me-n3 hovercards4" href="#" data-hover="4"><img class="d-block"
                 src="img/homepage/Services/E-commerce.png" alt="Components"></a>
+                <a style="display: none;" class=" me-n3 hovercards5" href="#" data-hover="5"><img class="d-block"
+                  src="img/homepage/Services/Website design.png" alt="Components"></a>
 
           </div>
 
@@ -515,7 +525,7 @@
 
           </ul>
           <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
-          <p class="pb-1"> HTML, CSS, JS, PHP</p><a class="fw-medium" href="#">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
+          <p class="pb-1"> HTML, CSS, JS, PHP</p><a class="fw-medium" href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
         </div>
       </div>
       <!-- Mobile Dev Service-->
@@ -529,7 +539,7 @@
             <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Also, we provide quick fine-tuning assistance for your mobile apps to expand their functionality further.</span></li>
           </ul>
           <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
-          <p class="pb-1">Android , IOS, Flutter, Kotlin, Swift, React Native</p><a class="fw-medium" href="#">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
+          <p class="pb-1">Android , IOS, Flutter, Kotlin, Swift, React Native</p><a class="fw-medium" href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
         </div>
       </div>
       <!-- web Dev Service-->
@@ -543,7 +553,7 @@
 
           </ul>
           <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
-          <p class="pb-1">React JS, Node JS, Vue JS, Angular JS</p><a class="fw-medium" href="#">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
+          <p class="pb-1">React JS, Node JS, Vue JS, Angular JS</p><a class="fw-medium" href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
         </div>
       </div>
             <!-- Digital marketing Service-->
@@ -557,7 +567,7 @@
 
                 </ul>
                 <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
-                <p class="pb-1">Local Search Engine Optimization (SEO), Pay Per Click (PPC), Social Media Marketing (SMM)</p><a class="fw-medium" href="#">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
+                <p class="pb-1">Local Search Engine Optimization (SEO), Pay Per Click (PPC), Social Media Marketing (SMM)</p><a class="fw-medium" href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
               </div>
             </div>
     </section>
@@ -589,7 +599,7 @@
                   <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
                     <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
                       <h3 class="mb-2">Website Design Service </h3>
-                      <div class="fs-xs" style="max-width: 10rem;">Find aute irure dolor in reprehenderit in volatek</div>
+                      <div class="fs-xs" style="max-width: 10rem;">Design services with immense impact on your company's bottom line</div>
                     </div>
                     <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4"
                       style="max-width: 20rem;">
@@ -604,7 +614,7 @@
   
                     <ul class="list-unstyled py-2 mb-0">
                       <li class="d-flex align-items-center text-nowrap mb-3"><i
-                          class="ai-check fs-xl text-primary me-2"></i><span>"Content Management System 
+                          class="ai-check fs-xl text-primary me-2"></i><span>Content Management System 
                              </span></li>
                       <li class="d-flex align-items-center text-nowrap mb-3"><i
                           class="ai-check fs-xl text-primary me-2"></i><span>   Mobile Responsive Layout</span></li>
@@ -616,7 +626,7 @@
                 <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
                   <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
                     <h3 class="mb-2">Website Development </h3>
-                    <div class="fs-xs" style="max-width: 10rem;">Find aute irure dolor in reprehenderit in volatek</div>
+                    <div class="fs-xs" style="max-width: 10rem;">Gain brand recognition with our revolutionary web-based software</div>
                   </div>
                   <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4"
                     style="max-width: 20rem;">
@@ -631,7 +641,7 @@
 
                   <ul class="list-unstyled py-2 mb-0">
                     <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>Web pages Layout Design and development           </span></li>
+                        class="ai-check fs-xl text-primary me-2"></i><span style="white-space:pre-wrap">Web pages Layout Design and development           </span></li>
                     <li class="d-flex align-items-center text-nowrap mb-3"><i
                         class="ai-check fs-xl text-primary me-2"></i><span> Performance Optimization</span></li>
                     <li class="d-flex align-items-center text-nowrap mb-3"><i
@@ -642,7 +652,7 @@
                 <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
                   <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
                     <h3 class="mb-2">Web Application Development</h3>
-                    <div class="fs-xs" style="max-width: 10rem;">Find aute irure dolor in reprehenderit in volatek</div>
+                    <div class="fs-xs" style="max-width: 10rem;">Build robust web applications with maximum resource utilization</div>
                   </div>
                   <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4"
                     style="max-width: 20rem;">
@@ -667,7 +677,7 @@
                 <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
                   <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
                     <h3 class="mb-2">E-Commerce Development</h3>
-                    <div class="fs-xs" style="max-width: 10rem;">Find aute irure dolor in reprehenderit in volatek</div>
+                    <div class="fs-xs" style="max-width: 10rem;">Stabilize your online store with our friendly e-commerce solutions</div>
                   </div>
                   <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4"
                     style="max-width: 20rem;">
@@ -693,7 +703,7 @@
                 <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
                   <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
                     <h3 class="mb-2">Mobile Application</h3>
-                    <div class="fs-xs" style="max-width: 10rem;">Find aute irure dolor in reprehenderit in volatek</div>
+                    <div class="fs-xs" style="max-width: 10rem;">Create brand value visibility with our cost-efficient mobile applications</div>
                   </div>
                   <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4"
                     style="max-width: 20rem;">
@@ -719,7 +729,7 @@
                 <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
                   <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
                     <h3 class="mb-2">Digital Marketing</h3>
-                    <div class="fs-xs" style="max-width: 10rem;">Find aute irure dolor in reprehenderit in volatek</div>
+                    <div class="fs-xs" style="max-width: 10rem;">Promote your online business using our effective digital marketing strategies</div>
                   </div>
                   <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4"
                     style="max-width: 20rem;">

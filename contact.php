@@ -151,7 +151,8 @@
             <div class="card h-100 border-0 shadow-lg py-4">
               <div class="card-body text-center"><i class="ai-map-pin mb-4 text-primary" style="font-size: 2.25rem;"></i>
                 <h3 class="h6 mb-2">Address, Location</h3>
-                <p class="fs-sm mb-2">396 Lillian Blvd, Holbrook, NY 11741, USA</p><a class="fancy-link fs-sm" href="#map" data-scroll>See on the map</a>
+                <p class="fs-sm mb-2">Ground Floor, Athulya, Infopark Campus, Kakkanad, Kerala 682042
+</p><a class="fancy-link fs-sm" href="#map" data-scroll>See on the map</a>
               </div>
             </div>
           </div>

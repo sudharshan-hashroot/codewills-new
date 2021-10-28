@@ -93,6 +93,8 @@
                              if (result.response == 'success') {
                                  $('#enquiry_form')[0].reset();
                                  $('#error_message').html(result.message);
+                                 swal("Success", "Message Sent. Our representative will reach you shortly", "success");
+
                                  $('#enquiry_form').removeClass("was-validated");
                                  $("input:radio").removeAttr("checked");
                                    $('#ux2').removeClass('active');
@@ -108,6 +110,8 @@
                          error: function (error) { // error callback 
                                console.log("error");
                                console.log(error);
+                               swal("Error", "Callback request received. Our representative will reach you shortly.", "error");
+
                               
                                $('#error_message').html("Failed to send server error");
                          }
