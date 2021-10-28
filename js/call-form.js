@@ -35,7 +35,7 @@
                              $('#btn_sent').val('Send enquiry'); 
                              if (result.response == 'success') {
 
-                                $('#call_check').show().html(result.message);
+                               // $('#call_check').show().html(result.message);
                                
                                 swal("Success", "Callback request received. Our representative will reach you shortly.", "success");
                             //    swal("Error", "Failed to send server error.", "error");

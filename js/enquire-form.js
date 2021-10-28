@@ -57,7 +57,6 @@
                 var r_email = $('#r_email').val();
                 var r_message = $('#r_message').val();
                 var r_phone = $('#r_phone').val();
-
                 var xurl = 'php/send_email.php?type=Enquire_Form&r_name='+ r_name + '&r_email=' + r_email + '&r_message=' + r_message + '&r_phone=' + r_phone ;
 
                 $('#btn_sent').val('Sending...');
@@ -80,20 +79,31 @@
                              if (result.response == 'success') {
                                  $('#enquire_form')[0].reset();
                              //    $('#error_message').html(result.message);
+                             $('body').removeAttr("style");
                                  swal("Success", "Message Sent. Our representative will reach you shortly", "success");
                                  $('#r_email').val('');
                                  $('#r_phone').val('');
                                  $('#r_message').val('');
                                  $('#r_name').val('');
+                                                                  $('#enquire_form').removeClass("was-validated");
                                  $('#modal-enquirenow').modal('hide');
+                                 $('body').removeAttr("style");
                                  $('body').removeClass('modal-open');
                                  $('.modal-backdrop').remove();
+                                   $('body').removeAttr("style");
+                                   $(".swal-button--confirm").on('click', function(event){
+      $('body').removeAttr("style");
+});
+                                   
+                                   
                                  return false;
                              } else if (result.response == 'error') {
                                 swal("Error", "Callback request received. Our representative will reach you shortly.", "error");
+                               
                                 $('#modal-enquirenow').modal('hide');
-                                $('body').removeClass('modal-open');
+                            $('body').removeClass('modal-open');
                                 $('.modal-backdrop').remove();
+                             
                                 //  $('#error_message').html(result.message);
                                 //  $('#error_message').addClass('contact-confirmation');
                              }
@@ -104,9 +114,12 @@
                                swal("Error", "Failed to send server error", "error");
                                $('#modal-enquirenow').modal('hide');
                                $('body').removeClass('modal-open');
-                               $('.modal-backdrop').remove();
+                                   $('.modal-backdrop').remove();
+                                
+
                             //   $('#error_message').html("Failed to send server error");
                          }
+                         
                      });
                      });
                      });

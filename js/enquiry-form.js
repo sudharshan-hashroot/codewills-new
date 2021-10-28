@@ -29,10 +29,10 @@
 
             messages: {
 
-                r_name: {
+                r1_name: {
                     required: 'Please enter your full name!'
                 },
-                r_email: {
+                r1_email: {
 
                     required: 'Please enter a valid email address!',
                     email: 'Your email must be valid.'
@@ -45,15 +45,15 @@
                 // // cont_subject: {
                 // //     required: 'Email must be filled out.',
                 // // },
-                r_message: {
+                r1_message: {
                     required: 'Please write a Project Description!',
                 }
             },
 
             submitHandler: function() {
-                var r_name = $('#r_name').val();
-                var r_email = $('#r_email').val();
-                var r_message = $('#r_message').val();
+                var r_name = $('#r1_name').val();
+                var r_email = $('#r1_email').val();
+                var r_message = $('#r1_message').val();
                 var web_design = $('input[name="service1"]:checked').val();
                 var web_app =$('input[name="service2"]:checked').val();
               
@@ -86,7 +86,7 @@
                          url: xurl,
                          dataType: 'json',
                          success: function(result) {
-                             console.log(result);
+                          //   console.log(result);
                              // result=JSON.parse(result);
                              $('#btn_sent').prop('disabled', false);
                              $('#btn_sent').val('Send enquiry');
@@ -101,6 +101,8 @@
                                      $('#ux3').removeClass('active');
                                        $('#ux4').removeClass('active');
                                          $('#ux5').removeClass('active');
+                                         $('#ux1').removeClass('active');
+
                                  return false;
                              } else if (result.response == 'error') {
                                 swal("Error", "Callback request received. Our representative will reach you shortly.", "error");
