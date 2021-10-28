@@ -190,16 +190,16 @@
           <div class="col-lg-4 col-sm-6 mb-grid-gutter">
             <div class="card h-100 border-0 shadow mx-auto"><img class="card-img-top" src="img/pages/contacts/orlando.jpg" alt="Orlando">
               <div class="card-body">
-                <h5>Orlando, USA</h5>
+                <h5>London, UK</h5>
                 <ul class="list-unstyled mb-0">
                   <li class="d-flex align-items-start pb-3 border-bottom"><i class="ai-map-pin fs-lg mt-2 mb-0 text-primary"></i>
-                    <div class="ps-3"><span class="fs-ms text-muted">Find us</span><a class="d-block nav-link-style fs-sm" href="#">514 S. Magnolia St. Orlando, FL 32806, USA</a></div>
+                    <div class="ps-3"><span class="fs-ms text-muted">Find us</span><a class="d-block nav-link-style fs-sm" href="https://goo.gl/maps/eb8seRicqzS62uVG6">2 Ivyday Grove, London, SW16 2XD, United Kingdom</a></div>
                   </li>
                   <li class="d-flex align-items-start pt-2 pb-3 border-bottom"><i class="ai-phone fs-lg mt-2 mb-0 text-primary"></i>
-                    <div class="ps-3"><span class="fs-ms text-muted">Call us</span><a class="d-block nav-link-style fs-sm" href="tel:+178632256040">+1 (786) 322 560 40</a></div>
+                    <div class="ps-3"><span class="fs-ms text-muted">Call us</span><a class="d-block nav-link-style fs-sm" href="tel:+44 (0) 20 3808 5358">+44 (203) 808 8373</a></div>
                   </li>
                   <li class="d-flex align-items-start pt-2"><i class="ai-mail fs-lg mt-2 mb-0 text-primary"></i>
-                    <div class="ps-3"><span class="fs-ms text-muted">Write us</span><a class="d-block nav-link-style fs-sm" href="mailto:orlando@example.com">orlando@example.com</a></div>
+                    <div class="ps-3"><span class="fs-ms text-muted">Write us</span><a class="d-block nav-link-style fs-sm" href="mailto:contact@codewills.com">contact@codewills.com</a></div>
                   </li>
                 </ul>
               </div>
@@ -208,16 +208,16 @@
           <div class="col-lg-4 col-sm-6 mb-grid-gutter">
             <div class="card h-100 border-0 shadow mx-auto"><img class="card-img-top" src="img/pages/contacts/chicago.jpg" alt="Chicago">
               <div class="card-body">
-                <h5>Chicago, USA</h5>
+                <h5>Kerala, India</h5>
                 <ul class="list-unstyled mb-0">
                   <li class="d-flex align-items-start pb-3 border-bottom"><i class="ai-map-pin fs-lg mt-2 mb-0 text-primary"></i>
-                    <div class="ps-3"><span class="fs-ms text-muted">Find us</span><a class="d-block nav-link-style fs-sm" href="#">76, Industrial Dr, West Chicago, IL 60185, USA</a></div>
+                    <div class="ps-3"><span class="fs-ms text-muted">Find us</span><a class="d-block nav-link-style fs-sm" href="https://goo.gl/maps/drycyq3246z">Ground Floor, Athulya, Infopark Campus, Kochi 682042, Kerala, India</a></div>
                   </li>
                   <li class="d-flex align-items-start pt-2 pb-3 border-bottom"><i class="ai-phone fs-lg mt-2 mb-0 text-primary"></i>
-                    <div class="ps-3"><span class="fs-ms text-muted">Call us</span><a class="d-block nav-link-style fs-sm" href="tel:+184725276533">+1 (847) 252 765 33</a></div>
+                    <div class="ps-3"><span class="fs-ms text-muted">Call us</span><a class="d-block nav-link-style fs-sm" href="tel:+91 (484) 404 1616">+91 (484) 404 1616</a></div>
                   </li>
                   <li class="d-flex align-items-start pt-2"><i class="ai-mail fs-lg mt-2 mb-0 text-primary"></i>
-                    <div class="ps-3"><span class="fs-ms text-muted">Write us</span><a class="d-block nav-link-style fs-sm" href="mailto:chicago@example.com">chicago@example.com</a></div>
+                    <div class="ps-3"><span class="fs-ms text-muted">Write us</span><a class="d-block nav-link-style fs-sm" href="mailto:contact@codewills.com">contact@codewills.com</a></div>
                   </li>
                 </ul>
               </div>
@@ -226,16 +226,16 @@
           <div class="col-lg-4 col-sm-6 mb-grid-gutter">
             <div class="card h-100 border-0 shadow mx-auto"><img class="card-img-top" src="img/pages/contacts/newyork.jpg" alt="New York">
               <div class="card-body">
-                <h5>New York, USA</h5>
+                <h5>California, USA</h5>
                 <ul class="list-unstyled mb-0">
                   <li class="d-flex align-items-start pb-3 border-bottom"><i class="ai-map-pin fs-lg mt-2 mb-0 text-primary"></i>
-                    <div class="ps-3"><span class="fs-ms text-muted">Find us</span><a class="d-block nav-link-style fs-sm" href="#">396 Lillian Blvd, Holbrook, NY 11741, USA</a></div>
+                    <div class="ps-3"><span class="fs-ms text-muted">Find us</span><a class="d-block nav-link-style fs-sm" href="https://goo.gl/maps/UGF67gtSab7decxE7">830 Stewart Dr.Sunnyvale, CA 94085, United States</a></div>
                   </li>
                   <li class="d-flex align-items-start pt-2 pb-3 border-bottom"><i class="ai-phone fs-lg mt-2 mb-0 text-primary"></i>
-                    <div class="ps-3"><span class="fs-ms text-muted">Call us</span><a class="d-block nav-link-style fs-sm" href="tel:+1212477690000">+1 (212) 477 690 000</a></div>
+                    <div class="ps-3"><span class="fs-ms text-muted">Call us</span><a class="d-block nav-link-style fs-sm" href="tel:+1 408 5074588">+1 (845) 271 7172</a></div>
                   </li>
                   <li class="d-flex align-items-start pt-2"><i class="ai-mail fs-lg mt-2 mb-0 text-primary"></i>
-                    <div class="ps-3"><span class="fs-ms text-muted">Write us</span><a class="d-block nav-link-style fs-sm" href="mailto:newyork@example.com">newyork@example.com</a></div>
+                    <div class="ps-3"><span class="fs-ms text-muted">Write us</span><a class="d-block nav-link-style fs-sm" href="mailto:contact@codewills.com">contact@codewills.com</a></div>
                   </li>
                 </ul>
               </div>
