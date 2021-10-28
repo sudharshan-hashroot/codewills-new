@@ -3,6 +3,7 @@
 
   <!-- Navbar (Solid background + shadow)-->
   <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
+  
 <style>
    .bg-gradient-home-slider {
       background: linear-gradient(to right,

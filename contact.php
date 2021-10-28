@@ -17,6 +17,7 @@
     <link rel="mask-icon" color="#5bbad5" href="safari-pinned-tab.svg">
     <meta name="msapplication-TileColor" content="#766df4">
     <meta name="theme-color" content="#ffffff">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <!-- Page loading styles-->
     <style>
       .page-loading {
@@ -311,6 +312,7 @@
     <script src="js/contact-form.js"></script>
     <!-- Main theme script-->
     <script src="js/theme.min.js"></script>
+  
     <script >
     $("#cnt_sub").click(function() {
       $myDiv = $('#cont_phone'); $myDiv. css('background-image', 'none');
