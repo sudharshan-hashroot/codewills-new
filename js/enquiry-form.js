@@ -58,7 +58,7 @@
                 var web_app =$('input[name="service2"]:checked').val();
               
                 var ecommerce_design = $('input[name="service3"]:checked').val();
-           
+
                 var  mob_app =$('input[name="service4"]:checked').val();
                
                 var  dig_mark = $('input[name="service5"]:checked').val();
@@ -92,7 +92,7 @@
                              $('#btn_sent').val('Send enquiry');
                              if (result.response == 'success') {
                                  $('#enquiry_form')[0].reset();
-                                 $('#error_message').html(result.message);
+                             //    $('#error_message').html(result.message);
                                  swal("Success", "Message Sent. Our representative will reach you shortly", "success");
 
                                  $('#enquiry_form').removeClass("was-validated");
@@ -103,17 +103,19 @@
                                          $('#ux5').removeClass('active');
                                  return false;
                              } else if (result.response == 'error') {
-                                 $('#error_message').html(result.message);
-                                 $('#error_message').addClass('contact-confirmation');
+                                swal("Error", "Callback request received. Our representative will reach you shortly.", "error");
+
+                                //  $('#error_message').html(result.message);
+                                //  $('#error_message').addClass('contact-confirmation');
                              }
                          },
                          error: function (error) { // error callback 
                                console.log("error");
                                console.log(error);
-                               swal("Error", "Callback request received. Our representative will reach you shortly.", "error");
+                               swal("Error", "Failed to send server error", "error");
 
                               
-                               $('#error_message').html("Failed to send server error");
+                            //   $('#error_message').html("Failed to send server error");
                          }
                      });
                      });

@@ -37,7 +37,7 @@ if(isset($_REQUEST['recaptcha_response'])){
         	if (mail($to,$subject,$message,$headers) ){
         		
         		$send_arr['response'] = 'success';
-        		$send_arr['message'] = 'Your message has been sent.';
+        		$send_arr['message'] = 'Message Sent. Our representative will reach you shortly.';
         		
         		} else{
         			
@@ -67,14 +67,10 @@ if(isset($_REQUEST['recaptcha_response'])){
             $services.=$_REQUEST['mob_app']. " ,";
 
         }
-        if(isset($_REQUEST['dig_mark']) && $_REQUEST['dig_mark'] !=='undefined'){
-            $services.=$_REQUEST['dig_mark'];
-
-        }
 
         // 	$to = 'safarubaid@gmail.com';
             $to = 'info@codewills.com';
-            $subject = 'Codewills Enquiry Form';
+            $subject = 'Codewills Service Request Form';
         	$send_arr = array();
         	$headers = "MIME-Version: 1.0" . "\r\n";
         	$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
@@ -90,7 +86,7 @@ if(isset($_REQUEST['recaptcha_response'])){
                    if(empty($errors)==true){
                         if (mail($to,$subject,$message,$headers) ){
                     		$send_arr['response'] = 'success';
-                    		$send_arr['message'] = 'Your message has been sent.';
+                    		$send_arr['message'] = 'Message Sent. Our representative will reach you shortly.';
                 		} else{
                     		$send_arr['response'] = 'error';
                     		$send_arr['message'] = "You message couldn't be sent. Please try later!";
@@ -101,6 +97,66 @@ if(isset($_REQUEST['recaptcha_response'])){
                    }
         	echo json_encode($send_arr);
         	exit;	 
+}else if(isset($_REQUEST['type']) && $_REQUEST['type'] == 'CALL_US'){
+            
+   // 	$to = 'safarubaid@gmail.com';
+       $to = 'info@codewills.com';
+       $subject = 'Callback Request';
+       $send_arr = array();
+       $headers = "MIME-Version: 1.0" . "\r\n";
+       $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+       $headers .= "From: <noreply@codewills.com>" . "\r\n";
+   // 	$headers .= "Cc: ".$_REQUEST['con_email'] . "\r\n";
+       
+       $message = "Phone Number : ".$_REQUEST['con_phone']. "<br />";
+  
+       //var_dump($message );exit;
+       
+              if(empty($errors)==true){
+                   if (mail($to,$subject,$message,$headers) ){
+                       $send_arr['response'] = 'success';
+                       $send_arr['message'] = 'Callback request received. Our representative will reach you shortly';
+                   } else{
+                       $send_arr['response'] = 'error';
+                       $send_arr['message'] = "You message couldn't be sent. Please try later!";
+                   }
+              }else{
+                          $send_arr['response'] = 'error';
+                       $send_arr['message'] = $errors;
+              }
+       echo json_encode($send_arr);
+       exit;	 
+}else if(isset($_REQUEST['type']) && $_REQUEST['type'] == 'Enquire_Form'){
+            
+   // 	$to = 'safarubaid@gmail.com';
+       $to = 'info@codewills.com';
+       $subject = 'Codewills Enquiry Form';
+       $send_arr = array();
+       $headers = "MIME-Version: 1.0" . "\r\n";
+       $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+       $headers .= "From: <noreply@codewills.com>" . "\r\n";
+   // 	$headers .= "Cc: ".$_REQUEST['con_email'] . "\r\n";
+       
+       $message = "Name : ".$_REQUEST['r_name']. "<br />";
+       $message .= "E-mail : ".$_REQUEST['r_email']. "<br />";
+       $message .= "Phone number : ".$_REQUEST['r_phone']. "<br />";
+       $message .= "Message : ".$_REQUEST['r_message']. "<br />";
+       //var_dump($message );exit;
+       
+              if(empty($errors)==true){
+                   if (mail($to,$subject,$message,$headers) ){
+                       $send_arr['response'] = 'success';
+                       $send_arr['message'] = 'Message Sent. Our representative will reach you shortly.';
+                   } else{
+                       $send_arr['response'] = 'error';
+                       $send_arr['message'] = "You message couldn't be sent. Please try later!";
+                   }
+              }else{
+                          $send_arr['response'] = 'error';
+                       $send_arr['message'] = $errors;
+              }
+       echo json_encode($send_arr);
+       exit;	 
 }
          
    } else {

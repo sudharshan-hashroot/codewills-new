@@ -1,5 +1,5 @@
 <!-- form -->
-<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
 
 <section class=" bg-secondary pt-5 pt-md-6 pt-lg-7" id="enquiryform">
       <div class="container py-3 pt-md-0">
@@ -9,20 +9,17 @@
             <h2 class="pb-4">What project are you looking for?</h2>
             <h3 class="h6 pb-2">Services</h3>
             <div class="btn-group-toggle pb-3 mb-3" data-bs-toggle="buttons">
-              <label class="btn btn-outline-primary me-2 mb-2" id="ux1">
-                <input class="visually-hidden" type="radio" name="service1" value="Web Design" id="branding">Web Design
+            <label class="btn btn-outline-primary me-2 mb-2" id="ux1">
+                <input class="visually-hidden" type="radio" name="service1" value="Website" id="branding">Website
               </label>
               <label class="btn btn-outline-primary me-2 mb-2" id="ux2">
-                <input class="visually-hidden" type="radio" name="service2" value="Web Application" id="ux">Web Application
+                <input class="visually-hidden" type="radio" name="service2" value="Web App" id="ux">Web Application
               </label>
               <label class="btn btn-outline-primary me-2 mb-2" id="ux3">
-                <input class="visually-hidden" type="radio" name="service3" value="eCommerce Development" id="illustration">eCommerce Development
+                <input class="visually-hidden" type="radio" name="service3" value="Mobile App" id="illustration">Mobile App
               </label>
               <label class="btn btn-outline-primary mb-2" id="ux4">
-                <input class="visually-hidden" type="radio" name="service4" value="Mobile Application" id="motion">Mobile Application
-              </label>
-              <label class="btn btn-outline-primary mb-2" id="ux5">
-                <input class="visually-hidden" type="radio" name="service5" value="Digital Marketing" id="dig">Digital Marketing
+                <input class="visually-hidden" type="radio" name="service4" value="Branding" id="motion">Branding
               </label>
               <div class="text-danger pt-5" id=error_service style="display:none;">Please select a service</div>
 
@@ -77,6 +74,8 @@
   <script src="js/jquery.validate.js"></script>
     <script src="js/mailchimp.js"></script>
     <script src="js/enquiry-form.js"></script>
+    <script src="js/call-form.js"></script>
+
   <script>
     $(".hovercards").hover(function () {
       $(".hovercardschild").children().css("display", "none")
@@ -101,7 +100,8 @@
     else {
       $('#ux2').addClass('active');
         $(this).attr('checked', true);
-        
+        $("#error_service").hide();
+
     }
 });
 $('#illustration').click(function() {
@@ -177,7 +177,7 @@ $('#request').click(function() {
                 var  mob_app =$('input[name="service4"]:checked', '#enquiry_form').val();
                
                 var  dig_mark = $('input[name="service5"]:checked').val();
-                  if(typeof(web_design) ==='undefined' && typeof(web_app) ==='undefined' && typeof(ecommerce_design) ==='undefined' && typeof(mob_app) ==='undefined' && typeof(dig_mark) ==='undefined' ){
+                  if(typeof(web_design) ==='undefined' && typeof(web_app) ==='undefined' && typeof(ecommerce_design) ==='undefined' && typeof(mob_app) ==='undefined' ){
 
                     $("#error_service").show();
                   }else{
