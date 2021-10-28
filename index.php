@@ -111,6 +111,10 @@
       filter: brightness(.5);
     }
 
+  li span{
+    white-space: pre-wrap;
+  }
+
     @-webkit-keyframes spinner {
       100% {
         -webkit-transform: rotate(360deg);
