@@ -26,29 +26,17 @@
             </div>
             <div class="input-group mb-3"><i
                 class="ai-user position-absolute top-50 start-0 translate-middle-y ms-3"></i>
-<<<<<<< HEAD
-              <input class="form-control rounded" name="r_name"  id="r_name" type="text" placeholder="Name" required="">
-=======
               <input class="form-control rounded" name="r1_name"  id="r1_name" type="text" placeholder="Name" required="">
->>>>>>> 1d3de128d8d7c2304fc170fbf412ce47ee609523
               <div class="invalid-feedback"></div>
 
             </div>
             <div class="input-group mb-3"><i
                 class="ai-mail position-absolute top-50 start-0 translate-middle-y ms-3"></i>
-<<<<<<< HEAD
-              <input class="form-control rounded" type="email" id="r_email" name="r_email" placeholder="Email" required="">
-              <div class="invalid-feedback"></div>
-            </div>
-            <div class="mb-3 pb-1">
-              <textarea class="form-control" rows="4" id="r_message" name="r_message"  placeholder="Project description" required=""></textarea>
-=======
               <input class="form-control rounded" type="email" id="r1_email" name="r1_email" placeholder="Email" required="">
               <div class="invalid-feedback"></div>
             </div>
             <div class="mb-3 pb-1">
               <textarea class="form-control" rows="4" id="r1_message" name="r1_message"  placeholder="Project description" required=""></textarea>
->>>>>>> 1d3de128d8d7c2304fc170fbf412ce47ee609523
               <div class="invalid-feedback"></div>
             </div>
             <div class="row pt-2">
