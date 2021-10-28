@@ -26,13 +26,13 @@
             </div>
             <div class="input-group mb-3"><i
                 class="ai-user position-absolute top-50 start-0 translate-middle-y ms-3"></i>
-              <input class="form-control rounded" name="r_name"  id="r1_name1" type="text" placeholder="Name" required="">
+              <input class="form-control rounded" name="r_name"  id="r1_name" type="text" placeholder="Name" required="">
               <div class="invalid-feedback"></div>
 
             </div>
             <div class="input-group mb-3"><i
                 class="ai-mail position-absolute top-50 start-0 translate-middle-y ms-3"></i>
-              <input class="form-control rounded" type="email" id="r1_email1" name="r_email" placeholder="Email" required="">
+              <input class="form-control rounded" type="email" id="r1_email" name="r_email" placeholder="Email" required="">
               <div class="invalid-feedback"></div>
             </div>
             <div class="mb-3 pb-1">
