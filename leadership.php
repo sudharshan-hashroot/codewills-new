@@ -309,11 +309,11 @@
                 </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
                     <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
-                        <div class="card-img-top card-img-gradient"><img src="img/leadership/rassal.jpg"
+                        <div class="card-img-top card-img-gradient"><img src="img/leadership/fahad3.jpg"
                                 alt="Sarah Cole"></div>
                         <div class="card-body text-center">
-                            <h3 class="h6 card-title mb-2">Rassal M</h3>
-                            <p class="fs-xs text-body mb-0">Director of Solutions & CBO</p>
+                            <h3 class="h6 card-title mb-2">Fahad M </h3>
+                            <p class="fs-xs text-body mb-0">Strategy & Business Operations </p>
                         </div>
                     </div>
                 </div>
@@ -352,7 +352,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter d-none">
                     <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
                         <div class="card-img-top card-img-gradient"><img src="img/leadership/krishnaprasad.jpg"
                                 alt="Rosalie Lyons">
@@ -364,7 +364,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter d-none">
                     <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
                         <div class="card-img-top card-img-gradient"><img src="img/leadership/noyal.jpg"
                                 alt="Jane Tanaka"></div>
@@ -376,7 +376,7 @@
                 </div>
 
 
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter d-none">
                     <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
                         <div class="card-img-top card-img-gradient"><img src="img/leadership/rantel.jpg"
                                 alt="Sanomi Smith"></div>
