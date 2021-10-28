@@ -4,61 +4,61 @@
 
 
         // validations start here
-        $('#contact_form').validate({
+        $('#enquire_form').validate({
 
             rules: {
 
-                cont_fn: {
+                r_name: {
                     required: true
                 },
-                cont_email: {
+                r_email: {
                     required: true,
                     email: true
                 },
-                
+                r_phone: {
+                    required: true,
+                },
                 // cont_phone: {
-                //     number: true,
-                //     regex:"[- +0-9]+"
-                    
+                //     required: true
                 // },
                 // cont_subject: {
                 //     required: true,
                 // },
-                cont_message: {
+                r_message: {
                     required: true,
                 }
             },
 
             messages: {
 
-                cont_fn: {
-                    required: 'Please enter your full name!',
+                r_name: {
+                    required: 'Please enter your full name!'
                 },
-                cont_email: {
+                r_email: {
+
                     required: 'Please enter a valid email address!',
                     email: 'Your email must be valid.'
                 },
                 
-                // // cont_phone: {
-                // //     required: 'Message must be filled out.'
-                // // },
+                r_phone: {
+                   required: 'Please enter a phone number!'
+                },
 
                 // // cont_subject: {
                 // //     required: 'Email must be filled out.',
                 // // },
-                cont_message: {
+                r_message: {
                     required: 'Please write a message!',
                 }
             },
 
             submitHandler: function() {
-                var con_fname = $('#cont_fn').val();
-                var con_email = $('#cont_email').val();
-                var con_phone = $('#cont_phone').val();
-                var con_subject = $('#cont_subject').val();
-                var con_message = $('#cont_message').val();
-               
-                var xurl = 'php/send_email.php?type=CONTACT_US&con_email=' + con_email + '&con_fname=' + con_fname + '&con_phone=' + con_phone + '&con_message=' + con_message+ '&con_subject=' + con_subject;
+                var r_name = $('#r_name').val();
+                var r_email = $('#r_email').val();
+                var r_message = $('#r_message').val();
+                var r_phone = $('#r_phone').val();
+
+                var xurl = 'php/send_email.php?type=Enquire_Form&r_name='+ r_name + '&r_email=' + r_email + '&r_message=' + r_message + '&r_phone=' + r_phone ;
 
                 $('#btn_sent').val('Sending...');
                 $('#error_message').html('');
@@ -78,20 +78,22 @@
                              $('#btn_sent').prop('disabled', false);
                              $('#btn_sent').val('Send enquiry');
                              if (result.response == 'success') {
-
-                              //   $('#error_message').html(result.message);
+                                 $('#enquire_form')[0].reset();
+                             //    $('#error_message').html(result.message);
                                  swal("Success", "Message Sent. Our representative will reach you shortly", "success");
-                                  $('#cont_email').val('');
-                                  $('#cont_fn').val('');
-                                  $('#cont_phone').val('');
-                                    $('#cont_subject').val('');
-                                  $('#cont_message').val('');
-                                           
-                       $('#contact_form').removeClass("was-validated");
-                            return false;
-                                 
-                               
+                                 $('#r_email').val('');
+                                 $('#r_phone').val('');
+                                 $('#r_message').val('');
+                                 $('#r_name').val('');
+                                 $('#modal-enquirenow').modal('hide');
+                                 $('body').removeClass('modal-open');
+                                 $('.modal-backdrop').remove();
+                                 return false;
                              } else if (result.response == 'error') {
+                                swal("Error", "Callback request received. Our representative will reach you shortly.", "error");
+                                $('#modal-enquirenow').modal('hide');
+                                $('body').removeClass('modal-open');
+                                $('.modal-backdrop').remove();
                                 //  $('#error_message').html(result.message);
                                 //  $('#error_message').addClass('contact-confirmation');
                              }
@@ -99,9 +101,11 @@
                          error: function (error) { // error callback 
                                console.log("error");
                                console.log(error);
-                               swal("Error", "Failed to send server error.", "error");
-                           //    $('#error_message').html("Failed to send server error");
-                             
+                               swal("Error", "Failed to send server error", "error");
+                               $('#modal-enquirenow').modal('hide');
+                               $('body').removeClass('modal-open');
+                               $('.modal-backdrop').remove();
+                            //   $('#error_message').html("Failed to send server error");
                          }
                      });
                      });
