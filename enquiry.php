@@ -49,17 +49,19 @@
 
           </form>
           <div class="col-xl-3 col-lg-4 offset-xl-3 offset-lg-1 col-md-5 mb-5">
-            <h2 class="pb-2">Contacts</h2>
+            <h2 class="pb-2">Contact Us</h2>
             <ul class="list-unstyled fs-sm mb-4 pb-2">
-              <li><a class="nav-link-style" href="mailto:contact@example.com">contact@example.com</a></li>
-              <li><a class="nav-link-style" href="tel:+15262200459">+91 9778426320</a></li>
+              <li><a class="nav-link-style" href="#">Ground Floor, Athulya, Infopark Campus, Kakkanad, Kerala 682042</a></li>
+         
             </ul>
-            <h3 class="h6 pb-2">Or connect with us on:</h3><a class="btn-social bs-outline bs-facebook bs-lg me-2 mb-2"
-              href="#"><i class="ai-facebook"></i></a><a class="btn-social bs-outline bs-twitter bs-lg me-2 mb-2"
-              href="#"><i class="ai-twitter"></i></a><a class="btn-social bs-outline bs-instagram bs-lg me-2 mb-2"
-              href="#"><i class="ai-instagram"></i></a><a class="btn-social bs-outline bs-dribbble bs-lg me-2 mb-2"
-              href="#"><i class="ai-dribbble"></i></a><a class="btn-social bs-outline bs-behance bs-lg me-2 mb-2"
-              href="#"><i class="ai-behance"></i></a>
+            <h3 class="h6 pb-2">Or connect with us on:</h3>
+            <a class="btn-social bs-outline bs-facebook bs-lg me-2 mb-2"    href="https://www.facebook.com/HashRoot.Official/">
+              <i class="ai-facebook"></i> </a>
+            <a class="btn-social bs-outline bs-twitter bs-lg me-2 mb-2"     href="https://twitter.com/hashroot">
+            <i class="ai-twitter"></i></a><a class="btn-social bs-outline bs-dribbble bs-lg me-2 mb-2"
+              href="https://www.instagram.com/hashroot.official/"><i class="ai-instagram"></i></a><a class="btn-social bs-outline bs-behance bs-lg me-2 mb-2"
+              href="https://in.linkedin.com/company/hashroot"><i class="ai-linkedin"></i></a><a class="btn-social bs-outline bs-behance bs-lg me-2 mb-2"
+              href="https://clutch.co/profile/hashroot"><i class="ai-aperture"></i></a>
           </div>
         </div>
       </div>
