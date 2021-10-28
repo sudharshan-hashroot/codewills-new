@@ -8,10 +8,10 @@
 
             rules: {
 
-                r_name: {
+                r1_name: {
                     required: true
                 },
-                r_email: {
+                r1_email: {
                     required: true,
                     email: true
                 },
