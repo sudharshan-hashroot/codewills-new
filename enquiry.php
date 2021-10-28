@@ -8,7 +8,7 @@
             <h3 class="h6 pb-2">Services</h3>
             <div class="btn-group-toggle pb-3 mb-3" data-bs-toggle="buttons">
               <label class="btn btn-outline-primary me-2 mb-2" id="ux1">
-                <input class="visually-hidden" type="radio" name="service1" value="Web Design" id="branding" checked="">Web Design
+                <input class="visually-hidden" type="radio" name="service1" value="Web Design" id="branding">Web Design
               </label>
               <label class="btn btn-outline-primary me-2 mb-2" id="ux2">
                 <input class="visually-hidden" type="radio" name="service2" value="Web Application" id="ux">Web Application
