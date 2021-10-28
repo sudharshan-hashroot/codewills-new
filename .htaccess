@@ -20,6 +20,7 @@ RewriteRule ^/?life-at-codewills$ /lifeAtCodewills.php
 RewriteRule ^/?sustainability-strategy$ /sustainabilitystrategy.php
 RewriteRule ^/?about-us$ /about.php
 RewriteRule ^/?about-hashroot$ /aboutHashroot.php
+RewriteRule ^/?capabilities$ /capabilities.php
 RewriteRule ^/?contact-us$ /contact.php
 
 

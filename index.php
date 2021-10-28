@@ -487,7 +487,7 @@
                   </a>
                 </div>
 
-              </div><a class="btn btn-success" href="#">Explore More</a>
+              </div>
             </div>
           </div>
           <div class="col-xl-6 col-lg-7 d-flex justify-content-end pe-0 hovercardschild">
@@ -516,7 +516,7 @@
       <p class="text-center text-muted mb-0">We provide wide range of services in web design and development</p>
       <!-- Web design Service-->
       <div class="row align-items-center border-bottom py-5">
-        <div class="col-md-6 py-3"><img class="d-block mx-auto" src="img/our-service-offering/website development-01.png" alt="Responsive Web Design"></div>
+        <div class="col-md-6 py-3"><img class="d-block mx-auto" src="img/our-service-offering/Website development.png" alt="Responsive Web Design"></div>
         <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
           <h3 class="h4 mb-4">Website Development</h3>
           <ul class="list-unstyled">
@@ -530,7 +530,7 @@
       </div>
       <!-- Mobile Dev Service-->
       <div class="row align-items-center border-bottom py-5">
-        <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="img/our-service-offering/mobile.png" alt="Web Development"></div>
+        <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="img/our-service-offering/mobile app.png" alt="Web Development"></div>
         <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
           <h3 class="h4 mb-4">Mobile App Development</h3>
           <ul class="list-unstyled">
@@ -544,7 +544,7 @@
       </div>
       <!-- web Dev Service-->
       <div class="row align-items-center border-bottom py-5">
-        <div class="col-md-6 py-3"><img class="d-block mx-auto" src="img/our-service-offering/website development-01.png" alt="Mobile Apps Development"></div>
+        <div class="col-md-6 py-3"><img class="d-block mx-auto" src="img/our-service-offering/Website development.png" alt="Mobile Apps Development"></div>
         <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
           <h3 class="h4 mb-4">Web Application Development</h3>
           <ul class="list-unstyled">
