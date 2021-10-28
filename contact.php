@@ -147,34 +147,24 @@
       </section>
       <!-- Contact cards (details)-->
       <section class="container-fluid bg-overlay-content mb-5 mb-md-6" style="margin-top: -120px;">
-        <div class="row">
+        <div class="row justify-content-center">
           <div class="col-lg-3 col-sm-6 mb-grid-gutter">
             <div class="card h-100 border-0 shadow-lg py-4">
               <div class="card-body text-center"><i class="ai-map-pin mb-4 text-primary" style="font-size: 2.25rem;"></i>
                 <h3 class="h6 mb-2">Address, Location</h3>
                 <p class="fs-sm mb-2">Ground Floor, Athulya, Infopark Campus, Kakkanad, Kerala 682042
-</p><a class="fancy-link fs-sm" href="#map" data-scroll>See on the map</a>
+</p><a class="fancy-link fs-sm" href="https://g.page/hashroot?share" data-scroll>See on the map</a>
               </div>
             </div>
           </div>
-          <div class="col-lg-3 col-sm-6 mb-grid-gutter">
-            <div class="card h-100 border-0 shadow-lg py-4">
-              <div class="card-body text-center"><i class="ai-clock mb-4 text-danger" style="font-size: 2.25rem;"></i>
-                <h3 class="h6 mb-2">Working hours</h3>
-                <ul class="list-unstyled fs-sm mb-0">
-                  <li>Mon - Fri: 9AM - 8PM </li>
-                  <li>Sat: 10AM - 5PM</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+       
           <div class="col-lg-3 col-sm-6 mb-grid-gutter">
             <div class="card h-100 border-0 shadow-lg py-4">
               <div class="card-body text-center"><i class="ai-phone mb-4 text-success" style="font-size: 2.25rem;"></i>
-                <h3 class="h6 mb-2">Phone numbers</h3>
+                <h3 class="h6 mb-2">Phone number</h3>
                 <ul class="list-unstyled fs-sm mb-0">
-                  <li><span class="me-1">Customer service:</span><a class="nav-link-style" href="tel:+108044357260">+1 (080) 44 357 260</a></li>
-                  <li><span class="me-1">Tech support:</span><a class="nav-link-style" href="tel:+100331697720">+1 00 33 169 7720</a></li>
+                  <li><a class="nav-link-style" href="tel:+91-9778-426320">+91-9778-426320</a></li>
+                  <a class="fancy-link fs-sm" href="tel:+91-9778-426320" data-scroll>Call Us</a>
                 </ul>
               </div>
             </div>
@@ -184,8 +174,9 @@
               <div class="card-body text-center"><i class="ai-mail mb-4 text-warning" style="font-size: 2.25rem;"></i>
                 <h3 class="h6 mb-2">Email addresses</h3>
                 <ul class="list-unstyled fs-sm mb-0">
-                  <li><span class="me-1">Customer service:</span><a class="nav-link-style" href="mailto:customer@example.com">customer@example.com</a></li>
-                  <li><span class="me-1">Tech support:</span><a class="nav-link-style" href="mailto:support@example.com">support@example.com</a></li>
+                  <li><a class="nav-link-style" href="mailto:contact@codewills.com">contact@codewills.com/a></li>
+                    <a class="fancy-link fs-sm" href="mailto:contact@codewills.com" data-scroll>Mail  Us</a>
+
                 </ul>
               </div>
             </div>
@@ -254,8 +245,11 @@
       </section>
       <!-- Map + Contact form-->
       <section class="border-top" id="map">
-        <div class="row g-0 gallery"><a class="col-lg-6 gallery-item map-popup d-flex flex-columnt justify-content-center align-items-center bg-position-center bg-size-cover py-7 text-center" href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193595.91476818218!2d-74.11976253858133!3d40.69740344296443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sua!4v1568574342685!5m2!1sen!2sua" data-iframe="true" data-sub-html="&lt;h6 class=&quot;fs-sm text-light&quot;&gt;396 Lillian Blvd, Holbrook, NY 11741&lt;/h6&gt;" style="background-image:url(img/pages/contacts/map02.jpg);"><span class="gallery-caption"><i class="ai-maximize-2 fs-xl mt-n1 me-2"></i>Expand the map</span>
-            <div class="d-inline-block py-4 py-md-6"><img src="img/pages/contacts/marker.png" alt="Map marker" width="48"></div></a>
+        <div class="row g-0 gallery"><a class="col-lg-6 gallery-item map-popup d-flex flex-columnt justify-content-center align-items-center bg-position-center bg-size-cover py-7 text-center" 
+      href="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15716.367819097079!2d76.361973!3d10.009263!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5ae47396095685d9!2sHASHROOT!5e0!3m2!1sen!2sin!4v1635419258186!5m2!1sen!2sin" 
+        
+        data-iframe="true" data-sub-html="&lt;h6 class=&quot;fs-sm text-light&quot;&gt;Ground Floor, Athulya, Infopark Campus, Kakkanad, Kerala 682042&lt;/h6&gt;" style="background-image:url(img/map/map.PNG);"><span class="gallery-caption"><i class="ai-maximize-2 fs-xl mt-n1 me-2"></i>Expand the map</span>
+            </a>
           <div class="col-lg-6 px-3 px-lg-5">
             <div class="pt-5 pb-6 pt-md-6 mx-auto" style="max-width: 720px;">
               <h2 class="h3 pb-4">Drop us a line</h2>
@@ -263,12 +257,12 @@
                         novalidate="novalidate" action="#" enctype="multipart/form-data">
                 <div class="col-sm-6 mb-3 pb-1">
                   <label class="form-label" for="cont-fn">Full name<sup class="text-danger ms-1">*</sup></label>
-                  <input class="form-control" type="text" id="cont_fn" name="cont-fn" placeholder="John Doe" required>
+                  <input class="form-control" type="text" id="cont_fn" name="cont-fn" placeholder="Enter Full Name" required>
                   <div class="invalid-feedback"></div>
                 </div>
                 <div class="col-sm-6 mb-3 pb-1">
                   <label class="form-label" for="cont-email">Email address<sup class="text-danger ms-1">*</sup></label>
-                  <input class="form-control" type="email" id="cont_email" name="cont_email" placeholder="j.doe@example.com" required>
+                  <input class="form-control" type="email" id="cont_email" name="cont_email" placeholder="Enter your mail" required>
                   <div class="invalid-feedback"></div>
                 </div>
                 <div class="col-sm-6 mb-3 pb-1">

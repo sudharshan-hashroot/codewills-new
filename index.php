@@ -619,10 +619,9 @@
   
                     <ul class="list-unstyled py-2 mb-0">
                       <li class="d-flex align-items-center text-nowrap mb-3"><i
-                          class="ai-check fs-xl text-primary me-2"></i><span>Content Management System 
-                             </span></li>
+                          class="ai-check fs-xl text-primary me-2"></i><span>Content Management System </span></li>
                       <li class="d-flex align-items-center text-nowrap mb-3"><i
-                          class="ai-check fs-xl text-primary me-2"></i><span>   Mobile Responsive Layout</span></li>
+                          class="ai-check fs-xl text-primary me-2"></i><span>Mobile Responsive Layout</span></li>
                       <li class="d-flex align-items-center text-nowrap mb-3"><i
                           class="ai-check fs-xl text-primary me-2"></i><span> SEO Friendly</span></li>
   
@@ -725,8 +724,7 @@
                     <li class="d-flex align-items-center text-nowrap mb-3"><i
                         class="ai-check fs-xl text-primary me-2"></i><span>Custom iOS and Android apps development</span></li>
                     <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>
-                          Automated QA & Testing</span></li>
+                        class="ai-check fs-xl text-primary me-2"></i><span>Automated QA & Testing</span></li>
                     <li class="d-flex align-items-center text-nowrap mb-3"><i
                         class="ai-check fs-xl text-primary me-2"></i><span>  Maintenance and Support</span></li>
                   </ul>

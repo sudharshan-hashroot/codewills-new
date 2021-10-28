@@ -13,7 +13,7 @@
                 <input class="visually-hidden" type="radio" name="service1" value="Website" id="branding">Website
               </label>
               <label class="btn btn-outline-primary me-2 mb-2" id="ux2">
-                <input class="visually-hidden" type="radio" name="service2" value="Web App" id="ux">Web App
+                <input class="visually-hidden" type="radio" name="service2" value="Web App" id="ux">Web Application
               </label>
               <label class="btn btn-outline-primary me-2 mb-2" id="ux3">
                 <input class="visually-hidden" type="radio" name="service3" value="Mobile App" id="illustration">Mobile App
@@ -26,17 +26,17 @@
             </div>
             <div class="input-group mb-3"><i
                 class="ai-user position-absolute top-50 start-0 translate-middle-y ms-3"></i>
-              <input class="form-control rounded" name="r_name"  id="r1_name" type="text" placeholder="Name" required="">
+              <input class="form-control rounded" name="r_name"  id="r_name" type="text" placeholder="Name" required="">
               <div class="invalid-feedback"></div>
 
             </div>
             <div class="input-group mb-3"><i
                 class="ai-mail position-absolute top-50 start-0 translate-middle-y ms-3"></i>
-              <input class="form-control rounded" type="email" id="r1_email" name="r_email" placeholder="Email" required="">
+              <input class="form-control rounded" type="email" id="r_email" name="r_email" placeholder="Email" required="">
               <div class="invalid-feedback"></div>
             </div>
             <div class="mb-3 pb-1">
-              <textarea class="form-control" rows="4" id="r1_message" name="r_message"  placeholder="Project description" required=""></textarea>
+              <textarea class="form-control" rows="4" id="r_message" name="r_message"  placeholder="Project description" required=""></textarea>
               <div class="invalid-feedback"></div>
             </div>
             <div class="row pt-2">
@@ -51,7 +51,9 @@
           <div class="col-xl-3 col-lg-4 offset-xl-3 offset-lg-1 col-md-5 mb-5">
             <h2 class="pb-2">Contact Us</h2>
             <ul class="list-unstyled fs-sm mb-4 pb-2">
-              <li><a class="nav-link-style" href="#">Ground Floor, Athulya, Infopark Campus, Kakkanad, Kerala 682042</a></li>
+              <li><a class="nav-link-style" href="https://g.page/hashroot?share">Ground Floor, Athulya, Infopark Campus, Kakkanad, Kerala 682042</a></li>
+              <li><a class="nav-link-style" href="tel:9778-426320">+91-9778-426320</a></li>
+              <li><a class="nav-link-style" href="mailto:contact@codewills.com">contact@codewills.com</a></li>
          
             </ul>
             <h3 class="h6 pb-2">Or connect with us on:</h3>

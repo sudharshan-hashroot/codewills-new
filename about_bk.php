@@ -79,18 +79,6 @@
         -webkit-animation: spinner .75s linear infinite;
         animation: spinner .75s linear infinite;
       }
-      
-.awards{
-    width: 12rem;
-}
-.bannerright{
-    background-size: cover;
-    background-position:right;
-}
-.bannerleft{
-    background-size: cover;
-    background-position:left;
-}
       @-webkit-keyframes spinner {
         100% {
           -webkit-transform: rotate(360deg);
@@ -234,201 +222,78 @@
           </div>
         </div>
       </section>
+      <!-- vision and mission -->
+      <section class="container position-relative zindex-5 py-4 d-none">
+        <h2 class="text-center pt-md-0 mb-5">Vision & Mission</h2>
+        <div class="row">
+          <div class="col-sm-6 mb-grid-gutter">
+            <div class="bg-light shadow rounded-3 py-5 px-4">
+              <div class="d-block d-xl-flex align-items-center px-lg-3 py-xl-2 text-center text-sm-start"><img class="d-inline-block mb-3 mb-xl-0" src="img/demo/software-landing/team.png" alt="Team" width="140">
+                <div class="ps-xl-3 ms-xl-3">
+                  <h3 class="h4 text-primary pb-1">Vision</h3>
+                  <p>By providing best-in-class software services we aim to improve our current position in the market and set a standard for others to follow. Having deep technical expertise, we are committed to ensuring the quality of the service we provide to our clients. We would like ourselves to be known as the market leaders when it comes to providing quality software services at an affordable price.</p>
 
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 mb-grid-gutter">
+            <div class="bg-light shadow rounded-3 py-5 px-4">
+              <div class="d-block d-xl-flex align-items-center px-lg-3 py-xl-2 text-center text-sm-start"><img class="d-inline-block mb-3 mb-xl-0" src="img/demo/software-landing/freelancer.png" alt="Freelancer" width="140">
+                <div class="ps-xl-3 ms-xl-3">
+                  <h3 class="h4 text-primary pb-1">Mission</h3>
+                  <p>In this digital era, our mission is to provide simple and affordable software services to our customers across the globe. We make use of the latest technologies and platforms to build reliable and high-quality software applications that help our clients to reach their goals and objectives.
+
+                  </p>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- corevalues -->
       <section class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
-      <h2 class="mb-5 text-center">Our Mission and Values</h2>
-      <p class="text-center">We have built a global reputation for our ability to help customers to achieve their business
-objectives by providing innovative, best in class IT Outsourcing, Technology, Solutions, and
-Consulting based products and services.</p>
-      <div class="row pt-5">
-        <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-            <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i class="ai-eye h2 text-primary mt-2 mb-4"></i>
-              <h3 class="h5">Vision</h3>
-              <p class="fs-sm text-body">Our business is about delivering customer friendly solutions driven by value,
-                service and integrity to meet the clients' needs, on time.</p>
-            </div>
-          </a></div>
-        <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-            <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i class="ai-crosshair h2 text-primary mt-2 mb-4"></i>
-              <h3 class="h5">Mission</h3>
-              <p class="fs-sm text-body">We make technology easy, manageable, and affordable by offering a complete
-                computing solution with complete support and accountability. Our goal is to help you succeed, reduce
-                costs and make the most of your technology investment.</p>
-            </div>
-          </a></div>
-        <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-            <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i class="ai-user-plus h2 text-primary mt-2 mb-4"></i>
-              <h3 class="h5">Values</h3>
-              <p class="fs-sm text-body">We always uphold our values of Integrity, Commitment, Confidentiality,
-                Professionalism and Dedication.</p>
-            </div>
-          </a></div>
-      </div>
-    </section>
-   
-    <!-- awards -->
-
-    <section class="bg-secondary">
-      <div class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
-        <h2 class="mb-5 text-center">Awards &amp; Achievements</h2>
-        <p class="text-center">HashRoot is a synonym to credibility and then brings in more and more recognitions to us.
-          Every business concern earns to gain recognition for its outstanding achievements and innovative services or
-          products in order to distinguish themselves from competitors.</p>
-        <div class="row pt-5">
+        <h2 class="mb-5 text-center">Core Values</h2>
+        <div class="row">
           <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-              <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
-         <img class="awards" src="./img/homepage/awards/webp/bizzaward.webp" alt="">
-                <h3 class="h5">THE BIZZ AWARDS 2019</h3>
-                <p class="fs-sm text-body">HashRoot joined the elite group of companies that have consistently
-                  demonstrated business excellence.</p>
-              </div>
-            </a></div>
+              <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i class="ai-user-check h2 text-primary mt-2 mb-4"></i>
+                <h3 class="h5">Managing account</h3>
+                <p class="fs-sm text-body">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.</p>
+                <div class="btn btn-translucent-primary btn-sm mb-2">Learn more</div>
+              </div></a></div>
           <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-              <div class="card-body ps-grid-gutter pe-grid-gutter text-center">  
-                  <img class="awards" src="./img/homepage/awards/webp/crown commercial.webp" alt="">
-                <h3 class="h5">CROWN COMMERCIAL SERVICE SUPPLIER</h3>
-                <p class="fs-sm text-body">HashRoot is now an approved G-Cloud 12 supplier by the Crown Commercial
-                  Service (CCS)</p>
-              </div>
-            </a></div>
+              <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i class="ai-settings h2 text-primary mt-2 mb-4"></i>
+                <h3 class="h5">Managing account</h3>
+                <p class="fs-sm text-body">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.</p>
+                <div class="btn btn-translucent-primary btn-sm mb-2">Learn more</div>
+              </div></a></div>
           <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-              <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
-                <img class="awards" src="./img/homepage/awards/webp/consultants.webp" alt="">
-                <h3 class="h5">CONSULTANT OF THE YEAR
-                  2015</h3>
-                <p class="fs-sm text-body">Awarded as the Consultant of the Year 2015 by Consultant Review Magazine in
-                  the domain Infrastructure Management Service.</p>
-              </div>
-            </a></div>
+              <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i class="ai-credit-card h2 text-primary mt-2 mb-4"></i>
+                <h3 class="h5">Payment options</h3>
+                <p class="fs-sm text-body">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.</p>
+                <div class="btn btn-translucent-primary btn-sm mb-2">Learn more</div>
+              </div></a></div>
           <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-              <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
-                  <img class="awards" src="./img/homepage/awards/webp/vmware.webp" alt="">
-                <h3 class="h5">MOST PROMISING VMWARE SOLUTION PROVIDER</h3>
-                <p class="fs-sm text-body">Listed in the 25 Most promising VMware Service Providers by APAC CIO Outlook
-                  Magazine, published from Silicon Valley, USA</p>
-              </div>
-            </a></div>
+              <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i class="ai-truck h2 text-primary mt-2 mb-4"></i>
+                <h3 class="h5">Delivery information</h3>
+                <p class="fs-sm text-body">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.</p>
+                <div class="btn btn-translucent-primary btn-sm mb-2">Learn more</div>
+              </div></a></div>
           <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-              <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
-                <img class="awards" src="./img/homepage/awards/webp/internationalcrown.webp" alt="">
-                <h3 class="h5">INTERNATIONAL QUALITY CROWN AWARD</h3>
-                <p class="fs-sm text-body">HashRoot has been awarded the "International Quality Crown Award (IQC)" in
-                  category GOLD by 27th International IQC Convention at London, United Kingdom</p>
-              </div>
-            </a></div>
+              <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i class="ai-refresh-cw h2 text-primary mt-2 mb-4"></i>
+                <h3 class="h5">Refund policy</h3>
+                <p class="fs-sm text-body">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.</p>
+                <div class="btn btn-translucent-primary btn-sm mb-2">Learn more</div>
+              </div></a></div>
           <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-              <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
-                <img class="awards" src="./img/homepage/awards/webp/50cool startups.webp" alt="">
-                <h3 class="h5">50 COOL STARTUPS</h3>
-                <p class="fs-sm text-body">HashRoot has been identified in the "50 cool startups of the year" by
-                  Siliconindia. Better work-life balance, pay scale &amp; benefits, development opportunities are some of
-                  the factors that were considered while preparing the list.</p>
-              </div>
-            </a></div>
-          <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-              <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
-                <img class="awards" src="./img/homepage/awards/webp/citizen integration peace.webp" alt="">
-                <h3 class="h5">INTERNATIONAL GOLD STAR MILLENNIUM AWARD</h3>
-                <p class="fs-sm text-body">For Excellence in Promoting Global Integration and Economic Development by
-                  Mr. Korn Dabbaransi, Former Dy. PM of Thailand, at the International Conference on "Indo-Thai
-                  Friendship and Economic Co-operation" on 18th January 2015, Bangkok, Thailand.</p>
-              </div>
-            </a></div>
-          <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-              <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
-                <img class="awards" src="./img/homepage/awards/webp/indianeconomic.webp" alt="">
-                <h3 class="h5">FASTEST GROWING INDIAN COMPANY EXCELLENCE AWARD</h3>
-                <p class="fs-sm text-body">Awarded By Indian Economic Development and Research Association (IEDRA) on
-                  the occasion of National Seminar on "Outstanding contribution to National Development" on Friday 29th
-                  August 2014 at New Delhi.</p>
-              </div>
-            </a></div>
-          <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
-              <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
-                  <img class="awards" src="./img/homepage/awards/webp/international achiever conference.png" alt="">
-                <h3 class="h5">GLOBAL ACHIEVERS AWARD FOR BUSINESS EXCELLENCE</h3>
-                <p class="fs-sm text-body">Global achievers award for business excellence by International Achievers
-                  Summit for outstanding achievements at the 6th International Achievers summit on Global Corporate
-                  Achievements and social responsibilities at Bangkok, Thailand.</p>
-              </div>
-            </a></div>
+              <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i class="ai-share-2 h2 text-primary mt-2 mb-4"></i>
+                <h3 class="h5">Affiliate program</h3>
+                <p class="fs-sm text-body">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.</p>
+                <div class="btn btn-translucent-primary btn-sm mb-2">Learn more</div>
+              </div></a></div>
         </div>
-      </div>
-    </section>
-    <section class="row g-0 ">
-      <div class="col-md-6 bg-size-cover py-7 bannerright" style="background-image: url(img/company_banner/capabilitiess.jpg);">
-        <div class="py-6"></div>
-      </div>
-      <div class="col-md-6 border-top border-bottom px-3 pe-xl-0 ps-lg-5 ps-xl-7">
-        <div class="ms-sm-4 my-md-5 py-5 my-sm-0 py-sm-6 py-md-7" style="max-width: 495px;">
-          <h2 class="mb-4">Our Capabilities</h2>
-          <p class="mb-5">Help customers among the world corporate leaders with create new opportunities
-            and confront the most strategic challenges in a global perspective. We bring in front
-            you with a global perspective for the clients; lay out with strategic services that would
-            be through our expertise across the client life cycle.
-          </p>
-
-        </div>
-      </div>
-    </section>
-    <section class="row g-0 ">
-      <div class="col-md-6 border-top border-bottom px-3 pe-xl-0 ps-lg-5 ps-xl-7">
-          <div class="ms-sm-4 my-md-5 py-5 my-sm-0 py-sm-6 py-md-7" style="max-width: 495px;">
-            <h2 class="mb-4">Our Difference
-          </h2>
-            <p class="mb-5">Build with expert team to drive innovative ideas with the innovative technical experts
-              with sound business outlook and up to date knowledge of today's dynamically
-              evolving IT Market.
-            </p>
-  
-          </div>
-        </div>
-      <div class="col-md-6 bg-size-cover py-7 bannerleft" style="background-image: url(img/company_banner/Leadership.jpg);">
-        <div class="py-6"></div>
-      </div>
-     
-    </section>
-    <section class="row g-0 ">
-      <div class="col-md-6 bg-size-cover py-7 bannerright" style="background-image: url(img/company_banner/capabilitiess.jpg);">
-        <div class="py-6"></div>
-      </div>
-      <div class="col-md-6 border-top border-bottom px-3 pe-xl-0 ps-lg-5 ps-xl-7">
-        <div class="ms-sm-4 my-md-5 py-5 my-sm-0 py-sm-6 py-md-7" style="max-width: 495px;">
-          <h2 class="mb-4">Life @ CodeWills
-          </h2>
-          <p class="mb-5">We give emphasis primarily on corporate governance, this leads to an effective
-            decision-making process wherein we make most of our employees participate in
-            decision-making processes, nerveless forget that what we are today is the thrive of
-            our employees.
-
-
-          </p>
-
-        </div>
-      </div>
-    </section>
-    <section class="row g-0 ">
-      <div class="col-md-6 border-top border-bottom px-3 pe-xl-0 ps-lg-5 ps-xl-7">
-          <div class="ms-sm-4 my-md-5 py-5 my-sm-0 py-sm-6 py-md-7" style="max-width: 495px;">
-            <h2 class="mb-4">Our Culture
-
-          </h2>
-            <p class="mb-5">A successful Manager has a frantic challenge of getting the best out of his workforce
-              irrespective of any critical situation. He can do so only by keeping them motivated. A
-              motivated workforce is an assurance of quality performance delivered.
-
-          </p>
-  
-          </div>
-        </div>
-      <div class="col-md-6 bg-size-cover py-7 bannerright" style="background-image: url(img/company_banner/Life\ at\ hashroot.jpg);">
-        <div class="py-6"></div>
-      </div>
-     
-    </section>
-
-
-  
+      </section>
           <!-- ctasection -->
           <?php  include("./callRequest.php"); ?>
 
