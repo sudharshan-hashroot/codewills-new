@@ -13,7 +13,7 @@
                 <input class="visually-hidden" type="radio" name="service1" value="Website" id="branding">Website
               </label>
               <label class="btn btn-outline-primary me-2 mb-2" id="ux2">
-                <input class="visually-hidden" type="radio" name="service2" value="Web App" id="ux">Web Application
+                <input class="visually-hidden" type="radio" name="service2" value="Web App" id="ux">Web App
               </label>
               <label class="btn btn-outline-primary me-2 mb-2" id="ux3">
                 <input class="visually-hidden" type="radio" name="service3" value="Mobile App" id="illustration">Mobile App
