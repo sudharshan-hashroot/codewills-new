@@ -92,8 +92,11 @@
                                  $('.modal-backdrop').remove();
                                    $('body').removeAttr("style");
                                    $(".swal-button--confirm").on('click', function(event){
-      $('body').removeAttr("style");
-});
+                                 $('body').removeAttr("style");
+                                   });
+                                   $(document).click(function() {
+                                       $('body').removeAttr("style");
+                                   });  
                                    
                                    
                                  return false;
@@ -103,6 +106,9 @@
                                 $('#modal-enquirenow').modal('hide');
                             $('body').removeClass('modal-open');
                                 $('.modal-backdrop').remove();
+                                $(".swal-button--confirm").on('click', function(event){
+                                    $('body').removeAttr("style");
+                              });
                              
                                 //  $('#error_message').html(result.message);
                                 //  $('#error_message').addClass('contact-confirmation');
@@ -115,7 +121,12 @@
                                $('#modal-enquirenow').modal('hide');
                                $('body').removeClass('modal-open');
                                    $('.modal-backdrop').remove();
-                                
+                                   $(".swal-button--confirm").on('click', function(event){
+                                    $('body').removeAttr("style");
+                              });
+                              $(document).click(function() {
+                                $('body').removeAttr("style");
+                            });  
 
                             //   $('#error_message').html("Failed to send server error");
                          }

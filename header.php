@@ -19,7 +19,7 @@
     <div class="topbar topbar-dark bg-dark" style="z-index:100">
       <div class="container d-md-flex align-items-center px-0 px-xl-3">
         <div class="d-none d-md-block text-nowrap me-3"><i class="ai-phone fs-base text-muted me-1 align-middle"></i><span class="text-muted me-2">Call Us</span><a class="topbar-link me-1" href="tel:+919778426320">+91 9778426320</a></div>
-        <div class="d-flex text-md-end ms-md-auto">
+        <div class="d-flex text-md-end ms-md-auto d-none">
 
           <div class="dropdown ms-auto ms-md-0 me-3"><a class="topbar-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><img class="me-2" src="img/flags/en.png" alt="English" width="20">Eng</a>
             <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#"><img class="me-2" src="img/flags/fr.png" alt="Français" width="20">Français</a><a class="dropdown-item" href="#"><img class="me-2" src="img/flags/de.png" alt="Deutsch" width="20">Deutsch</a><a class="dropdown-item" href="#"><img class="mt-n1 me-2" src="img/flags/it.png" alt="Italiano" width="20">Italiano</a></div>
@@ -51,35 +51,35 @@
                   <li><a class="dropdown-item" href="/website-design-services">
                     <div class="d-flex align-items-center">
                       <div class="fs-xl text-muted"><i class="ai-pen-tool"></i></div>
-                      <div class="ps-3"><span class="d-block text-heading">Website Designing</span><small class="d-block text-muted">Kick-start customization</small></div>
+                      <div class="ps-3"><span class="d-block text-heading">Website Designing</span><small class="d-none text-muted">Kick-start customization</small></div>
                     </div></a></li>
                     <li class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="/website-development-services">
                       <div class="d-flex align-items-center">
                         <div class="fs-xl text-muted"><i class="ai-monitor"></i></div>
-                        <div class="ps-3"><span class="d-block text-heading">Website Development</span><small class="d-block text-muted">Kick-start customization</small></div>
+                        <div class="ps-3"><span class="d-block text-heading">Website Development</span><small class="d-none text-muted">Kick-start customization</small></div>
                       </div></a></li>
                   <li class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="/mobile-app-development-services">
                       <div class="d-flex align-items-center">
                         <div class="fs-xl text-muted"><i class="ai-layers"></i></div>
-                        <div class="ps-3"><span class="d-block text-heading">Mobile App Development</span><small class="d-block text-muted">Flexible components</small></div>
+                        <div class="ps-3"><span class="d-block text-heading">Mobile App Development</span><small class="d-none text-muted">Flexible components</small></div>
                       </div></a></li>
                   <li class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="/web-application-development-services">
                       <div class="d-flex align-items-center">
                         <div class="fs-xl text-muted"><i class="ai-grid"></i></div>
-                        <div class="ps-3"><span class="d-block text-heading">Web App Development</span><small class="d-block text-muted">Regular updates</small></div>
+                        <div class="ps-3"><span class="d-block text-heading">Web App Development</span><small class="d-none text-muted">Regular updates</small></div>
                       </div></a></li>
                   <li class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="/digital-marketing-services">
                       <div class="d-flex align-items-center">
                         <div class="fs-xl text-muted"><i class="ai-pie-chart"></i></div>
-                        <div class="ps-3"><span class="d-block text-heading">Digital Marketing</span><small class="d-block text-muted">Flexible component</small></div>
+                        <div class="ps-3"><span class="d-block text-heading">Digital Marketing</span><small class="d-none text-muted">Flexible component</small></div>
                       </div></a></li>
                 </ul>
               </li>
-              <li class="nav-item"><a class="nav-link" href="/#pricing">Pricing</a></li>
+              <li class="nav-item"><a class="nav-link" href="/pricing">Pricing</a></li>
               <!-- <li class="nav-item"><a class="nav-link" href="careers.html">Careers</a></li> -->
               <li class="nav-item"><a class="nav-link" href="/contact-us">Contact Us</a></li>
             </ul>

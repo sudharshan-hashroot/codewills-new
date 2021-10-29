@@ -186,7 +186,7 @@
               <h1 class="text-light mb-3">Custom Mobile Application Development Services</h1>
               <p class="text-light fs-lg">Fully optimized mobile application with powerful custom features.</p>
               <div class="d-flex align-items-center justify-content-center justify-content-md-start pb-3 pb-xl-5 mb-5">
-                <a class="btn btn-light me-4" href="#">Explore Features</a>
+                <a class="btn btn-light me-4" href="#features">Explore Features</a>
                 <!-- <div class="d-flex align-items-center">
                     <i class="ai-phone fs-xl text-light me-2"></i>
                     <a class="text-light text-decoration-none" href="tel:+15262200459">+ 1 526 220 0459</a>
@@ -280,7 +280,7 @@
       </div>
     </section>
     <!-- About-->
-    <section class="bg-secondary">
+    <section class="bg-secondary" id = "features">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-5 mt-3 mt-md-0 py-5 py-md-0">

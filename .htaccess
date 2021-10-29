@@ -29,6 +29,7 @@ RewriteRule ^/?acceptable-user-policy$ /acceptable-user-policy.php
 RewriteRule ^/?information-audit-document$ /information-audit-document.php
 RewriteRule ^/?data-processing-agreement$ /data-processing-agreement.php
 RewriteRule ^/?business-continuity-plan$ /business-continuity-plan.php
+RewriteRule ^/?pricing$ /pricing.php
 
 
 
