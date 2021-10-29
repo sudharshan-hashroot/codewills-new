@@ -41,6 +41,7 @@
     visibility: hidden;
 }
 </style>
+<?php include("enquirePopup.php"); ?>
 <header class="header">
     <div class="topbar topbar-dark bg-dark" style="z-index:99">
       <div class="container d-md-flex align-items-center px-0 px-xl-3">
@@ -116,10 +117,14 @@
               <li class="nav-item"><a class="nav-link" href="/contact-us">Contact Us</a></li>
             </ul>
           </div>
-          <div class="offcanvas-footer border-top"><a class="btn btn-translucent-primary d-block w-100" href="#modal-enquirenow" data-bs-toggle="modal"
-            data-view="#modal-enquirenow-view"><i class="ai-user fs-lg me-2"></i>Enquire Now</a></div>
+          <div class="offcanvas-footer border-top">
+            <a class="btn btn-primary d-block w-100" href="#modal-enquirenow" data-bs-toggle="modal"
+            data-view="#modal-enquirenow-view">
+            <i class="ai-user fs-lg me-2"></i>
+            Enquire Now
+          </a></div>
         </div>
       </div>
     </div>
     </header>
-    <?php include("enquirePopup.php"); ?>
+  
