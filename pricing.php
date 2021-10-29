@@ -161,57 +161,8 @@
         <?php include("signinmodal.php"); ?>
         <?php include("header.php"); ?>
         <!-- Enquirenow Modal -->
-        <div class="modal fade" id="modal-enquirenow" tabindex="-1">
-            <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content border-0">
-                    <div class="view show" id="modal-enquirenow-view">
-                        <div class="modal-header border-0 bg-dark px-4">
-                            <h4 class="modal-title text-light">Enquire Now</h4>
-                            <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal"
-                                aria-label="btn-close "></button>
-                        </div>
-                        <div class="modal-body px-4">
-                            <p class="fs-ms text-muted">Please Provide following details</p>
-                            <form class="needs-validation" novalidate>
-                                <div class="mb-3">
-                                    <div class="input-group"><i
-                                            class="ai-user position-absolute top-50 start-0 translate-middle-y ms-3"></i>
-                                        <input class="form-control rounded" type="text" placeholder="Your Name"
-                                            required>
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    <div class="input-group"><i
-                                            class="ai-mail position-absolute top-50 start-0 translate-middle-y ms-3"></i>
-                                        <input class="form-control rounded" type="email" placeholder="Your E-mail"
-                                            required>
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    <div class="input-group"><i
-                                            class="ai-phone position-absolute top-50 start-0 translate-middle-y ms-3"></i>
-                                        <input class="form-control rounded" type="tel" placeholder="Your Mobile Number"
-                                            required>
-                                    </div>
-                                </div>
-                                <div class="mb-3">
-                                    <div class="input-group">
-                                        <i class="ai-message-square position-absolute start-0 translate-middle-y ms-3"
-                                            style="top: 15%!important;"></i>
-                                        <textarea rows='5' class="form-control rounded" type="text"
-                                            placeholder="Your Message" required></textarea>
-                                    </div>
-                                </div>
+        <?php include("enquirePopup.php"); ?>
 
-                                <button class="btn btn-primary d-block w-100" type="submit">Enquire Now</button>
-
-                            </form>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
         <!-- Page content-->
 
         <section class="jarallax bg-gradient pt-5 pb-7 pt-md-7" data-jarallax data-speed="0.25"><span
