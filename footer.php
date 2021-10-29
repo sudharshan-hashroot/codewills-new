@@ -114,3 +114,5 @@
 
     </div>
   </footer>
+  <script src="//code.tidio.co/3smfxyqnlejlkedsvwabrog1xmzfegwg.js" async></script>
+  <script src="./js/tag.js"></script>

@@ -3,6 +3,23 @@
 
   <!-- Navbar (Solid background + shadow)-->
   <!-- Remove "navbar-sticky" class to make navigation bar scrollable with the page.-->
+  <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '3033389543563722');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=3033389543563722&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
   
 <style>
    .bg-gradient-home-slider {
@@ -15,8 +32,8 @@
     visibility: hidden;
 }
 </style>
-  
-    <div class="topbar topbar-dark bg-dark" style="z-index:100">
+
+    <div class="topbar topbar-dark bg-dark" style="z-index:99">
       <div class="container d-md-flex align-items-center px-0 px-xl-3">
         <div class="d-none d-md-block text-nowrap me-3"><i class="ai-phone fs-base text-muted me-1 align-middle"></i><span class="text-muted me-2">Call Us</span><a class="topbar-link me-1" href="tel:+919778426320">+91 9778426320</a></div>
         <div class="d-flex text-md-end ms-md-auto d-none">
@@ -77,14 +94,16 @@
                         <div class="fs-xl text-muted"><i class="ai-pie-chart"></i></div>
                         <div class="ps-3"><span class="d-block text-heading">Digital Marketing</span><small class="d-none text-muted">Flexible component</small></div>
                       </div></a></li>
+                      
                 </ul>
               </li>
+            
               <li class="nav-item"><a class="nav-link" href="/pricing">Pricing</a></li>
               <!-- <li class="nav-item"><a class="nav-link" href="careers.html">Careers</a></li> -->
               <li class="nav-item"><a class="nav-link" href="/contact-us">Contact Us</a></li>
             </ul>
           </div>
-          <div class="offcanvas-footer border-top"><a class="btn btn-translucent-primary d-block w-100" href="#modal-signin" data-bs-toggle="modal" data-view="#modal-signin-view"><i class="ai-user fs-lg me-2"></i>Sign in</a></div>
+          <div class="offcanvas-footer border-top d-none"><a class="btn btn-translucent-primary d-block w-100" href="#modal-signin" data-bs-toggle="modal" data-view="#modal-signin-view"><i class="ai-user fs-lg me-2"></i>Sign in</a></div>
         </div>
       </div>
     </div>
