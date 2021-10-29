@@ -457,5 +457,11 @@ Consulting based products and services.</p>
   <script src="js/enquire-form.js"></script>
     <!-- Main theme script-->
     <script src="js/theme.min.js"></script>
+    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/simplebar/dist/simplebar.min.js"></script>
+<script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+<!-- Main theme script-->
+
   </body>
 </html>

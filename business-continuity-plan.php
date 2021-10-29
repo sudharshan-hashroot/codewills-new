@@ -345,35 +345,39 @@
 
     </main>
     <?php include("footer.php"); ?>
-    <!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll data-fixed-element><span
-            class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon ai-arrow-up">
-        </i></a>
-    <!-- Vendor scrits: js libraries and plugins-->
-    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="vendor/simplebar/dist/simplebar.min.js"></script>
-    <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-    <script src="vendor/jarallax/dist/jarallax.min.js"></script>
-    <script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
-    <script src="vendor/lightgallery.js/dist/js/lightgallery.min.js"></script>
-    <script src="vendor/lg-fullscreen.js/dist/lg-fullscreen.min.js"></script>
-    <script src="vendor/lg-zoom.js/dist/lg-zoom.min.js"></script>
-    <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
-    <script src="vendor/shufflejs/dist/shuffle.min.js"></script>
-    <script src="vendor/flatpickr/dist/flatpickr.min.js"></script>
-    <!-- Main theme script-->
-    <script src="js/theme.min.js"></script>
-    <script src="js/jquery.validate.js"></script>
-    <script src="js/enquire-form.js"></script>
-    <script>
-        $(".hovercards").hover(function () {
-            $(".hovercardschild").children().css("display", "none");
-            var valueparent = $(this).attr('data-hover');
-            var valuechild = $(".hovercards" + valueparent);
-            valuechild.css("display", "block");
-        })
-    </script>
-      <script src="js/theme.min.js"></script>
+  <!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll data-fixed-element><span
+      class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon ai-arrow-up">
+    </i></a>
+  <!-- Vendor scrits: js libraries and plugins-->
+  <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="vendor/simplebar/dist/simplebar.min.js"></script>
+  <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script src="vendor/jarallax/dist/jarallax.min.js"></script>
+  <script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+  <script src="vendor/lightgallery.js/dist/js/lightgallery.min.js"></script>
+  <script src="vendor/lg-fullscreen.js/dist/lg-fullscreen.min.js"></script>
+  <script src="vendor/lg-zoom.js/dist/lg-zoom.min.js"></script>
+  <script src="vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="vendor/shufflejs/dist/shuffle.min.js"></script>
+  <script src="vendor/flatpickr/dist/flatpickr.min.js"></script>
+  <!-- Main theme script-->
+  <script src="js/theme.min.js"></script>
+  <script src="js/jquery.validate.js"></script>
+  <script src="js/enquire-form.js"></script>
+  <script>
+    $(".hovercards").hover(function () {
+      $(".hovercardschild").children().css("display", "none")
+      var valueparent = $(this).attr('data-hover')
+      var valuechild = $(".hovercards" + valueparent)
+      valuechild.css("display", "block")
+
+    })
+  </script>
+      <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/simplebar/dist/simplebar.min.js"></script>
+<script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
 </body>
 
 </html>
