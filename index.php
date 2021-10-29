@@ -1089,9 +1089,7 @@
     </i></a>
      <!-- Main theme script-->
   <script src="js/theme.min.js"></script>
-  <script src="js/jquery.validate.js"></script>
-  <script src="js/mailchimp.js"></script>
-  <script src="js/enquire-form.js"></script>
+ 
   <!-- Vendor scrits: js libraries and plugins-->
   <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="vendor/simplebar/dist/simplebar.min.js"></script>
@@ -1108,7 +1106,9 @@
   <script src="https://www.google.com/recaptcha/api.js?render=6Ldb7PAcAAAAALKN6oPEOLjDjOBnMKhDCJ3Bn6KL"></script>
   <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
- 
+  <script src="js/jquery.validate.js"></script>
+  <script src="js/mailchimp.js"></script>
+  <script src="js/enquire-form.js"></script>
 
   <script>
     $(".hovercards").hover(function () {
