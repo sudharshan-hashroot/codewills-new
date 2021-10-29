@@ -111,7 +111,7 @@
       filter: brightness(.5);
     }
 
-  li span{
+  li>span{
     white-space: pre-wrap;
   }
 
@@ -397,7 +397,8 @@
     </section>
     <!-- About around -->
     <section class="container mt-4 pt-5 mt-md-2 pt-md-7 pb-6">
-      <h2 class="text-center mb-3">About CodeWills </h2>
+    <h2 class="h1 text-center mb-4">About <span class="bg-faded-primary text-primary rounded px-3 py-2">Codewills</span></h2>
+    
       <div class="row justify-content-center mb-5 pb-2">
         <div class="col-xl-6 col-lg-7">
           <p class="text-center mb-0">
@@ -517,7 +518,7 @@
     <!-- Services-->
 
     <section class="container pt-5 pt-lg-6">
-      <h2 class="text-center">Our Service Offering</h2>
+    <h2 class="h1 text-center mb-4">Our <span class="bg-faded-primary text-primary rounded px-3 py-2">Offerings</span></h2>
       <p class="text-center text-muted mb-0">We provide wide range of services in web design and development</p>
       <!-- Web design Service-->
       <div class="row align-items-center border-bottom py-5">
@@ -530,7 +531,7 @@
 
           </ul>
           <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
-          <p class="pb-1"> HTML, CSS, JS, PHP</p><a class="fw-medium" href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
+          <p class="pb-1">HTML, CSS, JS, PHP, WordPress, Magento, WooCommerce</p><a class="fw-medium" href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
         </div>
       </div>
       <!-- Mobile Dev Service-->
@@ -588,8 +589,10 @@
       <h2 class="d-block bg-gradient text-light text-center py-5 px-3">Pricing plans</h2>
       <div class="container py-5">
    
-       
-      <p class="text-center text-muted mb-0">Take a look at our cost-effective website development & design plans</p>
+      <div class="d-sm-flex align-items-center justify-content-center text-center text-sm-start">
+            <h3 class="mb-4 mb-sm-2 me-sm-4 pe-sm-2">Take a look at our cost-effective website development & design plans</h3><a class="btn btn-success mb-sm-2 d-none" href="#">Enquire Now</a>
+          </div>
+   
  
         <div class="row justify-content-center pt-5">
           <div class="col-lg-10">
@@ -767,7 +770,7 @@
       <div class="container py-5 py-md-6 py-lg-7">
         <div class="row tns-carousel-wrapper py-3 py-md-0">
           <div class="col-md-8">
-            <h2 class="pb-2 mb-4 text-center text-md-start">Awards</h2>
+          <h2 class="h1 text-left mb-4">Awards &  <span class="bg-faded-primary text-primary rounded px-3 py-2">Achievements</span></h2>
             <div class="tns-carousel-inner" data-carousel-options="{&quot;nav&quot;: false, &quot;gutter&quot;: 20}">
               <blockquote class="mt-3 mb-0">
               <img src="./img/awards/svg/clutch-01.svg" alt="" width="200">
@@ -969,7 +972,7 @@
       <div class="position-relative zindex-5 container py-2">
         <div class="row align-items-center">
           <div class="col-lg-5 offset-lg-1 order-lg-2 pb-5 pb-lg-0 text-center text-lg-start">
-            <h2 class="text-light">Why CodeWills? </h2>
+          <h2 class="h1 text-light mb-4">Why <span class="bg-faded-light text-light rounded px-3 py-2">Codewills ?</span></h2>
             <p class="text-light mb-0">Our team of software engineers have a great understanding of the latest
               technologies and
               knows what it takes to build software products that meets your requirements.</p>
@@ -1091,7 +1094,7 @@
       </div>
     </section>
     <!-- splitter -->
-    <section class="bg-secondary py-6 py-sm-7 mt-0 mt-xl-3">
+    <section class="bg-secondary py-6 py-sm-7 mt-0">
       <div class="container">
         <div class="row justify-content-center align-items-center">
           <div class="col-lg-5 col-md-7 col-sm-9 pb-3 mb-4 pb-lg-0 mb-lg-0">

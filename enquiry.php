@@ -7,7 +7,7 @@
           <form class="col-xl-6 col-lg-7 col-md-7 needs-validation mb-5"  method="post" id="enquiry_form"
                         novalidate="novalidate" action="#" enctype="multipart/form-data">
             <h2 class="pb-4">What project are you looking for?</h2>
-            <h3 class="h6 pb-2">Services</h3>
+            <!-- <h3 class="h6 pb-2">Services</h3> -->
             <div class="btn-group-toggle pb-3 mb-3" data-bs-toggle="buttons">
             <label class="btn btn-outline-primary me-2 mb-2" id="ux1">
                 <input class="visually-hidden" type="radio" name="service1" value="Website" id="branding">Website
@@ -51,7 +51,7 @@
           <div class="col-xl-3 col-lg-4 offset-xl-3 offset-lg-1 col-md-5 mb-5">
             <h2 class="pb-2">Contact Us</h2>
             <ul class="list-unstyled fs-sm mb-4 pb-2">
-              <li><a class="nav-link-style" href="https://g.page/hashroot?share">Ground Floor, Athulya, Infopark Campus, Kakkanad, Kerala 682042</a></li>
+              <li><a class="nav-link-style" href="https://g.page/hashroot?share">IN : Ground Floor, Athulya, Infopark Campus, Kakkanad, Kerala 682042</a></li>
               <li><a class="nav-link-style" href="tel:9778-426320">+91-9778-426320</a></li>
               <li><a class="nav-link-style" href="mailto:contact@codewills.com">contact@codewills.com</a></li>
          

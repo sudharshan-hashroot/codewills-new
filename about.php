@@ -176,7 +176,9 @@
           <div class="row align-items-center py-3 py-md-0">
             <div class="col-xl-6 col-lg-5 col-md-4 text-center">
               <h2 class="pb-3 pb-md-0"><span class="d-block text-body opacity-25">Something 
-              </span>About Codewills </h2>
+              </span>
+              <h2 class="h1 text-left my-4">About <span class="bg-faded-primary text-primary rounded px-3 py-2">Codewills</span></h2>
+            </h2>
             </div>
             <div class="col-xl-5 col-lg-6 col-md-7 text-center text-md-start">
               <p>CodeWills being an HashRoot group of company has a long history of more than 12+ years in offering reliable and quality IT services to clients all over the world. Being an industry leader, we are committed to providing simple and affordable software services to our customers, thereby setting a standard for others to follow. Our team of designers and software professionals has got the right set of skills and creativity needed to build truly outstanding solutions that take user experience to the next level. </p>
@@ -187,7 +189,8 @@
       <section class="container py-5 py-md-6 py-lg-7 my-3">
         <div class="row align-items-center">
           <div class="col-lg-4 col-md-5 text-center text-md-start mb-5 mb-md-0">
-            <h2 class="mb-3">What Drives Us Ahead?   </h2>
+            <h2 class="h1 text-left mb-4">What Drives Us <span class="bg-faded-primary text-primary rounded px-3 py-2 mt-4">Ahead ? </span></h2>
+            <!-- <h2 class="mb-3">What Drives Us Ahead?   </h2> -->
             <p class="text-muted mb-4 pb-2">We make use of the latest technologies and platforms to build reliable and high-quality software applications that help our clients to reach their goals and objectives.
             </p><a class="btn btn-primary" href="#">See all services</a>
           </div>
@@ -236,7 +239,9 @@
       </section>
 
       <section class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
-      <h2 class="mb-5 text-center">Our Mission and Values</h2>
+        <h2 class="h1 text-center mb-4">Our Mission and  <span class="bg-faded-primary text-primary rounded px-3 py-2">Values</span></h2>
+
+      <!-- <h2 class="mb-5 text-center">Our Mission and Values</h2> -->
       <p class="text-center">We have built a global reputation for our ability to help customers to achieve their business
 objectives by providing innovative, best in class IT Outsourcing, Technology, Solutions, and
 Consulting based products and services.</p>
@@ -270,7 +275,9 @@ Consulting based products and services.</p>
 
     <section class="bg-secondary">
       <div class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
-        <h2 class="mb-5 text-center">Awards &amp; Achievements</h2>
+        <h2 class="h1 text-center mb-4">Awards & <span class="bg-faded-primary text-primary rounded px-3 py-2">Achievements</span></h2>
+
+        <!-- <h2 class="mb-5 text-center">Awards &amp; Achievements</h2> -->
         <p class="text-center">HashRoot is a synonym to credibility and then brings in more and more recognitions to us.
           Every business concern earns to gain recognition for its outstanding achievements and innovative services or
           products in order to distinguish themselves from competitors.</p>

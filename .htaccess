@@ -22,6 +22,16 @@ RewriteRule ^/?about-us$ /about.php
 RewriteRule ^/?about-hashroot$ /aboutHashroot.php
 RewriteRule ^/?capabilities$ /capabilities.php
 RewriteRule ^/?contact-us$ /contact.php
+RewriteRule ^/?terms-of-service$ /terms-of-service.php
+RewriteRule ^/?non-disclosure-agreement$ /non-disclosure-agreement.php
+RewriteRule ^/?privacy-policy$ /privacy-policy.php
+RewriteRule ^/?acceptable-user-policy$ /acceptable-user-policy.php
+RewriteRule ^/?information-audit-document$ /information-audit-document.php
+RewriteRule ^/?data-processing-agreement$ /data-processing-agreement.php
+RewriteRule ^/?business-continuity-plan$ /business-continuity-plan.php
+
+
+
 
 
 

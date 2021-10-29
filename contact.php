@@ -138,7 +138,9 @@
         <div class="container position-relative zindex-5 pt-3 pb-7 pt-md-0">
           <div class="row justify-content-center py-md-5">
             <div class="col-lg-6 col-md-8 text-center pt-2 mb-n3">
-              <h1 class="text-light">Contact Us              </h1>
+        <h2 class="h1 text-center text-light mb-4">Contact <span class="bg-faded-light  rounded px-3 py-2">Us</span></h2>
+
+              <!-- <h1 class="text-light">Contact Us              </h1> -->
               <p class="text-light">We would like to hear from you and here is how you can reach us. Get in touch with us for any enquiries!
               </p>
             </div>
@@ -174,7 +176,7 @@
               <div class="card-body text-center"><i class="ai-mail mb-4 text-warning" style="font-size: 2.25rem;"></i>
                 <h3 class="h6 mb-2">Email addresses</h3>
                 <ul class="list-unstyled fs-sm mb-0">
-                  <li><a class="nav-link-style" href="mailto:contact@codewills.com">contact@codewills.com/a></li>
+                  <li><a class="nav-link-style" href="mailto:contact@codewills.com">contact@codewills.com</a></li>
                     <a class="fancy-link fs-sm" href="mailto:contact@codewills.com" data-scroll>Mail  Us</a>
 
                 </ul>
@@ -185,7 +187,9 @@
       </section>
       <!-- Contact cards (offices)-->
       <section class="container mb-5 mb-md-6">
-        <h2 class="text-center mb-4 pb-4">Our offices</h2>
+      <h2 class="h1 text-center mb-4 pb-4">Our <span class="bg-faded-primary text-primary rounded px-3 py-2">Offices</span></h2>
+
+        <!-- <h2 class="text-center mb-4 pb-4">Our offices</h2> -->
         <div class="row">
           <div class="col-lg-4 col-sm-6 mb-grid-gutter">
             <div class="card h-100 border-0 shadow mx-auto"><img class="card-img-top" src="img/pages/contacts/orlando.jpg" alt="Orlando">
@@ -252,7 +256,9 @@
             </a>
           <div class="col-lg-6 px-3 px-lg-5">
             <div class="pt-5 pb-6 pt-md-6 mx-auto" style="max-width: 720px;">
-              <h2 class="h3 pb-4">Drop us a line</h2>
+        <h2 class="h1  mb-4 pb-4">Drop us a <span class="bg-faded-primary text-primary rounded px-3 py-2">line</span></h2>
+
+              <!-- <h2 class="h3 pb-4">Drop us a line</h2> -->
               <form class="needs-validation row"  method="post" id="contact_form"
                         novalidate="novalidate" action="#" enctype="multipart/form-data">
                 <div class="col-sm-6 mb-3 pb-1">

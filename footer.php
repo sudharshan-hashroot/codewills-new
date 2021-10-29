@@ -1,4 +1,14 @@
  <!-- Footer-->  
+
+ <style>
+   .policies_footer a {
+    color: #737491;
+    text-decoration: none!important;
+}
+.policies_footer a:hover {
+    color: #8f91b4;
+}
+ </style>
  <footer class="footer bg-dark">
     <div class="w-100  text-white text-center py-3 mb-4" style="background: #252638;">A <b>HASHROOT</b>  Group of Company</div>
 
@@ -59,17 +69,47 @@
 
       </div>
       <hr class="my-0 border-light">
-      <div class="row align-items-center mt-3 py-4">
-        <div class="col-md-6 order-md-2 text-md-end mb-3">
-          <ul class="list-inline fs-sm mb-0">
-            <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="#">Support</a></li>
-            <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="/contact-us">Contacts</a></li>
-            <li class="list-inline-item"><a class="nav-link-style nav-link-light" href="#">Terms &amp; Conditions</a></li>
-          </ul>
-        </div>
-        <div class="col-md-6 order-md-1 mb-3">
-          <p class="fs-sm mb-0"><span class="text-light opacity-50 me-1">© All rights reserved by</span><a class="nav-link-style nav-link-light" href="#" target="_blank" rel="noopener">Codewills</a></p>
+      <div class="row mt-3">
+        <div class="col-12 col-md-6 py-2">
+          <div class="row ">
+            <div class="col-4 col-md-3 m-auto text-start">
+              <img src="./img/footer/iso-footer-1.png" alt="codewills" srcset="">
+            </div>
+            <div class="col-4 col-md-3 m-auto text-start">
+              <img src="./img/footer/iso-footer-2.png" alt="codewills" srcset="">
+            </div>
+            <div class="col-4 col-md-3 m-auto text-start">
+              <img src="img/footer/GDPR.png" alt="codewills" srcset="">
+            </div>
+            <div class="col-4 col-md-3 m-auto text-start">
+              <img src="img/footer/ITIL.png" alt="codewills" srcset="">
+            </div>
+          </div>
         </div>
       </div>
+      <div class="row my-2">
+        <div class="col-sm-12 col-md-8 text-center text-md-start">
+          <small class="policies_footer">
+            <a href="/privacy-policy"> Privacy Policy </a>|
+            <a href="/terms-of-service"> Terms of Service </a> |
+            <a href="/non-disclosure-agreement"> Non Disclosure Agreement </a>|
+
+            <a href="/acceptable-user-policy">Acceptable User Policy</a>
+            <br>
+            <a href="/information-audit-document">Information Audit Document</a>|
+            <a href="/data-processing-agreement">Data Processing Agreement </a>|
+            <a href="/business-continuity-plan">
+              Covid-19 Business Continuity Plan</a>
+          </small>
+        </div>
+        <div class="col-sm-12 col-md-4 text-center text-md-end">
+          <small class="policies_footer  ">
+            A HashRoot Company. All Rights Reserved.
+            <br>
+            ©2021 CodeWills
+          </small>
+        </div>
+      </div>
+
     </div>
   </footer>
