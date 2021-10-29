@@ -167,7 +167,7 @@
    
     <?php include("header.php"); ?>
     <!-- Enquirenow Modal -->
-    <?php include("enquirePopup.php"); ?>
+    
 
     <!-- Page content-->
     <!-- Hero - Featured Products (tabs)-->
