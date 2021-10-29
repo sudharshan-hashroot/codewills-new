@@ -19,7 +19,7 @@ if(isset($_REQUEST['recaptcha_response'])){
         if(isset($_REQUEST['type']) && $_REQUEST['type'] == 'CONTACT_US'){
         // 	$to = 'safarubaid@gmail.com';
      //   print($_REQUEST['type']);
-        	$to = 'info@codewills.com';
+        	$to = 'contact@codewills.com';
         	$subject = 'Codewills Contact Us Request';
         	$send_arr = array();	
         	
@@ -69,7 +69,7 @@ if(isset($_REQUEST['recaptcha_response'])){
         }
 
         // 	$to = 'safarubaid@gmail.com';
-            $to = 'info@codewills.com';
+            $to = 'contact@codewills.com';
             $subject = 'Codewills Service Request Form';
         	$send_arr = array();
         	$headers = "MIME-Version: 1.0" . "\r\n";
@@ -100,7 +100,7 @@ if(isset($_REQUEST['recaptcha_response'])){
 }else if(isset($_REQUEST['type']) && $_REQUEST['type'] == 'CALL_US'){
             
    // 	$to = 'safarubaid@gmail.com';
-       $to = 'info@codewills.com';
+       $to = 'contact@codewills.com';
        $subject = 'Callback Request';
        $send_arr = array();
        $headers = "MIME-Version: 1.0" . "\r\n";
