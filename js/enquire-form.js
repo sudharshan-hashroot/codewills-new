@@ -92,8 +92,11 @@
                                  $('.modal-backdrop').remove();
                                    $('body').removeAttr("style");
                                    $(".swal-button--confirm").on('click', function(event){
-      $('body').removeAttr("style");
-});
+                                 $('body').removeAttr("style");
+                                   });
+                                   $(document).click(function() {
+                                       $('body').removeAttr("style");
+                                   });  
                                    
                                    
                                  return false;
@@ -121,7 +124,9 @@
                                    $(".swal-button--confirm").on('click', function(event){
                                     $('body').removeAttr("style");
                               });
-                                
+                              $(document).click(function() {
+                                $('body').removeAttr("style");
+                            });  
 
                             //   $('#error_message').html("Failed to send server error");
                          }
