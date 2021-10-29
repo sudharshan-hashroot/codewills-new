@@ -1,17 +1,8 @@
  <!-- Footer-->  
 
- <style>
-   .policies_footer a {
-     font-size: .8rem!important;
-    color: #737491;
-    text-decoration: none!important;
-}
-.policies_footer a:hover {
-    color: #8f91b4;
-}
- </style>
+ 
  <footer class="footer bg-dark">
-    <div class="w-100  text-white text-center py-3 mb-4" style="background: #252638;">A <b>HASHROOT</b> Company</div>
+    <div class="w-100  text-white text-center py-3 mb-4" style="background: #252638;">A <b><a href="https://www.hashroot.com/">HASHROOT</a> </b> Company</div>
 
     <div class="container pt-5 pt-md-0">
       <div class="row pb-3">
@@ -44,14 +35,14 @@
           <div class="widget widget-light">
             <h4 class="widget-title" style="visibility: hidden;">Company</h4>
             <ul>
-             
+            <li><a class="widget-link" href="/pricing">Pricing</a></li>
               <li><a class="widget-link" href="/life-at-codewills">Life at Codewills</a></li>
               <li><a class="widget-link" href="/sustainability-strategy">Sustainability Strategy</a></li>
 <li><a class="widget-link" href="/corporate-social-responsibility">Corporate Social Responsibility</a></li>
 <li><a class="widget-link" href="/empowerment-of-employees">Empowerment of Employees</a></li>
 
               <!-- <li><a class="widget-link" href="#">Careers</a></li> -->
-              <li><a class="widget-link" href="/pricing">Pricing</a></li>
+            
             </ul>
           </div>
         </div>
@@ -59,7 +50,7 @@
           <div class="widget widget-light">
             <h4 class="widget-title">Our Services</h4>
             <ul>
-              <li><a class="widget-link" href="/website-design-services">Website Desiging</a></li>  
+              <li><a class="widget-link" href="/ui-ux-design-services">UI/UX Designing</a></li>  
               <li><a class="widget-link" href="/website-development-services">Website Development</a></li>           
               <li><a class="widget-link" href="/mobile-app-development-services">Mobile App Development</a></li>
               <li><a class="widget-link" href="/web-application-development-services">Web App Development</a></li>      
@@ -115,4 +106,4 @@
     </div>
   </footer>
   <script src="//code.tidio.co/3smfxyqnlejlkedsvwabrog1xmzfegwg.js" async></script>
-  <script src="./js/tag.js"></script>
+  

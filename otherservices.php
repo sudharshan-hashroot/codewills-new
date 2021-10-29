@@ -39,7 +39,7 @@
  </a></div>";
 
  $webdesign = "<div class='col-lg-6 col-sm-6 mb-grid-gutter'><a class='card h-100 border-0 shadow card-hover'
- href='/website-design-services'>
+ href='/ui-ux-design-services'>
  <div class='card-body ps-grid-gutter pe-grid-gutter text-center'><i
      class='ai-cast h2 text-primary mt-2 mb-4'></i>
    <h3 class='h5'>Website Designing</h3>

@@ -3,10 +3,10 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Privacy Policy | CodeWills by HashRoot</title>
+    <title>Business Continuity Plan| CodeWills by HashRoot</title>
 
     <!-- SEO Meta Tags-->
-    <meta name="title" content="About HashRoot | CodeWills by HashRoot">
+    <meta name="title" content="Business Continuity Plan | CodeWills by HashRoot">
     <meta name="description"
         content="HashRoot is a global company that has reputation for its ability to help customers achieve their business objective by providing quality IT managed services.">
     <meta name="keywords" content="CodeWills">
@@ -260,10 +260,10 @@
         </section>
 
 
-        <section class="container bg-secondary">
-            <h2 class="mb-4 p-5 text-center">How We Are Prepared As A Business?
+        <section class="container bg-secondary rounded-3">
+            <h2 class=" py-5 text-center">How We Are Prepared As A Business?
             </h2>
-            <div class="row pt-5">
+            <div class="row">
                 <div class="col-lg-6 col-sm-6 mb-grid-gutter">
                     <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
                         <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
@@ -321,7 +321,7 @@
         <section>
             <div class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
                 <div class="mb-5">
-                    <p>Stakefield is committed to providing our clients with regular updates. We express our gratitude
+                    <p>Hashroot is committed to providing our clients with regular updates. We express our gratitude
                         to our clients for keeping trust and understanding us at this time and we stay focused in
                         offering the highest level of services to our clients, while working together to overcome the
                         risks associated with COVID-19.</p>
@@ -367,13 +367,13 @@
     <script src="js/enquire-form.js"></script>
     <script>
         $(".hovercards").hover(function () {
-            $(".hovercardschild").children().css("display", "none")
-            var valueparent = $(this).attr('data-hover')
-            var valuechild = $(".hovercards" + valueparent)
-            valuechild.css("display", "block")
-
+            $(".hovercardschild").children().css("display", "none");
+            var valueparent = $(this).attr('data-hover');
+            var valuechild = $(".hovercards" + valueparent);
+            valuechild.css("display", "block");
         })
     </script>
+      <script src="js/theme.min.js"></script>
 </body>
 
 </html>

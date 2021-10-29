@@ -55,18 +55,18 @@
           <div class="col-xl-3 col-lg-4 offset-xl-3 offset-lg-1 col-md-5 mb-5">
             <h2 class="pb-2">Contact Us</h2>
             <ul class="list-unstyled fs-sm mb-3 pb-2">
-              <li style="font-weight: 900;" class="h6"><img src="./img/flag/india.svg" class="sm_flags" alt=""> INDIA</li>
+              <li style="font-weight: 500;" class="h6"><img src="./img/flag/india.svg" class="sm_flags" alt=""> INDIA</li>
               <li><a class="nav-link-style" href="https://g.page/hashroot?share"> Ground Floor, Athulya, Infopark Campus, Kakkanad, Kerala 682042</a></li>
               <li><a class="nav-link-style" href="tel:9778-426320"> +91-9778-426320</a></li>                   
             </ul>
             <ul class="list-unstyled fs-sm mb-3 pb-2">
-              <li style="font-weight: 900;" class="h6"><img src="./img/flag/uk.svg" class="sm_flags" alt=""> UK</li>
+              <li style="font-weight: 500;" class="h6"><img src="./img/flag/uk.svg" class="sm_flags" alt=""> UK</li>
               <li><a class="nav-link-style" href="https://g.page/hashroot?share"> Suit 6 Westward, Glebeland Rd, Camberley, Surrey GU15 3DB, United Kingdom
                 </a></li>
               <li><a class="nav-link-style" href="tel:+44-203-808-8373"> +44 (203) 808 8373</a></li>                   
             </ul>
             <ul class="list-unstyled fs-sm mb-4 pb-2">
-              <li style="font-weight: 900;" class="h6"><img src="./img/flag/usa.svg" class="sm_flags" alt=""> USA</li>
+              <li style="font-weight: 500;" class="h6"><img src="./img/flag/usa.svg" class="sm_flags" alt=""> USA</li>
               <li><a class="nav-link-style" href="https://g.page/hashroot?share"> 16192 Coastal Highway, Lewes, Delaware 19958, United States
                
                 

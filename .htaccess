@@ -8,7 +8,7 @@ RewriteRule ^/?$ "https\:\/\/www\.codewills\.com\/" [R=301,L]
 RewriteRule ^/?$ /index.php
 RewriteRule ^/?website-development-services$ /webdev.php
 RewriteRule ^/?mobile-app-development-services$ /mobileappdev.php
-RewriteRule ^/?website-design-services$ /webdesign.php
+RewriteRule ^/?ui-ux-design-services$ /webdesign.php
 RewriteRule ^/?web-application-development-services$ /webappdev.php
 RewriteRule ^/?digital-marketing-services$ /digitalmarketing.php
 RewriteRule ^/?ceo-message$ /ceoMessage.php

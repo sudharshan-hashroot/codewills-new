@@ -164,7 +164,7 @@
     </div>
   </div>
   <main class="page-wrapper">
-    <?php include("signinmodal.php"); ?>
+   
     <?php include("header.php"); ?>
     <!-- Enquirenow Modal -->
     <?php include("enquirePopup.php"); ?>
@@ -245,7 +245,7 @@
                   </div>
                   <div class="col-lg-6 order-lg-1 text-center text-lg-start">
                     <div class="ps-xl-5">
-                      <h3 class="h1 font text-light">Creative Website Design Services </h3>
+                      <h3 class="h1 font text-light">Creative UI UX Design Services </h3>
                       <p class="fs-lg text-light mb-lg-5">We utilize the latest technology to design aesthetically
                         pleasing web and mobile applications that offers a great user experience.
                       </p><a class="btn btn-translucent-light" href="#modal-enquirenow" data-bs-toggle="modal"
@@ -410,7 +410,7 @@
                     class="d-block border border-light btn btn-outline-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none"><img
                       class="d-inline-block opacity-60 mb-3" src="img/demo/presentation/icons/forms.svg"
                       alt="Image / Video Gallery" width="45">
-                    <h3 class="h6 text-light mb-0" style="white-space: pre-wrap;">Website Designing</h3>
+                    <h3 class="h6 text-light mb-0" style="white-space: pre-wrap;">UI/UX Designing</h3>
                   </a>
                 </div>
                 <div class="col-6 px-2 mb-3 hovercards" data-hover="1">
@@ -470,65 +470,67 @@
 
     <!-- Services-->
 
-    <section class="container pt-5 pt-lg-6">
+    <section class=" pt-5 pt-lg-6" style="background: #F8F7FD;">
+   <div class="container">
     <h2 class="h1 text-center mb-4">Our <span class="bg-faded-primary text-primary rounded px-3 py-2">Offerings</span></h2>
-      <p class="text-center text-muted mb-0">We provide wide range of services in web design and development</p>
-      <!-- Web design Service-->
-      <div class="row align-items-center border-bottom py-5">
-        <div class="col-md-6 py-3"><img class="d-block mx-auto" src="img/our-service-offering/Website development.png" alt="Responsive Web Design"></div>
-        <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
-          <h3 class="h4 mb-4">Website Development</h3>
-          <ul class="list-unstyled">
-            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>We continue to provide WordPress, eCommerce, Enterprise, Drupal, Core PHP, and other website development services by collaborating with any dimensional enterprises. </span></li>
-            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our expert developers use the latest technologies to build innovative websites flexible to user experiences and improve customer retention.</span></li>
+    <p class="text-center text-muted mb-0">We provide wide range of services in web design and development</p>
+    <!-- Web design Service-->
+    <div class="row align-items-center border-bottom py-5">
+      <div class="col-md-6 py-3"><img class="d-block mx-auto" src="./img/demo/web-studio/services/01.svg"  alt="Responsive Web Design"></div>
+      <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
+        <h3 class="h4 mb-4">Website Development</h3>
+        <ul class="list-unstyled">
+          <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>We continue to provide WordPress, eCommerce, Enterprise, Drupal, Core PHP, and other website development services by collaborating with any dimensional enterprises. </span></li>
+          <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our expert developers use the latest technologies to build innovative websites flexible to user experiences and improve customer retention.</span></li>
 
-          </ul>
-          <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
-          <p class="pb-1">HTML, CSS, JS, PHP, WordPress, Magento, WooCommerce</p><a class="fw-medium" href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
-        </div>
+        </ul>
+        <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
+        <p class="pb-1">HTML, CSS, JS, PHP, WordPress, Magento, WooCommerce</p><a class="fw-medium" href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
       </div>
-      <!-- Mobile Dev Service-->
-      <div class="row align-items-center border-bottom py-5">
-        <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="img/our-service-offering/Mobile-development.jpg" alt="Web Development"></div>
-        <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
-          <h3 class="h4 mb-4">Mobile App Development</h3>
-          <ul class="list-unstyled">
-            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our highly responsive team of mobile app developers, with ample experience in developing end to end mobile applications</span></li>
-            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span> Enabled customized Android, IOS, Cross-platform app services for our clients across the globe. </span></li>
-            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Also, we provide quick fine-tuning assistance for your mobile apps to expand their functionality further.</span></li>
-          </ul>
-          <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
-          <p class="pb-1">Android , IOS, Flutter, Kotlin, Swift, React Native</p><a class="fw-medium" href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
-        </div>
+    </div>
+    <!-- Mobile Dev Service-->
+    <div class="row align-items-center border-bottom py-5" style="background: F8F7FD;">
+      <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="./img/demo/web-studio/services/03.svg" alt="Web Development"></div>
+      <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
+        <h3 class="h4 mb-4">Mobile App Development</h3>
+        <ul class="list-unstyled">
+          <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our highly responsive team of mobile app developers, with ample experience in developing end to end mobile applications</span></li>
+          <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span> Enabled customized Android, IOS, Cross-platform app services for our clients across the globe. </span></li>
+          <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Also, we provide quick fine-tuning assistance for your mobile apps to expand their functionality further.</span></li>
+        </ul>
+        <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
+        <p class="pb-1">Android , IOS, Flutter, Kotlin, Swift, React Native</p><a class="fw-medium" href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
       </div>
-      <!-- web Dev Service-->
-      <div class="row align-items-center border-bottom py-5">
-        <div class="col-md-6 py-3"><img class="d-block mx-auto" src="img/our-service-offering/Website development.png" alt="Mobile Apps Development"></div>
-        <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
-          <h3 class="h4 mb-4">Web Application Development</h3>
-          <ul class="list-unstyled">
-            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our team of experts develop responsive and cross-platform compatible web applications using robust coding practices that are highly secured and bug-free. </span></li>
-            <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our custom-made B2B & B2C web portals are designed to achieve maximum output while also handling large-scale operations.  </span></li>
+    </div>
+    <!-- web Dev Service-->
+    <div class="row align-items-center border-bottom py-5">
+      <div class="col-md-6 py-3"><img class="d-block mx-auto rounded-3" src="./img/demo/web-studio/services/02.svg"  alt="Mobile Apps Development"></div>
+      <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
+        <h3 class="h4 mb-4">Web Application Development</h3>
+        <ul class="list-unstyled">
+          <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our team of experts develop responsive and cross-platform compatible web applications using robust coding practices that are highly secured and bug-free. </span></li>
+          <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our custom-made B2B & B2C web portals are designed to achieve maximum output while also handling large-scale operations.  </span></li>
 
-          </ul>
-          <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
-          <p class="pb-1">React JS, Node JS, Vue JS, Angular JS</p><a class="fw-medium" href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
-        </div>
+        </ul>
+        <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
+        <p class="pb-1">React JS, Node JS, Vue JS, Angular JS</p><a class="fw-medium" href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
       </div>
-            <!-- Digital marketing Service-->
-            <div class="row align-items-center py-5">
-              <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="img/our-service-offering/digital marketing-01-01-01.png" alt="Web Development"></div>
-              <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
-                <h3 class="h4 mb-4">Digital Marketing Services</h3>
-                <ul class="list-unstyled">
-                  <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our wide range of digital marketing & advertising services includes Local Search Engine Optimization (SEO), Pay Per Click (PPC), Social Media Marketing (SMM), Content Marketing and much more.</span></li>
-                  <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>We implement these services to gratify our client's target audiences while increasing their online visibility. </span></li>
+    </div>
+          <!-- Digital marketing Service-->
+          <div class="row align-items-center py-5">
+            <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="./img/demo/coworking/illustration01.svg" alt="Web Development"></div>
+            <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
+              <h3 class="h4 mb-4">Digital Marketing Services</h3>
+              <ul class="list-unstyled">
+                <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our wide range of digital marketing & advertising services includes Local Search Engine Optimization (SEO), Pay Per Click (PPC), Social Media Marketing (SMM), Content Marketing and much more.</span></li>
+                <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>We implement these services to gratify our client's target audiences while increasing their online visibility. </span></li>
 
-                </ul>
-                <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
-                <p class="pb-1">Local Search Engine Optimization (SEO), Pay Per Click (PPC), Social Media Marketing (SMM)</p><a class="fw-medium" href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
-              </div>
+              </ul>
+              <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
+              <p class="pb-1">Local Search Engine Optimization (SEO), Pay Per Click (PPC), Social Media Marketing (SMM)</p><a class="fw-medium" href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
             </div>
+          </div>
+   </div>
     </section>
 
 
@@ -538,7 +540,7 @@
 
 
     <!-- Pricing -->
-    <section class="py-lg-3" id="pricing">
+    <section class="pb-lg-3" id="pricing">
       <h2 class="d-block bg-gradient text-light text-center py-5 px-3">Pricing plans</h2>
       <div class="container py-5">
    
@@ -561,7 +563,7 @@
                   </div> -->
                   <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
                     <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
-                      <h3 class="mb-2">Website Design Service </h3>
+                      <h3 class="mb-2">UI/UX Design Service </h3>
                       <div class="fs-xs" style="max-width: 10rem;">Design services with immense impact on your company's bottom line</div>
                     </div>
                     <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4"
@@ -841,7 +843,7 @@
                 </h4>
                 <p>
                   Silicon India Magazine, a leading business enterprises and industries magazine recognised and featured
-                  HashRoot as the 50 Cool Startups, an annual listing of 500 cool straps of the year represents not only
+                  HashRoot as the 50 Cool Startups, an annual listing of 50 cool straps of the year represents not only
                   the glory of 50 startups but also recognises companies impacting the marketplace.
                 </p>
               </blockquote>
@@ -1085,6 +1087,11 @@
   <!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll data-fixed-element><span
       class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon ai-arrow-up">
     </i></a>
+     <!-- Main theme script-->
+  <script src="js/theme.min.js"></script>
+  <script src="js/jquery.validate.js"></script>
+  <script src="js/mailchimp.js"></script>
+  <script src="js/enquire-form.js"></script>
   <!-- Vendor scrits: js libraries and plugins-->
   <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="vendor/simplebar/dist/simplebar.min.js"></script>
@@ -1101,11 +1108,7 @@
   <script src="https://www.google.com/recaptcha/api.js?render=6Ldb7PAcAAAAALKN6oPEOLjDjOBnMKhDCJ3Bn6KL"></script>
   <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-  <!-- Main theme script-->
-  <script src="js/theme.min.js"></script>
-  <script src="js/jquery.validate.js"></script>
-  <script src="js/mailchimp.js"></script>
-  <script src="js/enquire-form.js"></script>
+ 
 
   <script>
     $(".hovercards").hover(function () {
@@ -1113,9 +1116,16 @@
       var valueparent = $(this).attr('data-hover')
       var valuechild = $(".hovercards" + valueparent)
       valuechild.css("display", "block")
-
-    })
+        })
   </script>
+
+
+<script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/simplebar/dist/simplebar.min.js"></script>
+<script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+<!-- Main theme script-->
+<script src="js/theme.min.js"></script>
 </body>
 
 </html>

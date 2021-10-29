@@ -177,10 +177,9 @@
             <div class="container position-relative zindex-5 pt-3 pb-3 pt-md-0">
                 <div class="text-center py-md-5">
                     <div class="text-center pt-2 mb-n3">
-                        <h1 class="text-light">Pricing</h1>
+                        <h1 class="text-light">Pricing Packages</h1>
                         <p class="text-light">
-                            An innovative and collective group of like-minded folks making useful and enduring
-                            technology products.
+                        Affordable development, design, and marketing service packages that suits your business requirements. Choose any of our packages to get started.
                         </p>
                     </div>
                 </div>
@@ -213,7 +212,7 @@
                         </div> -->
                         <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
                           <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
-                            <h3 class="mb-2">Website Design Service </h3>
+                            <h3 class="mb-2">UI/UX Design Service </h3>
                             <div class="fs-xs" style="max-width: 10rem;">Design services with immense impact on your company's bottom line</div>
                           </div>
                           <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4" style="max-width: 20rem;">

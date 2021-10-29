@@ -257,7 +257,7 @@
 
 
         <!-- Leadership Team -->
-        <section class="container mb-5 pb-3 pb-lg-0 mb-lg-7 pt-5">
+        <section class="container mb-5 pb-3 pb-lg-0 mb-lg-7 pt-5 d-none">
             <h2 class="pb-4 mb-4 text-center">Advisory Board</h2>
             <div class="row mb-3 justify-content-center">
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
@@ -307,19 +307,6 @@
                         </div>
                     </div>
                 </div>
-               
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
-                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
-                        <div class="card-img-top card-img-gradient"><img src="img/leadership/fahad3.jpg"
-                                alt="Richard Davis">
-                        </div>
-                        <div class="card-body text-center">
-                            <h3 class="h6 card-title mb-2">
-                                Fahad M</h3>
-                            <p class="fs-xs text-body mb-0">Strategy & Business Operations</p>
-                        </div>
-                    </div>
-                </div>
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
                     <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
                         <div class="card-img-top card-img-gradient"><img src="img/leadership/sandeep.jpg"
@@ -344,6 +331,20 @@
                         </div>
                     </div>
                 </div>
+               
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+                    <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
+                        <div class="card-img-top card-img-gradient"><img src="img/leadership/fahad3.jpg"
+                                alt="Richard Davis">
+                        </div>
+                        <div class="card-body text-center">
+                            <h3 class="h6 card-title mb-2">
+                                Fahad M</h3>
+                            <p class="fs-xs text-body mb-0">Strategy & Business Operations</p>
+                        </div>
+                    </div>
+                </div>
+              
                 <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
                     <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
                         <div class="card-img-top card-img-gradient"><img src="img/leadership/febina.jpg"
@@ -355,7 +356,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter d-none">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
                     <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
                         <div class="card-img-top card-img-gradient"><img src="img/leadership/krishnaprasad.jpg"
                                 alt="Rosalie Lyons">
@@ -367,7 +368,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter d-none">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter ">
                     <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
                         <div class="card-img-top card-img-gradient"><img src="img/leadership/noyal.jpg"
                                 alt="Jane Tanaka"></div>
@@ -391,7 +392,7 @@
                 </div>
 
 
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter d-none">
                     <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
                         <div class="card-img-top card-img-gradient"><img src="img/leadership/azim.jpg"
                                 alt="Charlie Welch">
@@ -403,7 +404,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter">
+                <div class="col-lg-3 col-md-4 col-sm-6 mb-grid-gutter d-none">
                     <div class="card card-curved-body card-hover border-0 shadow mx-auto" style="max-width: 21rem;">
                         <div class="card-img-top card-img-gradient"><img src="img/leadership/Simal.jpeg"
                                 alt="Richard Davis">

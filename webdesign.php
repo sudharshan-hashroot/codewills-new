@@ -182,7 +182,7 @@
           </div>
           <div class="col-lg-5 col-md-5 pt-4 pb-5 py-md-5">
             <div class="mx-auto me-lg-4 ps-xl-3 order-md-1 text-center text-md-start" style="max-width: 420px;">
-              <h1 class="text-light mb-3">Top Website Design Services</h1>
+              <h1 class="text-light mb-3">Top UI UX Design Services</h1>
               <p class="text-light fs-lg">Craft a visually appealing website design for your business</p>
               <div class="d-flex align-items-center justify-content-center justify-content-md-start pb-3 pb-xl-5 mb-5">
                 <a class="btn btn-light me-4" href="#features">Explore Features</a>
@@ -231,7 +231,7 @@
     <section class="container py-5 py-md-6 py-lg-7">
       <div class="row align-items-center mt-3 mt-md-0">
         <div class="col-lg-4 col-md-5 order-md-2 text-center text-md-start mb-5 mb-md-0">
-          <h2 class="mb-3">Our Website Design Services Offerings</h2>
+          <h2 class="mb-3">Our UI UX Design Services Offerings</h2>
           <p class="text-muted mb-4 pb-2">Our world-class designers, with their in-depth understanding of UI and UX,
             craft designs that offers a delightful and unique user experience all throughout the user journey.</p>
           <a class="btn btn-primary" href="#">Get Started</a>
@@ -359,7 +359,7 @@
 
     <!-- features -->
     <section class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
-      <h2 class="mb-5 text-center">Why Choose Our Website Design Services?</h2>
+      <h2 class="mb-5 text-center">Why Choose Our UI UX Design Services?</h2>
       <div class="row">
         <div class="col-lg-6 col-sm-6 mb-grid-gutter">
           <div class="card h-100 border-0 shadow card-hover">
@@ -420,7 +420,7 @@
             </div>
           </div>
           <div class="col-xl-5 col-lg-6 offset-lg-1 text-center text-lg-start">
-            <h2>Website design Services of the highest quality </h2>
+            <h2>UI UX design services of the highest quality </h2>
             <p class="mb-0">Being a full-service web and mobile app design company, we make use of a wide range of
               designing tools such as Adobe XD, Figma, Zeplin and much more to create a visually stunning website and
               app designs for businesses of all verticals. We ensure to keep you satisfied by providing the highest

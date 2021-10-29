@@ -3,10 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Privacy Policy | CodeWills by HashRoot</title>
+  <title>Information Audit Document | CodeWills by HashRoot</title>
 
   <!-- SEO Meta Tags-->
-  <meta name="title" content="About HashRoot | CodeWills by HashRoot">
+  <meta name="title" content="Information Audit Document | CodeWills by HashRoot">
   <meta name="description"
     content="HashRoot is a global company that has reputation for its ability to help customers achieve their business objective by providing quality IT managed services.">
   <meta name="keywords" content="CodeWills">
@@ -224,7 +224,7 @@
       <div class="container position-relative zindex-5 pt-3 pb-3 pt-md-0">
         <div class="text-center py-md-5">
           <div class="text-center pt-2 mb-n3">
-            <h2 class="h1  text-light mb-4 pb-4">Data Processing Agreement</h2>
+            <h2 class="h1  text-light mb-4 pb-4">Information Audit Document</h2>
             <!-- <p class="text-light">
                         This privacy policy describes how Codewills Limited collects, uses, and discloses your information in connection with the use of our services, and applications.
 
@@ -244,8 +244,8 @@
       <div class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
 
         <p class="text-center">
-          This Information Audit Document Submitted by the Data Protection Officer of Stakefield Limited Sandeep Anand
-          describes how Stakefield Limited (“Stakefield,” “we,” “our” or “us”) hold, use, store and share information in
+          This Information Audit Document Submitted by the Data Protection Officer of Hashroot Limited Sandeep Anand
+          describes how Hashroot Limited (“Hashroot,” “we,” “our” or “us”) hold, use, store and share information in
           connection with your use of our services, and applications (collectively, the “Services”).
         </p>
         <p class="text-center">

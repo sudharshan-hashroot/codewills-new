@@ -22,6 +22,15 @@
   <!-- End Facebook Pixel Code -->
   
 <style>
+    .policies_footer a {
+     font-size: .8rem!important;
+    color: #737491;
+    text-decoration: none!important;
+}
+.policies_footer a:hover {
+    color: #8f91b4;
+}
+
    .bg-gradient-home-slider {
       background: linear-gradient(to right,
           #5654ff 0%,
@@ -32,7 +41,7 @@
     visibility: hidden;
 }
 </style>
-
+<header class="header">
     <div class="topbar topbar-dark bg-dark" style="z-index:99">
       <div class="container d-md-flex align-items-center px-0 px-xl-3">
         <div class="d-none d-md-block text-nowrap me-3"><i class="ai-phone fs-base text-muted me-1 align-middle"></i><span class="text-muted me-2">Call Us</span><a class="topbar-link me-1" href="tel:+919778426320">+91 9778426320</a></div>
@@ -51,7 +60,11 @@
      
       <div class="container px-0 px-xl-3">
         <button class="navbar-toggler ms-n2 " style="z-index: 100;" type="button" data-bs-toggle="offcanvas" data-bs-target="#primaryMenu"><span class="navbar-toggler-icon"></span></button><a class="navbar-brand flex-shrink-0 order-lg-1 mx-auto ms-lg-0 pe-lg-2 me-lg-4" href="/"><img class="d-none d-lg-block" src="img/logo/logo-dark.svg" alt="Around" width="153" style="margin-right:3rem;"><img class="d-lg-none" style="margin-right:3rem;" src="img/logo/logo-icon.svg" alt="Around" width="58"></a>
-        <div class="d-flex align-items-center order-lg-3 ms-lg-auto d-none"><a class="nav-link-style fs-sm text-nowrap" href="#modal-signin" data-bs-toggle="modal" data-view="#modal-signin-view"><i class="ai-user fs-xl me-2 align-middle"></i>Sign in</a><a class="btn btn-primary ms-grid-gutter d-none d-lg-inline-block" href="#modal-signin" data-bs-toggle="modal" data-view="#modal-signup-view">Sign up</a></div>
+        <div class="d-flex align-items-center order-lg-3 ms-lg-auto">
+        
+            <a class="btn btn-primary ms-grid-gutter d-none  d-lg-inline-block" href="#modal-enquirenow" data-bs-toggle="modal"
+            data-view="#modal-enquirenow-view">Enquire Now</a>
+          </div>
         <div class="offcanvas offcanvas-collapse order-lg-2" id="primaryMenu">
           <div class="offcanvas-header navbar-shadow">
             <h5 class="mt-1 mb-0">Menu</h5>
@@ -65,10 +78,10 @@
               <li class="nav-item"><a class="nav-link" href="/about-us">About Us</a></li>
               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Our Services</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/website-design-services">
+                  <li><a class="dropdown-item" href="/ui-ux-design-services">
                     <div class="d-flex align-items-center">
                       <div class="fs-xl text-muted"><i class="ai-pen-tool"></i></div>
-                      <div class="ps-3"><span class="d-block text-heading">Website Designing</span><small class="d-none text-muted">Kick-start customization</small></div>
+                      <div class="ps-3"><span class="d-block text-heading">UI/UX Designing</span><small class="d-none text-muted">Kick-start customization</small></div>
                     </div></a></li>
                     <li class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="/website-development-services">
@@ -103,8 +116,9 @@
               <li class="nav-item"><a class="nav-link" href="/contact-us">Contact Us</a></li>
             </ul>
           </div>
-          <div class="offcanvas-footer border-top d-none"><a class="btn btn-translucent-primary d-block w-100" href="#modal-signin" data-bs-toggle="modal" data-view="#modal-signin-view"><i class="ai-user fs-lg me-2"></i>Sign in</a></div>
+          <div class="offcanvas-footer border-top"><a class="btn btn-translucent-primary d-block w-100" href="#modal-enquirenow" data-bs-toggle="modal"
+            data-view="#modal-enquirenow-view"><i class="ai-user fs-lg me-2"></i>Enquire Now</a></div>
         </div>
       </div>
     </div>
-  
+    </header>
