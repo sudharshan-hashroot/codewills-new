@@ -33,7 +33,13 @@
         li>span{
     white-space: pre-wrap;
   }
-
+  .invalid-feedback1 {
+       display: none;
+       width: 100%;
+       margin-top: 0.375rem;
+       font-size: 0.75rem;
+       color: #f74f78;
+      }
         .page-loading {
             position: fixed;
             top: 0;
@@ -370,7 +376,6 @@
     <!-- Main theme script-->
     <script src="js/theme.min.js"></script>
     <script src="js/jquery.validate.js"></script>
-  <script src="js/enquire-form.js"></script>
     <script>
         $(".hovercards").hover(function () {
             $(".hovercardschild").children().css("display", "none")

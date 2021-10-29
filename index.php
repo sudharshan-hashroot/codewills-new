@@ -1105,7 +1105,6 @@
   <script src="js/theme.min.js"></script>
   <script src="js/jquery.validate.js"></script>
   <script src="js/mailchimp.js"></script>
-  <script src="js/enquire-form.js"></script>
   <script>
     $(".hovercards").hover(function () {
       $(".hovercardschild").children().css("display", "none")
