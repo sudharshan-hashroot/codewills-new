@@ -56,7 +56,6 @@
 
   <script src="js/jquery.validate.js"></script>
     <script src="js/mailchimp.js"></script>
-    <script src="js/enquire-form.js"></script>
 
 
  
