@@ -536,7 +536,7 @@
       </div>
       <!-- Mobile Dev Service-->
       <div class="row align-items-center border-bottom py-5">
-        <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="img/our-service-offering/mobile app.png" alt="Web Development"></div>
+        <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="img/our-service-offering/mobile-app.png" alt="Web Development"></div>
         <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
           <h3 class="h4 mb-4">Mobile App Development</h3>
           <ul class="list-unstyled">
