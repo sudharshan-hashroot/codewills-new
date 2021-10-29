@@ -10,12 +10,12 @@
 }
  </style>
  <footer class="footer bg-dark">
-    <div class="w-100  text-white text-center py-3 mb-4" style="background: #252638;">A <b>HASHROOT</b>  Group of Company</div>
+    <div class="w-100  text-white text-center py-3 mb-4" style="background: #252638;">A <b>HASHROOT</b> Company</div>
 
     <div class="container pt-5 pt-md-0">
       <div class="row pb-3">
         <div class=" col-lg-4 col-md-4 mt-n2 pb-3 pb-md-0 mb-4"><a class="d-block mb-3" href="index.php" style="width: 153px;"><img src="img/logo/logo-footer-alt.svg" alt="Around"></a>
-          <p class="fs-sm text-light opacity-60 pb-2 pb-sm-3">Highly customizable and modular official multipurpose Bootstrap template and UI kit.</p>
+          <p class="fs-sm text-light opacity-60 pb-2 pb-sm-3">One-stop solution for all your business needs.</p>
           <a class="btn-social bs-light bs-facebook bs-lg me-2 mb-2"
               href="https://www.facebook.com/HashRoot.Official/"><i class="ai-facebook"></i></a><a class="btn-social bs-light bs-twitter bs-lg me-2 mb-2"
               href="https://twitter.com/hashroot"><i class="ai-twitter"></i></a><a class="btn-social bs-light bs-instagram bs-lg me-2 mb-2"
