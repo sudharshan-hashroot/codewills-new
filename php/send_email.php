@@ -129,7 +129,7 @@ if(isset($_REQUEST['recaptcha_response'])){
 }else if(isset($_REQUEST['type']) && $_REQUEST['type'] == 'Enquire_Form'){
             
    // 	$to = 'safarubaid@gmail.com';
-       $to = 'info@codewills.com';
+       $to = 'contact@codewills.com';
        $subject = 'Codewills Enquiry Form';
        $send_arr = array();
        $headers = "MIME-Version: 1.0" . "\r\n";
