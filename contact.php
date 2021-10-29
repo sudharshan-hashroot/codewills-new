@@ -318,5 +318,9 @@
       $myDiv = $('#cont_phone'); $myDiv. css('background-image', 'none');
       $myDiv1 =$('#cont_subject');$myDiv1. css('background-image', 'none');
 }); </script>
+      <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/simplebar/dist/simplebar.min.js"></script>
+<script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
   </body>
 </html>
