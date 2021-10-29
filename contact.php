@@ -310,6 +310,8 @@
     <script src="js/jquery.validate.js"></script>
     <script src="js/mailchimp.js"></script>
     <script src="js/contact-form.js"></script>
+    <script src="js/enquire-form.js"></script>
+
     <!-- Main theme script-->
     <script src="js/theme.min.js"></script>
   
