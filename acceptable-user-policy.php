@@ -226,9 +226,9 @@
 </section>
 <section class="bg-secondary">
 <div class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
-    <p>Violation of the Acceptable User Policy (“AUP”) may result in suspension or termination of your services in accordance with the Stakefield Limited, trading as Stakefield Terms of Service.
+    <p>Violation of the Acceptable User Policy (“AUP”) may result in suspension or termination of your services in accordance with the Hashroot Limited, trading as Hashroot Terms of Service.
     </p>
-    <p>You may not use Stakefield services for actions or activities which, at our sole discretion, may be illegal, offensive and abusive or promote and foster such irresponsible behavior as well as actions contrary to accepted internet norms or behavior that threatens our infrastructure.
+    <p>You may not use Hashroot services for actions or activities which, at our sole discretion, may be illegal, offensive and abusive or promote and foster such irresponsible behavior as well as actions contrary to accepted internet norms or behavior that threatens our infrastructure.
     </p>
 </div>
 </section>
@@ -292,7 +292,7 @@
     <div class="container mt-4 mt-md-0  pb-5">
         <h2 class="  mb-4">Abusive Behavior against <span class="bg-faded-primary text-primary rounded px-3 py-2"> Staff </span>        </h2>
       
-    <p>We believe in professional communication, no matter what the issue is. We will not tolerate any abusive behavior, abusive language or threats against any Stakefield staff member(s). By violating this policy, we reserve the right to permanently suspend or terminate your account(s) without prior notice and without any refund. If you are unsure about content you intend to place on our network, please check with us before you do. We reserve the right to determine what constitutes acceptable use.
+    <p>We believe in professional communication, no matter what the issue is. We will not tolerate any abusive behavior, abusive language or threats against any Hashroot staff member(s). By violating this policy, we reserve the right to permanently suspend or terminate your account(s) without prior notice and without any refund. If you are unsure about content you intend to place on our network, please check with us before you do. We reserve the right to determine what constitutes acceptable use.
     </p>      
     </div>  
 
@@ -302,7 +302,7 @@
     <div class="container mt-4  mt-md-0  pb-5">
         <h2 class="  mb-4">Service Level <span class="bg-faded-primary text-primary rounded px-3 py-2"> Agreement </span>        </h2>
       
-    <p>No credit will be available under the Stakefield Service Level Agreement for interruptions of service resulting from Acceptable Use Policy violations.
+    <p>No credit will be available under the Hashroot Service Level Agreement for interruptions of service resulting from Acceptable Use Policy violations.
     </p>      
     </div>  
 
@@ -320,7 +320,7 @@
     <div class="container mt-4  mt-md-0  pb-5">
         <h2 class="  mb-4">Compliance    </h2>
       
-    <p>You will ensure that all use of Stakefield, whether by you or by any of your users, follows the Terms of Service. In addition, you will bind your users to an Acceptable Use Policy containing all of the restrictions above.    </p>      
+    <p>You will ensure that all use of Hashroot, whether by you or by any of your users, follows the Terms of Service. In addition, you will bind your users to an Acceptable Use Policy containing all of the restrictions above.    </p>      
 <p>Cooperation With Investigations and Legal Proceedings: We may monitor any content or traffic belonging to you or to your users for the purposes of ensuring that the Services are being used lawfully.
 </p>    
 </div>  
@@ -365,7 +365,7 @@
 
     </p>  
     <p class="text-center my-4 font-weight-bold text-primary p-3 rounded-3 bg-faded-primary">
-        Post Updated: 15 September, 2021© Stakefield Limited. All rights reserved.
+        Post Updated: 15 September, 2021© Hashroot Limited. All rights reserved.
     
     
     </p>  
