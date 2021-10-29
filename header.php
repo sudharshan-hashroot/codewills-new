@@ -16,7 +16,7 @@
 }
 </style>
   
-    <div class="topbar topbar-dark bg-dark" style="z-index:99">
+    <div class="topbar topbar-dark bg-dark" style="z-index:100">
       <div class="container d-md-flex align-items-center px-0 px-xl-3">
         <div class="d-none d-md-block text-nowrap me-3"><i class="ai-phone fs-base text-muted me-1 align-middle"></i><span class="text-muted me-2">Call Us</span><a class="topbar-link me-1" href="tel:+919778426320">+91 9778426320</a></div>
         <div class="d-flex text-md-end ms-md-auto">
