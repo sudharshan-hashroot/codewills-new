@@ -2,6 +2,7 @@
 
  <style>
    .policies_footer a {
+     font-size: .8rem!important;
     color: #737491;
     text-decoration: none!important;
 }
@@ -50,7 +51,7 @@
 <li><a class="widget-link" href="/empowerment-of-employees">Empowerment of Employees</a></li>
 
               <!-- <li><a class="widget-link" href="#">Careers</a></li> -->
-              <li><a class="widget-link" href="/#pricing">Pricing</a></li>
+              <li><a class="widget-link" href="/pricing">Pricing</a></li>
             </ul>
           </div>
         </div>

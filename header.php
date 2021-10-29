@@ -79,7 +79,7 @@
                       </div></a></li>
                 </ul>
               </li>
-              <li class="nav-item"><a class="nav-link" href="/#pricing">Pricing</a></li>
+              <li class="nav-item"><a class="nav-link" href="/pricing">Pricing</a></li>
               <!-- <li class="nav-item"><a class="nav-link" href="careers.html">Careers</a></li> -->
               <li class="nav-item"><a class="nav-link" href="/contact-us">Contact Us</a></li>
             </ul>

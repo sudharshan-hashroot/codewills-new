@@ -590,7 +590,9 @@
       <div class="container py-5">
    
       <div class="d-sm-flex align-items-center justify-content-center text-center text-sm-start">
-            <h3 class="mb-4 mb-sm-2 me-sm-4 pe-sm-2">Take a look at our cost-effective website development & design plans</h3><a class="btn btn-success mb-sm-2 d-none" href="#">Enquire Now</a>
+            <h3 class="mb-4 mb-sm-2 me-sm-4 pe-sm-2">Take a look at our pricing</h3>
+            <a class="btn btn-success mb-sm-2" href="#modal-enquirenow" data-bs-toggle="modal"
+                        data-view="#modal-enquirenow-view">Enquire Now</a>
           </div>
    
  
