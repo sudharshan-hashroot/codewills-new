@@ -33,7 +33,13 @@
         li>span{
     white-space: pre-wrap;
   }
-
+  .invalid-feedback1 {
+       display: none;
+       width: 100%;
+       margin-top: 0.375rem;
+       font-size: 0.75rem;
+       color: #f74f78;
+      }
         .page-loading {
             position: fixed;
             top: 0;
