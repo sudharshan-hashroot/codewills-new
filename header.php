@@ -41,6 +41,7 @@
     visibility: hidden;
 }
 </style>
+
 <?php include("enquirePopup.php"); ?>
 <header class="header">
     <div class="topbar topbar-dark bg-dark" style="z-index:99">
@@ -108,6 +109,7 @@
                         <div class="fs-xl text-muted"><i class="ai-pie-chart"></i></div>
                         <div class="ps-3"><span class="d-block text-heading">Digital Marketing</span><small class="d-none text-muted">Flexible component</small></div>
                       </div></a></li>
+
                       
                 </ul>
               </li>
@@ -115,6 +117,7 @@
               <li class="nav-item"><a class="nav-link" href="/pricing">Pricing</a></li>
               <!-- <li class="nav-item"><a class="nav-link" href="careers.html">Careers</a></li> -->
               <li class="nav-item"><a class="nav-link" href="/contact-us">Contact Us</a></li>
+              
             </ul>
           </div>
           <div class="offcanvas-footer border-top">
@@ -130,8 +133,7 @@
 
     <script>
 $(".offcanvaspopup").on('click',function(){
-  $(".btn-close lead").trigger("click");
-  console.log("works.......")
+  $(".btn-close").trigger("click");
 })
     </script>
   
