@@ -402,7 +402,7 @@
           </div>
         </div>
       </header>
-      <?php include(header.php);?>
+   
       <!-- Page content-->
       <!-- Hero - Featured Products (tabs)-->
       <section class="position-relative bg-gradient pt-5 pt-lg-6 pb-7 mb-7">

@@ -45,7 +45,7 @@
 <header class="header">
     <div class="topbar topbar-dark bg-dark" style="z-index:99">
       <div class="container d-md-flex align-items-center px-0 px-xl-3">
-        <div class="d-none d-md-block text-nowrap me-3"><i class="ai-phone fs-base text-muted me-1 align-middle"></i><span class="text-muted me-2">Call Us</span><a class="topbar-link me-1" href="tel:+919778426320">+91 9778426320</a></div>
+        <div class="d-none d-md-block text-nowrap me-3"><i class="ai-phone fs-base text-muted me-1 align-middle"></i><span class="text-muted me-2">Call Us</span><a class="topbar-link me-1" href="tel:+919778426320">+91-9778-426317</a></div>
         <div class="d-flex text-md-end ms-md-auto d-none">
 
           <div class="dropdown ms-auto ms-md-0 me-3"><a class="topbar-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><img class="me-2" src="img/flags/en.png" alt="English" width="20">Eng</a>
@@ -118,7 +118,7 @@
             </ul>
           </div>
           <div class="offcanvas-footer border-top">
-            <a class="btn btn-primary d-block w-100" href="#modal-enquirenow" data-bs-toggle="modal"
+            <a class="btn btn-primary d-block w-100 offcanvaspopup" href="#modal-enquirenow" data-bs-toggle="modal"
             data-view="#modal-enquirenow-view">
             <i class="ai-user fs-lg me-2"></i>
             Enquire Now
@@ -127,4 +127,11 @@
       </div>
     </div>
     </header>
+
+    <script>
+$(".offcanvaspopup").on('click',function(){
+  $(".btn-close lead").trigger("click");
+  console.log("works.......")
+})
+    </script>
   

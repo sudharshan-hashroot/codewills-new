@@ -165,8 +165,8 @@
               <div class="card-body text-center"><i class="ai-phone mb-4 text-success" style="font-size: 2.25rem;"></i>
                 <h3 class="h6 mb-2">Phone number</h3>
                 <ul class="list-unstyled fs-sm mb-0">
-                  <li><a class="nav-link-style" href="tel:+91-9778-426320">+91-9778-426320</a></li>
-                  <a class="fancy-link fs-sm" href="tel:+91-9778-426320" data-scroll>Call Us</a>
+                  <li><a class="nav-link-style" href="tel:+91-9778-426317">+91-9778-426317</a></li>
+                  <a class="fancy-link fs-sm" href="tel:+91-9778-426317" data-scroll>Call Us</a>
                 </ul>
               </div>
             </div>
