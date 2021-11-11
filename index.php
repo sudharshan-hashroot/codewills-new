@@ -450,16 +450,16 @@
             </div>
           </div>
           <div class="col-xl-6 col-lg-7 d-flex justify-content-end pe-0 hovercardschild">
-            <a style="display: block;" class=" me-n3 hovercards1" href="#" data-hover="1"><img class="d-block"
-                src="img/homepage/Services/Webdev.png" alt="Components"></a>
+            <a style="display: none;" class=" me-n3 hovercards1" href="#" data-hover="1"><img class="d-block"
+                src="img/homepage/Services/Website.webp" alt="Components"></a>
             <a style="display: none;" class=" me-n3 hovercards2" href="#" data-hover="2"><img class="d-block"
-                src="img/homepage/Services/Mobile.png" alt="Components"></a>
+                src="img/homepage/Services/mobile-development.webp" alt="Components"></a>
             <a style="display: none;" class=" me-n3 hovercards3" href="#" data-hover="3"><img class="d-block"
-                src="img/homepage/Services/Website design.png" alt="Components"></a>
+                src="img/homepage/Services/Webapp.webp" alt="Components"></a>
             <a style="display: none;" class=" me-n3 hovercards4" href="#" data-hover="4"><img class="d-block"
-                src="img/homepage/Services/E-commerce.png" alt="Components"></a>
-                <a style="display: none;" class=" me-n3 hovercards5" href="#" data-hover="5"><img class="d-block"
-                  src="img/homepage/Services/Website design.png" alt="Components"></a>
+                src="img/homepage/Services/digital_marketing.webp" alt="Components"></a>
+                <a style="display: block;" class=" me-n3 hovercards5" href="#" data-hover="5"><img class="d-block"
+                  src="img/homepage/Services/uiux.webp" alt="Components"></a>
 
           </div>
 
@@ -476,7 +476,7 @@
     <p class="text-center text-muted mb-0">We provide wide range of services in web design and development</p>
     <!-- Web design Service-->
     <div class="row align-items-center border-bottom py-5">
-      <div class="col-md-6 py-3"><img class="d-block mx-auto" src="./img/demo/web-studio/services/01.svg"  alt="Responsive Web Design"></div>
+      <div class="col-md-6 py-3"><img class="d-block mx-auto" src="./img/our-offering/webdevlopment.webp"  alt="Responsive Web Design"></div>
       <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
         <h3 class="h4 mb-4">Website Development</h3>
         <ul class="list-unstyled">
@@ -490,7 +490,7 @@
     </div>
     <!-- Mobile Dev Service-->
     <div class="row align-items-center border-bottom py-5" style="background: F8F7FD;">
-      <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="./img/demo/web-studio/services/03.svg" alt="Web Development"></div>
+      <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="./img/our-offering/mobileappdevelopment.webp" alt="Web Development"></div>
       <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
         <h3 class="h4 mb-4">Mobile App Development</h3>
         <ul class="list-unstyled">
@@ -504,7 +504,7 @@
     </div>
     <!-- web Dev Service-->
     <div class="row align-items-center border-bottom py-5">
-      <div class="col-md-6 py-3"><img class="d-block mx-auto rounded-3" src="./img/demo/web-studio/services/02.svg"  alt="Mobile Apps Development"></div>
+      <div class="col-md-6 py-3"><img class="d-block mx-auto rounded-3" src="./img/our-offering/webapplication.webp"  alt="Mobile Apps Development"></div>
       <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
         <h3 class="h4 mb-4">Web Application Development</h3>
         <ul class="list-unstyled">
@@ -518,7 +518,7 @@
     </div>
           <!-- Digital marketing Service-->
           <div class="row align-items-center py-5">
-            <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="./img/demo/coworking/illustration01.svg" alt="Web Development"></div>
+            <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="./img/our-offering/digitalmarketing.webp" alt="Web Development"></div>
             <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
               <h3 class="h4 mb-4">Digital Marketing Services</h3>
               <ul class="list-unstyled">

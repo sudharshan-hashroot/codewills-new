@@ -170,14 +170,14 @@
                 src="img/demo/marketing-seo/hero/lines.png" alt="Lines">
               <div class="parallax-layer" style="z-index: 2;" data-depth="0.13"><img
                   src="img/services/Digital marketing.webp" alt="Image"></div>
-              <div class="parallax-layer" style="z-index: 3;" data-depth="0.25"><img
+              <!-- <div class="parallax-layer" style="z-index: 3;" data-depth="0.25"><img
                   src="img/demo/marketing-seo/hero/shape-1.png" alt="Badge"></div>
               <div class="parallax-layer" data-depth="0.2"><img src="img/demo/marketing-seo/hero/shape-1.png"
                   alt="Shape"></div>
               <div class="parallax-layer" style="z-index: 3;" data-depth="0.5"><img
                   src="img/demo/marketing-seo/hero/shape-4.png" alt="Badge"></div>
               <div class="parallax-layer" style="z-index: 3;" data-depth="0.45"><img
-                  src="img/demo/marketing-seo/hero/shape-4.png" alt="Badge"></div>
+                  src="img/demo/marketing-seo/hero/shape-4.png" alt="Badge"></div> -->
             </div>
           </div>
           <div class="col-lg-5 col-md-5 pt-4 pb-5 py-md-5">
