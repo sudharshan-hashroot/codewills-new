@@ -61,7 +61,7 @@
             </ul>
             <ul class="list-unstyled fs-sm mb-3 pb-2">
               <li style="font-weight: 500;" class="h6"><img src="./img/flag/uk.svg" class="sm_flags" alt=""> UK</li>
-              <li><a class="nav-link-style" href="https://g.page/hashroot?share"> Suit 6 Westward, Glebeland Rd, Camberley, Surrey GU15 3DB, United Kingdom
+              <li><a class="nav-link-style" href="https://g.page/hashroot?share"> Suit 6 Westward, Glebeland Rd, Camberley, Surrey GU15 3DB, UK
                 </a></li>
               <li><a class="nav-link-style" href="tel:+44-203-808-8373"> +44 (203) 808 8373</a></li>                   
             </ul>

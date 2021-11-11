@@ -134,7 +134,7 @@
       <!-- Page content-->
       <!-- Page title-->
       <section class="jarallax bg-gradient pt-5 pb-7 pt-md-7" data-jarallax data-speed="0.25"><span class="position-absolute top-0 start-0 w-100 h-100 bg-gradient opacity-80"></span>
-        <div class="jarallax-img" style="background-image: url(img/pages/contacts/page-title-bg.jpg);"></div>
+        <div class="jarallax-img" style="background-image: url(img/contact/kerela-1.jpg);"></div>
         <div class="container position-relative zindex-5 pt-3 pb-7 pt-md-0">
           <div class="row justify-content-center py-md-5">
             <div class="col-lg-6 col-md-8 text-center pt-2 mb-n3">
