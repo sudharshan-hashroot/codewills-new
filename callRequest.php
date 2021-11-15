@@ -3,7 +3,7 @@
         <div class="col-md-6 mb-4 mb-md-0">
           <div
             class="d-flex flex-column position-relative h-100 rounded-start bg-position-start-center bg-repeat-0 py-6"
-            style="background-image: url(img/demo/business-consulting/careers-bg.jpg); background-color: #f4f4f6;"><span
+            style="background-image: url('./img/homepage/callus/3.png'); background-color: #f4f4f6;"><span
               class="d-sm-none d-md-block d-lg-none position-absolute top-0 start-0 w-100 h-100 rounded-start bg-secondary"
               style="opacity: 1;"></span>
             <div class="text-center mx-auto me-sm-5 me-md-0 me-md-auto me-lg-5 pe-lg-3 position-relative zindex-5"
