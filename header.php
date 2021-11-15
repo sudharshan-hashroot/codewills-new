@@ -30,6 +30,12 @@
 .policies_footer a:hover {
     color: #8f91b4;
 }
+.swal-button--confirm {
+    background-color: #924cef;
+  }
+  .swal-button--confirm:hover {
+    background-color: #5654ff!important;
+  }
 
    .bg-gradient-home-slider {
       background: linear-gradient(to right,

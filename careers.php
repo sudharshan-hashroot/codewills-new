@@ -5,7 +5,8 @@
     <title>Careers - Join Our Team of Professionals | CodeWills</title>
     <!-- SEO Meta Tags-->
     
-    <meta name="title" content="Careers - Join Our Team of Professionals | CodeWills">
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="title" content="Careers - Join Our Team of Professionals | CodeWills">
     <meta name="description" content="Are you passionate about software development? Then, Join our team of professionals who use the latest technologies to create software solutions that stand out.">
     <!-- Viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">

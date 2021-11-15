@@ -7,7 +7,8 @@
 
     <!-- SEO Meta Tags-->
 
-    <meta name="title" content="Our Executive Leadership Team | Codewills">
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="title" content="Our Executive Leadership Team | Codewills">
     <meta name="description" content="Meet our executive leadership team, who drives our firm to new heights by helping us deliver effective services and a consistently engaging client experience">
     <meta name="keywords" content="CodeWills">
     <!-- Viewport-->

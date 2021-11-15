@@ -6,7 +6,8 @@
     <title>Sustainable Strategy For Development | Codewills</title>
 
     <!-- SEO Meta Tags-->
-    <meta name="title" content="Sustainable Strategy For Development | Codewills">
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="title" content="Sustainable Strategy For Development | Codewills">
     <meta name="description" content="Codewills adopted sustainability strategy to foster the company's longevity by the efficient software development process and other services that satifies the client">
     <meta name="keywords" content="CodeWills">
     <!-- Viewport-->

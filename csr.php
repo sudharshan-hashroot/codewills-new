@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <title>Our Corporate Social Responsibility Policy | Codewills </title>
     <!-- SEO Meta Tags-->
-    <meta name="title" content="Our Corporate Social Responsibility Policy | Codewills">
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="title" content="Our Corporate Social Responsibility Policy | Codewills">
     <meta name="description" content="At Codewills, we believe that accepting CSR drives us to a better business and it is our obligation to deliver the best possible services to our general public">
     <meta name="keywords" content="CodeWills">
     <!-- Viewport-->

@@ -5,7 +5,8 @@
 <meta charset="utf-8">
   <title>Custom Website Development Services India | Codewills  </title>
   <!-- SEO Meta Tags-->
-  <meta name="title" content="Custom Website Development Services India | Codewills">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="title" content="Custom Website Development Services India | Codewills">
   <meta name="description" content="Codewills, the best choice if you are in search of custom website development services. We have a range of solutions to lift your online presence.">
   <meta name="keywords" content="Website Development Services, Website Development Services India,  Custom website Development Services">
   <!-- Viewport-->

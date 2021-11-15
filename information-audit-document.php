@@ -6,7 +6,8 @@
   <title>Information Audit Document | CodeWills by HashRoot</title>
 
   <!-- SEO Meta Tags-->
-  <meta name="title" content="Information Audit Document | CodeWills by HashRoot">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="title" content="Information Audit Document | CodeWills by HashRoot">
   <meta name="description"
     content="HashRoot is a global company that has reputation for its ability to help customers achieve their business objective by providing quality IT managed services.">
   <meta name="keywords" content="CodeWills">

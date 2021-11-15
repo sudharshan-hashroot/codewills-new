@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <title>Web Application Development Services India | Codewills </title>
   <!-- SEO Meta Tags-->
-  <meta name="title" content="Web Application Development Services India | Codewills">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="title" content="Web Application Development Services India | Codewills">
   <meta name="description" content="Codewills, delivers custom web application development services that assist you to design and implement web-based software by adopting new technologies. Call us ">
   <meta name="keywords" content="Web Application Development Services,  Custom Web Application Development Services">
   <!-- Viewport-->

@@ -6,7 +6,9 @@
   <title>Website Development Company | Codewills by HashRoot</title>
 
   <!-- SEO Meta Tags-->
-  <meta name="title" content="Website Development Company | Codewills by HashRoot">
+ 
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="title" content="Website Development Company | Codewills by HashRoot">
   <meta name="description"
     content="Codewills is the leading custom website development company that provides the best services for web designing, development and digital marketing. Contact us">
   <meta name="keywords"
@@ -453,7 +455,7 @@
             <a style="display: none;" class=" me-n3 hovercards1" href="#" data-hover="1"><img class="d-block"
                 src="img/homepage/Services/Website.webp" alt="Components"></a>
             <a style="display: none;" class=" me-n3 hovercards2" href="#" data-hover="2"><img class="d-block"
-                src="img/homepage/Services/mobile-development.webp" alt="Components"></a>
+                src="img/homepage/Services/mobile-dev.webp" alt="Components"></a>
             <a style="display: none;" class=" me-n3 hovercards3" href="#" data-hover="3"><img class="d-block"
                 src="img/homepage/Services/Webapp.webp" alt="Components"></a>
             <a style="display: none;" class=" me-n3 hovercards4" href="#" data-hover="4"><img class="d-block"

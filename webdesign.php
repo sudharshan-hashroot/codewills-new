@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <title>Custom Website Design Services India | Codewills</title>
   <!-- SEO Meta Tags-->
-  <meta name="title" content="Custom Website Design Services India | Codewills">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="title" content="Custom Website Design Services India | Codewills">
   <meta name="description" content="Codewills, offers custom design website services for global clients. We design user-friendly and responsive websites that suit your business needs. Reach us  ">
   <meta name="keywords" content="Website Design Services,Website Design Services India,Custom Website Design Services">
   <!-- Viewport-->

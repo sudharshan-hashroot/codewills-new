@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <title>Global Approach | Codewills</title>
     <!-- SEO Meta Tags-->
-    <meta name="title" content="Global Approach | Codewills">
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="title" content="Global Approach | Codewills">
     <meta name="description" content="CodeWills">
     <meta name="keywords" content="CodeWills">
     <!-- Viewport-->

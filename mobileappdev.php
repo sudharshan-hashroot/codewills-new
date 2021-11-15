@@ -6,7 +6,8 @@
   <title>Custom Mobile App Development Services India| Codewills  </title>
   <!-- SEO Meta Tags-->
 
-  <meta name="title" content="Custom Mobile App Development Services India| Codewills">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="title" content="Custom Mobile App Development Services India| Codewills">
   <meta name="description" content="We at Codewills introduce exclusive custom mobile app development services that converge market demands and business expansion. Get in touch with us  ">
   <meta name="keywords" content="Mobile App Development Services,  Custom Mobile App Development Services,   Mobile App Development Services India">
   <!-- Viewport-->

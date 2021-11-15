@@ -5,7 +5,8 @@
     <title>Get in Touch With Us | CodeWills by HashRoot</title>
     
     <!-- SEO Meta Tags-->
-    <meta name="title" content="Get in Touch With Us | CodeWills by HashRoot">
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="title" content="Get in Touch With Us | CodeWills by HashRoot">
     <meta name="description" content="Need any assistance with our service? We would like to hear from you. Drop us a line or reach out to us for any enquiries.">
     <!-- Viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">

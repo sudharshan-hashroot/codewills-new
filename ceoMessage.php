@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <title>Message From CEO | Codewills </title>
     <!-- SEO Meta Tags-->
-    <meta name="title" content="Message From CEO | Codewills">
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="title" content="Message From CEO | Codewills">
     <meta name="description" content="Enhance your business with our expanded and cost-effective facilities that brings digital transformations to take your business to the next level">
     <meta name="keywords" content="CodeWills">
     <!-- Viewport-->

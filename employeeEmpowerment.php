@@ -6,7 +6,8 @@
     <title>Our Empowerment of Employees | Codewills</title>
 
     <!-- SEO Meta Tags-->
-    <meta name="title" content="Our Empowerment of Employees | Codewills">
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="title" content="Our Empowerment of Employees | Codewills">
     <meta name="description" content="We encourage our staff to try new things and allow them more freedom to make their own decisions at Codewills while constantly appreciating their priceless efforts">
     <meta name="keywords" content="CodeWills">
     <!-- Viewport-->

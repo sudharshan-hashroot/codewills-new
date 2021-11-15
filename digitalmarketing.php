@@ -5,7 +5,8 @@
   <meta charset="utf-8">
   <title>Best Digital Marketing Services India | Codewills  </title>
   <!-- SEO Meta Tags-->
-  <meta name="title" content="Best Digital Marketing Services India | Codewills  ">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="title" content="Best Digital Marketing Services India | Codewills  ">
   <meta name="description" content="Codewills, renders the best digital marketing services that embrace SEO management, PPC management, Content creation, and other marketing services. Call now  ">
   <meta name="keywords" content="Digital Marketing Services,  Digital Marketing Services India,  Best Digital Marketing Services">
   <!-- Viewport-->

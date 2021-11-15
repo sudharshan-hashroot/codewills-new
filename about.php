@@ -5,7 +5,8 @@
     <title>About CodeWills- Leading Software Development Company</title>
     <!-- SEO Meta Tags-->
     
-    <meta name="title" content="About CodeWills- Leading Software Development Company">
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="title" content="About CodeWills- Leading Software Development Company">
     <meta name="description" content="We are a leading software development company providing top-notch web and mobile application development services to businesses all over the world.">
     <!-- Viewport-->
     <meta name="viewport" content="width=device-width, initial-scale=1">

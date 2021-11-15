@@ -6,7 +6,8 @@
     <title>Life At Codewills | Codewills</title>
 
     <!-- SEO Meta Tags-->
-    <meta name="title" content="Life At Codewills | Codewills">
+     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="title" content="Life At Codewills | Codewills">
     <meta name="description" content="Confront an ideal workplace with our authentic work-life balance schedules, our keen focus on the growth of employees, respecting their diverse cultural beliefs.">
     <meta name="keywords" content="CodeWills">
     <!-- Viewport-->
