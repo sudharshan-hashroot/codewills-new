@@ -5,6 +5,7 @@
     <title>Get in Touch With Us | CodeWills by HashRoot</title>
     
     <!-- SEO Meta Tags-->
+    <?php include('metatags.php');?>
      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="title" content="Get in Touch With Us | CodeWills by HashRoot">
     <meta name="description" content="Need any assistance with our service? We would like to hear from you. Drop us a line or reach out to us for any enquiries.">
@@ -96,7 +97,7 @@
       
     </style>
     <!-- Page loading scripts-->
-    <script src="//code.jquery.com/jquery-1.11.1.min.js "></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js " async></script>
     <script>
       (function () {
         window.onload = function () {
@@ -113,11 +114,12 @@
       
     </script>
     <!-- Vendor Styles-->
-    <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css"/>
+    <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css" async/>
     <link rel="stylesheet" media="screen" href="vendor/lightgallery.js/dist/css/lightgallery.min.css"/>
     <!-- Main Theme Styles + Bootstrap-->
-    <link rel="stylesheet" media="screen" href="css/theme.min.css">
-  </head>
+    
+    <link rel="stylesheet" media="screen" href="../ css/theme.min.css" async>
+</head>
   <!-- Body-->
   <body>
     <!-- Page loading spinner-->

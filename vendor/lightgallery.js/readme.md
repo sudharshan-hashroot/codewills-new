@@ -80,6 +80,7 @@ First of all add lightgallery.css in the `<head>` of the document.
 ```html
 <head>
     <link rel="stylesheet" href="css/lightgallery.css">
+  <link rel="stylesheet" media="screen" href="../ css/theme.min.css" async>
 </head>
 ```
 

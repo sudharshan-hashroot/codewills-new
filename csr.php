@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>Our Corporate Social Responsibility Policy | Codewills </title>
     <!-- SEO Meta Tags-->
+    <?php include('metatags.php');?>
      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="title" content="Our Corporate Social Responsibility Policy | Codewills">
     <meta name="description" content="At Codewills, we believe that accepting CSR drives us to a better business and it is our obligation to deliver the best possible services to our general public">
@@ -121,7 +122,7 @@
         }
     </style>
     <!-- Page loading scripts-->
-    <script src="//code.jquery.com/jquery-1.11.1.min.js "></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js " async></script>
     <script>
         (function () {
             window.onload = function () {
@@ -142,12 +143,13 @@
 
     </script>
     <!-- Vendor Styles-->
-    <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css" />
+    
     <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css" />
     <link rel="stylesheet" media="screen" href="vendor/lightgallery.js/dist/css/lightgallery.min.css" />
     <link rel="stylesheet" media="screen" href="vendor/flatpickr/dist/flatpickr.min.css" />
     <!-- Main Theme Styles + Bootstrap-->
-    <link rel="stylesheet" media="screen" href="css/theme.min.css">
+    
+  <link rel="stylesheet" media="screen" href="../ css/theme.min.css" async>
 </head>
 <!-- Body-->
 
@@ -277,7 +279,7 @@
 
                 <div class="row pt-5">
                     <div class="col-lg-6 col-sm-6 mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <ul class="list-unstyled">
                                     <li class="d-flex mb-2 pb-1"><i
@@ -293,7 +295,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-6 mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <ul class="list-unstyled">
                                     <li class="d-flex mb-2 pb-1"><i
@@ -323,7 +325,7 @@
                     high efficiency of large scale Cloud data centers.</p>
                 <div class="row">
                     <div class="com-md-12">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <h3 class="h5">Dynamic provisioning</h3>
                                 <p class="fs-sm text-body">
@@ -364,7 +366,7 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col-md-6 mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <h3 class="h5">Smarter & Solar powered building</h3>
                                 <p class="fs-sm text-body">
@@ -380,7 +382,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <h3 class="h5">Green Data Center
                                 </h3>
@@ -457,7 +459,7 @@
             <div class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
                 <div class="row pt-5">
                     <div class="col-lg-6 col-sm-6 mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                                     class="ai-book-open h2 text-primary mt-2 mb-4"></i>
                                 <h3 class="h5">Corporate Governance policies</h3>
@@ -472,7 +474,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-6 mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                                     class="ai-bookmark h2 text-primary mt-2 mb-4"></i>
                                 <h3 class="h5">Corporate Governance report</h3>

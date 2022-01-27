@@ -6,6 +6,7 @@
     <title>Our Empowerment of Employees | Codewills</title>
 
     <!-- SEO Meta Tags-->
+    <?php include('metatags.php');?>
      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="title" content="Our Empowerment of Employees | Codewills">
     <meta name="description" content="We encourage our staff to try new things and allow them more freedom to make their own decisions at Codewills while constantly appreciating their priceless efforts">
@@ -122,7 +123,7 @@
         }
     </style>
     <!-- Page loading scripts-->
-    <script src="//code.jquery.com/jquery-1.11.1.min.js "></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js " async></script>
     <script>
         (function () {
             window.onload = function () {
@@ -143,12 +144,13 @@
 
     </script>
     <!-- Vendor Styles-->
-    <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css" />
+    
     <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css" />
     <link rel="stylesheet" media="screen" href="vendor/lightgallery.js/dist/css/lightgallery.min.css" />
     <link rel="stylesheet" media="screen" href="vendor/flatpickr/dist/flatpickr.min.css" />
     <!-- Main Theme Styles + Bootstrap-->
-    <link rel="stylesheet" media="screen" href="css/theme.min.css">
+    
+  <link rel="stylesheet" media="screen" href="../ css/theme.min.css" async>
 </head>
 <!-- Body-->
 
@@ -260,7 +262,7 @@
                 <h1 class="h2 text-center">CodeWills Team</h1>
                 <div class="row pt-5">
                     <div class="col-lg-12 col-sm-6 mx-auto mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-left">
                                 <ul class="list-unstyled">
                                     <li class="d-flex mb-2 pb-1"><i
@@ -324,7 +326,7 @@
                     together in coordination to achieve a common goal.</p>
                 <div class="row pt-5">
                     <div class="col-lg-4 col-sm-6 mx-auto mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <ul class="list-unstyled">
                                     <li class="d-flex mb-2 pb-1"><i
@@ -387,7 +389,7 @@
             <div class="container position-relative zindex-5 pt-3 pb-3 pt-md-0">
                 <div class="row">
                     <div class="col-md-6 mt-5">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <h3 class="h5">
                                     Involving employees in the planning process</h3>
@@ -405,7 +407,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 mt-5">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <h3 class="h5">
                                     Providing continual training and support</h3>
@@ -423,7 +425,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 mt-5">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <h3 class="h5">
                                     Employee's involvement in the decision-making process</h3>
@@ -441,7 +443,7 @@
                         </div>
                     </div>
                     <div class="col-md-6 mt-5">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <h3 class="h5">
                                     Offer Praise Freely</h3>

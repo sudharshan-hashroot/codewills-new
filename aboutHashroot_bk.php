@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>CodeWills</title>
-  
+  <?php include('metatags.php');?>
   <!-- SEO Meta Tags-->
   <meta name="description" content="CodeWills">
   <meta name="keywords" content="CodeWills">
@@ -115,7 +115,7 @@
     }
   </style>
   <!-- Page loading scripts-->
-  <script src="//code.jquery.com/jquery-1.11.1.min.js "></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js " async></script>
   <script>
     (function () {
       window.onload = function () {
@@ -132,12 +132,13 @@
 
   </script>
   <!-- Vendor Styles-->
-  <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css" />
+  
   <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css" />
   <link rel="stylesheet" media="screen" href="vendor/lightgallery.js/dist/css/lightgallery.min.css" />
   <link rel="stylesheet" media="screen" href="vendor/flatpickr/dist/flatpickr.min.css" />
   <!-- Main Theme Styles + Bootstrap-->
-  <link rel="stylesheet" media="screen" href="css/theme.min.css">
+  
+  <link rel="stylesheet" media="screen" href="../ css/theme.min.css" async>
 </head>
 <!-- Body-->
 
@@ -230,7 +231,7 @@
         based products and services.</p>
       <div class="row pt-5">
         <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover"
-            href="help-single-topic.html">
+            href="#">
             <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                 class="ai-eye h2 text-primary mt-2 mb-4"></i>
               <h3 class="h5">Vision</h3>
@@ -239,7 +240,7 @@
             </div>
           </a></div>
         <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover"
-            href="help-single-topic.html">
+            href="#">
             <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                 class="ai-crosshair h2 text-primary mt-2 mb-4"></i>
               <h3 class="h5">Mission</h3>
@@ -249,7 +250,7 @@
             </div>
           </a></div>
         <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover"
-            href="help-single-topic.html">
+            href="#">
             <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                 class="ai-user-plus h2 text-primary mt-2 mb-4"></i>
               <h3 class="h5">Values</h3>
@@ -270,7 +271,7 @@
           products in order to distinguish themselves from competitors.</p>
         <div class="row pt-5">
           <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover"
-              href="help-single-topic.html">
+              href="#">
               <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                   class="ai-eye h2 text-primary mt-2 mb-4"></i>
                 <h3 class="h5">THE BIZZ AWARDS 2019</h3>
@@ -279,7 +280,7 @@
               </div>
             </a></div>
           <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover"
-              href="help-single-topic.html">
+              href="#">
               <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                   class="ai-crosshair h2 text-primary mt-2 mb-4"></i>
                 <h3 class="h5">CROWN COMMERCIAL SERVICE SUPPLIER</h3>
@@ -288,7 +289,7 @@
               </div>
             </a></div>
           <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover"
-              href="help-single-topic.html">
+              href="#">
               <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                   class="ai-user-plus h2 text-primary mt-2 mb-4"></i>
                 <h3 class="h5">CONSULTANT OF THE YEAR
@@ -298,7 +299,7 @@
               </div>
             </a></div>
           <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover"
-              href="help-single-topic.html">
+              href="#">
               <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                   class="ai-eye h2 text-primary mt-2 mb-4"></i>
                 <h3 class="h5">MOST PROMISING VMWARE SOLUTION PROVIDER</h3>
@@ -307,7 +308,7 @@
               </div>
             </a></div>
           <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover"
-              href="help-single-topic.html">
+              href="#">
               <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                   class="ai-crosshair h2 text-primary mt-2 mb-4"></i>
                 <h3 class="h5">INTERNATIONAL QUALITY CROWN AWARD</h3>
@@ -316,7 +317,7 @@
               </div>
             </a></div>
           <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover"
-              href="help-single-topic.html">
+              href="#">
               <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                   class="ai-user-plus h2 text-primary mt-2 mb-4"></i>
                 <h3 class="h5">50 COOL STARTUPS</h3>
@@ -326,7 +327,7 @@
               </div>
             </a></div>
           <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover"
-              href="help-single-topic.html">
+              href="#">
               <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                   class="ai-eye h2 text-primary mt-2 mb-4"></i>
                 <h3 class="h5">INTERNATIONAL GOLD STAR MILLENNIUM AWARD</h3>
@@ -336,7 +337,7 @@
               </div>
             </a></div>
           <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover"
-              href="help-single-topic.html">
+              href="#">
               <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                   class="ai-crosshair h2 text-primary mt-2 mb-4"></i>
                 <h3 class="h5">FASTEST GROWING INDIAN COMPANY EXCELLENCE AWARD</h3>
@@ -346,7 +347,7 @@
               </div>
             </a></div>
           <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover"
-              href="help-single-topic.html">
+              href="#">
               <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                   class="ai-user-plus h2 text-primary mt-2 mb-4"></i>
                 <h3 class="h5">GLOBAL ACHIEVERS AWARD FOR BUSINESS EXCELLENCE</h3>

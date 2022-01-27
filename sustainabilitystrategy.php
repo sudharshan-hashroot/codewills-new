@@ -6,6 +6,7 @@
     <title>Sustainable Strategy For Development | Codewills</title>
 
     <!-- SEO Meta Tags-->
+    <?php include('metatags.php');?>
      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="title" content="Sustainable Strategy For Development | Codewills">
     <meta name="description" content="Codewills adopted sustainability strategy to foster the company's longevity by the efficient software development process and other services that satifies the client">
@@ -122,7 +123,7 @@
         }
     </style>
     <!-- Page loading scripts-->
-    <script src="//code.jquery.com/jquery-1.11.1.min.js "></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js " async></script>
     <script>
         (function () {
             window.onload = function () {
@@ -143,12 +144,13 @@
 
     </script>
     <!-- Vendor Styles-->
-    <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css" />
+    
     <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css" />
     <link rel="stylesheet" media="screen" href="vendor/lightgallery.js/dist/css/lightgallery.min.css" />
     <link rel="stylesheet" media="screen" href="vendor/flatpickr/dist/flatpickr.min.css" />
     <!-- Main Theme Styles + Bootstrap-->
-    <link rel="stylesheet" media="screen" href="css/theme.min.css">
+    
+  <link rel="stylesheet" media="screen" href="../ css/theme.min.css" async>
 </head>
 <!-- Body-->
 
@@ -265,7 +267,7 @@
                 <h3 class="h2 mb-5 text-center text-light">CodeWills’s Strategy</h3>
                 <div class="row">
                     <div class="com-md-12">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <h3 class="h5">Understanding the issue</h3>
                                 <p class="fs-sm text-body">Demographic change is a key social and economic challenge.
@@ -287,7 +289,7 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col-md-9  mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <h3 class="h5">Acting on the issue</h3>
                                 <p class="fs-sm text-body">Our initial focus is to improve participation - to attract
@@ -301,7 +303,7 @@
                         </div>
                     </div>
                     <div class="col-md-3  mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <h3 class="h5">Our Focus</h3>
                                 <p class="fs-sm text-body">Develop products and services that support an increase in
@@ -406,7 +408,7 @@
 
                 <div class="row pt-5">
                     <div class="col-lg-6 col-sm-6 mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <ul class="list-unstyled">
                                     <li class="d-flex mb-2 pb-1"><i
@@ -422,7 +424,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-6 mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <ul class="list-unstyled">
                                     <li class="d-flex mb-2 pb-1"><i
@@ -443,7 +445,7 @@
                     to:</p>
                 <div class="row pt-5">
                     <div class="col-lg-6 col-sm-6 mx-auto mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <ul class="list-unstyled">
                                     <li class="d-flex mb-2 pb-1"><i
@@ -527,7 +529,7 @@
                     high efficiency of large scale Cloud data centers.</p>
                 <div class="row">
                     <div class="com-md-12">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <h3 class="h5">Dynamic provisioning</h3>
                                 <p class="fs-sm text-body">
@@ -550,7 +552,7 @@
                 </div>
                 <div class="row mt-5">
                     <div class="col-md-7  mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <h3 class="h5">Multi-­tenancy</h3>
                                 <p class="fs-sm text-body">
@@ -567,7 +569,7 @@
                         </div>
                     </div>
                     <div class="col-md-5  mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <h3 class="h5">Server utilization</h3>
                                 <p class="fs-sm text-body">

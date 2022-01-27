@@ -6,6 +6,7 @@
     <title>Life At Codewills | Codewills</title>
 
     <!-- SEO Meta Tags-->
+    <?php include('metatags.php');?>
      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="title" content="Life At Codewills | Codewills">
     <meta name="description" content="Confront an ideal workplace with our authentic work-life balance schedules, our keen focus on the growth of employees, respecting their diverse cultural beliefs.">
@@ -117,7 +118,7 @@
         }
     </style>
     <!-- Page loading scripts-->
-    <script src="//code.jquery.com/jquery-1.11.1.min.js "></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js " async></script>
     <script>
         (function () {
             window.onload = function () {
@@ -138,12 +139,13 @@
 
     </script>
     <!-- Vendor Styles-->
-    <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css" />
+    
     <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css" />
     <link rel="stylesheet" media="screen" href="vendor/lightgallery.js/dist/css/lightgallery.min.css" />
     <link rel="stylesheet" media="screen" href="vendor/flatpickr/dist/flatpickr.min.css" />
     <!-- Main Theme Styles + Bootstrap-->
-    <link rel="stylesheet" media="screen" href="css/theme.min.css">
+    
+  <link rel="stylesheet" media="screen" href="../ css/theme.min.css" async>
 </head>
 <!-- Body-->
 
@@ -258,7 +260,7 @@
 
                 <div class="row pt-5">
                     <div class="col-lg-6 col-sm-6 mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <ul class="list-unstyled">
                                     <li class="d-flex mb-2 pb-1"><i
@@ -272,7 +274,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-6 mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                                 <ul class="list-unstyled">
                                     <li class="d-flex mb-2 pb-1"><i
@@ -476,7 +478,7 @@
                         <h2 class="h3 text-center mb-5">Factors that identifies a performer in a team</h2>
                         <div class="row">
                             <div class="col-lg-4 col-sm-6 mb-grid-gutter">
-                                <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                                <div class="card h-100 border-0 shadow card-hover" href="#">
                                     <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                                             class="ai-plus h2 text-primary mt-2 mb-4"></i>
                                         <h3 class="h5">Engagement</h3>
@@ -488,7 +490,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-4 col-sm-6 mb-grid-gutter">
-                                <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                                <div class="card h-100 border-0 shadow card-hover" href="#">
                                     <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                                             class="ai-crosshair h2 text-primary mt-2 mb-4"></i>
                                         <h3 class="h5">Satisfaction</h3>
@@ -498,7 +500,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-4 col-sm-6 mb-grid-gutter">
-                                <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                                <div class="card h-100 border-0 shadow card-hover" href="#">
                                     <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                                             class="ai-user-minus h2 text-primary mt-2 mb-4"></i>
                                         <h3 class="h5">Intention to quit</h3>
@@ -510,7 +512,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-4 col-sm-6 mb-grid-gutter mx-auto">
-                                <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                                <div class="card h-100 border-0 shadow card-hover" href="#">
                                     <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                                             class="ai-user-plus h2 text-primary mt-2 mb-4"></i>
                                         <h3 class="h5">Leadership</h3>
@@ -543,7 +545,7 @@
             </p>
             <div class="row pt-5">
                 <div class="col-lg-4 col-sm-6 mb-grid-gutter">
-                    <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                    <div class="card h-100 border-0 shadow card-hover" href="#">
                         <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                                 class="ai-check h2 text-primary mt-2 mb-4"></i>
                             <h3 class="h5">Involvement</h3>
@@ -558,7 +560,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 mb-grid-gutter">
-                    <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                    <div class="card h-100 border-0 shadow card-hover" href="#">
                         <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                                 class="ai-check-square h2 text-primary mt-2 mb-4"></i>
                             <h3 class="h5">Support and rewards
@@ -572,7 +574,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6 mb-grid-gutter">
-                    <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                    <div class="card h-100 border-0 shadow card-hover" href="#">
                         <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                                 class="ai-user-plus h2 text-primary mt-2 mb-4"></i>
                             <h3 class="h5">Employee engagement</h3>
@@ -597,7 +599,7 @@
                 </p>
                 <div class="row pt-5">
                     <div class="col-lg-4 col-sm-6 mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                                     class="ai-eye h2 text-primary mt-2 mb-4"></i>
                                 <h3 class="h5">Excel</h3>
@@ -610,7 +612,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                                     class="ai-crosshair h2 text-primary mt-2 mb-4"></i>
                                 <h3 class="h5">Integrity</h3>
@@ -620,7 +622,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                                     class="ai-user-plus h2 text-primary mt-2 mb-4"></i>
                                 <h3 class="h5">Leadership</h3>
@@ -630,7 +632,7 @@
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6 mb-grid-gutter mx-auto">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                                     class="ai-arrow-up h2 text-primary mt-2 mb-4"></i>
                                 <h3 class="h5">

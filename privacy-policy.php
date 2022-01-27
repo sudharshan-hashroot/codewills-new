@@ -6,6 +6,7 @@
   <title>Privacy Policy | CodeWills by HashRoot</title>
   
   <!-- SEO Meta Tags-->
+  <?php include('metatags.php');?>
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="title" content="About HashRoot | CodeWills by HashRoot">
   <meta name="description" content="HashRoot is a global company that has reputation for its ability to help customers achieve their business objective by providing quality IT managed services.">
@@ -127,7 +128,7 @@
     }
   </style>
   <!-- Page loading scripts-->
-  <script src="//code.jquery.com/jquery-1.11.1.min.js "></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js " async></script>
   <script>
     (function () {
       window.onload = function () {
@@ -144,12 +145,13 @@
 
   </script>
   <!-- Vendor Styles-->
-  <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css" />
+  
   <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css" />
   <link rel="stylesheet" media="screen" href="vendor/lightgallery.js/dist/css/lightgallery.min.css" />
   <link rel="stylesheet" media="screen" href="vendor/flatpickr/dist/flatpickr.min.css" />
   <!-- Main Theme Styles + Bootstrap-->
-  <link rel="stylesheet" media="screen" href="css/theme.min.css">
+  
+  <link rel="stylesheet" media="screen" href="../ css/theme.min.css" async>
 </head>
 <!-- Body-->
 

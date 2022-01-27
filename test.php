@@ -100,11 +100,12 @@
       
     </script>
     <!-- Vendor Styles-->
-    <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css"/>
+    <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css" async/>
     <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css"/>
     <!-- Main Theme Styles + Bootstrap-->
-    <link rel="stylesheet" media="screen" href="css/theme.min.css">
-  </head>
+    
+    <link rel="stylesheet" media="screen" href="../ css/theme.min.css" async>
+</head>
   <!-- Body-->
   <body>
     <!-- Page loading spinner-->
@@ -145,7 +146,7 @@
                     <div class="form-check">
                       <input class="form-check-input" type="checkbox" id="keep-signed">
                       <label class="form-check-label fs-sm" for="keep-signed">Keep me signed in</label>
-                    </div><a class="nav-link-style fs-ms" href="password-recovery.html">Forgot password?</a>
+                    </div><a class="nav-link-style fs-ms" href="#">Forgot password?</a>
                   </div>
                   <button class="btn btn-primary d-block w-100" type="submit">Sign in</button>
                   <p class="fs-sm pt-3 mb-0">Don't have an account? <a href='#' class='fw-medium' data-view='#modal-signup-view'>Sign up</a></p>
@@ -334,7 +335,7 @@
                       <li><a class="dropdown-item" href="signin-illustration.html">Sign In - Illustration</a></li>
                       <li><a class="dropdown-item" href="signin-image.html">Sign In - Image</a></li>
                       <li><a class="dropdown-item" href="signin-signup.html">Sign In - Sign Up</a></li>
-                      <li><a class="dropdown-item" href="password-recovery.html">Password Recovery</a></li>
+                      <li><a class="dropdown-item" href="#">Password Recovery</a></li>
                     </ul>
                   </li>
                   <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Pages</a>
@@ -350,7 +351,7 @@
                       <li class="dropdown"><a class="dropdown-item dropdown-toggle" href="#" data-bs-toggle="dropdown">Help Center</a>
                         <ul class="dropdown-menu">
                           <li><a class="dropdown-item" href="help-topics.html">Help Topics</a></li>
-                          <li><a class="dropdown-item" href="help-single-topic.html">Single Topic</a></li>
+                          <li><a class="dropdown-item" href="#">Single Topic</a></li>
                           <li><a class="dropdown-item" href="help-submit-request.html">Submit a Request</a></li>
                         </ul>
                       </li>

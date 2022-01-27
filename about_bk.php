@@ -95,7 +95,7 @@
       
     </style>
     <!-- Page loading scripts-->
-    <script src="//code.jquery.com/jquery-1.11.1.min.js "></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js " async></script>
     <script>
       (function () {
         window.onload = function () {
@@ -112,11 +112,12 @@
       
     </script>
     <!-- Vendor Styles-->
-    <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css"/>
+    <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css" async/>
     <link rel="stylesheet" media="screen" href="vendor/lightgallery.js/dist/css/lightgallery.min.css"/>
     <!-- Main Theme Styles + Bootstrap-->
-    <link rel="stylesheet" media="screen" href="css/theme.min.css">
-  </head>
+    
+    <link rel="stylesheet" media="screen" href="../ css/theme.min.css" async>
+</head>
   <!-- Body-->
   <body>
     <!-- Page loading spinner-->
@@ -257,37 +258,37 @@
       <section class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
         <h2 class="mb-5 text-center">Core Values</h2>
         <div class="row">
-          <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+          <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="#">
               <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i class="ai-user-check h2 text-primary mt-2 mb-4"></i>
                 <h3 class="h5">Managing account</h3>
                 <p class="fs-sm text-body">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.</p>
                 <div class="btn btn-translucent-primary btn-sm mb-2">Learn more</div>
               </div></a></div>
-          <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+          <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="#">
               <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i class="ai-settings h2 text-primary mt-2 mb-4"></i>
                 <h3 class="h5">Managing account</h3>
                 <p class="fs-sm text-body">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.</p>
                 <div class="btn btn-translucent-primary btn-sm mb-2">Learn more</div>
               </div></a></div>
-          <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+          <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="#">
               <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i class="ai-credit-card h2 text-primary mt-2 mb-4"></i>
                 <h3 class="h5">Payment options</h3>
                 <p class="fs-sm text-body">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.</p>
                 <div class="btn btn-translucent-primary btn-sm mb-2">Learn more</div>
               </div></a></div>
-          <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+          <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="#">
               <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i class="ai-truck h2 text-primary mt-2 mb-4"></i>
                 <h3 class="h5">Delivery information</h3>
                 <p class="fs-sm text-body">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.</p>
                 <div class="btn btn-translucent-primary btn-sm mb-2">Learn more</div>
               </div></a></div>
-          <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+          <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="#">
               <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i class="ai-refresh-cw h2 text-primary mt-2 mb-4"></i>
                 <h3 class="h5">Refund policy</h3>
                 <p class="fs-sm text-body">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.</p>
                 <div class="btn btn-translucent-primary btn-sm mb-2">Learn more</div>
               </div></a></div>
-          <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+          <div class="col-lg-4 col-sm-6 mb-grid-gutter"><a class="card h-100 border-0 shadow card-hover" href="#">
               <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i class="ai-share-2 h2 text-primary mt-2 mb-4"></i>
                 <h3 class="h5">Affiliate program</h3>
                 <p class="fs-sm text-body">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudan, totam rem aperiam, eaque ipsa quae.</p>

@@ -6,7 +6,7 @@
     <title>Pricing | Codewills</title>
 
     <!-- SEO Meta Tags-->
-
+    <?php include('metatags.php');?>
      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="title" content="Our Executive Leadership Team | Codewills">
     <meta name="description" content="Meet our executive leadership team, who drives our firm to new heights by helping us deliver effective services and a consistently engaging client experience">
@@ -127,7 +127,7 @@
         }
     </style>
     <!-- Page loading scripts-->
-    <script src="//code.jquery.com/jquery-1.11.1.min.js "></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js " async></script>
     <script>
         (function () {
             window.onload = function () {
@@ -148,12 +148,13 @@
 
     </script>
     <!-- Vendor Styles-->
-    <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css" />
+    
     <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css" />
     <link rel="stylesheet" media="screen" href="vendor/lightgallery.js/dist/css/lightgallery.min.css" />
     <link rel="stylesheet" media="screen" href="vendor/flatpickr/dist/flatpickr.min.css" />
     <!-- Main Theme Styles + Bootstrap-->
-    <link rel="stylesheet" media="screen" href="css/theme.min.css">
+    
+  <link rel="stylesheet" media="screen" href="../ css/theme.min.css" async>
 </head>
 <!-- Body-->
 
@@ -219,8 +220,8 @@
                           <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4" style="max-width: 20rem;">
                             <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
                             <div class="d-flex flex-row w-100 align-items-end">
-                              <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
-                              <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="29990" data-new-price="25550">24,990</span>
+                              <span class="h2 fw-normal text-muted mb-1 me-2"><?php echo $geoplugin->currencySymbol; ?></span>
+                              <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="29990" data-new-price="25550"> <?php echo $geoplugin->convert(24990);?> </span>
                               <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>project</span>
                             </div>
                           </div>
@@ -240,8 +241,8 @@
                         <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4" style="max-width: 20rem;">
                           <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
                           <div class="d-flex flex-row w-100 align-items-end">
-                            <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
-                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="29990" data-new-price="25550">24,990</span>
+                            <span class="h2 fw-normal text-muted mb-1 me-2"><?php echo $geoplugin->currencySymbol; ?></span>
+                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="29990" data-new-price="25550"><?php echo $geoplugin->convert(24990);?></span>
                             <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>project</span>
                           </div>
                         </div>
@@ -261,8 +262,8 @@
                         <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4" style="max-width: 20rem;">
                           <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
                           <div class="d-flex flex-row w-100 align-items-end">
-                            <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
-                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="990" data-new-price="950">990</span>
+                            <span class="h2 fw-normal text-muted mb-1 me-2"><?php echo $geoplugin->currencySymbol; ?></span>
+                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="990" data-new-price="950"><?php echo $geoplugin->convert(990);?></span>
                             <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>hour</span>
                           </div>
                         </div>
@@ -281,8 +282,8 @@
                         <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4" style="max-width: 20rem;">
                           <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
                           <div class="d-flex flex-row w-100 align-items-end">
-                            <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
-                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="39990" data-new-price="35550">29,990</span>
+                            <span class="h2 fw-normal text-muted mb-1 me-2"><?php echo $geoplugin->currencySymbol; ?></span>
+                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="39990" data-new-price="35550"><?php echo $geoplugin->convert(29990);?></span>
                             <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>project</span>
                           </div>
                         </div>
@@ -302,8 +303,8 @@
                         <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4" style="max-width: 20rem;">
                           <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
                           <div class="d-flex flex-row w-100 align-items-end">
-                            <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
-                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="990" data-new-price="950">990</span>
+                            <span class="h2 fw-normal text-muted mb-1 me-2"><?php echo $geoplugin->currencySymbol; ?></span>
+                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="990" data-new-price="950"><?php echo $geoplugin->convert(990);?></span>
                             <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>hour</span>
                           </div>
                         </div>
@@ -322,8 +323,8 @@
                         <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4" style="max-width: 20rem;">
                           <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
                           <div class="d-flex flex-row w-100 align-items-end">
-                            <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
-                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="19990" data-new-price="19550">19,990</span>
+                            <span class="h2 fw-normal text-muted mb-1 me-2"><?php echo $geoplugin->currencySymbol; ?></span>
+                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="19990" data-new-price="19550"><?php echo $geoplugin->convert(19990);?></span>
                             <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>month</span>
                           </div>
                         </div>

@@ -6,6 +6,7 @@
     <title>CodeWills</title>
     
     <!-- SEO Meta Tags-->
+    <?php include('metatags.php');?>
     <meta name="description" content="CodeWills">
     <meta name="keywords" content="CodeWills">
     <!-- Viewport-->
@@ -120,7 +121,7 @@
         }
     </style>
     <!-- Page loading scripts-->
-    <script src="//code.jquery.com/jquery-1.11.1.min.js "></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js " async></script>
     <script>
         (function () {
             window.onload = function () {
@@ -141,12 +142,13 @@
 
     </script>
     <!-- Vendor Styles-->
-    <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css" />
+    
     <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css" />
     <link rel="stylesheet" media="screen" href="vendor/lightgallery.js/dist/css/lightgallery.min.css" />
     <link rel="stylesheet" media="screen" href="vendor/flatpickr/dist/flatpickr.min.css" />
     <!-- Main Theme Styles + Bootstrap-->
-    <link rel="stylesheet" media="screen" href="css/theme.min.css">
+    
+  <link rel="stylesheet" media="screen" href="../ css/theme.min.css" async>
 </head>
 <!-- Body-->
 
@@ -255,7 +257,7 @@
                 <h2 class="mb-5 text-center">Our Strategic Process</h2>
                 <div class="row pt-5">
                     <div class="col-lg-6 col-sm-6 mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                                     class="ai-trending-up h2 text-primary mt-2 mb-4"></i>
                                 <h3 class="h5">What we offer?</h3>
@@ -269,7 +271,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-sm-6 mb-grid-gutter">
-                        <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                        <div class="card h-100 border-0 shadow card-hover" href="#">
                             <div class="card-body ps-grid-gutter pe-grid-gutter text-center"><i
                                     class="ai-user-check h2 text-primary mt-2 mb-4"></i>
                                 <h3 class="h5">What we did?</h3>

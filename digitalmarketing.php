@@ -5,9 +5,10 @@
   <meta charset="utf-8">
   <title>Best Digital Marketing Services India | Codewills  </title>
   <!-- SEO Meta Tags-->
+  <?php include('metatags.php');?>
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="title" content="Best Digital Marketing Services India | Codewills  ">
-  <meta name="description" content="Codewills, renders the best digital marketing services that embrace SEO management, PPC management, Content creation, and other marketing services. Call now  ">
+<meta name="description" content="Codewills provide best digital marketing services in India such as website SEO services, PPC Ads, Social media marketing, content marketing services etc.">
   <meta name="keywords" content="Digital Marketing Services,  Digital Marketing Services India,  Best Digital Marketing Services">
   <!-- Viewport-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -125,7 +126,7 @@
   </style>
   <!-- Page loading scripts-->
   <!-- Page loading scripts-->
-  <script src="//code.jquery.com/jquery-1.11.1.min.js "></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js " async></script>
   <script>
     (function () {
       window.onload = function () {
@@ -142,11 +143,12 @@
 
   </script>
   <!-- Vendor Styles-->
-  <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css" />
+  
   <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css" />
   <link rel="stylesheet" media="screen" href="vendor/lightgallery.js/dist/css/lightgallery.min.css" />
   <!-- Main Theme Styles + Bootstrap-->
-  <link rel="stylesheet" media="screen" href="css/theme.min.css">
+  
+  <link rel="stylesheet" media="screen" href="../ css/theme.min.css" async>
 </head>
 <!-- Body-->
 
@@ -170,7 +172,7 @@
             <div class="parallax me-n7 me-md-0" style="max-width: 1030px;"><img class="d-block"
                 src="img/demo/marketing-seo/hero/lines.png" alt="Lines">
               <div class="parallax-layer" style="z-index: 2;" data-depth="0.13"><img
-                  src="img/services/Digital marketing.webp" alt="Image"></div>
+                  src="img/services/best-digital-marketing-services-in-india.webp" alt="best-digital-marketing-services-in-india"></div>
               <!-- <div class="parallax-layer" style="z-index: 3;" data-depth="0.25"><img
                   src="img/demo/marketing-seo/hero/shape-1.png" alt="Badge"></div>
               <div class="parallax-layer" data-depth="0.2"><img src="img/demo/marketing-seo/hero/shape-1.png"
@@ -312,7 +314,7 @@
             <div class="parallax ms-auto" style="max-width: 757px;"><img class="d-block"
                 src="img/demo/marketing-seo/about-img/lines.png" alt="Lines">
               <div class="parallax-layer" style="z-index: 2;" data-depth="0.15"><img
-                  src="img/demo/marketing-seo/about-img/image.png" alt="Image"></div>
+                  src="img/demo/marketing-seo/about-img/website-services-india.webp" alt="website-services-india"></div>
               <div class="parallax-layer" style="z-index: 3;" data-depth="0.3"><img
                   src="img/demo/marketing-seo/about-img/badge.png" alt="Badge"></div>
               <div class="parallax-layer" data-depth="0.25"><img src="img/demo/marketing-seo/about-img/shape.png"

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Business Continuity Plan| CodeWills by HashRoot</title>
-
+    <?php include('metatags.php');?>
     <!-- SEO Meta Tags-->
      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="title" content="Business Continuity Plan | CodeWills by HashRoot">
@@ -132,7 +132,7 @@
         }
     </style>
     <!-- Page loading scripts-->
-    <script src="//code.jquery.com/jquery-1.11.1.min.js "></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js " async></script>
     <script>
         (function () {
             window.onload = function () {
@@ -149,12 +149,13 @@
 
     </script>
     <!-- Vendor Styles-->
-    <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css" />
+    
     <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css" />
     <link rel="stylesheet" media="screen" href="vendor/lightgallery.js/dist/css/lightgallery.min.css" />
     <link rel="stylesheet" media="screen" href="vendor/flatpickr/dist/flatpickr.min.css" />
     <!-- Main Theme Styles + Bootstrap-->
-    <link rel="stylesheet" media="screen" href="css/theme.min.css">
+    
+  <link rel="stylesheet" media="screen" href="../ css/theme.min.css" async>
 </head>
 <!-- Body-->
 
@@ -266,7 +267,7 @@
             </h2>
             <div class="row">
                 <div class="col-lg-6 col-sm-6 mb-grid-gutter">
-                    <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                    <div class="card h-100 border-0 shadow card-hover" href="#">
                         <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                             <h3 class="h5">Prioritize Employee Safety</h3>
                             <p class="fs-sm text-body">
@@ -279,7 +280,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-6 mb-grid-gutter">
-                    <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                    <div class="card h-100 border-0 shadow card-hover" href="#">
                         <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                             <h3 class="h5">Reshape Business Strategy to Ensure Operational Continuity</h3>
                             <p class="fs-sm text-body">
@@ -293,7 +294,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-6 mb-grid-gutter">
-                    <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                    <div class="card h-100 border-0 shadow card-hover" href="#">
                         <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                             <h3 class="h5">Manage Cyber Risks</h3>
                             <p class="fs-sm text-body">
@@ -305,7 +306,7 @@
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-6 mb-grid-gutter mx-auto">
-                    <div class="card h-100 border-0 shadow card-hover" href="help-single-topic.html">
+                    <div class="card h-100 border-0 shadow card-hover" href="#">
                         <div class="card-body ps-grid-gutter pe-grid-gutter text-center">
                             <h3 class="h5">
                                 Proper Communication with Clients</h3>

@@ -6,13 +6,12 @@
   <title>Website Development Company | Codewills by HashRoot</title>
 
   <!-- SEO Meta Tags-->
- 
-   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="title" content="Website Development Company | Codewills by HashRoot">
+  <?php include('metatags.php');?>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="title" content="Website Development Company | Codewills by HashRoot">
   <meta name="description"
     content="Codewills is the leading custom website development company that provides the best services for web designing, development and digital marketing. Contact us">
-  <meta name="keywords"
-    content="Website Development Company">
+  <meta name="keywords" content="Website Development Company">
   <!-- Viewport-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Favicon and Touch Icons-->
@@ -23,6 +22,7 @@
   <link rel="mask-icon" color="#5bbad5" href="safari-pinned-tab.svg">
   <meta name="msapplication-TileColor" content="#766df4">
   <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" media="screen" href=" css/theme.min.css" async>
   <!-- <link href="http://fonts.cdnfonts.com/css/proxima-nova-2" rel="stylesheet"> -->
 
   <!-- Page loading styles-->
@@ -113,9 +113,9 @@
       filter: brightness(.5);
     }
 
-  li>span{
-    white-space: pre-wrap;
-  }
+    li>span {
+      white-space: pre-wrap;
+    }
 
     @-webkit-keyframes spinner {
       100% {
@@ -132,7 +132,7 @@
     }
   </style>
   <!-- Page loading scripts-->
-  <script src="//code.jquery.com/jquery-1.11.1.min.js "></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js " async></script>
   <script>
     (function () {
       window.onload = function () {
@@ -140,7 +140,7 @@
         preloader.classList.remove('active');
         setTimeout(function () {
           preloader.remove();
-        }, 2000);
+        }, 500);
       };
     })();
 
@@ -149,14 +149,16 @@
 
   </script>
   <!-- Vendor Styles-->
-  <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css" />
+
   <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css" />
   <link rel="stylesheet" media="screen" href="vendor/lightgallery.js/dist/css/lightgallery.min.css" />
   <link rel="stylesheet" media="screen" href="vendor/flatpickr/dist/flatpickr.min.css" />
   <!-- Main Theme Styles + Bootstrap-->
-  <link rel="stylesheet" media="screen" href="css/theme.min.css">
+
+  <link rel="stylesheet" media="screen" href="../ css/theme.min.css" async>
 </head>
 <!-- Body-->
+<meta name="msvalidate.01" content="75F9631765ED7C9413E161B8BBCB5BE4" />
 
 <body>
   <!-- Page loading spinner-->
@@ -166,10 +168,10 @@
     </div>
   </div>
   <main class="page-wrapper">
-   
+
     <?php include("header.php"); ?>
     <!-- Enquirenow Modal -->
-    
+
 
     <!-- Page content-->
     <!-- Hero - Featured Products (tabs)-->
@@ -190,7 +192,8 @@
               <li class="w-100 nav-item me-3 mb-3"><a class="nav-link active" href="#uides" data-bs-toggle="tab"
                   role="tab">
                   <div class="d-flex align-items-center"><img class="flex-shrink-0 rounded"
-                      src="img/homepage/slider/slider-design.webp" alt="Product" width="60">
+                      src="img/homepage/slider/best-website-development-company.webp"
+                      alt="best website development company" width="60">
                     <div class="w-100 ps-2 ms-1">
                       <div class="d-flex justify-content-between align-items-center">
                         <div class="fs-sm pe-1">Design</div><i class="ai-chevron-right lead ms-2 me-1"></i>
@@ -242,8 +245,9 @@
               <div class="tab-pane fade show active" id="uides">
                 <div class="row align-items-center">
                   <div class="col-lg-6 order-lg-2 pb-1 mb-4 pb-lg-0 mb-lg-0">
-                    <div class="mx-auto" style="max-width: 443px;"><img src="img/homepage/slider/slider-design.webp"
-                        alt="Security Camera"></div>
+                    <div class="mx-auto" style="max-width: 443px;"><img
+                        src="img/homepage/slider/best-website-development-company.webp"
+                        alt="best website development company"></div>
                   </div>
                   <div class="col-lg-6 order-lg-1 text-center text-lg-start">
                     <div class="ps-xl-5">
@@ -264,7 +268,7 @@
                   </div>
                   <div class="col-lg-6 order-lg-1 text-center text-lg-start">
                     <div class="ps-xl-5">
-                      <h3 class="h1 font text-light">Custom Software Development Services
+                      <h3 class="h1 font text-light">Custom Website Development Services
                       </h3>
                       <p class="fs-lg text-light mb-lg-5">We help you build mobile-friendly, responsive website and
                         applications tailored to meet your business requirements.
@@ -350,14 +354,15 @@
         </div>
       </div>
     </section>
-    <!-- About around -->
+    <!-- About Codewills -->
     <section class="container mt-4 pt-5 mt-md-2 pt-md-7 pb-6">
-    <h2 class="h1 text-center mb-4">About <span class="bg-faded-primary text-primary rounded px-3 py-2">Codewills</span></h2>
-    
+      <h2 class="h1 text-center mb-4">About <span
+          class="bg-faded-primary text-primary rounded px-3 py-2">Codewills</span></h2>
+
       <div class="row justify-content-center mb-5 pb-2">
         <div class="col-xl-6 col-lg-7">
           <p class="text-center mb-0">
-            CodeWills is a leading custom software development company that makes use of the latest technologies to
+            CodeWills is a leading custom website development company that makes use of the latest technologies to
             design and develop the most innovative software applications that cater to various business requirements.
           </p>
         </div>
@@ -402,13 +407,13 @@
             <div class="mx-auto ms-lg-0 me-xl-7 text-center text-lg-start" style="max-width: 495px;">
               <h2 class="h1 text-light mb-4">Our <span class="bg-faded-light rounded px-3 py-2">
                   Services</span></h2>
-              <p class="text-light opacity-70 mb-5">We provide a full range of software development services for
+              <p class="text-light opacity-70 mb-5">We provide a full range of website development services for
                 businesses of all scales.</p>
               <div class="row mb-2 mx-n2">
                 <!-- <div class="col-6 px-2 mb-3"><a class="d-block border border-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none" href="#"><img class="d-inline-block opacity-60 mb-3" src="../img/demo/presentation/icons/carousel.svg" alt="Sliders &amp; Carousels" width="68">
                               <h3 class="h6 text-light mb-0">UI/UX Designing</h3></a></div> -->
                 <div class="col-6 px-2 mb-3 hovercards" data-hover="5">
-                  <a
+                  <a href='/ui-ux-design-services'
                     class="d-block border border-light btn btn-outline-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none"><img
                       class="d-inline-block opacity-60 mb-3" src="img/demo/presentation/icons/forms.svg"
                       alt="Image / Video Gallery" width="45">
@@ -416,7 +421,7 @@
                   </a>
                 </div>
                 <div class="col-6 px-2 mb-3 hovercards" data-hover="1">
-                  <a
+                  <a href='/website-development-services'
                     class="d-block border border-light btn btn-outline-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none"><img
                       class="d-inline-block opacity-60 mb-3" src="img/demo/presentation/icons/gallery.svg"
                       alt="Image / Video Gallery" width="45">
@@ -424,7 +429,7 @@
                   </a>
                 </div>
                 <div class="col-6 px-2 mb-3 hovercards" data-hover="2">
-                  <a
+                  <a href='/mobile-app-development-services'
                     class="d-block border border-light btn btn-outline-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none">
                     <img class="d-inline-block opacity-60 mb-3" src="img/demo/presentation/icons/play.svg"
                       alt="Line, Bar &amp; Pie Charts" width="45">
@@ -432,7 +437,7 @@
                   </a>
                 </div>
                 <div class="col-6 px-2 mb-3 hovercards" data-hover="3">
-                  <a
+                  <a href='/web-application-development-services'
                     class="d-block border border-light btn btn-outline-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none">
                     <img class="d-inline-block opacity-60 mb-3" src="img/demo/presentation/icons/forms.svg"
                       alt="Video Popup &amp; Embed" width="44">
@@ -440,7 +445,7 @@
                   </a>
                 </div>
                 <div class="col-6 px-2 mb-3 hovercards" data-hover="4">
-                  <a
+                  <a href='/digital-marketing-services'
                     class="d-block border border-light btn btn-outline-light rounded-3 pt-3 pb-4 px-3 text-center text-decoration-none">
                     <img class="d-inline-block opacity-60 mb-3" src="img/demo/presentation/icons/chart.svg"
                       alt="Form Controls" width="42">
@@ -453,15 +458,18 @@
           </div>
           <div class="col-xl-6 col-lg-7 d-flex justify-content-end pe-0 hovercardschild">
             <a style="display: none;" class=" me-n3 hovercards1" href="#" data-hover="1"><img class="d-block"
-                src="img/homepage/Services/website.webp" alt="Components"></a>
+                src="img/homepage/Services/web-development-company.webp" alt="web development company"></a>
             <a style="display: none;" class=" me-n3 hovercards2" href="#" data-hover="2"><img class="d-block"
-                src="img/homepage/Services/Mobile.webp" alt="Components"></a>
+                src="img/homepage/Services/mobile-app-development-company.webp"
+                alt="mobile app development company"></a>
             <a style="display: none;" class=" me-n3 hovercards3" href="#" data-hover="3"><img class="d-block"
-                src="img/homepage/Services/webapp.webp" alt="Components"></a>
+                src="img/homepage/Services/web-application-development-company.webp"
+                alt="web application development company"></a>
             <a style="display: none;" class=" me-n3 hovercards4" href="#" data-hover="4"><img class="d-block"
-                src="img/homepage/Services/Digital_marketing.webp" alt="Components"></a>
-                <a style="display: block;" class=" me-n3 hovercards5" href="#" data-hover="5"><img class="d-block"
-                  src="img/homepage/Services/UIUX.webp" alt="Components"></a>
+                src="img/homepage/Services/digital-marketing-company.webp" alt="digital-marketing-company"></a>
+            <a style="display: block;" class=" me-n3 hovercards5" href="#" data-hover="5"><img class="d-block"
+                src="img/homepage/Services/UI-UX-web-design-development-company.webp"
+                alt="UI UX web design development company"></a>
 
           </div>
 
@@ -473,66 +481,78 @@
     <!-- Services-->
 
     <section class=" pt-5 pt-lg-6" style="background: #F8F7FD;">
-   <div class="container">
-    <h2 class="h1 text-center mb-4">Our <span class="bg-faded-primary text-primary rounded px-3 py-2">Offerings</span></h2>
-    <p class="text-center text-muted mb-0">We provide wide range of services in web design and development</p>
-    <!-- Web design Service-->
-    <div class="row align-items-center border-bottom py-5">
-      <div class="col-md-6 py-3"><img class="d-block mx-auto" src="./img/our-offering/Website.webp"  alt="Responsive Web Design"></div>
-      <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
-        <h3 class="h4 mb-4">Website Development</h3>
-        <ul class="list-unstyled">
-          <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>We continue to provide WordPress, eCommerce, Enterprise, Drupal, Core PHP, and other website development services by collaborating with any dimensional enterprises. </span></li>
-          <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our expert developers use the latest technologies to build innovative websites flexible to user experiences and improve customer retention.</span></li>
+      <div class="container">
+        <h2 class="h1 text-center mb-4">Our <span
+            class="bg-faded-primary text-primary rounded px-3 py-2">Offerings</span></h2>
+        <p class="text-center text-muted mb-0">We provide wide range of services in web design and development</p>
+        <!-- Web design Service-->
+        <div class="row align-items-center border-bottom py-5">
+          <a class="col-md-6 py-3" href="/website-development-services"><img class="d-block mx-auto"
+              src="./img/our-offering/top-website-development-company.webp" alt="top website development company"></a>
+          <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
+            <h3 class="h4 mb-4">Website Development</h3>
+            <ul class="list-unstyled">
+              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>We continue to provide WordPress, eCommerce, Enterprise, Drupal, Core PHP, and other website development services by collaborating with any dimensional enterprises. </span></li>
+              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our expert developers use the latest technologies to build innovative websites flexible to user experiences and improve customer retention.</span></li>
 
-        </ul>
-        <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
-        <p class="pb-1">HTML, CSS, JS, PHP, WordPress, Magento, WooCommerce</p><a class="fw-medium" href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
-      </div>
-    </div>
-    <!-- Mobile Dev Service-->
-    <div class="row align-items-center border-bottom py-5" style="background: F8F7FD;">
-      <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="./img/our-offering/Mobile.webp" alt="Web Development"></div>
-      <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
-        <h3 class="h4 mb-4">Mobile App Development</h3>
-        <ul class="list-unstyled">
-          <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our highly responsive team of mobile app developers, with ample experience in developing end to end mobile applications</span></li>
-          <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span> Enabled customized Android, IOS, Cross-platform app services for our clients across the globe. </span></li>
-          <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Also, we provide quick fine-tuning assistance for your mobile apps to expand their functionality further.</span></li>
-        </ul>
-        <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
-        <p class="pb-1">Android , IOS, Flutter, Kotlin, Swift, React Native</p><a class="fw-medium" href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
-      </div>
-    </div>
-    <!-- web Dev Service-->
-    <div class="row align-items-center border-bottom py-5">
-      <div class="col-md-6 py-3"><img class="d-block mx-auto rounded-3" src="./img/our-offering/Webapp.webp"  alt="Mobile Apps Development"></div>
-      <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
-        <h3 class="h4 mb-4">Web Application Development</h3>
-        <ul class="list-unstyled">
-          <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our team of experts develop responsive and cross-platform compatible web applications using robust coding practices that are highly secured and bug-free. </span></li>
-          <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our custom-made B2B & B2C web portals are designed to achieve maximum output while also handling large-scale operations.  </span></li>
-
-        </ul>
-        <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
-        <p class="pb-1">React JS, Node JS, Vue JS, Angular JS</p><a class="fw-medium" href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
-      </div>
-    </div>
-          <!-- Digital marketing Service-->
-          <div class="row align-items-center py-5">
-            <div class="col-md-6 offset-lg-1 py-3 order-md-2"><img class="d-block mx-auto" src="./img/our-offering/marketing.webp" alt="Web Development"></div>
-            <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
-              <h3 class="h4 mb-4">Digital Marketing Services</h3>
-              <ul class="list-unstyled">
-                <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our wide range of digital marketing & advertising services includes Local Search Engine Optimization (SEO), Pay Per Click (PPC), Social Media Marketing (SMM), Content Marketing and much more.</span></li>
-                <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>We implement these services to gratify our client's target audiences while increasing their online visibility. </span></li>
-
-              </ul>
-              <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
-              <p class="pb-1">Local Search Engine Optimization (SEO), Pay Per Click (PPC), Social Media Marketing (SMM)</p><a class="fw-medium" href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
-            </div>
+            </ul>
+            <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
+            <p class="pb-1">HTML, CSS, JS, PHP, WordPress, Magento, WooCommerce</p><a class="fw-medium"
+              href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
           </div>
-   </div>
+        </div>
+        <!-- Mobile Dev Service-->
+        <div class="row align-items-center border-bottom py-5" style="background: F8F7FD;">
+          <a class="col-md-6 offset-lg-1 py-3 order-md-2" href="/mobile-app-development-services"><img
+              class="d-block mx-auto" src="./img/our-offering/mobile-application-development-company.webp"
+              alt="mobile application development company"></a>
+          <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
+            <h3 class="h4 mb-4">Mobile App Development</h3>
+            <ul class="list-unstyled">
+              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our highly responsive team of mobile app developers, with ample experience in developing end to end mobile applications</span></li>
+              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span> Enabled customized Android, IOS, Cross-platform app services for our clients across the globe. </span></li>
+              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Also, we provide quick fine-tuning assistance for your mobile apps to expand their functionality further.</span></li>
+            </ul>
+            <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
+            <p class="pb-1">Android , IOS, Flutter, Kotlin, Swift, React Native</p><a class="fw-medium"
+              href="#enquiryform">Get a quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
+          </div>
+        </div>
+        <!-- web Dev Service-->
+        <div class="row align-items-center border-bottom py-5">
+          <a class="col-md-6 py-3" href="/web-application-development-services"><img class="d-block mx-auto rounded-3"
+              src="./img/our-offering/web-app-development-company.webp" alt="web app development company"></a>
+          <div class="col-xl-4 col-lg-5 col-md-6 offset-lg-1 py-3">
+            <h3 class="h4 mb-4">Web Application Development</h3>
+            <ul class="list-unstyled">
+              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our team of experts develop responsive and cross-platform compatible web applications using robust coding practices that are highly secured and bug-free. </span></li>
+              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our custom-made B2B & B2C web portals are designed to achieve maximum output while also handling large-scale operations. </span></li>
+
+            </ul>
+            <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
+            <p class="pb-1">React JS, Node JS, Vue JS, Angular JS</p><a class="fw-medium" href="#enquiryform">Get a
+              quote<i class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
+          </div>
+        </div>
+        <!-- Digital marketing Service-->
+        <div class="row align-items-center py-5">
+          <a class="col-md-6 offset-lg-1 py-3 order-md-2" href="/digital-marketing-services"><img
+              class="d-block mx-auto" src="./img/our-offering/best-digital-marketing-company.webp"
+              alt="best digital marketing company"></a>
+          <div class="col-xl-4 col-lg-5 col-md-6 offset-xl-1 py-3 order-md-1">
+            <h3 class="h4 mb-4">Digital Marketing Services</h3>
+            <ul class="list-unstyled">
+              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>Our wide range of digital marketing & advertising services includes Local Search Engine Optimization (SEO), Pay Per Click (PPC), Social Media Marketing (SMM), Content Marketing and much more.</span></li>
+              <li class="d-flex mb-2 pb-1"><i class="ai-check-circle text-success fs-xl mt-1 me-3"></i><span>We implement these services to gratify our client's target audiences while increasing their online visibility. </span></li>
+
+            </ul>
+            <h4 class="h6 pt-2 mb-1">Tools and technologies:</h4>
+            <p class="pb-1">Local Search Engine Optimization (SEO), Pay Per Click (PPC), Social Media Marketing (SMM)
+            </p><a class="fw-medium" href="#enquiryform">Get a quote<i
+                class="ai-chevron-right fs-xl ms-1 align-middle"></i></a>
+          </div>
+        </div>
+      </div>
     </section>
 
 
@@ -545,183 +565,152 @@
     <section class="pb-lg-3" id="pricing">
       <h2 class="d-block bg-gradient text-light text-center py-5 px-3">Pricing plans</h2>
       <div class="container py-5">
-   
-      <div class="d-sm-flex align-items-center justify-content-center text-center text-sm-start">
-            <h3 class="mb-4 mb-sm-2 me-sm-4 pe-sm-2">Take a look at our pricing</h3>
-            <a class="btn btn-success mb-sm-2" href="#modal-enquirenow" data-bs-toggle="modal"
-                        data-view="#modal-enquirenow-view">Enquire Now</a>
-          </div>
-   
- 
-        <div class="row justify-content-center pt-5">
-          <div class="col-lg-10">
-            <div class="bg-light shadow-lg rounded-3 pt-3 px-4">
-              <div class="pricing-wrap pt-3 px-3">
-                <!-- <div class="price-switch justify-content-end"><span class="price-label me-2">Monthly</span>
-                    <div class="form-check form-switch">
-                      <input class="form-check-input" type="checkbox" id="priceSwitch">
-                      <label class="form-check-label" for="priceSwitch"></label>
-                    </div><span class="price-label ms-1">Annual</span>
-                  </div> -->
-                  <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
-                    <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
-                      <h3 class="mb-2">UI/UX Design Service </h3>
-                      <div class="fs-xs" style="max-width: 10rem;">Design services with immense impact on your company's bottom line</div>
-                    </div>
-                    <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4"
-                      style="max-width: 20rem;">
-                      <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
-                      <div class="d-flex flex-row w-100 align-items-end">
-                        <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
-                        <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="29990"
-                          data-new-price="25550">24,990</span>
-                        <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>project</span>
-                      </div>
-                    </div>
-  
-                    <ul class="list-unstyled py-2 mb-0">
-                      <li class="d-flex align-items-center text-nowrap mb-3"><i
-                          class="ai-check fs-xl text-primary me-2"></i><span>Content Management System </span></li>
-                      <li class="d-flex align-items-center text-nowrap mb-3"><i
-                          class="ai-check fs-xl text-primary me-2"></i><span>Mobile Responsive Layout</span></li>
-                      <li class="d-flex align-items-center text-nowrap mb-3"><i
-                          class="ai-check fs-xl text-primary me-2"></i><span> SEO Friendly</span></li>
-  
-                    </ul>
-                  </div>
-                <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
-                  <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
-                    <h3 class="mb-2">Website Development </h3>
-                    <div class="fs-xs" style="max-width: 10rem;">Gain brand recognition with our revolutionary web-based software</div>
-                  </div>
-                  <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4"
-                    style="max-width: 20rem;">
-                    <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
-                    <div class="d-flex flex-row w-100 align-items-end">
-                      <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
-                      <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="29990"
-                        data-new-price="25550">24,990</span>
-                      <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>project</span>
-                    </div>
-                  </div>
 
-                  <ul class="list-unstyled py-2 mb-0">
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span style="white-space:pre-wrap">Web pages Layout Design and development           </span></li>
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span> Performance Optimization</span></li>
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>Basic SEO</span></li>
-
-                  </ul>
-                </div>
-                <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
-                  <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
-                    <h3 class="mb-2">Web Application Development</h3>
-                    <div class="fs-xs" style="max-width: 10rem;">Build robust web applications with maximum resource utilization</div>
-                  </div>
-                  <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4"
-                    style="max-width: 20rem;">
-                    <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
-                    <div class="d-flex flex-row w-100 align-items-end">
-                      <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
-                      <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="990"
-                        data-new-price="950">990</span>
-                      <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>hour</span>
-                    </div>
-                  </div>
-
-                  <ul class="list-unstyled py-2 mb-0">
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>App Layout design   </span></li>
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span> Cloud/API Integration </span></li>
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>Responsive UI</span></li>
-                  </ul>
-                </div>
-                <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
-                  <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
-                    <h3 class="mb-2">E-Commerce Development</h3>
-                    <div class="fs-xs" style="max-width: 10rem;">Stabilize your online store with our friendly e-commerce solutions</div>
-                  </div>
-                  <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4"
-                    style="max-width: 20rem;">
-                    <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
-                    <div class="d-flex flex-row w-100 align-items-end">
-                      <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
-                      <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="39990"
-                        data-new-price="35550">29,990</span>
-                      <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>project</span>
-                    </div>
-                  </div>
-
-                  <ul class="list-unstyled py-2 mb-0">
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>100% customized eCommerce site</span></li>
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span> Dedicated project managers</span></li>
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>Multiple Device Testing</span></li>
-                  </ul>
-                </div>
-         
-                <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
-                  <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
-                    <h3 class="mb-2">Mobile Application</h3>
-                    <div class="fs-xs" style="max-width: 10rem;">Create brand value visibility with our cost-efficient mobile applications</div>
-                  </div>
-                  <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4"
-                    style="max-width: 20rem;">
-                    <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
-                    <div class="d-flex flex-row w-100 align-items-end">
-                      <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
-                      <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="990"
-                        data-new-price="950">990</span>
-                      <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>hour</span>
-                    </div>
-                  </div>
-
-                  <ul class="list-unstyled py-2 mb-0">
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>Custom iOS and Android apps development</span></li>
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>Automated QA & Testing</span></li>
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>  Maintenance and Support</span></li>
-                  </ul>
-                </div>
-                <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
-                  <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
-                    <h3 class="mb-2">Digital Marketing</h3>
-                    <div class="fs-xs" style="max-width: 10rem;">Promote your online business using our effective digital marketing strategies</div>
-                  </div>
-                  <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4"
-                    style="max-width: 20rem;">
-                    <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
-                    <div class="d-flex flex-row w-100 align-items-end">
-                      <span class="h2 fw-normal text-muted mb-1 me-2">₹</span>
-                      <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="19990"
-                        data-new-price="19550">19,990</span>
-                      <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>month</span>
-                    </div>
-                  </div>
-
-                  <ul class="list-unstyled py-2 mb-0">
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span>Content & Blogging </span></li>
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span> Trackable & Measurable results/span></li>
-                    <li class="d-flex align-items-center text-nowrap mb-3"><i
-                        class="ai-check fs-xl text-primary me-2"></i><span> Online Visibility & Brand Development</span></li>
-
-                  </ul>
-                </div>
-
-              </div>
-            </div>
-          </div>
+        <div class="d-sm-flex align-items-center justify-content-center text-center text-sm-start">
+          <h3 class="mb-4 mb-sm-2 me-sm-4 pe-sm-2">Take a look at our pricing</h3>
+          <a class="btn btn-success mb-sm-2" href="#modal-enquirenow" data-bs-toggle="modal"
+            data-view="#modal-enquirenow-view">Enquire Now</a>
         </div>
+
+        <div class="row justify-content-center pt-5">
+                <div class="col-lg-10">
+                  <div class="bg-light shadow-lg rounded-3 pt-3 px-4">
+                    <div class="pricing-wrap pt-3 px-3">
+                      <!-- <div class="price-switch justify-content-end"><span class="price-label me-2">Monthly</span>
+                          <div class="form-check form-switch">
+                            <input class="form-check-input" type="checkbox" id="priceSwitch">
+                            <label class="form-check-label" for="priceSwitch"></label>
+                          </div><span class="price-label ms-1">Annual</span>
+                        </div> -->
+                        <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
+                          <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
+                            <h3 class="mb-2">UI/UX Design Service </h3>
+                            <div class="fs-xs" style="max-width: 10rem;">Design services with immense impact on your company's bottom line</div>
+                          </div>
+                          <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4" style="max-width: 20rem;">
+                            <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
+                            <div class="d-flex flex-row w-100 align-items-end">
+                              <span class="h2 fw-normal text-muted mb-1 me-2"><?php echo $geoplugin->currencySymbol; ?></span>
+                              <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="29990" data-new-price="25550"> <?php echo $geoplugin->convert(24990);?> </span>
+                              <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>project</span>
+                            </div>
+                          </div>
+        
+                          <ul class="list-unstyled py-2 mb-0">
+                            <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>Content Management System </span></li>
+                            <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>Mobile Responsive Layout</span></li>
+                            <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span> SEO Friendly</span></li>
+        
+                          </ul>
+                        </div>
+                      <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
+                        <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
+                          <h3 class="mb-2">Website Development </h3>
+                          <div class="fs-xs" style="max-width: 10rem;">Gain brand recognition with our revolutionary web-based software</div>
+                        </div>
+                        <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4" style="max-width: 20rem;">
+                          <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
+                          <div class="d-flex flex-row w-100 align-items-end">
+                            <span class="h2 fw-normal text-muted mb-1 me-2"><?php echo $geoplugin->currencySymbol; ?></span>
+                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="29990" data-new-price="25550"><?php echo $geoplugin->convert(24990);?></span>
+                            <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>project</span>
+                          </div>
+                        </div>
+      
+                        <ul class="list-unstyled py-2 mb-0">
+                          <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span style="white-space:pre-wrap">Web pages Layout Design and development           </span></li>
+                          <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span> Performance Optimization</span></li>
+                          <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>Basic SEO</span></li>
+      
+                        </ul>
+                      </div>
+                      <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
+                        <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
+                          <h3 class="mb-2">Web Application Development</h3>
+                          <div class="fs-xs" style="max-width: 10rem;">Build robust web applications with maximum resource utilization</div>
+                        </div>
+                        <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4" style="max-width: 20rem;">
+                          <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
+                          <div class="d-flex flex-row w-100 align-items-end">
+                            <span class="h2 fw-normal text-muted mb-1 me-2"><?php echo $geoplugin->currencySymbol; ?></span>
+                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="990" data-new-price="950"><?php echo $geoplugin->convert(990);?></span>
+                            <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>hour</span>
+                          </div>
+                        </div>
+      
+                        <ul class="list-unstyled py-2 mb-0">
+                          <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>App Layout design   </span></li>
+                          <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span> Cloud/API Integration </span></li>
+                          <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>Responsive UI</span></li>
+                        </ul>
+                      </div>
+                      <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
+                        <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
+                          <h3 class="mb-2">E-Commerce Development</h3>
+                          <div class="fs-xs" style="max-width: 10rem;">Stabilize your online store with our friendly e-commerce solutions</div>
+                        </div>
+                        <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4" style="max-width: 20rem;">
+                          <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
+                          <div class="d-flex flex-row w-100 align-items-end">
+                            <span class="h2 fw-normal text-muted mb-1 me-2"><?php echo $geoplugin->currencySymbol; ?></span>
+                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="39990" data-new-price="35550"><?php echo $geoplugin->convert(29990);?></span>
+                            <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>project</span>
+                          </div>
+                        </div>
+      
+                        <ul class="list-unstyled py-2 mb-0">
+                          <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>100% customized eCommerce site</span></li>
+                          <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span> Dedicated project managers</span></li>
+                          <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>Multiple Device Testing</span></li>
+                        </ul>
+                      </div>
+               
+                      <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
+                        <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
+                          <h3 class="mb-2">Mobile Application</h3>
+                          <div class="fs-xs" style="max-width: 10rem;">Create brand value visibility with our cost-efficient mobile applications</div>
+                        </div>
+                        <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4" style="max-width: 20rem;">
+                          <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
+                          <div class="d-flex flex-row w-100 align-items-end">
+                            <span class="h2 fw-normal text-muted mb-1 me-2"><?php echo $geoplugin->currencySymbol; ?></span>
+                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="990" data-new-price="950"><?php echo $geoplugin->convert(990);?></span>
+                            <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>hour</span>
+                          </div>
+                        </div>
+      
+                        <ul class="list-unstyled py-2 mb-0">
+                          <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>Custom iOS and Android apps development</span></li>
+                          <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>Automated QA &amp; Testing</span></li>
+                          <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>  Maintenance and Support</span></li>
+                        </ul>
+                      </div>
+                      <div class="d-md-flex align-items-start border-bottom py-4 py-sm-5">
+                        <div class="ms-4 ms-sm-0 py-2 w-100" style="max-width: 15rem;">
+                          <h3 class="mb-2">Digital Marketing</h3>
+                          <div class="fs-xs" style="max-width: 10rem;">Promote your online business using our effective digital marketing strategies</div>
+                        </div>
+                        <div class="d-flex w-100 flex-column justify-content-start py-3 py-sm-2 px-4" style="max-width: 20rem;">
+                          <small class="h3 fs-lg fw-medium text-muted mb-1">Starting From</small>
+                          <div class="d-flex flex-row w-100 align-items-end">
+                            <span class="h2 fw-normal text-muted mb-1 me-2"><?php echo $geoplugin->currencySymbol; ?></span>
+                            <span class="price display-3 fw-normal text-primary px-1 me-2" data-current-price="19990" data-new-price="19550"><?php echo $geoplugin->convert(19990);?></span>
+                            <span class="h3 fs-lg fw-medium text-muted mb-2">per<br>month</span>
+                          </div>
+                        </div>
+      
+                        <ul class="list-unstyled py-2 mb-0">
+                          <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span>Content &amp; Blogging </span></li>
+                          <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span> Trackable &amp; Measurable results/span&gt;</span></li>
+                          <li class="d-flex align-items-center text-nowrap mb-3"><i class="ai-check fs-xl text-primary me-2"></i><span> Online Visibility &amp; Brand Development</span></li>
+      
+                        </ul>
+                      </div>
+      
+                    </div>
+                  </div>
+                </div>
+              </div>
       </div>
     </section>
     <!-- Award slider -->
@@ -729,10 +718,11 @@
       <div class="container py-5 py-md-6 py-lg-7">
         <div class="row tns-carousel-wrapper py-3 py-md-0">
           <div class="col-md-8">
-          <h2 class="h1 text-left mb-4">Awards &  <span class="bg-faded-primary text-primary rounded px-3 py-2">Achievements</span></h2>
+            <h2 class="h1 text-left mb-4">Awards & <span
+                class="bg-faded-primary text-primary rounded px-3 py-2">Achievements</span></h2>
             <div class="tns-carousel-inner" data-carousel-options="{&quot;nav&quot;: false, &quot;gutter&quot;: 20}">
               <blockquote class="mt-3 mb-0">
-              <img src="./img/awards/svg/clutch-01.svg" alt="" width="200">
+                <img src="./img/awards/svg/clutch-01.svg" alt="" width="200">
                 <h4>Clutch Award 2021
                 </h4>
                 <p>
@@ -742,7 +732,7 @@
                   500 fastest-growing companies in the United States and has been listed as a top 50 startup by
                   LinkedIn.
                 </p>
-                
+
               </blockquote>
               <blockquote class="mt-3 mb-0">
                 <img src="./img/awards/svg/ccss-01.svg" alt="" width="200">
@@ -754,7 +744,7 @@
                   solutions.
                 </p>
               </blockquote>
-              <blockquote class="mt-3 mb-0">       
+              <blockquote class="mt-3 mb-0">
 
                 <img src="./img/awards/svg/IAC-01.svg" alt="" width="200">
                 <h4>Global Achievers Award for Business Excellence
@@ -767,19 +757,19 @@
                 </p>
               </blockquote>
               <blockquote class="mt-3 mb-0">
-              <img src="./img/awards/svg/IEDRA-01-01.svg" alt="" width="200">
+                <img src="./img/awards/svg/IEDRA-01-01.svg" alt="" width="200">
                 <h4>Fastest growing Indian Company Excellence Award</h4>
                 <p>Indian Economic Development and Research Association (IEDRA) awarded HashRoot as the 'Fastest growing
                   Indian Company Excellence Award' on the occasion of National Seminar on "Outstanding contribution to
                   National Development" on Friday 29th August 2014 at New Delhi. IEDRA is a national level organization
                   which is promoting national economy and social development and holding Award functions for the past 25
                   years in India and Abroad
-                </p> 
-              
+                </p>
+
               </blockquote>
               <blockquote class="mt-3 mb-0">
-          
-              <img src="./img/awards/svg/CIP-01.svg" alt="" width="200">
+
+                <img src="./img/awards/svg/CIP-01.svg" alt="" width="200">
                 <h4>International Gold Star Millennium Award
                 </h4>
                 <p>
@@ -788,10 +778,10 @@
                   of Thailand, at the International Conference on "Indo-Thai Friendship and Economic Co-operation" on
                   18th January 2015, Bangkok, Thailand.
 
-                </p> 
+                </p>
 
               </blockquote>
-              <blockquote class="mt-3 mb-0">            
+              <blockquote class="mt-3 mb-0">
                 <img src="./img/awards/svg/bizz.svg" alt="" width="200">
                 <h4>The BIZZ Awards 2019
                 </h4>
@@ -814,7 +804,7 @@
                   (IQC) London 2015 is organised by BID Group One and Business Initiative Directions (BID).
                 </p>
               </blockquote>
-              <blockquote class="mt-3 mb-0">          
+              <blockquote class="mt-3 mb-0">
 
 
                 <img src="./img/awards/svg/consultants-01.svg" alt="" width="200">
@@ -827,7 +817,7 @@
                 </p>
               </blockquote>
               <blockquote class="mt-3 mb-0">
-                
+
                 <img src="./img/awards/svg/vmware-01.svg" alt="" width="200">
                 <h4>Most promising VMware Solution Provider
                 </h4>
@@ -838,7 +828,7 @@
                   trends.
                 </p>
               </blockquote>
-              <blockquote class="mt-3 mb-0">              
+              <blockquote class="mt-3 mb-0">
 
                 <img src="./img/awards/svg/cool startup-01.svg" alt="" width="200">
                 <h4> 50 Cool Startups
@@ -931,10 +921,11 @@
       <div class="position-relative zindex-5 container py-2">
         <div class="row align-items-center">
           <div class="col-lg-5 offset-lg-1 order-lg-2 pb-5 pb-lg-0 text-center text-lg-start">
-          <h2 class="h1 text-light mb-4">Why <span class="bg-faded-light text-light rounded px-3 py-2">Codewills ?</span></h2>
-            <p class="text-light mb-0">Our team of software engineers have a great understanding of the latest
+            <h2 class="h1 text-light mb-4">Why <span class="bg-faded-light text-light rounded px-3 py-2">Codewills
+                ?</span></h2>
+            <p class="text-light mb-0">Our team of website developers have a great understanding of the latest
               technologies and
-              knows what it takes to build software products that meets your requirements.</p>
+              knows what it takes to build websites that meets your requirements.</p>
           </div>
           <div class="col-lg-6 order-lg-1">
             <div class="row">
@@ -975,7 +966,7 @@
         </div>
       </div>
     </section>
-  
+
     <!-- faq -->
     <section class="container py-5 my-4 my-sm-0 py-sm-6 py-md-7 d-none">
       <h2 class="text-center pb-2 mb-5">FAQ</h2>
@@ -1089,9 +1080,9 @@
   <!-- Back to top button--><a class="btn-scroll-top" href="#top" data-scroll data-fixed-element><span
       class="btn-scroll-top-tooltip text-muted fs-sm me-2">Top</span><i class="btn-scroll-top-icon ai-arrow-up">
     </i></a>
-     <!-- Main theme script-->
+  <!-- Main theme script-->
   <script src="js/theme.min.js"></script>
- 
+
   <!-- Vendor scrits: js libraries and plugins-->
   <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="vendor/simplebar/dist/simplebar.min.js"></script>
@@ -1118,16 +1109,16 @@
       var valueparent = $(this).attr('data-hover')
       var valuechild = $(".hovercards" + valueparent)
       valuechild.css("display", "block")
-        })
+    })
   </script>
 
 
-<script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="vendor/simplebar/dist/simplebar.min.js"></script>
-<script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-<script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
-<!-- Main theme script-->
-<script src="js/theme.min.js"></script>
+  <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/simplebar/dist/simplebar.min.js"></script>
+  <script src="vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+  <script src="vendor/tiny-slider/dist/min/tiny-slider.js"></script>
+  <!-- Main theme script-->
+  <script src="js/theme.min.js"></script>
 </body>
 
 </html>

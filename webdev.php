@@ -5,9 +5,10 @@
 <meta charset="utf-8">
   <title>Custom Website Development Services India | Codewills  </title>
   <!-- SEO Meta Tags-->
+  <?php include('metatags.php');?>
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="title" content="Custom Website Development Services India | Codewills">
-  <meta name="description" content="Codewills, the best choice if you are in search of custom website development services. We have a range of solutions to lift your online presence.">
+<meta name="description" content="Codewills provide custom website development services in India such as PHP, WordPress, Drupal, Ecommerce and Enterprise website development services in India.">
   <meta name="keywords" content="Website Development Services, Website Development Services India,  Custom website Development Services">
   <!-- Viewport-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -125,7 +126,7 @@
   </style>
   <!-- Page loading scripts-->
   <!-- Page loading scripts-->
-  <script src="//code.jquery.com/jquery-1.11.1.min.js "></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js " async></script>
   <script>
     (function () {
       window.onload = function () {
@@ -142,11 +143,12 @@
 
   </script>
   <!-- Vendor Styles-->
-  <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css" />
+  
   <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css" />
   <link rel="stylesheet" media="screen" href="vendor/lightgallery.js/dist/css/lightgallery.min.css" />
   <!-- Main Theme Styles + Bootstrap-->
-  <link rel="stylesheet" media="screen" href="css/theme.min.css">
+  
+  <link rel="stylesheet" media="screen" href="../ css/theme.min.css" async>
 </head>
 <!-- Body-->
 
@@ -170,7 +172,7 @@
             <div class="parallax me-n7 me-md-0" style="max-width: 1030px;"><img class="d-block"
                 src="img/demo/marketing-seo/hero/lines.png" alt="Lines">
               <div class="parallax-layer" style="z-index: 2;" data-depth="0.13"><img
-                  src="img/services/website development.webp" alt="Image"></div>
+                  src="img/services/custom-website-development-services-in-India.webp" alt="custom-website-development-services-in-India"></div>
               <div class="parallax-layer" style="z-index: 3;" data-depth="0.25"><img
                   src="img/demo/marketing-seo/hero/shape-1.png" alt="Badge"></div>
               <div class="parallax-layer" data-depth="0.2"><img src="img/demo/marketing-seo/hero/shape-1.png"
@@ -316,7 +318,7 @@
             <div class="parallax ms-auto" style="max-width: 757px;"><img class="d-block"
                 src="img/demo/marketing-seo/about-img/lines.png" alt="Lines">
               <div class="parallax-layer" style="z-index: 2;" data-depth="0.15"><img
-                  src="img/demo/marketing-seo/about-img/image.png" alt="Image"></div>
+                  src="img/demo/marketing-seo/about-img/website-services-india.webp" alt="website-services-india"></div>
               <div class="parallax-layer" style="z-index: 3;" data-depth="0.3"><img
                   src="img/demo/marketing-seo/about-img/badge.png" alt="Badge"></div>
               <div class="parallax-layer" data-depth="0.25"><img src="img/demo/marketing-seo/about-img/shape.png"
