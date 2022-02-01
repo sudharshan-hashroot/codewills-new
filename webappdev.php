@@ -374,7 +374,7 @@
 
     <!-- features -->
     <section class="container mt-4 pt-5 mt-md-0 pt-md-7 pb-5">
-      <h2 class="mb-5 text-center">Why Choose Our Website Development Services?</h2>
+      <h2 class="mb-5 text-center">Why choose our web application development services?</h2>
       <div class="row">
         <div class="col-lg-4 col-sm-6 mb-grid-gutter">
           <div class="card h-100 border-0 shadow card-hover">

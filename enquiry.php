@@ -57,7 +57,7 @@
             <ul class="list-unstyled fs-sm mb-3 pb-2">
               <li style="font-weight: 500;" class="h6"><img src="./img/flag/india.svg" class="sm_flags" alt=""> INDIA</li>
               <li><a class="nav-link-style" href="https://g.page/hashroot?share"> Ground Floor, Athulya, Infopark Campus, Kakkanad, Kerala 682042, India</a></li>
-              <li><a class="nav-link-style" href="tel:9778-426320"> +91-9778-426317</a></li>                   
+              <li><a class="nav-link-style" href="tel:+919778426317"> +91-9778-426317</a></li>                   
             </ul>
             <ul class="list-unstyled fs-sm mb-3 pb-2">
               <li style="font-weight: 500;" class="h6"><img src="./img/flag/uk.svg" class="sm_flags" alt=""> UK</li>
