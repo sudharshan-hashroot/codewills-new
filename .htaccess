@@ -13,6 +13,13 @@ RewriteCond %{QUERY_STRING} id=3
 RewriteRule ^index\.php$ /? [L,R=301]
 #Redirect 301 https://www.codewills.com/index.php https://www.codewills.com/
 #Redirect 301  ^/index.php?$ ^/?$
+Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload"
+Header set X-XSS-Protection "1; mode=block"
+Header always set X-Frame-Options "SAMEORIGIN"
+Header always set X-Content-Type-Options "nosniff"
+Header always set Referrer-Policy "strict-origin"
+Header always set Permissions-Policy "geolocation=(),midi=(),sync-xhr=(),microphone=(),camera=(),magnetometer=(),gyroscope=(),fullscreen=(self),payment=()"
+
 
 RewriteRule ^/?$ /index.php
 RewriteRule ^/?website-development-services$ /webdev.php

@@ -1,2 +1,10 @@
 User-agent: *
-Disallow:
+Disallow: /index.php
+Disallow: /mobileappdev.php
+Disallow: /webdesign.php
+Disallow: /webappdev.php
+Disallow: /digitalmarketing.php
+Disallow: /about.php
+Disallow: /aboutHashroot.php
+Disallow: /contact.php
+

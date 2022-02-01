@@ -52,13 +52,13 @@ $geoplugin->locate(); ?>
           <!-- <div class="dropdown ms-auto ms-md-0 me-3"><a class="topbar-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><img class="me-2" src="img/flags/en.png" alt="English" width="20">Eng</a>
             <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#"><img class="me-2" src="img/flags/fr.png" alt="Français" width="20">Français</a><a class="dropdown-item" href="#"><img class="me-2" src="img/flags/de.png" alt="Deutsch" width="20">Deutsch</a><a class="dropdown-item" href="#"><img class="mt-n1 me-2" src="img/flags/it.png" alt="Italiano" width="20">Italiano</a></div>
           </div> -->
-          <div class="dropdown"><a class="topbar-link dropdown-toggle" href="#" data-bs-toggle="dropdown"><?php echo $geoplugin->currencyCode ." (". $geoplugin->currencySymbol.")"; ?></a>
+          <div class="dropdown"><a class="topbar-link dropdown-toggle" href="#" data-bs-toggle="dropdown" id="dropdn_symbl"><?php echo $geoplugin->currencyCode ." (". $geoplugin->currencySymbol.")"; ?></a>
             <div class="dropdown-menu dropdown-menu-end">
-              <a class="dropdown-item" href="#" onclick="changeCurrency('INR')">₹ Rupees (INR)</a>
-              <a class="dropdown-item" href="#">$ Dollar (US)</a>
-              <a class="dropdown-item" href="#">£ Pound (UK)</a>
-              <a class="dropdown-item" href="#">€ Euro (EU)</a>
-              <a class="dropdown-item" href="#">¥ Yen (JP)</a>
+              <a class="dropdown-item" href="#" onclick="convertfun('INR');">₹ Rupees (INR)</a>
+              <a class="dropdown-item" href="#" onclick="convertfun('USD');">$ Dollar (US)</a>
+              <a class="dropdown-item" href="#" onclick="convertfun('GBP');">£ Pound (UK)</a>
+              <a class="dropdown-item" href="#" onclick="convertfun('EUR');">€ Euro (EU)</a>
+              <a class="dropdown-item" href="#" onclick="convertfun('JPY');">¥ Yen (JP)</a>
             </div>
            
           </div>
@@ -138,21 +138,73 @@ $geoplugin->locate(); ?>
       </div>
     </div>
     </header>
-<script>
-  function changeCurrency(curr){
-    $.ajax({
-      url: 'change-currency',
-      type: 'POST',
-      data: {currency: curr},
-      success: function(data){
-        location.reload();
-      }
-    });
-  }
-</script>
+
     <script>
 $(".offcanvaspopup").on('click',function(){
   $(".btn-close").trigger("click");
 })
+function convertfun(cur) {
+  console.log(cur);
+  $.ajax({  
+         type:"GET",  
+         url:"currencycheck.php",  
+         data:"cur="+cur,  
+         success:function(response){
+           var resp = response.split('#');
+           var mainstring = resp[0].split(',');
+           for(var i = 0; i< mainstring.length; i++) {
+             var substring = mainstring[i].split(':');
+             //$('#'.substring[0]).text(substring[1]);
+             $('#'+substring[0]).text(substring[1]);
+           }
+           if(resp[1] == 'INR') {
+            $('#uiux_sybl').text('₹');
+            $('#website_sybl').text('₹');
+            $('#web_sybl').text('₹');
+            $('#ecommerce_sybl').text('₹');
+            $('#mobile_sybl').text('₹');
+            $('#digital_sybl').text('₹');
+            $('#dropdn_symbl').text('(INR)₹');
+           }
+           if(resp[1] == 'USD') {
+            $('#uiux_sybl').text('$');
+            $('#website_sybl').text('$');
+            $('#web_sybl').text('$');
+            $('#ecommerce_sybl').text('$');
+            $('#mobile_sybl').text('$');
+            $('#digital_sybl').text('$');
+            $('#dropdn_symbl').text('(US)$');
+           }
+           if(resp[1] == 'GBP') {
+            $('#uiux_sybl').text('£');
+            $('#website_sybl').text('£');
+            $('#web_sybl').text('£');
+            $('#ecommerce_sybl').text('£');
+            $('#mobile_sybl').text('£');
+            $('#digital_sybl').text('£');
+            $('#dropdn_symbl').text('(UK)£');
+           }
+           if(resp[1] == 'EUR') {
+            $('#uiux_sybl').text('€');
+            $('#website_sybl').text('€');
+            $('#web_sybl').text('€');
+            $('#ecommerce_sybl').text('€');
+            $('#mobile_sybl').text('€');
+            $('#digital_sybl').text('€');
+            $('#dropdn_symbl').text('(EU)€');
+           }
+           if(resp[1] == 'JPY') {
+            $('#uiux_sybl').text('¥');
+            $('#website_sybl').text('¥');
+            $('#web_sybl').text('¥');
+            $('#ecommerce_sybl').text('¥');
+            $('#mobile_sybl').text('¥');
+            $('#digital_sybl').text('¥');
+            $('#dropdn_symbl').text('(JP)¥');
+           }
+        } 
+      }); 
+}
     </script>
+
   
