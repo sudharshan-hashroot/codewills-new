@@ -441,7 +441,7 @@
               style="max-width: 240px;">
               <h2 class="mb-4 pb-2">Call Now
               </h2>
-              <a class="btn btn-primary btn-lg" href="tel:+919778426320">+91-9778-426317</a>
+              <a class="btn btn-primary btn-lg" href="tel:+919778426317">+91-9778-426317</a>
             </div>
           </div>
         </div>
