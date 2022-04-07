@@ -44,7 +44,7 @@ $geoplugin->locate(); ?>
 
 <?php include("enquirePopup.php"); ?>
 <header class="header">
-    <div class="topbar topbar-dark bg-dark" style="z-index:999">
+    <div class="topbar topbar-dark bg-dark">
       <div class="container d-md-flex align-items-center px-0 px-xl-3">
         <div class="d-none d-md-block text-nowrap me-3"><i class="ai-phone fs-base text-muted me-1 align-middle"></i><span class="text-muted me-2">Call Us</span><a class="topbar-link me-1" href="tel:+919778426317">+91-9778-426317</a></div>
         <div class="d-flex text-md-end ms-md-auto">
@@ -129,7 +129,7 @@ $geoplugin->locate(); ?>
             </ul>
           </div>
           <div class="offcanvas-footer border-top">
-            <a class="btn btn-primary d-block w-100 offcanvaspopup" href="#modal-enquirenow" data-bs-toggle="modal"
+            <a class="btn btn-primary d-block w-100 offcanvaspopup" href="#modal-enquirenow" data-bs-toggle="modal" 
             data-view="#modal-enquirenow-view">
             <i class="ai-user fs-lg me-2"></i>
             Enquire Now
@@ -140,6 +140,10 @@ $geoplugin->locate(); ?>
     </header>
 
     <script>
+//       function closeOffmenu(){
+// document.getElementsByClassName('btn-close').click()
+//       }
+
 $(".offcanvaspopup").on('click',function(){
   $(".btn-close").trigger("click");
 })

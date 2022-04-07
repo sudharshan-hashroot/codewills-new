@@ -15,3 +15,7 @@ $fulluri = 'https://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 <meta name="robots" content="index,follow">
 <link href=<?php echo $fulluri;?> rel="canonical">
 <meta name="trustburn-site-verification" content="c89d52d2e3f4deb0ee209e8dc4da572a">
+<link rel="stylesheet" media="screen" href=" css/theme.min.css" async>
+  <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css"/>
+ 
+  <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css" async />

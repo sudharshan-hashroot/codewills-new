@@ -106,10 +106,7 @@
 
     </div>
   </footer>
-  <link rel="stylesheet" media="screen" href=" css/theme.min.css" async>
-  <link rel="stylesheet" media="screen" href="vendor/tiny-slider/dist/tiny-slider.css"/>
- 
-  <link rel="stylesheet" media="screen" href="vendor/simplebar/dist/simplebar.min.css" async />
+
   <script src="//code.tidio.co/3smfxyqnlejlkedsvwabrog1xmzfegwg.js" async></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://www.google.com/recaptcha/api.js?render=6Ldb7PAcAAAAALKN6oPEOLjDjOBnMKhDCJ3Bn6KL"></script>    <script src="vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
