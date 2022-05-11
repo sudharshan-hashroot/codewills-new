@@ -129,7 +129,7 @@ $geoplugin->locate(); ?>
             </ul>
           </div>
           <div class="offcanvas-footer border-top">
-            <a class="btn btn-primary d-block w-100 offcanvaspopup" href="#modal-enquirenow" data-bs-toggle="modal" 
+            <a class="btn btn-primary d-block w-100 offcanvaspopup" href="#modal-enquirenow" data-bs-toggle="modal"
             data-view="#modal-enquirenow-view">
             <i class="ai-user fs-lg me-2"></i>
             Enquire Now
@@ -140,10 +140,6 @@ $geoplugin->locate(); ?>
     </header>
 
     <script>
-//       function closeOffmenu(){
-// document.getElementsByClassName('btn-close').click()
-//       }
-
 $(".offcanvaspopup").on('click',function(){
   $(".btn-close").trigger("click");
 })

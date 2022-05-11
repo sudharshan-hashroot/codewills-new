@@ -6,6 +6,32 @@
   <title>Custom Website Development Services India | Codewills  </title>
   <!-- SEO Meta Tags-->
   <?php include('metatags.php');?>
+  <script type="application/ld+json">  
+{    
+"@context" : "http://schema.org", 
+"@type" : "LocalBusiness", 
+"name" : "custom website development services in india Codewills", 
+"url": "https://www.codewills.com/website-development-services", 
+"logo": "https://www.codewills.com/img/logo/codewills-by-hashroot-logo.svg", 
+"image" : "https://www.codewills.com/img/services/custom-website-development-services-in-India.webp", 
+"description": "Codewills provide custom website development services in India such as PHP, WordPress, Drupal, Ecommerce and Enterprise website development services in India.", 
+"aggregateRating": {       
+"@type": "AggregateRating",       
+"ratingValue": "5.0",       
+"reviewCount": "3"     
+}, 
+"openingHours": "Mo, Tu, We, Th, Fr",  
+"address" : {      
+"@type" : "PostalAddress",  
+"streetAddress" : "Ground Floor, Athulya, Infopark Campus, Kakkanad, Kochi,",
+"addressLocality": "Ernakulam", 
+"addressRegion": "Kerala",
+"postalCode": "682042", 
+"addressCountry": "India", 
+"telephone" : "+919778426317", 
+"email": "contact@codewills.com" }, 
+"hasMap": "https://goo.gl/maps/d6HJ7dA3wHDTZarK8" } 
+</script>
    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="title" content="Custom Website Development Services India | Codewills">
 <meta name="description" content="Codewills provide custom website development services in India such as PHP, WordPress, Drupal, Ecommerce and Enterprise website development services in India.">
@@ -185,7 +211,7 @@
           </div>
           <div class="col-lg-5 col-md-5 pt-4 pb-5 py-md-5">
             <div class="mx-auto me-lg-4 ps-xl-3 order-md-1 text-center text-md-start" style="max-width: 420px;">
-              <h1 class="text-light mb-3">End-to-End Website Development Services</h1>
+              <h1 class="text-light mb-3">End-to-End Custom Website Development Services</h1>
               <p class="text-light fs-lg">Build a feature-rich, secure website for your business</p>
               <div class="d-flex align-items-center justify-content-center justify-content-md-start pb-3 pb-xl-5 mb-5">
                 <a class="btn btn-light me-4" href="#features">Explore Features</a>
@@ -235,8 +261,7 @@
       <div class="row align-items-center mt-3 mt-md-0">
         <div class="col-lg-4 col-md-5 order-md-2 text-center text-md-start mb-5 mb-md-0">
           <h2 class="mb-3">Our Website Development Services</h2>
-          <p class="text-muted mb-4 pb-2">Being a leading web development company, we offer a plethora of website
-            development services that match every client's needs and requirements.</p>
+          <p class="text-muted mb-4 pb-2">Being a leading custom website development service company, we offer a plethora of website development services that match every client's needs and requirements. Our experienced website developers develop modern, high-performance and efficient websites suitable for your business requirements. Custom website development experience in various business domains helps to fulfil custom web requirements best for business growth. Our quality custom developed websites are user-friendly, mobile-friendly, unique, responsive, creative, SEO-friendly and affordable for businesses to showcase their dream venture. Our website developers ensure to deliver as per expectations within the time allotted. Our website development approach also adopts security methodologies to safeguard website integrity and consistency.</p>
           <a class="btn btn-primary" href="#">Get Started</a>
         </div>
         <div class="col-lg-8 col-md-7 order-md-1 bg-position-start-bottom bg-repeat-0"
